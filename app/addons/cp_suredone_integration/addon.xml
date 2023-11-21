@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_suredone_integration</id>
+    <version>1.0</version>
+    <priority>99999</priority>
+    <default_language>en</default_language>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="login_suredone">
+                <items>
+                    <item id="api_key_suredone">
+                        <type>header</type>
+                    </item>
+                    <item id="cp_suredone_username">
+                        <type>input</type>
+                    </item>
+                    <item id="cp_suredone_token">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+            <section id="cron">
+                <items>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item>
+                    <item id="cron_info">
+                        <type>template</type>
+                        <default_value>cron_info.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="cp_settings">
+                <items>
+                    <item id="cp_company_id">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE ?:cp_order_status_sending_into_suredone (
+                id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+                order_id MEDIUMINT(5) UNSIGNED NOT NULL DEFAULT '0',
+                oid MEDIUMINT(5) UNSIGNED NOT NULL DEFAULT '0',
+                cp_status CHAR(1) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'U',
+                cp_status_to CHAR(1) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'N',
+                timestamp INT(11) UNSIGNED NOT NULL DEFAULT '0', PRIMARY KEY (id))
+            ENGINE = InnoDB;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:cp_time_last_update_about_producs_into_suredone (
+                timestamp INT(11) UNSIGNED NOT NULL DEFAULT '0',
+                page INT(11) UNSIGNED NOT NULL DEFAULT '1',
+                product_code VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '',
+                cp_suredone_process VARCHAR(64) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '')
+            ENGINE = InnoDB;            
+        </item>
+        <item for="install">
+            ALTER TABLE ?:categories
+                ADD cp_ebay_suredone_category MEDIUMINT(11) UNSIGNED NOT NULL DEFAULT '0',
+                ADD cp_keyword_to_search_ebay_categories VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '',
+                ADD cp_use_for_upload_products_suredone CHAR(1) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:cp_order_status_sending_into_suredone;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:cp_time_last_update_about_producs_into_suredone;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:categories
+                DROP cp_ebay_suredone_category,
+                DROP cp_keyword_to_search_ebay_categories,
+                DROP cp_use_for_upload_products_suredone;
+        </item>
+    </queries>
+    <functions>
+
+    </functions>
+</addon>

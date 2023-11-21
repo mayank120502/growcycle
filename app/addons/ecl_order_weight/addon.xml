@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ecl_order_weight</id>
+    <version>1.1</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <supplier>eCom Labs</supplier>
+    <supplier_link>https://www.ecom-labs.com</supplier_link>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language><authors>
+        <author>
+            <name>eCom Labs</name>
+            <email>contact@ecom-labs.com</email>
+            <url>https://www.ecom-labs.com</url>
+            <phone>+7 963 234 30 03</phone>
+        </author>
+    </authors>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="display_on_checkout">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="display_on_order">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="display_on_invoices">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="display_on_shipments">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="display_product_weight">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                 </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>ALTER TABLE `?:orders` ADD `weight` decimal(13,3) NOT NULL DEFAULT '0.000'</item>
+        <item for="uninstall">ALTER TABLE ?:orders DROP COLUMN `weight`</item>
+    </queries>
+<marketplace_product_id>2187</marketplace_product_id><marketplace_license_number>MP381-FE6A-94TT-6435-E2MF</marketplace_license_number></addon>

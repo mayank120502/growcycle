@@ -1,0 +1,61 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_company_tab"
+msgid "Cart-Power: Company profile tab"
+msgstr "Cart-Power: Таб Профиль Компании"
+
+msgctxt "Addons::description::cp_company_tab"
+msgid "Allows to set up a Company profile tab that will appear near the product description. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет настроить таб Профиль Компании, который появится рядом с описанием товара. Разработано <a target=\"_blank\" href=\"http://cart-power.ru/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_company_tab::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::cp_company_tab::enable_company_tab"
+msgid "Enable \"Company profile tab\" at frontend"
+msgstr "Включить таб \"Профиль Компании\" во фронт-энде"
+
+msgctxt "Languages::cp_company_tab_please_remember"
+msgid "Please remember"
+msgstr "Пожалуйста, не забудьте"
+
+msgctxt "Languages::cp_company_tab"
+msgid "Company profile tab"
+msgstr "Таб Профиль Компании"
+
+msgctxt "Languages::cp_company_tab_menu_description"
+msgid "Set up the tabs inside it"
+msgstr "Создайте табы внутри него"
+
+msgctxt "Languages::cp_company_tab_updated"
+msgid "The list of tabs was updated"
+msgstr "Список табов был обновлен"
+
+msgctxt "Languages::block_cp_company_tab"
+msgid "Company profile tab"
+msgstr "Таб Профиль Компании"
+
+msgctxt "Languages::privileges.manage_cp_company_tab"
+msgid "Manage Company profile tab"
+msgstr "Manage Company profile tab"
+
+msgctxt "Languages::cp_company_profile"
+msgid "Company profile"
+msgstr "Профиль компании"
+
+msgctxt "Languages::cp_add_company_tab_section"
+msgid "Add Company profile tab section"
+msgstr "Добавить секцию внутри таба Профиль компании"
+
+msgctxt "Languages::cp_company_profile_sections"
+msgid "You can mange the list of sections inside the Company profile tab using special page at \"Website\" -> \"Company profile tab\""
+msgstr "Вы можете управлять вкладками внутри таба Профиль компании используя специальную страницу  <a href=\"[link]\">\"Веб-сайт\" -> \"Таб Профиль Компании\"</a>"
+
+msgctxt "Languages::cp_company_currently_created"
+msgid "Currently you have <b>[count] tabs</b> created"
+msgstr "Сейчас у вас создано <b>[count] вкладок</b>"

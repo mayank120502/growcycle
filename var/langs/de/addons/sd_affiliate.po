@@ -1,0 +1,53 @@
+# Base pack of "German" language variables
+msgid ""
+msgstr ""
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Pack-Name: Deutsch\n"
+"Lang-Code: de\n"
+"Country-Code: DE\n"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Zeitintervall"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Keine gultigen Daten empfangen"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "personliche Information"
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliate Banner code"
+msgstr "Bannercode"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Affiliate Add banner"
+msgstr "Banner hinzufügen"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Bannercode für einige Artikel"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "Ihre Partner-ID lautet [user_id]. Um eine Provision gemäß dem Plan zu erhalten, können Sie jedem Link zu unserem Shop <b>[aff_id_?]</b> (oder <b>[aff_id_&]</b>, wenn der Seitenlink bereits "?" Enthält) hinzufügen. Hier ist zum Beispiel der Link zur Registrierung eines neuen Partners: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "Sie können auch den folgenden benutzerfreundlichen Link für die Startseite verwenden, um Provisionen gemäß Ihrem Plan zu erhalten: [link]"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>Sie können ein Pro-Partner werden und Provisionen <b>in bar</ b> für Text-, Produkt- und Grafikbanner sowie für mehrstufige Partner und gebrauchte Gutscheine erhalten.</p>[link]"

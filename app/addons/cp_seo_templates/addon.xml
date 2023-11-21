@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_seo_templates</id>
+    <priority>1500</priority>
+    <version>2.7</version>
+    <position>130</position>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>seo,cp_addons_manager</dependencies>
+        <conflicts>cp_h1</conflicts>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <name>Lisense Key</name>
+                        <type>input</type>
+                    </item>
+                    <item id="auto_remove_many_spaces">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="use_custom_h1">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="use_for_invoices">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="cron">
+                <items>
+                    <item id="cron_key">
+                        <type>input</type>
+                        <default_value>my-secure-key</default_value>
+                    </item>
+                    <item id="cron_info">
+                        <type>info</type>
+                        <handler>fn_cp_seo_templates_cron_info</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>    
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:cp_seo_templates;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_seo_templates_objects;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_seo_templates_content;</item>
+        
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_seo_templates` (
+                `template_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+                `type` char(1) NOT NULL DEFAULT 'P',
+                `is_default` char(1) NOT NULL DEFAULT 'N',
+                `priority` mediumint(8) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL DEFAULT 'D',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`template_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_seo_templates_objects` (
+                `template_id` int(11) unsigned NOT NULL default '0',
+                `object_type` char(1) NOT NULL DEFAULT 'P',
+                `object_id` int(11) unsigned NOT NULL default '0',
+                KEY `template_id` (`template_id`),
+                KEY `object_type` (`object_type`),
+                KEY `object_id` (`object_id`),
+                UNIQUE KEY `subscriber_list` (`template_id`, `object_type`, `object_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_seo_templates_content` (
+                `template_id` int(11) unsigned NOT NULL default '0',
+                `name` varchar(255) NOT NULL DEFAULT '',
+                `page_title` text NOT NULL DEFAULT '',
+                `meta_description` text NOT NULL DEFAULT '',
+                `meta_keywords` text NOT NULL DEFAULT '',
+                `h1` text NOT NULL DEFAULT '',
+                `lang_code` char(2) NOT NULL DEFAULT '',
+                PRIMARY KEY  (`template_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+
+        <item for="install" version="2.0">ALTER TABLE `?:cp_seo_templates` ADD `conditions` text NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.0">ALTER TABLE `?:cp_seo_templates` ADD `settings` text NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.0">ALTER TABLE `?:cp_seo_templates_content` ADD `seo_name` varchar(255) NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.0">ALTER TABLE `?:cp_seo_templates_content` ADD `extra` text NOT NULL DEFAULT '';</item>
+        
+        <item for="install" version="2.2">ALTER TABLE ?:product_descriptions ADD cp_st_h1 varchar(100) NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.2">ALTER TABLE ?:product_descriptions ADD cp_st_custom_bc varchar(100) NOT NULL DEFAULT '';</item>
+        
+        <item for="install" version="2.2">ALTER TABLE ?:category_descriptions ADD cp_st_h1 varchar(100) NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.2">ALTER TABLE ?:category_descriptions ADD cp_st_custom_bc varchar(100) NOT NULL DEFAULT '';</item>
+        
+        <item for="install" version="2.2">ALTER TABLE ?:page_descriptions ADD cp_st_h1 varchar(100) NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.2">ALTER TABLE ?:page_descriptions ADD cp_st_custom_bc varchar(100) NOT NULL DEFAULT '';</item>
+        
+        <item for="install" version="2.2">ALTER TABLE ?:product_feature_variant_descriptions ADD cp_st_h1 varchar(100) NOT NULL DEFAULT '';</item>
+        <item for="install" version="2.2">ALTER TABLE ?:product_feature_variant_descriptions ADD cp_st_custom_bc varchar(100) NOT NULL DEFAULT '';</item>
+        
+        <item for="install" version="2.2" editions="ULTIMATE">ALTER TABLE ?:ult_product_descriptions ADD cp_st_h1 varchar(100) NOT NULL default '';</item>
+        <item for="install" version="2.2" editions="ULTIMATE">ALTER TABLE ?:ult_product_descriptions ADD cp_st_custom_bc varchar(100) NOT NULL default '';</item>
+        
+        <item for="install" version="2.2" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('view_cp_seo', 'Y', 'addons', 'cp_seo', 'Y');</item>
+        <item for="install" version="2.2" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('manage_cp_seo', 'Y', 'addons', 'cp_seo', 'N');</item>
+
+        <item for="uninstall">ALTER TABLE ?:product_descriptions DROP COLUMN cp_st_h1, DROP COLUMN cp_st_custom_bc;</item>
+        <item for="uninstall">ALTER TABLE ?:category_descriptions DROP COLUMN cp_st_h1, DROP COLUMN cp_st_custom_bc;</item>
+        <item for="uninstall">ALTER TABLE ?:page_descriptions DROP COLUMN cp_st_h1, DROP COLUMN cp_st_custom_bc;</item>
+        <item for="uninstall">ALTER TABLE ?:product_feature_variant_descriptions DROP COLUMN cp_st_h1, DROP COLUMN cp_st_custom_bc;</item>
+        <item for="uninstall" editions="ULTIMATE">ALTER TABLE ?:ult_product_descriptions DROP COLUMN cp_st_h1, DROP COLUMN cp_st_custom_bc;</item>
+
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_seo_templates`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_seo_templates_objects`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_seo_templates_content`</item>
+        
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_cp_seo'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_cp_seo'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_install_cp_seo_templates</item>
+    </functions>
+    <scripts>
+        <item version="2.2">upgrades/2.2/scripts/post_script.php</item>
+    </scripts>
+</addon>

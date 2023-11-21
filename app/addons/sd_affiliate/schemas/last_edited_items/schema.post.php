@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); $schema['affiliate_plans.update'] = [ 'func' => ['fn_get_affiliate_plan_name', '@plan_id'], 'text' => 'plan' ]; $schema['product_groups.update'] = [ 'func' => ['fn_get_group_name', '@group_id'], 'text' => 'product_group' ]; $schema['banners_manager.update'] = [ 'func' => ['fn_get_aff_banner_name', '@banner_id'], 'text' => 'banner' ]; return $schema; 

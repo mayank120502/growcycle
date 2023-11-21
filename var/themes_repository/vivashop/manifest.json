@@ -1,0 +1,51 @@
+{
+    "title" : "VIVAshop Multi-Vendor 3.9",
+    "description" : "VIVAshop 3.9.4151",
+    "theme_for_version" : "4.15.1",
+    "logo" : "media/images/logo_vivashop1.png",
+    "mail": "media/images/logo_vivashop1.png",
+    "developer" : "EnergoThemes",
+    "favicon" : "media/images/favicon_1.png",
+    "parent_theme": "responsive",
+    "settings_overrides": {
+        "General": {
+            "inventory_tracking": true,
+            "enable_compare_products": true,
+            "show_products_from_subcategories": true,
+            "show_out_of_stock_products": true,
+            "search_objects": {}
+        },
+        "Appearance": {
+            "default_wysiwyg_editor": "redactor2",
+            "products_per_page": "50",
+            "elements_per_page": "8",
+            "columns_in_products_list": "5",
+            "thumbnails_gallery": true,
+            "in_stock_field": false,
+            "thumbnails_gallery": true,
+            "quantity_changer": true,
+            "top_pagination": false,
+            "product_details_in_tab": false,
+            "enable_quick_view": true
+        },
+        "Thumbnails": {
+            "thumbnail_background_color": "",
+            "product_lists_thumbnail_width": 239,
+            "product_lists_thumbnail_height": 239,
+            "product_details_thumbnail_width": 590,
+            "product_details_thumbnail_height": 590,
+            "product_quick_view_thumbnail_width": 449,
+            "product_quick_view_thumbnail_height": 449,
+            "product_cart_thumbnail_width": 196,
+            "product_cart_thumbnail_height": 196,
+            "category_lists_thumbnail_width": 129,
+            "category_lists_thumbnail_height": 129,
+            "category_details_thumbnail_width": 120,
+            "category_details_thumbnail_height": 120,
+            "category_detailed_image_width": "",
+            "category_detailed_image_height": "",
+            "product_admin_mini_icon_width": 50,
+            "product_admin_mini_icon_height": 50
+        }
+    }
+}

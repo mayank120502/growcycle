@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; defined('BOOTSTRAP') or die('Access denied'); fn_define('AMP_PREFIX', '/amp/'); fn_define('AMP_THEME', 'amp'); fn_define('AMP_STYLE', 'Bass'); fn_define('AMP_LAYOUT', 'AMPLayout'); fn_define('AMP_COMPRESS_CSS', true); fn_define('AMP_REMOVE_WRONG_IMG', true); Registry::registerCache( array('amp', 'amp_styles'), array(), Registry::cacheLevel('static'), true ); 

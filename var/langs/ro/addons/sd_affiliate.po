@@ -1,0 +1,517 @@
+# Base pack of "Romanian" language variables
+msgid ""
+msgstr ""
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Pack-Name: Română\n"
+"Lang-Code: ro\n"
+"Country-Code: RO\n"
+
+msgctxt "Addons::name::affiliate"
+msgid "Affiliate"
+msgstr "Afiliat"
+
+msgctxt "Languages::affiliate.new_banner"
+msgid "New banner"
+msgstr "Banner nou"
+
+msgctxt "Languages::affiliate.editing_banner"
+msgid "Editing banner"
+msgstr "Editare banner"
+
+msgctxt "Languages::add_affiliate"
+msgid "Add affiliate"
+msgstr "Adăugați afiliat"
+
+msgctxt "Languages::affiliate"
+msgid "Affiliate"
+msgstr "Afiliat"
+
+msgctxt "Languages::affiliate_information"
+msgid "Affiliate information"
+msgstr "Informații affiliat"
+
+msgctxt "Languages::affiliate_payouts"
+msgid "Affiliate payouts"
+msgstr "Plățile affiliate-ului"
+
+msgctxt "Languages::affiliate_plan"
+msgid "Affiliate plan"
+msgstr "Planul affiliate-ului"
+
+msgctxt "Languages::affiliate_agree_to_terms_conditions"
+msgid "By clicking the \"[button_name]\" button below, you acknowledge that you agree to and understand the terms and conditions of our affiliate program."
+msgstr "Făcând click pe butonul \"[button_name]\" , confirmă faptul că ați luat la cunoștință și sunteți în temă cu termenii și condițiile impuse de programul nostru de affiliate."
+
+msgctxt "Languages::affiliate_text_letter_footer"
+msgid "Thank you for taking part in our affiliate program."
+msgstr "Vă mulțumim pentru alegerea sistemului nostru de affilitate."
+
+msgctxt "Languages::affiliate_tree"
+msgid "Affiliate tree"
+msgstr "Arbore affiliat"
+
+msgctxt "Languages::text_banners"
+msgid "Text banners"
+msgstr "Text banere"
+
+msgctxt "Languages::graphic_banners"
+msgid "Graphic banners"
+msgstr "Banere grafice"
+
+msgctxt "Languages::text_no_banners_found"
+msgid "No banners found"
+msgstr "Nici un banner găsit"
+
+msgctxt "Languages::payout"
+msgid "Payout"
+msgstr "Profil"
+
+msgctxt "Languages::payouts"
+msgid "Payouts"
+msgstr "Profituri"
+
+msgctxt "Languages::payout_init_balance"
+msgid "Initial balance"
+msgstr "Echilibru inițial"
+
+msgctxt "Languages::payout_sales"
+msgid "Payout sales"
+msgstr "Profitul vânzărilor"
+
+msgctxt "Languages::payout_show"
+msgid "Show banner"
+msgstr "Arată baner"
+
+msgctxt "Languages::payout_use_coupon"
+msgid "Use coupon"
+msgstr "Folosește cuponul"
+
+msgctxt "Languages::product_banners"
+msgid "Product banners"
+msgstr "Banerele produsului"
+
+msgctxt "Languages::sale_vs_click"
+msgid "Percentage of sales and banner clicks"
+msgstr "Procentajul vânzărilor și click-uri pe baner"
+
+msgctxt "Languages::click_vs_show"
+msgid "Percentage of banner clicks and banner shows"
+msgstr "Procentul de click-uri pe bannere și afișările bannerelor"
+
+msgctxt "Languages::link_new_affiliate"
+msgid "Link to add a new affiliate"
+msgstr "Link pentru a adăuga un affiliate nou"
+
+msgctxt "Languages::multi_tier_affiliates"
+msgid "Multi tier affiliates"
+msgstr "Affiliate-uri multi etajate"
+
+msgctxt "Languages::payout_new_partner"
+msgid "New affiliate"
+msgstr "Affiliat nou"
+
+msgctxt "Languages::text_no_affiliate_assigned"
+msgid "No affiliate plan has been assigned to your account yet"
+msgstr "Momentan nici un plan de affiliere nu a fost asimilat contului dvs."
+
+msgctxt "Languages::no_payouts_found"
+msgid "No payouts found"
+msgstr "Nici o plată găsită."
+
+msgctxt "Languages::total_payouts"
+msgid "Total payouts"
+msgstr "Plăți totale"
+
+msgctxt "Languages::aff_cookie_expiration"
+msgid "Life span of customer cookie (days)"
+msgstr "Viața span-ului a cookie-ul clientului (zile)"
+
+msgctxt "Languages::set_initial_balance"
+msgid "Initial incentive balance"
+msgstr "Balanța inițială de stimulare"
+
+msgctxt "Languages::total_commissions"
+msgid "Total commissions"
+msgstr "Total comisioane"
+
+msgctxt "Languages::affiliate_add_payout"
+msgid "Add payout"
+msgstr "Adăugați o plată a compensațiilor"
+
+msgctxt "Languages::affiliate_add_plan"
+msgid "Add plan"
+msgstr "Adăugați un plan"
+
+msgctxt "Languages::affiliate_new_group"
+msgid "New group"
+msgstr "Grup nou"
+
+msgctxt "Languages::paidup"
+msgid "Paid-up"
+msgstr "Plătit integral"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Perioada"
+
+msgctxt "Languages::deleted_banners"
+msgid "Deleted banners"
+msgstr "Banner-uri șterse"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Nu există date valide primite"
+
+msgctxt "Languages::banner_deleted"
+msgid "The banner has been deleted successfully."
+msgstr "Banner-ul a fost șters cu succes."
+
+msgctxt "Languages::group_for_category"
+msgid "Group for categories"
+msgstr "Grup pentru categorii"
+
+msgctxt "Languages::group_for_product"
+msgid "Group for products"
+msgstr "Grup pentru produse"
+
+msgctxt "Languages::deleted_product_groups"
+msgid "Deleted product groups"
+msgstr "Ștergeți grup de produse"
+
+msgctxt "Languages::error_payout_gt_balance"
+msgid "The payout cannot exceed the affiliate balance."
+msgstr "Plata nu poate fi mai mare decât soldul affiliatului."
+
+msgctxt "Languages::error_account_not_approved"
+msgid "Your affiliate account was not approved. Please contact store administration."
+msgstr "Contul dvs. de affiliere nu a fost aprobat. Vă rugăm contactați administrația magazinului."
+
+msgctxt "Languages::error_account_declined"
+msgid "Your affiliate account was declined. Please contact store administration."
+msgstr "Contul dvs. de affiliere este respins. Vă rugăm contactați administrația magazinului."
+
+msgctxt "Languages::text_partner_create_profile"
+msgid "First you should receive an email message with approval, then you can log in."
+msgstr "Pentru început trebuie să primiți un e-mail cu aprobarea contului, apoi vă puteți autentifica."
+
+msgctxt "Languages::affiliates"
+msgid "Affiliates"
+msgstr "Affiliate-uri"
+
+msgctxt "Languages::affiliate_code"
+msgid "Affiliate code"
+msgstr "Codul de affiliate"
+
+msgctxt "Languages::affiliate_commissions"
+msgid "Affiliate commissions"
+msgstr "Comisioanele affiliate-ului"
+
+msgctxt "Languages::related_actions"
+msgid "Related actions"
+msgstr "Acțiuni asociate"
+
+msgctxt "Languages::disapprove_commissions"
+msgid "Disapprove commissions"
+msgstr "Comisioanele refuzate"
+
+msgctxt "Languages::delete_commissions"
+msgid "Delete commissions"
+msgstr "Ștergeți comisioanele"
+
+msgctxt "Languages::approve_commissions"
+msgid "Approve commissions"
+msgstr "Aprobați comisioane"
+
+msgctxt "Languages::count"
+msgid "Count"
+msgstr "Total"
+
+msgctxt "Languages::sum"
+msgid "Sum"
+msgstr "Sumă"
+
+msgctxt "Languages::avg"
+msgid "Avg"
+msgstr "Med"
+
+msgctxt "Languages::show_zero_actions"
+msgid "Show zero actions"
+msgstr "Afișează acțiunile zero"
+
+msgctxt "Languages::not_show"
+msgid "Not show"
+msgstr "Nu arâta"
+
+msgctxt "Languages::only_zero_actions"
+msgid "Only zero actions"
+msgstr "Numai acțiunile zero"
+
+msgctxt "Languages::affiliate_settings"
+msgid "Affiliate system settings"
+msgstr "Setările sistemului de affilitate"
+
+msgctxt "Languages::plans"
+msgid "Plans"
+msgstr "Planuri"
+
+msgctxt "Languages::method_based_selling_price"
+msgid "Commission calculation based on product price"
+msgstr "Calculul comisionului bazat pe prețul produsului"
+
+msgctxt "Languages::coupon_commission_overide_all"
+msgid "Coupon commission should override all the others"
+msgstr "Comisionul cuponului ar trebui să suprascrie toate celălalte"
+
+msgctxt "Languages::add_selected"
+msgid "Add selected"
+msgstr "Adăugați cea selectată"
+
+msgctxt "Languages::add_commissions_multi_affiliates"
+msgid "Add commission(s) to multi tier affiliates"
+msgstr "Adăugați comision (comisioane) per afiliate"
+
+msgctxt "Languages::add_commissions"
+msgid "Add commissions"
+msgstr "Adăugați comisioane"
+
+msgctxt "Languages::add_coupons"
+msgid "Add coupon(s)"
+msgstr "Adăungaț un cupon (cuponuri)"
+
+msgctxt "Languages::new_plan"
+msgid "New plan"
+msgstr "Plan nou"
+
+msgctxt "Languages::editing_plan"
+msgid "Editing plan"
+msgstr "Editare plan"
+
+msgctxt "Languages::product_group"
+msgid "Product group"
+msgstr "Grup de produse"
+
+msgctxt "Languages::refresh_banner"
+msgid "Refresh banner"
+msgstr "Reactualizați baner"
+
+msgctxt "Languages::align"
+msgid "Align"
+msgstr "Aliniază"
+
+msgctxt "Languages::center"
+msgid "Center"
+msgstr "Centru"
+
+msgctxt "Languages::show_border"
+msgid "Show border"
+msgstr "Afișează margine"
+
+msgctxt "Languages::show_title"
+msgid "Show title"
+msgstr "Afișeză titlu"
+
+msgctxt "Languages::show_url"
+msgid "Show URL"
+msgstr "Afișează URL"
+
+msgctxt "Languages::new_window"
+msgid "New window"
+msgstr "Fereastră nouă"
+
+msgctxt "Languages::affiliate_tiers_tree"
+msgid "Affiliate tiers tree"
+msgstr "Ramură etajată a affilatului"
+
+msgctxt "Languages::without_plan"
+msgid "Without plan"
+msgstr "Fără plan"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "Informații personale"
+
+msgctxt "Languages::edit_affiliate"
+msgid "Edit affiliate"
+msgstr "Editare affiliat"
+
+msgctxt "Languages::viewing_affiliate"
+msgid "Viewing affiliate"
+msgstr "Vizualizare affiliat"
+
+msgctxt "Languages::checking_min_payment"
+msgid "Payments with minimum release level only"
+msgstr "Plățile doar cu nivel minim de emitere"
+
+msgctxt "Languages::checking_payment_period"
+msgid "Due payments only"
+msgstr "Plățile datoare numai"
+
+msgctxt "Languages::amount_of_approved_actions"
+msgid "Amount of approved actions"
+msgstr "Suma de acțiuni aprobate"
+
+msgctxt "Languages::amount_of_awaiting_approval_actions"
+msgid "Amount of actions awaiting approval"
+msgstr "Suma de acțiuni care sunt în așteptarea aprobării"
+
+msgctxt "Languages::date_of_last_payment"
+msgid "Date of the previous payment"
+msgstr "Data ultimei plăți"
+
+msgctxt "Languages::pay_affiliates"
+msgid "Pay affiliates"
+msgstr "Plăți afiliate"
+
+msgctxt "Languages::last_payout"
+msgid "Last payout"
+msgstr "Ultima plată a compensațiilor"
+
+msgctxt "Languages::avg_payout"
+msgid "Avg payout"
+msgstr "Plata medie a compensațiilor"
+
+msgctxt "Languages::view_history"
+msgid "View history"
+msgstr "Vezi istoric"
+
+msgctxt "Languages::accounting_history"
+msgid "Accounting History"
+msgstr "Istoric contabilitate"
+
+msgctxt "Languages::add_group_for_categories"
+msgid "Add group for categories"
+msgstr "Adăugați un grup pentru categorii"
+
+msgctxt "Languages::add_group_for_products"
+msgid "Add group for products"
+msgstr "Adăugați un grup pentru produse"
+
+msgctxt "Languages::add_url_group"
+msgid "Add URL group"
+msgstr "Adăugați un grup nou de url-uri"
+
+msgctxt "Languages::email_approved_notification_header"
+msgid "Thank you for becoming a registered affiliate of [company]. Your account has been activated."
+msgstr "Vă mulțumim pentru că doriți să defeniți un affiliat al [company]. Contul dvs. a fost acceptat."
+
+msgctxt "Languages::email_subj_approved"
+msgid "Your account was approved."
+msgstr "Contul dvs. este aprobat"
+
+msgctxt "Languages::email_declined_notification_header"
+msgid "Your account was declined."
+msgstr "Contul dvs. a fost respins."
+
+msgctxt "Languages::email_subj_declined"
+msgid "Your account was declined."
+msgstr "Contul dvs. este repins"
+
+msgctxt "Languages::top"
+msgid "Top"
+msgstr "Sus"
+
+msgctxt "Languages::bottom"
+msgid "Bottom"
+msgstr "Parte de jos"
+
+msgctxt "Languages::tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all"
+msgid "If enabled, coupon commission cancels the other commissions."
+msgstr "Dacă este activat, cupoun comision anulează alte comisioane."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Dacă căsuța selectată conține doar valoarea \'Nici una\', înseamnă că grupurile produsului nu sunt specificate."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Dacă căsuța selectată conține valoarea \'Nici una\', înseamnă că grupurile produsului nu au fost specificate."
+
+msgctxt "SettingsOptions::affiliate::payment_period"
+msgid "Payment period"
+msgstr "Termenul de plată"
+
+msgctxt "SettingsVariants::affiliate::payment_period::1w"
+msgid "1 week"
+msgstr "odată pe săptămână"
+
+msgctxt "SettingsVariants::affiliate::payment_period::2w"
+msgid "twice a month"
+msgstr "de 2 ori pe săptămână"
+
+msgctxt "SettingsVariants::affiliate::payment_period::1m"
+msgid "1 month"
+msgstr "odată pe lună"
+
+msgctxt "SettingsOptions::affiliate::number_last_periods"
+msgid "Number of last periods"
+msgstr "Numărul ultimelor perioade"
+
+msgctxt "SettingsOptions::affiliate::automatic_approval_commissions"
+msgid "Automatic approval of affiliate commissions"
+msgstr "Aprobare automată a comisioanelor de afiliere"
+
+msgctxt "SettingsOptions::affiliate::elm_text_banner"
+msgid "Text banner"
+msgstr "Banner text"
+
+msgctxt "SettingsOptions::affiliate::out_line_color"
+msgid "Outline color"
+msgstr "Culoare conturului"
+
+msgctxt "SettingsOptions::affiliate::title_text_color"
+msgid "Title text color"
+msgstr "Culoarea textului de titlu"
+
+msgctxt "SettingsOptions::affiliate::text_color"
+msgid "Text color"
+msgstr "Culoarea textului"
+
+msgctxt "SettingsOptions::affiliate::text_background_color"
+msgid "Text background color"
+msgstr "Culoarea de fundal a textului"
+
+msgctxt "SettingsOptions::affiliate::elm_discount_coupons"
+msgid "Discount Coupons"
+msgstr "Cupoane discounturi"
+
+msgctxt "SettingsOptions::affiliate::use_affiliate_id"
+msgid "Affiliate ID is used as coupon prefix"
+msgstr "ID-ul afiliatului va fi folosit ca prefix la cuponul de discount"
+
+msgctxt "SettingsOptions::affiliate::coupon_prefix_delim"
+msgid "Delimiter between prefix and coupon-code"
+msgstr "Delimitatorul dintre prefix și codul cuponului"
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Bannere"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliate Banner code"
+msgstr "Codul banner-ului"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Affiliate Add banner"
+msgstr "Adăugați un banner"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Codul banner-ului pentru câteva din produse"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "ID-ul dvs. de afiliere este [user_id]. Pentru a primi comision conform planului, puteți adăuga <b>[aff_id_?]</b> (sau <b>[aff_id_&]</b> dacă linkul de pagină conține deja "?") La orice link către magazinul nostru. De exemplu, aici este linkul pentru înregistrarea unui nou afiliat: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "Puteți utiliza, de asemenea, următorul link prietenos pentru pagina principală pentru a primi comisioane conform planului dvs.: [link]"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>Puteți deveni un afiliat profesionist și puteți primi comisioane <b>în numerar</b> pentru bannere text, produse și grafice, precum și pentru afiliați pe mai multe niveluri și cupoane utilizate.</p>[link]"

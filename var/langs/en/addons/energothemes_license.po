@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::energothemes_license"
+msgid "ET - VIVAshop License"
+msgstr "ET - VIVAshop License"
+
+msgctxt "Addons::description::energothemes_license"
+msgid "Add the required license number to the VIVAshop theme. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Add the required license number to the VIVAshop theme. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "SettingsOptions::energothemes_license::et_license"
+msgid "License number"
+msgstr "License number"
+
+msgctxt "SettingsTooltips::energothemes_license::et_license"
+msgid "Insert your license key as described in the theme documentation"
+msgstr "Insert your license key as described in the theme documentation"

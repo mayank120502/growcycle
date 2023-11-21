@@ -1,0 +1,65 @@
+# Base pack of "Dutch" language variables
+msgid ""
+msgstr ""
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Pack-Name: Nederlands\n"
+"Lang-Code: nl\n"
+"Country-Code: NL\n"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Datumperiode"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Geen geldige data ontvangen"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "Persoonlijke informatie"
+
+msgctxt "Languages::tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all"
+msgid "If enabled, coupon commission cancels the other commissions."
+msgstr "Indien ingeschakeld worden zorgt het gebruik van een kortingsbon commissie dat alle andere commissies genegeerd worden."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Als de select-box alleen de \"Geen\" optie bevat, zijn er geen productgroepen gedefinieerd."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Als de select-box alleen de \"Geen\" optie bevat, zijn er geen productgroepen gedefinieerd."
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Banners"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliate Banner code"
+msgstr "Banner code"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Affiliate Add banner"
+msgstr "Banner toevoegen"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Banner code voor sommige producten"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "Uw partner-ID is [user_id]. Om commissie volgens het plan te ontvangen, kunt u <b>[aff_id_?]</b> (of <b>[aff_id_&]</b> als de paginalink al "?" Bevat) toevoegen aan een link naar onze winkel. Hier is bijvoorbeeld de link voor registratie van een nieuwe affiliate: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "U kunt ook de volgende gebruiksvriendelijke link gebruiken voor de startpagina om commissies te ontvangen volgens uw plan: [link]"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>U kunt een professionele partner worden en commissies <b>in contanten</b> ontvangen voor tekst-, product- en grafische banners, evenals gelieerde ondernemingen met meerdere niveaus en gebruikte kortingsbonnen.</p>[link]"

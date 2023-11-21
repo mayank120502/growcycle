@@ -1,0 +1,162 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_mega_menu"
+msgid "ET - Advanced Mega Menu"
+msgstr "ET - Advanced Mega Menu"
+
+msgctxt "Addons::description::et_mega_menu"
+msgid "Add category icons/images, mini-description, labels, subcategory thumbnails, as well as mega menu images. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Add category icons/images, mini-description, labels, subcategory thumbnails, as well as mega menu images. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "Languages::et_mega_menu"
+msgid "ET - Advanced Mega Menu"
+msgstr "ET - Advanced Mega Menu"
+
+msgctxt "Languages::et_width"
+msgid "Width"
+msgstr "Width"
+
+msgctxt "Languages::et_min_height"
+msgid "Min height"
+msgstr "Min height"
+
+msgctxt "Languages::et_hover_image"
+msgid "Hover image"
+msgstr "Hover image"
+
+msgctxt "Languages::et_short_description"
+msgid "Category mini description"
+msgstr "Category mini description"
+
+msgctxt "Languages::et_push_items"
+msgid "Push menu items"
+msgstr "Push menu items"
+
+msgctxt "Languages::et_offset_bottom"
+msgid "Offset bottom"
+msgstr "Offset bottom"
+
+msgctxt "Languages::et_offset_right"
+msgid "Offset right"
+msgstr "Offset right"
+
+msgctxt "Languages::et_show_title"
+msgid "Show title"
+msgstr "Show title"
+
+msgctxt "Languages::et_title_text"
+msgid "Title text"
+msgstr "Title text"
+
+msgctxt "Languages::et_transparent_background"
+msgid "Transparent background"
+msgstr "Transparent background"
+
+msgctxt "Languages::et_title_background"
+msgid "Title background"
+msgstr "Title background"
+
+msgctxt "Languages::et_title_color"
+msgid "Title text color"
+msgstr "Title text color"
+
+msgctxt "Languages::et_show_discount_label"
+msgid "Show discount label"
+msgstr "Show discount label"
+
+msgctxt "Languages::et_show_product_name"
+msgid "Show product name"
+msgstr "Show product name"
+
+msgctxt "Languages::et_show_product_price"
+msgid "Show price"
+msgstr "Show price"
+
+msgctxt "Languages::et_show_old_price"
+msgid "Show old price"
+msgstr "Show old price"
+
+msgctxt "Languages::et_mega_menu_tab"
+msgid "Additional menu settings"
+msgstr "Additional menu settings"
+
+msgctxt "Languages::et_custom_menu_colors"
+msgid "Menu colors"
+msgstr "Menu colors"
+
+msgctxt "Languages::et_text_color"
+msgid "Text color"
+msgstr "Text color"
+
+msgctxt "Languages::et_custom_icon_settings"
+msgid "Icon settings"
+msgstr "Icon settings"
+
+msgctxt "Languages::et_custom_class"
+msgid "Custom class"
+msgstr "Custom class"
+
+msgctxt "Languages::et_icon_color"
+msgid "Icon color"
+msgstr "Icon color"
+
+msgctxt "Languages::et_custom_label_settings"
+msgid "Label settings"
+msgstr "Label settings"
+
+msgctxt "Languages::et_custom_label_settings_tooltip"
+msgid "Only used by the Main Menu block"
+msgstr "Only used by the Main Menu block"
+
+msgctxt "Languages::et_label_text"
+msgid "Label text"
+msgstr "Label text"
+
+msgctxt "Languages::et_label_color"
+msgid "Label text color"
+msgstr "Label text color"
+
+msgctxt "Languages::et_background_color"
+msgid "Background color"
+msgstr "Background color"
+
+msgctxt "Languages::et_top"
+msgid "Top"
+msgstr "Top"
+
+msgctxt "Languages::et_bottom"
+msgid "Bottom"
+msgstr "Bottom"
+
+msgctxt "Languages::et_category_label"
+msgid "Category label"
+msgstr "Category label"
+
+msgctxt "Languages::et_mega_menu.size_settings"
+msgid "Window Size Settings"
+msgstr "Window Size Settings"
+
+msgctxt "Languages::et_mega_menu.subcategory_thumbnails"
+msgid "Subcategory Thumbnails"
+msgstr "Subcategory Thumbnails"
+
+msgctxt "Languages::et_mega_menu.icon_settings"
+msgid "Icon Settings"
+msgstr "Icon Settings"
+
+msgctxt "Languages::et_mega_menu.category_settings"
+msgid "Menu Category Settings"
+msgstr "Menu Category Settings"
+
+msgctxt "Languages::et_mega_menu.banner_settings"
+msgid "Banner Settings"
+msgstr "Banner Settings"
+
+msgctxt "Languages::et_mega_menu.products_settings"
+msgid "Featured Product Settings"
+msgstr "Featured Product Settings"

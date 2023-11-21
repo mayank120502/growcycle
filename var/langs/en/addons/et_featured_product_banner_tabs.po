@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_featured_product_banner_tabs"
+msgid "ET - Featured product and banner tabs"
+msgstr "ET - Featured product and banner tabs"
+
+msgctxt "Addons::description::et_featured_product_banner_tabs"
+msgid "Create unlimited custom tabs with products, product scrollers, and banners. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Create unlimited custom tabs with products, product scrollers, and banners. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "Languages::et_product_title_rows"
+msgid "Product title rows"
+msgstr "Product title rows"
+
+msgctxt "Languages::et_addons_menu"
+msgid "EnergoThemes: Add-ons"
+msgstr "EnergoThemes: Add-ons"
+
+
+msgctxt "Languages::et_featured_product_banner_tabs.manage"
+msgid "Featured product and banner tabs"
+msgstr "Featured product and banner tabs"
+
+msgctxt "Languages::et_featured_product_banner_tabs"
+msgid "Featured product and banner tabs"
+msgstr "Featured product and banner tabs"
+
+msgctxt "Languages::et_product_title_rows_tooltip"
+msgid "Number of rows to display the product titles"
+msgstr "Number of rows to display the product titles"
+
+msgctxt "Languages::et_columns"
+msgid "Columns"
+msgstr "Columns"
+
+msgctxt "Languages::et_columns_tooltip"
+msgid "Number of columns to display the products"
+msgstr "Number of columns to display the products"
+
+msgctxt "Languages::et_thumbnail_width"
+msgid "Thumbnail width"
+msgstr "Thumbnail width"
+
+msgctxt "Languages::et_thumbnail_width_tooltip"
+msgid "Product image thumbnail width in pixels"
+msgstr "Product image thumbnail width in pixels"
+
+msgctxt "Languages::et_add"
+msgid "et_add?"
+msgstr "et_add?"
+
+msgctxt "Languages::et_manage"
+msgid "et_manage?"
+msgstr "et_manage?"
+
+msgctxt "Languages::et_block_title_color"
+msgid "Block title color"
+msgstr "Block title color"
+
+msgctxt "Languages::et_block_title_border"
+msgid "Block title border"
+msgstr "Block title border"
+
+msgctxt "Languages::et_tab_title_color"
+msgid "Tab title color"
+msgstr "Tab title color"
+
+msgctxt "Languages::et_tab_title_active_color"
+msgid "Tab title active color"
+msgstr "Tab title active color"
+
+msgctxt "Languages::et_product_display_options"
+msgid "Product display options"
+msgstr "Product display options"
+
+msgctxt "Languages::et_language_specific"
+msgid "Language specific"
+msgstr "Language specific"

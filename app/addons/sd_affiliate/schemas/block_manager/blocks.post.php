@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); $schema['affiliate'] = [ 'templates' => [ 'addons/sd_affiliate/blocks/affiliate.tpl' => [], 'addons/sd_affiliate/blocks/affiliate_code.tpl' => [], ], 'wrappers' => 'blocks/wrappers', 'icon' => '/media/images/block_manager/block_icons/15.png', ]; return $schema; 

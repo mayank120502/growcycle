@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_custom_price"
+msgid "Cart-Power: Product custom price"
+msgstr "Cart-Power: Кастомная цена товара"
+
+msgctxt "Addons::description::cp_custom_price"
+msgid "The addon adds the ability to set a custom price for products. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Модуль добавляет возможность задавать товарам пользовательскую цену. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_custom_price.info_for_activate"
+msgid "To use Custom price, the customer should be able to contact you. Please, configure Buying types in your account"
+msgstr "Чтобы использовать пользовательскую цену, клиент должен иметь возможность связаться с вами. Пожалуйста, настройте типы покупок в своем аккаунте"
+
+msgctxt "Languages::cp_custom_price.custom_price"
+msgid "Custom price"
+msgstr "Пользовательская цена"
+
+msgctxt "Languages::cp_custom_price.price_from"
+msgid "Price from"
+msgstr "Цена от"
+
+msgctxt "Languages::cp_custom_price.price_to"
+msgid "Price to"
+msgstr "Цена до"
+
+msgctxt "Languages::cp_custom_price.from"
+msgid "From"
+msgstr "От"
+
+msgctxt "Languages::cp_custom_price.to"
+msgid "To"
+msgstr "До"
+
+msgctxt "Languages::cp_custom_price.error_save_product.empty_price_from"
+msgid "The \"Price from\" field cannot be left empty or zero if \"Price to\" field is filled"
+msgstr "Поле \"Цена от\" нельзя оставлять пустым или равным нулю, если поле \"Цена до\" заполнено"
+
+msgctxt "Languages::cp_custom_price.error_save_product.price_to_less_price_from"
+msgstr "The \"Price to\" field cannot be less than or equal to the \"Price from\""
+msgstr "Поле \"Цена до\" не может быть меньше или равно полю \"Цена от\""
+
+msgctxt "Languages::cp_custom_price.contact_us"
+msgid "Contact us for a price"
+msgstr "Свяжитесь с нами для уточнения цены"
+
+msgctxt "Languages::cp_custom_price.filter"
+msgid "Exclude products with custom price"
+msgstr "Исключить товары с пользовательской ценой"

@@ -1,0 +1,1 @@
+{$company_data.company_name nofilter}: {__("addons.sd_affiliate.new_affiliate_subj")}

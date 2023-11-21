@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_verify_phone_question_vendor"
+msgid "Cart-Power: Validation by phone number for a question to the vendor"
+msgstr "Cart-Power: Validation by phone number for a question to the vendor"
+
+msgctxt "Addons::description::cp_verify_phone_question_vendor"
+msgid "Adds a validation by phone number for a question to the vendor on the detailed product page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds a validation by phone number for a question to the vendor on the detailed product page. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_category_banner"
+msgid "ET - Category banners"
+msgstr "ET - Category banners"
+
+msgctxt "Addons::description::et_category_banner"
+msgid "Easily assign banners to any store category, directly from the category editing page. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Easily assign banners to any store category, directly from the category editing page. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "Languages::et_category_banner"
+msgid "ET - Category banners"
+msgstr "ET - Category banners"
+
+msgctxt "Languages::block_et_category_banner"
+msgid "ET - Category banners"
+msgstr "ET - Category banners"

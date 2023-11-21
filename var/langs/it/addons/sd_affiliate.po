@@ -1,0 +1,521 @@
+# Base pack of "Italian" language variables
+msgid ""
+msgstr ""
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Pack-Name: Italiano\n"
+"Lang-Code: it\n"
+"Country-Code: IT\n"
+
+msgctxt "Addons::name::affiliate"
+msgid "Affiliate"
+msgstr "Affiliazione"
+
+msgctxt "Languages::affiliate.new_banner"
+msgid "New banner"
+msgstr "Nuovo banner"
+
+msgctxt "Languages::affiliate.editing_banner"
+msgid "Editing banner"
+msgstr "Modifica banner"
+
+msgctxt "Languages::add_affiliate"
+msgid "Add affiliate"
+msgstr "Aggiungi affiliato"
+
+msgctxt "Languages::affiliate"
+msgid "Affiliate"
+msgstr "Affiliato"
+
+msgctxt "Languages::affiliate_information"
+msgid "Affiliate information"
+msgstr "Informazioni affiliato"
+
+msgctxt "Languages::affiliate_payouts"
+msgid "Affiliate payouts"
+msgstr "Pagamenti affiliati"
+
+msgctxt "Languages::affiliate_plan"
+msgid "Affiliate plan"
+msgstr "Piano affiliato"
+
+msgctxt "Languages::affiliate_partners_menu_description"
+msgid "Manage your affiliate partners."
+msgstr "Gestisci i tuoi partner affiliati"
+
+msgctxt "Languages::affiliate_agree_to_terms_conditions"
+msgid "By clicking the \"[button_name]\" button below, you acknowledge that you agree to and understand the terms and conditions of our affiliate program."
+msgstr "Cliccando sul bottone \"[button_name]\" sottostante, dichiari di aver compreso ed accettato le condizioni del nostro programma di affiliazione."
+
+msgctxt "Languages::affilate_banners_manager_menu_description"
+msgid "Create banners that your affiliates can then place at their websites."
+msgstr "Crea banner che i tuoi affiliati possono mostrare sui loro siti internet."
+
+msgctxt "Languages::affiliates_menu_description"
+msgid "List of store affiliates, registered users with an affiliate account."
+msgstr "Elenco degli affiliati del negozio, utenti registrati con un account affiliato."
+
+msgctxt "Languages::affiliate_text_letter_footer"
+msgid "Thank you for taking part in our affiliate program."
+msgstr "Grazie per aver aderito al programma affiliati."
+
+msgctxt "Languages::affiliate_tree"
+msgid "Affiliate tree"
+msgstr "Albero affiliato"
+
+msgctxt "Languages::text_banners"
+msgid "Text banners"
+msgstr "Testo dei banner"
+
+msgctxt "Languages::graphic_banners"
+msgid "Graphic banners"
+msgstr "Banner grafici"
+
+msgctxt "Languages::text_no_banners_found"
+msgid "No banners found"
+msgstr "Nessun banner trovato"
+
+msgctxt "Languages::payout"
+msgid "Payout"
+msgstr "Pagamento"
+
+msgctxt "Languages::payouts"
+msgid "Payouts"
+msgstr "Pagamenti"
+
+msgctxt "Languages::payout_init_balance"
+msgid "Initial balance"
+msgstr "Situazione iniziale"
+
+msgctxt "Languages::payout_sales"
+msgid "Payout sales"
+msgstr "Pagamento vendite"
+
+msgctxt "Languages::payout_show"
+msgid "Show banner"
+msgstr "Mostra banner"
+
+msgctxt "Languages::payout_use_coupon"
+msgid "Use coupon"
+msgstr "Usa coupon"
+
+msgctxt "Languages::product_banners"
+msgid "Product banners"
+msgstr "Banner prodotto"
+
+msgctxt "Languages::sale_vs_click"
+msgid "Percentage of sales and banner clicks"
+msgstr "Percentuale delle vendite e click dei banner"
+
+msgctxt "Languages::click_vs_show"
+msgid "Percentage of banner clicks and banner shows"
+msgstr "Percentuale dei click e delle visualizzazioni dei banner"
+
+msgctxt "Languages::approve_commissions_menu_description"
+msgid "Approve or disapprove affiliate commission."
+msgstr "Approva o nega le commissioni degli affiliati"
+
+msgctxt "Languages::accounting_history_menu_description"
+msgid "Summary of the commission payments in your store."
+msgstr "Sommario pagamenti delle commissioni del negozio"
+
+msgctxt "Languages::link_new_affiliate"
+msgid "Link to add a new affiliate"
+msgstr "Link per aggiungere un nuovo affiliato"
+
+msgctxt "Languages::multi_tier_affiliates"
+msgid "Multi tier affiliates"
+msgstr "Affiliati multi-livello"
+
+msgctxt "Languages::payouts_menu_description"
+msgid "List of all monetary commission payments to the affiliates."
+msgstr "Elenco di tutte le commissioni monetarie dei pagamenti agli affiliati."
+
+msgctxt "Languages::payout_new_partner"
+msgid "New affiliate"
+msgstr "Nuovo affiliato"
+
+msgctxt "Languages::pay_affiliates_menu_description"
+msgid "Process payments that your affiliates have earned as a commission."
+msgstr "Processa i pagamenti che i tuoi affiliati si sono guadagnati da una commissione."
+
+msgctxt "Languages::plans_menu_description"
+msgid "Create and configure affiliate plans."
+msgstr "Crea e configura programmi di affiliazione."
+
+msgctxt "Languages::product_groups_menu_description"
+msgid "Define groups of products that can then be pointed to by the affiliate banners."
+msgstr "Definire i gruppi di prodotti che possono poi essere indicati dai banner di affiliazione"
+
+msgctxt "Languages::text_no_affiliate_assigned"
+msgid "No affiliate plan has been assigned to your account yet"
+msgstr "Nessun programma di affiliazione è stato assegnato al tuo account"
+
+msgctxt "Languages::no_payouts_found"
+msgid "No payouts found"
+msgstr "Nessun pagamento trovato"
+
+msgctxt "Languages::total_payouts"
+msgid "Total payouts"
+msgstr "Pagamenti totali"
+
+msgctxt "Languages::aff_cookie_expiration"
+msgid "Life span of customer cookie (days)"
+msgstr "Intervallo temporale validità del cookie cliente (giorni)"
+
+msgctxt "Languages::set_initial_balance"
+msgid "Initial incentive balance"
+msgstr "Equilibrio incentivo iniziale"
+
+msgctxt "Languages::affiliate_add_payout"
+msgid "Add payout"
+msgstr "Aggiungi payout"
+
+msgctxt "Languages::affiliate_add_plan"
+msgid "Add plan"
+msgstr "Aggiungi piano"
+
+msgctxt "Languages::affiliate_new_group"
+msgid "New group"
+msgstr "Nuovo gruppo"
+
+msgctxt "Languages::paidup"
+msgid "Paid-up"
+msgstr "Pagato in anticipo"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Range di date"
+
+msgctxt "Languages::aff_object_cant_delete"
+msgid "Object cannot be deleted"
+msgstr "L\'oggetto non può essere modificato"
+
+msgctxt "Languages::deleted_banners"
+msgid "Deleted banners"
+msgstr "Banner eliminati"
+
+msgctxt "Languages::undeleted_banners"
+msgid "Not deleted banners"
+msgstr "Banner non cancellati"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Dati ricevuti non validi"
+
+msgctxt "Languages::aff_cant_create_banner"
+msgid "Banner cannot be modified"
+msgstr "Il banner non può essere modificato"
+
+msgctxt "Languages::banner_deleted"
+msgid "The banner has been deleted successfully."
+msgstr "Il banner è stato cancellato correttamente"
+
+msgctxt "Languages::aff_cant_create_group"
+msgid "Group cannot be modified"
+msgstr "Il gruppo non può essere modificato"
+
+msgctxt "Languages::group_for_category"
+msgid "Group for categories"
+msgstr "Gruppi per categorie"
+
+msgctxt "Languages::group_for_product"
+msgid "Group for products"
+msgstr "Gruppi per prodotti"
+
+msgctxt "Languages::deleted_product_groups"
+msgid "Deleted product groups"
+msgstr "Gruppi di prodotto Eliminati"
+
+msgctxt "Languages::undeleted_product_groups"
+msgid "Not deleted product groups"
+msgstr "Gruppo prodotti non cancellati"
+
+msgctxt "Languages::error_payout_gt_balance"
+msgid "The payout cannot exceed the affiliate balance."
+msgstr "La quota non può superare il saldo affiliato."
+
+msgctxt "Languages::error_account_not_approved"
+msgid "Your affiliate account was not approved. Please contact store administration."
+msgstr "Il tuo account affiliato non è stato approvato. Ti preghiamo di contattare l\'amministratore."
+
+msgctxt "Languages::error_account_declined"
+msgid "Your affiliate account was declined. Please contact store administration."
+msgstr "Il tuo account affiliato è stato rifiutato. Ti preghiamo di contattare l\'amministratore del negozio."
+
+msgctxt "Languages::text_partner_create_profile"
+msgid "First you should receive an email message with approval, then you can log in."
+msgstr "In primo luogo si dovrebbe ricevere un messaggio e-mail con l\'approvazione, poi sarà possibile accedere\\n"
+
+msgctxt "Languages::affiliates"
+msgid "Affiliates"
+msgstr "Affiliati"
+
+msgctxt "Languages::affiliate_code"
+msgid "Affiliate code"
+msgstr "Codice affiliato"
+
+msgctxt "Languages::affiliate_commissions"
+msgid "Affiliate commissions"
+msgstr "Commissioni affiliato"
+
+msgctxt "Languages::related_actions"
+msgid "Related actions"
+msgstr "Azioni correlate"
+
+msgctxt "Languages::disapprove_commissions"
+msgid "Disapprove commissions"
+msgstr "Disapprova commissioni"
+
+msgctxt "Languages::delete_commissions"
+msgid "Delete commissions"
+msgstr "Elimina commissioni"
+
+msgctxt "Languages::approve_commissions"
+msgid "Approve commissions"
+msgstr "Approva commissioni"
+
+msgctxt "Languages::sum"
+msgid "Sum"
+msgstr "Somma"
+
+msgctxt "Languages::avg"
+msgid "Avg"
+msgstr "Med"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "Piano"
+
+msgctxt "Languages::show_zero_actions"
+msgid "Show zero actions"
+msgstr "Mostra azioni zero"
+
+msgctxt "Languages::not_show"
+msgid "Not show"
+msgstr "Non mostrare"
+
+msgctxt "Languages::only_zero_actions"
+msgid "Only zero actions"
+msgstr "Solo zero azioni"
+
+msgctxt "Languages::affiliate_settings"
+msgid "Affiliate system settings"
+msgstr "Impostazioni di sistema affiliato"
+
+msgctxt "Languages::plans"
+msgid "Plans"
+msgstr "Piani"
+
+msgctxt "Languages::method_based_selling_price"
+msgid "Commission calculation based on product price"
+msgstr "Commissioni calcolate in base al prezzo del prodotto"
+
+msgctxt "Languages::coupon_commission_overide_all"
+msgid "Coupon commission should override all the others"
+msgstr "Le commissioni del Coupon potrebbero sovrascrivere le altre\\n"
+
+msgctxt "Languages::add_selected"
+msgid "Add selected"
+msgstr "Aggiungi selezionato"
+
+msgctxt "Languages::add_commissions_multi_affiliates"
+msgid "Add commission(s) to multi tier affiliates"
+msgstr "Aggiungi commissione/i ad affiliati multi livello"
+
+msgctxt "Languages::add_commissions"
+msgid "Add commissions"
+msgstr "Aggiungi commissione/i"
+
+msgctxt "Languages::add_coupons"
+msgid "Add coupon(s)"
+msgstr "Aggiungi buono/i"
+
+msgctxt "Languages::new_plan"
+msgid "New plan"
+msgstr "Nuovo piano"
+
+msgctxt "Languages::editing_plan"
+msgid "Editing plan"
+msgstr "Modifica piano"
+
+msgctxt "Languages::product_group"
+msgid "Product group"
+msgstr "gruppo prodotto"
+
+msgctxt "Languages::refresh_banner"
+msgid "Refresh banner"
+msgstr "Aggiorna banner"
+
+msgctxt "Languages::align"
+msgid "Align"
+msgstr "Allineamento"
+
+msgctxt "Languages::center"
+msgid "Center"
+msgstr "Centrato"
+
+msgctxt "Languages::show_border"
+msgid "Show border"
+msgstr "Mostra bordo"
+
+msgctxt "Languages::show_title"
+msgid "Show title"
+msgstr "Mostra titolo"
+
+msgctxt "Languages::show_url"
+msgid "Show URL"
+msgstr "Mostra URL"
+
+msgctxt "Languages::new_window"
+msgid "New window"
+msgstr "Nuova finestra"
+
+msgctxt "Languages::affiliate_tiers_tree"
+msgid "Affiliate tiers tree"
+msgstr "Albero livelli affiliati"
+
+msgctxt "Languages::without_plan"
+msgid "Without plan"
+msgstr "Senza piano"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "Informazioni personali"
+
+msgctxt "Languages::edit_affiliate"
+msgid "Edit affiliate"
+msgstr "Modifica affiliato"
+
+msgctxt "Languages::viewing_affiliate"
+msgid "Viewing affiliate"
+msgstr "Visualizza affiliati"
+
+msgctxt "Languages::checking_min_payment"
+msgid "Payments with minimum release level only"
+msgstr "Solo pagamenti con livello minimo di rilascio"
+
+msgctxt "Languages::checking_payment_period"
+msgid "Due payments only"
+msgstr "Solo pagamenti in ritardo"
+
+msgctxt "Languages::amount_of_approved_actions"
+msgid "Amount of approved actions"
+msgstr "Numero di azioni approvate"
+
+msgctxt "Languages::amount_of_awaiting_approval_actions"
+msgid "Amount of actions awaiting approval"
+msgstr "Numero di azioni in attesa di approvazione"
+
+msgctxt "Languages::date_of_last_payment"
+msgid "Date of the previous payment"
+msgstr "Data del precedente pagamento"
+
+msgctxt "Languages::pay_affiliates"
+msgid "Pay affiliates"
+msgstr "Paga affiliati"
+
+msgctxt "Languages::last_payout"
+msgid "Last payout"
+msgstr "Ultimo pagamento"
+
+msgctxt "Languages::avg_payout"
+msgid "Avg payout"
+msgstr "Payout medio"
+
+msgctxt "Languages::view_history"
+msgid "View history"
+msgstr "Visualizza storico"
+
+msgctxt "Languages::accounting_history"
+msgid "Accounting History"
+msgstr "Storico accounting"
+
+msgctxt "Languages::add_group_for_categories"
+msgid "Add group for categories"
+msgstr "Aggiungi gruppo per categorie"
+
+msgctxt "Languages::add_group_for_products"
+msgid "Add group for products"
+msgstr "Aggiungi gruppo per prodotti"
+
+msgctxt "Languages::add_url_group"
+msgid "Add URL group"
+msgstr "Aggiungi gruppo URL"
+
+msgctxt "Languages::email_approved_notification_header"
+msgid "Thank you for becoming a registered affiliate of [company]. Your account has been activated."
+msgstr "Grazie per essere diventato un affiliato registrato della (azienda). Il tuo profilo è stato attivato."
+
+msgctxt "Languages::email_subj_approved"
+msgid "Your account was approved."
+msgstr "Il tuo account è stato approvato."
+
+msgctxt "Languages::email_declined_notification_header"
+msgid "Your account was declined."
+msgstr "il tuo profilo è stato rifiutato."
+
+msgctxt "Languages::email_subj_declined"
+msgid "Your account was declined."
+msgstr "Il tuo account è stato rifiutato."
+
+msgctxt "Languages::top"
+msgid "Top"
+msgstr "Inizio"
+
+msgctxt "Languages::bottom"
+msgid "Bottom"
+msgstr "Inferiore"
+
+msgctxt "Languages::tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all"
+msgid "If enabled, coupon commission cancels the other commissions."
+msgstr "Se abilitato, il coupon annulla le altre autorizzazioni"
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Se la casella di selezione contiene solo il valore \'Nessuno\', vuol dire che i gruppi dei prodotti non sono specificati.\\n"
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Se la casella di selezione contiene solo il valore di \'Nessuno\', vuol dire che i gruppi di prodotti non sono specificati.\\n"
+
+msgctxt "Languages::affilate_banners_manager"
+msgid "Banners"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_partners"
+msgid "Affiliates"
+msgstr "Affiliati"
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliates Banner code"
+msgstr "Reklaminio skydelio kodas"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Affiliates Add banner"
+msgstr "Pridėti reklaminį skydelį"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Reklaminio skydelio kodas kai kurioms prekėms"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "Il tuo ID affiliato è [user_id]. Per ricevere commissioni secondo il piano puoi aggiungere <b>[aff_id_?]</b> (o <b>[aff_id_&]</b> se il link alla pagina contiene già "?") A qualsiasi link al nostro negozio. Ad esempio, ecco il link per la registrazione di un nuovo affiliato: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "Puoi anche utilizzare il seguente link intuitivo per la home page per ricevere commissioni secondo il tuo piano: [link]"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>Puoi diventare un affiliato professionista e ottenere commissioni <b>in contanti</b> per banner di testo, prodotti e grafici, nonché affiliati multilivello e coupon usati.</p>[link]"

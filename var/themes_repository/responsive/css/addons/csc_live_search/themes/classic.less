@@ -1,0 +1,132 @@
+/*scrollbar*/
+.clsActive {
+	li {
+		/*classic caret*/
+		&.clsGrayHeader, &.clsEnterMore {			
+			&:before, &:after {
+			  content: '';
+			  display: block;
+			  position: absolute;
+			  bottom: 100%;
+			  width: 0;
+			  height: 0;
+			}
+			&:before {
+			  left: 25px;
+			  border: 11px solid transparent;
+			  border-bottom-color: rgba(150, 161, 181, 0.2);
+			}
+			&:after {
+			  left: 26px;
+			  border: 10px solid transparent;
+			  border-bottom-color: @cls_background;
+			}
+		}
+		/*tree*/
+		&.clsTree:before{
+			margin: -9px 3px 8px 3px;
+			width: 17px;
+			min-width: 17px;
+			border-left: 1px dotted @cls_base;
+			border-bottom: 1px dotted @cls_base;
+		}
+		/*checked unchecked*/
+		&[class*="Checked"] {
+			font-size: 11px;
+			padding: 2px 4px;
+		}
+		&.clsChecked:after {
+			font-size: 10px;
+		}
+		&.clsTitle, &.clsTree {
+			font-size: 13px;
+		}
+		&.clsShowAll {
+			font-size: 12px;
+			padding: 4px;
+		}
+		/*show more*/
+		&.clsSm > span {
+			display: block;
+		}
+		&[pid] .clsImg {
+			margin-right: 10px;
+		}
+		a[type$="Add"] {
+			font-size: 15px;
+		}
+		a[type="cartAdd"] {
+			padding: 0 10px;
+			margin-left: 5px;
+			background: @cls_tabs;
+			color: #fff;
+			border-radius: @cls_radius;
+			&:hover {
+				color: #fff;
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+.clsItemData {
+	.clsArt {
+		font-size: 13px;
+	}
+	.clsLabel {
+		font-size: 11px;
+		padding: 2px 4px;
+	}
+	.clsListPrice {
+		font-size: 10px;
+	}
+}
+@media(min-width: 768px) {
+	.clsActive {
+		.clsCss {
+			padding: 40px 4px 8px 0;
+		}
+		li {
+			font-size: 15px;
+		}
+		li.clsEnterMore:after {
+			border-bottom-color: #fff;
+		}
+
+		/*title*/
+		li:first-child {
+			padding: 6px 34px 6px 20px;
+			min-height: 32px;
+		}
+		/*closer*/
+		&.clsCloser {
+			padding: 9px;
+			font-size: 10px;
+		}
+	}
+}
+
+@media(max-width: 767px) {
+	.clsActive {
+		li.clsEnterMore{
+			text-align: center;
+			background: @cls_background;
+		}
+		li:first-child {
+			font-size: 14px;
+		}
+		/*closer*/
+		li.clsCloser {
+			padding: 12px;
+			font-size: 10px;
+		}
+		li.clsTree {
+			font-size: 13px;
+		}
+	}
+	.clsItemData {
+		a[type$="Add"] {
+			font-size: 16px;
+		}
+	}
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_sms_notifications</id>
+    <version>1.1</version>
+    <priority>5500</priority>
+    <position>100</position>
+    <default_language>en</default_language>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>cp_addons_manager,cp_sms_services</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                   <item id="licensekey">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="show_manual_send">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_sms_logs` (
+                `log_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `sender_id` mediumint(8) unsigned NOT NULL default 0,
+                `timestamp` int(11) unsigned NOT NULL default 0,
+                `action` varchar(16) NOT NULL DEFAULT '',
+                `phone` varchar(128) NOT NULL default '',
+                `content` text NOT NULL DEFAULT '',
+                `user_id` int(11) unsigned NOT NULL default 0,
+                `order_id` int(11) unsigned NOT NULL default 0,
+                `company_id` int(11) unsigned NOT NULL default 0,
+                `extra` text NOT NULL DEFAULT '',
+                PRIMARY KEY  (`log_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_sms_notifications` (
+                `notification_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+                `action` varchar(16) NOT NULL DEFAULT '',
+                `object_key` varchar(32) NOT NULL DEFAULT '',
+                `company_id` int(11) unsigned NOT NULL default 0,
+                `status` char(1) NOT NULL DEFAULT 'D',
+                `extra` text NOT NULL DEFAULT '',
+                PRIMARY KEY (`notification_id`),
+                UNIQUE KEY (`action`, `object_key`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_sms_notification_descriptions` (
+                `notification_id` mediumint(8) unsigned NOT NULL default 0,
+                `lang_code` char(2) NOT NULL DEFAULT '',
+                `content` text NOT NULL DEFAULT '',
+                PRIMARY KEY (`notification_id`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+
+        <item for="install">ALTER TABLE `?:users` ADD `cp_sms_receive` char(1) NOT NULL DEFAULT 'N';</item>
+        <item for="install">ALTER TABLE `?:orders` ADD `cp_sms_receive` char(1) NOT NULL DEFAULT 'N';</item>
+
+        <item for="install">REPLACE INTO `?:privileges` (privilege, is_default, section_id, group_id, is_view) VALUES ('manage_cp_sms_notifications', 'Y', 'addons', 'cp_sms_notifications', 'N')</item>
+        <item for="install">REPLACE INTO `?:privileges` (privilege, is_default, section_id, group_id, is_view) VALUES ('view_cp_sms_notifications', 'Y', 'addons', 'cp_sms_notifications', 'Y')</item>
+        
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_sms_logs`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_sms_notifications`</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_sms_notification_descriptions`</item>
+        <item for="uninstall">ALTER TABLE `?:users` DROP `cp_sms_receive`</item>
+        <item for="uninstall">ALTER TABLE `?:orders` DROP `cp_sms_receive`</item>
+        <item for="uninstall">DELETE FROM `?:privileges` WHERE privilege = 'manage_cp_sms_notifications'</item>
+        <item for="uninstall">DELETE FROM `?:privileges` WHERE privilege = 'view_cp_sms_notifications'</item>
+    </queries>
+</addon>

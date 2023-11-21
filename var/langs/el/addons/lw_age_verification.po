@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR"
+
+msgctxt "Addons::name::lw_age_verification"
+msgid "[LW]Age verification Pop-up"
+msgstr "[LW]Επιβεβαίωση ηλικίας Pop-up"
+
+msgctxt "Addons::description::lw_age_verification"
+msgid "Ask if the customer is older of current age before he enters the site."
+msgstr "Ελέξτε εάν ο πελάτης είναι μεγαλύτερος από μία συγγεκριμένη ηλικίας πριν μπει στον ιστότοπο."
+
+msgctxt "SettingsOptions::lw_age_verification::marketplace_license_number"
+msgid "Marketplace license number"
+msgstr "Marketplace license number"
+
+msgctxt "SettingsOptions::lw_age_verification::lw_license_number"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsSections::lw_age_verification::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::lw_age_verification::lw_selected_age"
+msgid "Age Limit"
+msgstr "Όριο ηλικίας"
+
+msgctxt "Languages::lw_age_verification.title"
+msgid "AGE VERIFICATION"
+msgstr "ΕΠΙΒΕΒΑΊΩΣΗ ΗΛΙΚΙΑΣ"
+
+msgctxt "Languages::lw_age_verification.welcome_message"
+msgid "Welcome to Example.gr"
+msgstr "Καλώς ήλθατε στο Example.gr"
+
+msgctxt "Languages::lw_age_verification.verification_text"
+msgid "By clicking enter, I certify that I am over the age of 18 and will comply with the above statement."
+msgstr "Κάνοντας κλικ στο είσοδος, πιστοποιώ ότι είμαι άνω των 18 ετών και ότι θα συμμορφωθώ με την παραπάνω δήλωση."
+
+msgctxt "Languages::lw_age_verification.under_age"
+msgid "EXIT"
+msgstr "ΕΞΟΔΟΣ"
+
+msgctxt "Languages::lw_age_verification.over_age"
+msgid "ENTER"
+msgstr "ΕΙΣΟΔΟΣ"
+
+msgctxt "Languages::lw_age_verification.or"
+msgid "OR"
+msgstr "Ή"
+
+msgctxt "Languages::lw_age_verification.cant_enter_size"
+msgid "You must confirm that you are over 18 in order to browse our website."
+msgstr "Πρέπει να επιβεβαιώσετε ότι είστε άνω των 18 ετών για να περιηγηθείτε στον ιστότοπό μας."

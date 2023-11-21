@@ -1,0 +1,157 @@
+.cp-auth-form-wrap {
+    .ty-tabs {
+        margin: 0px;
+        border: none;
+    }
+}
+
+div.ui-dialog.cp-otp-show-overflow {
+    overflow: visible;
+    
+    .object-container {
+        overflow: visible;
+    }
+}
+
+.iti-mobile div.iti--container {
+    z-index: 100000;
+}
+
+.cp-otp-code-wrap {
+    .cp-otp-code-field {
+        width: 120px;
+        padding: 8px 4px;
+        height: 32px;
+        font-size: 16px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+
+    .cp-otp-code-item {
+        max-width: 60px;
+        width: ~"calc(23% - 10px)";
+        height: 60px;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 70px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .cp-otp-code-item + .cp-otp-code-item {
+        margin-left: 10px;
+    }
+}
+
+.ty-btn.cp-verification-link {
+    margin-top: 5px;
+}
+
+.cp-phone-status {
+    font-weight: bold;
+    font-size: 14px;
+
+    i {
+        font-size: 16px;
+    }
+
+    &.cp-confirmed {
+        color: #319c31;
+    }
+
+    &.cp-unconfirmed {
+        color: #d0544b;
+    }
+}
+
+.ui-dialog {
+    .cp-code-sended-text {
+        max-width: 300px;
+    }
+    .cp-otp-fail-message {
+        max-width: 300px;
+        margin-bottom: 8px;
+        text-align: center;
+        
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    .cp-auth-fast-register-text {
+        max-width: 300px;
+        margin-top: 8px;
+    }
+    .cp-otp-register-wrap {
+        text-align: center;
+    }
+    .cp-otp-timer-wrap {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .ui-dialog .cp-otp-code-wrap .cp-otp-code-item {
+        width: ~"calc(23% - 10px)";
+    }
+}
+
+.cp-alt-auth-field-wrap {
+    margin: 10px 0;
+}
+
+
+div.iti.iti--allow-dropdown {
+    width: 100%;
+    max-height: 34px;
+}
+
+.ui-dialog-content .iti__country-list {
+    //position: fixed;
+}
+
+// International telephone input countries image
+.iti__flag {background-image: url("images/addons/cp_otp_registration/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("images/addons/cp_otp_registration/flags@2x.png");}
+}
+
+html[dir="rtl"] {
+    .cp-otp-code-wrap {
+        direction: rtl;
+        text-align: left;
+    }
+
+    .cp-phone {
+        direction: rtl;
+        text-align: left;
+    }
+    
+    .iti__flag-container {
+        direction: rtl;
+        left: auto;
+        right: 0;
+        text-align: right;
+        
+        .iti__country-list {
+            text-align: right;
+            
+            .iti__flag-box {
+                margin-left: 6px;
+                margin-right: 0px;
+            }
+        }
+        
+        .iti__arrow {
+           margin-right: 6px;
+        }
+    }
+    
+    .iti--allow-dropdown input[type=text] {
+        padding-left: 6px;
+        padding-right: 52px;
+    }
+}
+
+

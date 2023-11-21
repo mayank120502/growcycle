@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_otp_registration</id>
+    <version>2.6</version>
+    <priority>4000</priority>
+    <position>100</position>
+    <status>disabled</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <marketplace_product_id>2954</marketplace_product_id>
+    <compatibility>
+        <dependencies>cp_addons_manager,cp_sms_services</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="login_type">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="password"></item>
+                            <item id="otp"></item>
+                            <item id="two_factor"></item>
+                        </variants>
+                        <default_value>password</default_value>
+                    </item>
+                    <item id="fast_registration">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="required_email">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="exclude_email">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="use_fake_email">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="default_auth_method">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="phone"></item>
+                            <item id="email"></item>
+                        </variants>
+                        <default_value>phone</default_value>
+                    </item>
+                    <item id="email_error">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="guest_order">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="comfirm_on">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#CR=Y]]></default_value>
+                        <variants/>
+                    </item>
+                    <item id="verification_texts">
+                        <type>info</type>
+                        <handler>fn_cp_otp_registration_message_texts</handler>
+                    </item>
+                    <item id="settings_scripts">
+                        <type>template</type>
+                        <default_value>settings_scripts.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="confirm_code">
+                <items>
+                    <item id="code_valid_time">
+                        <type>input</type>
+                         <default_value>2</default_value>
+                    </item>
+                    <item id="code_attempts">
+                        <type>input</type>
+                         <default_value>3</default_value>
+                    </item>
+                    <item id="last_num_confirm">
+                        <type>checkbox</type>
+                         <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="phone_field">
+                <items>
+                    <item id="use_country_prefix">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="default_country" parent_id="use_country_prefix">
+                        <type>selectbox</type>
+                        <variants/>
+                        <default_value></default_value>
+                    </item>
+                    <item id="no_mask_placeholder">
+                        <type>input</type>
+                         <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE `?:users` ADD `cp_phone_verified` char(1) NOT NULL DEFAULT 'N';</item>
+        <item for="uninstall">ALTER TABLE `?:users` DROP `cp_phone_verified`;</item>
+    </queries>
+    <functions>
+        <item for="install">fn_install_cp_otp_registration</item>
+        <item for="uninstall">fn_uninstall_cp_otp_registration</item>
+    </functions>
+    <email_templates>
+        <templates>
+            <item>
+                <code><![CDATA[cp_otp_code_notification]]></code>
+                <area><![CDATA[C]]></area>
+                <status><![CDATA[A]]></status>
+                <default_subject><![CDATA[{{ company_name }}: {{ __("cp_otp_code_notification_subj") }}]]></default_subject>
+                <default_template><![CDATA[{{ snippet("header") }}
+{{ __("cp_otp_code_email_text", {"[code]": code}) }}<br /><br />
+{{ snippet("footer") }}]]></default_template>
+            </item>
+        </templates>
+    </email_templates>
+</addon>

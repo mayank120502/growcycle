@@ -1,0 +1,286 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_otp_registration"
+msgid "Cart-Power: Phone registration with OTP"
+msgstr "Cart-Power: Phone registration with OTP"
+
+msgctxt "Addons::description::cp_otp_registration"
+msgid "Adds the ability to log in via phone and validation using a one-time code for login and registration. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds the ability to log in via phone and validation using a one-time code for login and registration. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_otp_use_for_otp"
+msgid "OTP confirm phone number"
+msgstr "OTP confirm phone number"
+
+msgctxt "Languages::cp_otp_phone_mail_exists"
+msgid "The user registered with the chosen phone number or email address already exists. Please try another one"
+msgstr "Пользователь с таким номером телефона или email уже существует. Пожалуйста, попробуйте другой вариант"
+
+msgctxt "SettingsOptions::cp_otp_registration::use_fake_email"
+msgid "Use fake email"
+msgstr "Use fake email"
+
+msgctxt "SettingsTooltips::cp_otp_registration::use_fake_email"
+msgid "If enabled a fake Email will be added to the accounts of the users who left the Email field empty while placing the order or registering"
+msgstr "If enabled a fake Email will be added to the accounts of the users who left the Email field empty while placing the order or registering"
+
+msgctxt "SettingsOptions::cp_otp_registration::comfirm_on"
+msgid "Add phone confirm on"
+msgstr "Add phone confirm on"
+
+msgctxt "SettingsOptions::cp_otp_registration::required_email"
+msgid "Email field is required"
+msgstr "Email field is required"
+
+msgctxt "SettingsSections::cp_otp_registration::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_otp_registration::guest_order"
+msgid "Allow guest orders for registered users when the phone number matches"
+msgstr "Allow guest orders for registered users when the phone number matches"
+
+msgctxt "SettingsTooltips::cp_otp_registration::guest_order"
+msgid "! After enabling the setting, do not forget to launch the command for collecting the user phone numbers data for transferring guest orders to registered user accounts in the settings of the add-on CP: Guest orders for existing customers v1.2 and above"
+msgstr "! After enabling the setting, do not forget to launch the command for collecting the user phone numbers data for transferring guest orders to registered user accounts in the settings of the add-on CP: Guest orders for existing customers v1.2 and above"
+
+msgctxt "SettingsSections::cp_otp_registration::confirm_code"
+msgid "Confirmation code"
+msgstr "Confirmation code"
+
+msgctxt "SettingsSections::cp_otp_registration::phone_field"
+msgid "Phone field"
+msgstr "Phone field"
+
+msgctxt "SettingsOptions::cp_otp_registration::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsTooltips::cp_otp_registration::licensekey"
+msgid "You can find it on your order details page"
+msgstr "You can find it on your order details page"
+
+msgctxt "SettingsOptions::cp_otp_registration::email_error"
+msgid "Error about the inability to send mail"
+msgstr "Error about the inability to send mail"
+
+msgctxt "SettingsOptions::cp_otp_registration::login_type"
+msgid "Type of authorization"
+msgstr "Type of authorization"
+
+msgctxt "SettingsVariants::cp_otp_registration::login_type::password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsVariants::cp_otp_registration::login_type::otp"
+msgid "One-time code"
+msgstr "One-time code"
+
+msgctxt "SettingsVariants::cp_otp_registration::login_type::two_factor"
+msgid "Two-factor authentication"
+msgstr "Two-factor authentication"
+
+msgctxt "SettingsOptions::cp_otp_registration::use_country_prefix"
+msgid "Country phone prefix"
+msgstr "Country phone prefix"
+
+msgctxt "SettingsOptions::cp_otp_registration::default_country"
+msgid "Default country prefix"
+msgstr "Default country prefix"
+
+msgctxt "SettingsOptions::cp_otp_registration::default_auth_method"
+msgid "Default authorization method"
+msgstr "Default authorization method"
+
+msgctxt "SettingsVariants::cp_otp_registration::default_auth_method::phone"
+msgid "By phone"
+msgstr "By phone"
+
+msgctxt "SettingsVariants::cp_otp_registration::default_auth_method::email"
+msgid "By E-mail"
+msgstr "By E-mail"
+
+msgctxt "SettingsOptions::cp_otp_registration::code_valid_time"
+msgid "The validity time of the confirmation code (mins)"
+msgstr "The validity time of the confirmation code (mins)"
+
+msgctxt "SettingsOptions::cp_otp_registration::last_num_confirm"
+msgid "Confirmation of the code by the last entered digit"
+msgstr "Confirmation of the code by the last entered digit"
+
+msgctxt "SettingsOptions::cp_otp_registration::no_mask_placeholder"
+msgid "Placeholder in the absence of a phone mask/prefix"
+msgstr "Placeholder in the absence of a phone mask/prefix"
+
+msgctxt "SettingsOptions::cp_otp_registration::fast_registration"
+msgid "Unified form of registration and authorization"
+msgstr "Unified form of registration and authorization"
+
+msgctxt "SettingsTooltips::cp_otp_registration::fast_registration"
+msgid "One form will be used to register and authorize a user. If the user is in the database, he will be authorized, if not, a new user will be registered."
+msgstr "One form will be used to register and authorize a user. If the user is in the database, he will be authorized, if not, a new user will be registered."
+
+msgctxt "SettingsOptions::cp_otp_registration::exclude_email"
+msgid "Exclude Email"
+msgstr "Exclude Email"
+
+msgctxt "SettingsTooltips::cp_otp_registration::exclude_email"
+msgid "Disables authorization by Email option for users. Be careful when enabling this setting, make sure that phone numbers are listed in your clients' profiles, otherwise they will lose access to their accounts."
+msgstr "Disables authorization by Email option for users. Be careful when enabling this setting, make sure that phone numbers are listed in your clients' profiles, otherwise they will lose access to their accounts."
+
+msgctxt "SettingsOptions::cp_otp_registration::code_attempts"
+msgid "Number of code entry attempts"
+msgstr "Number of code entry attempts"
+
+msgctxt "Languages::cp_warning_empty_email"
+msgid "Sending a message is not possible because the 'E-mail' field in profile is empty"
+msgstr "Sending a message is not possible because the 'E-mail' field in profile is empty"
+
+msgctxt "Languages::cp_correct_phone_format"
+msgid "Incorrect phone number entered."
+msgstr "Incorrect phone number entered."
+
+msgctxt "Languages::cp_exist_phone_error"
+msgid "The phone you have chosen already exists. Please try another one."
+msgstr "The phone you have chosen already exists. Please try another one."
+
+msgctxt "Languages::cp_empty_phone_and_email_field"
+msgid "The field 'Phone' and 'E-mail' are empty."
+msgstr "The field 'Phone' and 'E-mail' are empty."
+
+msgctxt "Languages::cp_otp_fail_verification"
+msgid "Invalid verification code entered."
+msgstr "Invalid verification code entered."
+
+msgctxt "Languages::cp_otp_code_sms_text"
+msgid "[code] - your confirmation code."
+msgstr "[code] - your confirmation code."
+
+msgctxt "Languages::cp_otp_code_email_text"
+msgid "[code] - your confirmation code."
+msgstr "[code] - your confirmation code."
+
+msgctxt "Languages::cp_otp_code_sended_text"
+msgid "A confirmation code has been sent to your phone number."
+msgstr "A confirmation code has been sent to your phone number."
+
+msgctxt "Languages::cp_otp_get_code"
+msgid "Get the code"
+msgstr "Get the code"
+
+msgctxt "Languages::cp_otp_get_new_code"
+msgid "Get a new code"
+msgstr "Get a new code"
+
+msgctxt "Languages::cp_phone_confirmed"
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgctxt "Languages::cp_phone_unconfirmed"
+msgid "Not confirmed"
+msgstr "Not confirmed"
+
+msgctxt "Languages::cp_otp_enter_code"
+msgid "Enter a code"
+msgstr "Enter a code"
+
+msgctxt "Languages::cp_otp_code_valid"
+msgid "Code valid"
+msgstr "Code valid"
+
+msgctxt "Languages::cp_otp_code_expired"
+msgid "The code has expired"
+msgstr "The code has expired"
+
+msgctxt "Languages::cp_otp_user_phone_not_exists"
+msgid "There is no user with this phone number."
+msgstr "There is no user with this phone number."
+
+msgctxt "Languages::cp_otp_user_email_not_exists"
+msgid "There is no user with this email."
+msgstr "There is no user with this email."
+
+msgctxt "Languages::cp_otp_sign_by_phone"
+msgid "Log in by phone number"
+msgstr "Log in by phone number"
+
+msgctxt "Languages::cp_otp_sign_by_email"
+msgid "Log in by email"
+msgstr "Log in by email"
+
+msgctxt "Languages::cp_otp_code_notification_subj"
+msgid "Confirmation code"
+msgstr "Confirmation code"
+
+msgctxt "Languages::email_template.cp_otp_code_notification"
+msgid "CP: OTP confirmation code"
+msgstr "CP: OTP confirmation code"
+
+msgctxt "Languages::cp_otp_by_phone"
+msgid "By phone"
+msgstr "By phone"
+
+msgctxt "Languages::cp_otp_by_email"
+msgid "By email"
+msgstr "By email"
+
+msgctxt "Languages::cp_otp_receive_notifications_text"
+msgid "If you want to receive notifications about the status of your orders by email, please add it to your profile."
+msgstr "If you want to receive notifications about the status of your orders by email, please add it to your profile."
+
+msgctxt "Languages::cp_otp_confirm"
+msgid "Confirm"
+msgstr "Confirm"
+
+msgctxt "Languages::cp_otp_phone_confirm"
+msgid "Confirm phone number"
+msgstr "Confirm phone number"
+
+msgctxt "Languages::cp_otp_phone_verification"
+msgid "Phone verification"
+msgstr "Phone verification"
+
+msgctxt "Languages::cp_otp_phone_need_confirm"
+msgid "You need to confirm the entered phone number."
+msgstr "You need to confirm the entered phone number."
+
+msgctxt "Languages::cp_otp_send_fail"
+msgid "Failed to send message."
+msgstr "Failed to send message."
+
+msgctxt "Languages::cp_otp_message_texts_title"
+msgid "Used language variables for message texts"
+msgstr "Used language variables for message texts"
+
+msgctxt "Languages::cp_otp_email_code_sended_text"
+msgid "A confirmation code has been sent to your E-mail."
+msgstr "A confirmation code has been sent to your E-mail."
+
+msgctxt "Languages::cp_otp_already_exists_title"
+msgid "It seems that you have an account in our store"
+msgstr "It seems that you have an account in our store"
+
+msgctxt "Languages::cp_otp_fast_register_phone_text"
+msgid "Login or register to continue"
+msgstr "Login or register to continue"
+
+msgctxt "Languages::cp_otp_fast_register_email_text"
+msgid "For registered users only"
+msgstr "For registered users only"
+
+msgctxt "Languages::cp_otp_verification_fail_code"
+msgid "Invalid verification code entered"
+msgstr "Invalid verification code entered"
+
+msgctxt "Languages::cp_otp_verification_fail_time"
+msgid "The confirmation code has expired."
+msgstr "The confirmation code has expired."
+
+msgctxt "Languages::cp_otp_verification_fail_attempts"
+msgid "The number of attempts to enter the confirmation code has been exceeded."
+msgstr "The number of attempts to enter the confirmation code has been exceeded."
+

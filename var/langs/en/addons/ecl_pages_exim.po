@@ -1,0 +1,58 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ecl_pages_exim"
+msgid "[eCom Labs] Export/ Import Pages"
+msgstr "[eCom Labs] Export/ Import Pages"
+
+msgctxt "Addons::description::ecl_pages_exim"
+msgid "Allows to export and import CMS pages, blog posts, forms and polls"
+msgstr "Allows to export and import CMS pages, blog posts, forms and polls"
+
+msgctxt "SettingsSections::ecl_pages_exim::ecl_general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::ecl_pages_exim::ecl_page_code_prefix
+msgid "Page code prefix"
+msgstr "Page code prefix"
+
+msgctxt "SettingsOptions::ecl_pages_exim::ecl_max_page_code_length"
+msgid "Max page code length"
+msgstr "Max page code length"
+
+msgctxt "Languages::ecl_pages_exim"
+msgid "[eCom Labs] Export/ Import Pages"
+msgstr "[eCom Labs] Export/ Import Pages"
+
+msgctxt "Languages::ecl_page_codes_added_text"
+msgid "Pages codes added"
+msgstr "Pages codes added"
+
+msgctxt "Languages::ecl_pages_exim.code"
+msgid "Page code"
+msgstr "Page code"
+
+msgctxt "Languages::page_delimiter"
+msgid "Page delimiter"
+msgstr "Разделитель страницы"
+
+msgctxt "Languages::text_page_delimiter"
+msgid "Page delimiter"
+msgstr "Page path delimiter (example 'Page_1///Page_2')"
+
+msgctxt "Languages::page_codes_added_text"
+msgid "Unique codes were added to each page"
+msgstr "Unique codes were added to each page"
+
+msgctxt "Languages::export_selected_pages"
+msgid "Export selected pages"
+msgstr "Export selected pages"
+
+msgctxt "Languages::export_selected_pages_and_subpages"
+msgid "Export selected pages and subpages"
+msgstr "Export selected pages and subpages"
+

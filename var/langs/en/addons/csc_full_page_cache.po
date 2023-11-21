@@ -1,0 +1,331 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::csc_full_page_cache"
+msgid "Full Page cache"
+msgstr "Full Page cache" 
+
+msgctxt "Addons::description::csc_full_page_cache"
+msgid "Full Page cache: Make your store faster. Developed by <b><a href=\"http://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Accelerate website loading speed by caching entire pages. Developed by <b><a href=\"http://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+
+msgctxt "Languages::cfpc_addons"
+msgid "CS-Commerce Addons"
+msgstr "CS-Commerce Addons"
+
+msgctxt "Languages::cfpc.csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "CS-Commerce Addons"
+
+msgctxt "Languages::csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "CS-Commerce Addons"
+
+
+
+msgctxt "Languages::csc_full_page_cache"
+msgid "Full page cache"
+msgstr "Full page cache"
+
+msgctxt "Languages::cfpc.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Like this addon? Rate it!"
+
+msgctxt "Languages::cfpc.other_addons"
+msgid "Other our addons"
+msgstr "Other our addons →"
+
+msgctxt "Languages::cfpc.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Have questions? Mail us!"
+
+msgctxt "Languages::cfpc.feedback_info"
+msgid "Have questions about Admin Full page cache addon by cs-commerce.com<br>or you have any ideas for improving the functionality? Mail us!"
+msgstr "Have questions about Admin Full page cache addon by cs-commerce.com<br>or you have any ideas for improving the functionality? Mail us!"
+
+
+
+
+
+msgctxt "Languages::cfpc.tab_general"
+msgid "General"
+msgstr "General"
+
+msgctxt "Languages::cfpc.title_general_info"
+msgid "General"
+msgstr "General settings"
+
+msgctxt "Languages::cfpc.tab_expiry"
+msgid "Cache expiry settings"
+msgstr "Cache expiry settings"
+
+msgctxt "Languages::cfpc.title_expiry_info"
+msgid "Cache expiry settings"
+msgstr "Cache expiry settings"
+
+msgctxt "Languages::cfpc.tab_skip"
+msgid "Skip caching settings"
+msgstr "Skip caching settings"
+
+msgctxt "Languages::cfpc.title_skip_info"
+msgid "Skip caching settings"
+msgstr "Skip caching settings"
+
+msgctxt "Languages::cfpc.tab_users"
+msgid "Users and caching"
+msgstr "Users and caching"
+
+msgctxt "Languages::cfpc.title_users_info"
+msgid "Users and caching"
+msgstr "Users and caching settings"  
+
+msgctxt "Languages::cfpc.tab_storage"
+msgid "storage"
+msgstr "Storage"
+
+msgctxt "Languages::cfpc.title_storage_info"
+msgid "storage"
+msgstr "Storage settings"
+
+msgctxt "Languages::cfpc.tab_info"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "Languages::cfpc.title_info_info"
+msgid "Information"
+msgstr "Information"
+
+msgctxt "Languages::cfpc.controllers"
+msgid "Select controllers where to use cache"
+msgstr "Select controllers where to use cache"
+
+msgctxt "Languages::cfpc.turbo"
+msgid "Turbo mode"
+msgstr "Turbo mode"
+
+msgctxt "Languages::cfpc.turbo_tooltip"
+msgid "This mode can inrease additional 25% for speed. If cache was created by unlogged user with empty cart, empty wishlist and comparison list, Then if this page will be opened by the similar user  - we will jump directly to cache file without additional platform initialization"
+msgstr "This mode can inrease additional 25% for speed. If cache was created by unlogged user with empty cart, empty wishlist and comparison list, Then if this page will be opened by the similar user  - we will jump directly to cache file without additional platform initialization."
+
+msgctxt "Languages::cfpc.compress_cache"
+msgid "Save cache on gzipped files"
+msgstr "Save cache on gzipped files"
+
+msgctxt "Languages::cfpc.compress_cache_tooltip"
+msgid "Takes up to 5 times less space on your server"
+msgstr "Takes up to 5 times less space on your server"
+
+msgctxt "Languages::cfpc.minify_html"
+msgid "Minify html"
+msgstr "Minify html"
+
+msgctxt "Languages::cfpc.minify_html_tooltip"
+msgid "Minification is the process of minimizing code in your web pages files and make your page lighter"
+msgstr "Minification is the process of minimizing code in your web pages files and make your page lighter. If you have HTML unclosed tags and etc can work with mistakes."
+
+msgctxt "Languages::cfpc.minify_js"
+msgid "Minify inline js"
+msgstr "Minify inline js"
+
+msgctxt "Languages::cfpc.mobile_devices"
+msgid "Create custom cache for mobile devices"
+msgstr "Create custom cache for mobile devices"
+
+msgctxt "Languages::cfpc.mobile_devices_tooltip"
+msgid "Use this feature if  you are using 3rd party addons for custom appearance on mobile devices"
+msgstr "Use this feature if  you are using 3rd party addons for custom appearance on mobile devices"
+
+msgctxt "Languages::cfpc.cache_lifetime"
+msgid "Cache expiry time (hours)"
+msgstr "Cache expiry time (hours)"
+
+msgctxt "Languages::cfpc.cache_lifetime_tooltip"
+msgid "Enter 0 to make it unlimited."
+msgstr "Enter 0 to make it unlimited."
+
+msgctxt "Languages::cfpc.rebuild_product_cache"
+msgid "On update product, rebuild Cache where this product was shown"
+msgstr "On update product, rebuild Cache where this product was shown"
+
+msgctxt "Languages::cfpc.rebuild_create_product_cache"
+msgid "On create or delete product, rebuild all categories cache"
+msgstr "On create or delete product, rebuild all categories cache"
+
+msgctxt "Languages::cfpc.rebuild_pages_cache"
+msgid "On update page clear pages cache"
+msgstr "On update page rebuild pages cache"
+
+msgctxt "Languages::cfpc.rebuild_categories_cache"
+msgid "On update category clear categories cache"
+msgstr "On update category rebuild categories cache"
+
+msgctxt "Languages::cfpc.skip_ajax"
+msgid "Don't save to cache ajax requests"
+msgstr "Don't save to cache ajax request"
+
+msgctxt "Languages::cfpc.no_cache_filters"
+msgid "Skip filters generated category pages"
+msgstr "Skip filters generated category pages"
+
+msgctxt "Languages::cfpc.no_cache_filters_tooltip"
+msgid "Is not effective to save filters generated pages because there are a lot of possible combinations for every category"
+msgstr "Is not effective to save filters generated pages because there are a lot of possible combinations for every category"
+
+msgctxt "Languages::cfpc.skip_import_process"
+msgid "Don't rebuild cache when import is running"
+msgstr "Don't rebuild cache when import is running"
+
+msgctxt "Languages::cfpc.skip_import_process_tooltip"
+msgid "Import process can trigger update product action, this can cause lower speed on import process. Is recommended to keep this checkbox checked"
+msgstr "Import process can trigger update product action, this can cause lower speed on import process. Is recommended to keep this checkbox checked"
+
+msgctxt "Languages::cfpc.no_generate_from_auth"
+msgid "Dont's save cache from logged users"
+msgstr "Dont's save cache from logged users"
+
+msgctxt "Languages::cfpc.disable_for_auth"
+msgid "Disable cache for logged users"
+msgstr "Disable cache for logged users"
+
+msgctxt "Languages::cfpc.cache_of_usergroup"
+msgid "Generate cache depending of usergroup"
+msgstr "Generate cache depending of usergroup"
+
+msgctxt "Languages::cfpc.storage_type"
+msgid "Storage type"
+msgstr "Storage type"
+
+msgctxt "Languages::cfpc.redis_server"
+msgid "Redis server"
+msgstr "Redis server"
+
+msgctxt "Languages::cfpc.redis_port"
+msgid "Redis port"
+msgstr "Redis port"
+
+
+msgctxt "Languages::cfpc.cron_key"
+msgid "Cron key"
+msgstr "Cron key"
+
+msgctxt "Languages::cfpc.cron_key_tooltip"
+msgid "It will be needed if you will using cron to clear cache"
+msgstr "It will be needed if you will using cron to clear cache"
+
+msgctxt "Languages::_no_page"
+msgid "Page not found"
+msgstr "Page not found"
+
+msgctxt "Languages::csc.cron_setup"
+msgid "Clear cache by Cron"
+msgstr "Clear cache by Cron"
+
+msgctxt "Languages::csc.general_info_about_full_page_cache"
+msgid "csc.general_info_about_full_page_cache"
+msgstr "\"Full page cache\" add-on can significantly reduce the load on the server and speed up the response time of the server. When the addon \"Full page cache\" is enabled, the server does not need to access the database and various blocks of the site every time to generate the page, it does this once, after which the next visitor gives the cached page. Full caching of pages on the site has an intelligent system for cleaning the cache of pages when updating the product, which clears the cache of the pages on which the product was displayed. Also you can set the time of the actuality of the generated cache. <b> When you clear the cache from the admin panel - The full cache of the pages will also be cleared !. <br/> Do not forget that full page caching requires more memory on your hard drive! <br> To pinpoint the cache on certain pages or to view the page without cache, add the no_cache parameter (http://site.com/?no_cache) to the url of the page.</b><p><b>If your storefront is closed Full page cache add-on will no work!</b></p>"
+
+msgctxt "Languages::csc.general_info_cron_setup"
+msgid "For full or partial clearing of the \"Full page cache\" use the link with the parameters. If you only need to partially clear the cache, remove the corresponding controller names from the link. Parameter expired you can use to delete expired cache files."
+msgstr "For full or partial clearing of the \"Full page cache\" use the link with the parameters. If you only need to partially clear the cache, remove the corresponding controller names from the link. Parameter expired you can use to delete expired cache files."
+
+msgctxt "Languages::cfpc_clear__no_page"
+msgid "Clear NOT FOUND cache"
+msgstr "Clear NOT FOUND cache"
+
+msgctxt "Languages::cfpc_clear_index"
+msgid "Clear HOMEPAGE cache"
+msgstr "Clear HOMEPAGE cache"
+
+msgctxt "Languages::cfpc_clear_companies"
+msgid "Clear COMPANIES cache"
+msgstr "Clear COMPANIES cache"
+
+msgctxt "Languages::cfpc_clear_products"
+msgid "Clear PRODUCTS cache"
+msgstr "Clear PRODUCTS cache"
+
+msgctxt "Languages::cfpc_clear_categories"
+msgid "Clear CATEGORIES cache"
+msgstr "Clear CATEGORIES cache"
+
+msgctxt "Languages::cfpc_clear_pages"
+msgid "Clear PAGES cache"
+msgstr "Clear PAGES cache"
+
+msgctxt "Languages::cfpc_clear_all"
+msgid "Clear ALL Cache"
+msgstr "Clear ALL Cache"
+
+msgctxt "Languages::fpc_exclude_cache"
+msgid "Exclude block from Full page cache"
+msgstr "Exclude block from Full page cache"
+
+msgctxt "Languages::cfpc_clear_expired"
+msgid "Clear EXPIRIED cache"
+msgstr "Clear EXPIRIED cache"
+
+msgctxt "Languages::cfpc_clear_tags"
+msgid "Clear Tags cache"
+msgstr "Clear Tags cache"
+
+msgctxt "Languages::fpc_deleted_expired_files"
+msgid "We have cleared [count] expired cache files!"
+msgstr "We have deleted [count] expired cache files!"
+
+msgctxt "Languages::fpc_storage"
+msgid "Full page cache"
+msgstr "Full page cache"
+
+msgctxt "Languages::privileges.clear_fpc"
+msgid "Clear FPC"
+msgstr "Clear FPC"
+
+
+
+
+msgctxt "Languages::cfpc.redis"
+msgid "Redis"
+msgstr "Redis"
+
+msgctxt "Languages::cfpc.products"
+msgid "Products"
+msgstr "Products"
+
+msgctxt "Languages::cfpc.categories"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "Languages::cfpc.pages"
+msgid "Pages & Blog"
+msgstr "Pages & Blog"
+
+msgctxt "Languages::cfpc.index"
+msgid "Home page"
+msgstr "Home page"
+
+msgctxt "Languages::cfpc._no_page"
+msgid "404 page"
+msgstr "404 page"
+
+msgctxt "Languages::cfpc.tags"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "Languages::cfpc.companies"
+msgid "Companies stores"
+msgstr "Companies stores"
+
+msgctxt "Languages::cfpc.cleare_cache"
+msgid "Don't forget to clear full page cache after layouts changes."
+msgstr "Don't forget to clear full page cache after layouts changes."
+
+msgctxt "Languages::cfpc.cache_of_applied_promotion"
+msgid "Differ cache on applied promotions"
+msgstr "Differ cache depending on applied promotions"
+
+
+

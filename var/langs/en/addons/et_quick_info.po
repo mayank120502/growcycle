@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_quick_info"
+msgid "ET - Product page quick info"
+msgstr "ET - Product page quick info"
+
+msgctxt "Addons::description::et_quick_info"
+msgid "Add unlimited number of customizable blocks with quick information on the right side of the product page. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Add unlimited number of customizable blocks with quick information on the right side of the product page. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "Languages::et_quick_info"
+msgid "Product page quick info"
+msgstr "Product page quick info"
+
+msgctxt "Languages::et_addons_menu"
+msgid "EnergoThemes: Add-ons"
+msgstr "EnergoThemes: Add-ons"
+
+
+msgctxt "Languages::et_quick_info.manage"
+msgid "Product page quick info blocks"
+msgstr "Product page quick info blocks"
+
+msgctxt "Languages::et_quick_info.new_block"
+msgid "New quick info block"
+msgstr "New quick info block"
+
+
+msgctxt "Languages::et_quick_info.new_block"
+msgid "New quick info block"
+msgstr "New quick info block"
+
+
+msgctxt "Languages::et_pp_info_expanded"
+msgid "Expanded by default"
+msgstr "Expanded by default"
+
+
+msgctxt "Languages::et_pp_info_icon_and_color_settings"
+msgid "Icon and color settings"
+msgstr "Icon and color settings"
+
+msgctxt "Languages::et_pp_info_use_icon"
+msgid "Use icon"
+msgstr "Use icon"
+
+msgctxt "Languages::et_custom_class"
+msgid "Custom class"
+msgstr "Custom class"
+
+msgctxt "Languages::et_icon_color"
+msgid "Icon color"
+msgstr "Icon color"
+
+msgctxt "Languages::et_icon_color_hover"
+msgid "Icon color hover"
+msgstr "Icon color hover"
+
+
+msgctxt "Languages::et_block_title_color"
+msgid "Block title color"
+msgstr "Block title color"
+
+msgctxt "Languages::et_block_title_background"
+msgid "Block title background"
+msgstr "Block title background"
+
+msgctxt "Languages::et_block_title_color_hover"
+msgid "Block title hover color"
+msgstr "Block title hover color"
+
+msgctxt "Languages::et_block_title_background_hover"
+msgid "Block title background hover"
+msgstr "Block title background hover"
+
+msgctxt "Languages::et_quick_info_block"
+msgid "Product page quick info"
+msgstr "Product page quick info"

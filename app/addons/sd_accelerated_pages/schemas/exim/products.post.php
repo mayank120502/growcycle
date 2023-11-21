@@ -1,0 +1,2 @@
+<?php
+ $schema['export_fields']['Google AMP: Full description'] = array( 'table' => 'product_descriptions', 'db_field' => 'amp_description', 'multilang' => true, 'convert_put' => array('fn_sd_accelerated_pages_clear_html', '#this'), ); return $schema; 

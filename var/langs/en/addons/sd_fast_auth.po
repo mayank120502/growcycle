@@ -1,0 +1,106 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_fast_auth"
+msgid "Simtech Development: Enhanced social login"
+msgstr "Simtech Development: Enhanced social login"
+
+msgctxt "Addons::description::sd_fast_auth"
+msgid "Allows customers to log in to the store using their Facebook, Google, or Twitter accounts. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Allows customers to log in to the store using their Facebook, Google, or Twitter accounts. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "SettingsOptions::sd_fast_auth::lkey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsOptions::sd_fast_auth::display_mode"
+msgid "Social networks block location"
+msgstr "Email authorization block location"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode::link"
+msgid "Available by link"
+msgstr "Available by link"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode::btn"
+msgid "Separate button"
+msgstr "Separate button"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode::top_form"
+msgid "Above the social login block"
+msgstr "Above the social login block"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode::bottom_form"
+msgid "Below the social login block"
+msgstr "Below the social login block"
+
+msgctxt "SettingsOptions::sd_fast_auth::display_mode_reg"
+msgid "Email authorization block location on the registration page"
+msgstr "Email authorization block location on the registration page"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode_reg::link_reg"
+msgid "Available by link"
+msgstr "Available by link"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode_reg::btn_reg"
+msgid "Separate button"
+msgstr "Separate button"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode_reg::top_form_reg"
+msgid "Above the social login block"
+msgstr "Above the social login block"
+
+msgctxt "SettingsVariants::sd_fast_auth::display_mode_reg::bottom_form_reg"
+msgid "Below the social login block"
+msgstr "Below the social login block"
+
+msgctxt "SettingsOptions::sd_fast_auth::redirect_after_registration"
+msgid "After registration, redirect to the page"
+msgstr "After registration, redirect to the page"
+
+msgctxt "SettingsVariants::sd_fast_auth::redirect_after_registration::profiles_update"
+msgid "Profiles update"
+msgstr "Profiles update"
+
+msgctxt "SettingsVariants::sd_fast_auth::redirect_after_registration::successfully_registered"
+msgid "Successfully registered"
+msgstr "Successfully registered"
+
+msgctxt "Languages::sign_up_with_email"
+msgid "Sign in with email"
+msgstr "Sign in with email"
+
+msgctxt "Languages::social_login_btn"
+msgid "Sign in with social login"
+msgstr "Sign in with social login"
+
+msgctxt "Languages::or_sign_up_with_email"
+msgid "Or sign in with email"
+msgstr "Or sign in with email"
+
+msgctxt "Languages::fast_auth_auth.social_login"
+msgid "Or sign-in with social login"
+msgstr "Or sign-in with social login"
+
+msgctxt "Languages::registration_new_profile"
+msgid "Registration new profile"
+msgstr "Registration new profile"
+
+msgctxt "Languages::or_register_now"
+msgid "Or register now"
+msgstr "Or register now"
+
+msgctxt "Languages::sd_fast_auth.auth_social_title"
+msgid "Sign in using your social account"
+msgstr "Sign in using your social account"
+
+msgctxt "Languages::sd_fast_auth.registration_social_title"
+msgid "Sign up using your social account"
+msgstr "Sign up using your social account"
+
+msgctxt "Languages::sd_fast_auth.profile_social_title"
+msgid "Link your profile with your social account for quick authorization"
+msgstr "Link your profile with your social account for quick authorization"
+

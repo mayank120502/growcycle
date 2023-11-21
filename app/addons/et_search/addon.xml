@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+  <id>et_search</id>
+  <version>3.9.4151</version>
+  <priority>4294967291</priority>
+  <position>0</position>
+  <status>active</status>
+  <has_icon>Y</has_icon>
+  <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+  <default_language>en</default_language>
+  <compatibility>
+    <core_version>
+      <min>4.15.1.*</min>
+      <max>4.15.1</max>
+    </core_version>
+    <conflicts>rus_theme_style</conflicts>
+  </compatibility>
+  <supplier>EnergoThemes</supplier>
+  <supplier_link>https://www.energothemes.com</supplier_link>
+  <authors>
+    <author>
+    <name>EnergoThemes</name>
+    <email>office@energothemes.com</email>
+    <url>https://www.energothemes.com</url>
+    </author>
+  </authors>
+  <settings edition_type="ROOT,ULT:VENDOR">
+    <sections>
+      <section id="section1">
+        <name>General settings</name>
+        <items>
+          <item id="max_levels">
+            <type>input</type>
+            <default_value>2</default_value>
+          </item>
+          <item id="o_spacer">
+            <type>input</type>
+            <default_value>¦    </default_value>
+          </item>
+          <item id="custom_width">
+            <type>input</type>
+            <default_value>204</default_value>
+          </item>
+        </items>
+      </section>
+    </sections>
+  </settings>
+</addon>

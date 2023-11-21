@@ -1,0 +1,24 @@
+.cp-phone-status {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+
+    i {
+        font-size: 14px;
+    }
+
+    &.cp-confirmed {
+        color: #319c31;
+    }
+
+    &.cp-unconfirmed {
+        color: #d0544b;
+    }
+}
+
+// International telephone input countries image
+.iti__flag {background-image: url("images/addons/cp_otp_registration/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .iti__flag {background-image: url("images/addons/cp_otp_registration/flags@2x.png");}
+}

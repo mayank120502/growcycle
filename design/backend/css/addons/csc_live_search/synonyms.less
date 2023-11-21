@@ -1,0 +1,78 @@
+
+/*
+ * Dynamic Tag Form - for jQuery 1.3+
+ * http://codecanyon.net/user/RikdeVos?ref=RikdeVos
+ *
+ * Copyright 2012, Rik de Vos
+ * You need to buy a license if you want use this script.
+ * http://codecanyon.net/item/dynamic-tag-form/482498?ref=RikdeVos
+ *
+ * Version: 1.1 (Feb 13 2012)
+ */
+
+.tag_form{width:400px;height:auto !important; min-height:120px;background:#fff;font-family: Helvetica,Arial,sans-serif;color:#adadad;font-size:12px;line-height:30px;padding:5px 10px 5px 10px;margin:10px 0 10px 0;border:1px solid #ddd;-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor: text;-webkit-transition-property:color,-webkit-box-shadow;-moz-transition-property:color,-moz-box-shadow;-ms-transition-property:color,-moz-box-shadow;transition-property:color,-moz-box-shadow;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s;}.tag_form::-webkit-scrollbar{width:5px;padding-left:5px;}.tag_form::-webkit-scrollbar-thumb{-webkit-border-radius:10px;border-radius:10px;background: rgba(0,0,0,0.5);margin-right:10px;}.tag_form_tags{overflow-y: scroll;}.tag_form:hover,.tag_form:focus,.tag_form.focus{border:1px solid #9dcef6;color:#8ca1ad;-webkit-box-shadow:0 0 10px rgba(157,206,246,.4) inset,0 0 10px #9dcef6;-moz-box-shadow:0 0 10px rgba(157,206,246,.4) inset,0 0 10px #9dcef6;box-shadow:0 0 10px rgba(157,206,246,.4) inset,0 0 10px #9dcef6;-webkit-transition-property:border,color,-webkit-box-shadow;-moz-transition-property:border,color,-moz-box-shadow;-o-transition-property:border,color,box-shadow;-ms-transition-property:border,color,box-shadow;transition-property:border,color,box-shadow;-webkit-transition-duration:0.3s;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;-ms-transition-duration:0.3s;transition-duration:0.3s;}
+.cls-synonyms input[type="text"]{
+	border:none !important;
+	box-shadow:none !important;
+	
+}
+.cls-synonyms .tag{
+	cursor:pointer;
+	display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    margin: 5px 5px 8px 10px;
+    padding: 0 12px 0 5px;
+    background: #2C78A3;    
+    -webkit-border-bottom-right-radius: 3px;    
+    border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;    
+    border-top-right-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 12px;   
+    text-decoration: none;
+	vertical-align: bottom;   
+	&:before {
+		content: "";
+		position: absolute;
+		top:0;
+		left: -12px;
+		width: 0;
+		height: 0;
+		border-color: transparent #2C78A3 transparent transparent;
+		border-style: solid;
+		border-width: 12px 12px 12px 0;        
+    }
+}
+.tag_form_click_remove .tag:hover:after{
+	content:'✕';
+	font-size:5px;
+	position:absolute;
+	color:#fff;
+	right: 4px;
+    top: -6px;
+	
+}
+.cls-synonyms.input-large{
+	width:95% !important;
+}
+
+.cls-search-motivation .cls-synonyms{
+	.tag{
+		display:block;
+		padding: 0 10px;
+		border-radius: 3px;
+		background: #555555;  
+		&:before {
+			display:none;
+		}
+	}
+	.new_tag_input{
+		width:100%;
+		padding: 5px 15px;
+	}
+	
+}

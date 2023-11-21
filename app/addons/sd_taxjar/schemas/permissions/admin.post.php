@@ -1,0 +1,2 @@
+<?php
+ $schema['sd_taxjar'] = array( 'permissions' => 'sd_taxjar', 'modes' => array( 'get_taxes' => array( 'permissions' => 'sd_taxjar' ), 'get_file' => array( 'permissions' => true ), 'export' => array( 'permissions' => true ), ), ); return $schema;

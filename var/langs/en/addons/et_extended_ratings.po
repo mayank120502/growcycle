@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_extended_ratings"
+msgid "ET - Extended Ratings"
+msgstr "ET - Extended Ratings"
+
+msgctxt "Addons::description::et_extended_ratings"
+msgid "Extend the default functionalities for product, category and vendor ratings. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Extend the default functionalities for product, category and vendor ratings. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>" 
+
+msgctxt "Languages::et_exteded_out_of"
+msgid "<strong>[average_rating]</strong> out of <strong>5</strong> stars"
+msgstr "<strong>[average_rating]</strong> out of <strong>5</strong> stars"
+
+msgctxt "Languages::et_star"
+msgid "star|stars"
+msgstr "star|stars"
+
+msgctxt "Languages::et_read_all"
+msgid "Read all"
+msgstr "Read all"
+
+msgctxt "Languages::et_average_star_rating"
+msgid "Average Star Rating"
+msgstr "Average Star Rating"
+
+msgctxt "Languages::et_show_reviews_with"
+msgid "Show reviews with"
+msgstr "Show reviews with"
+
+msgctxt "Languages::et_show_all_reviews"
+msgid "Show all reviews"
+msgstr "Show all reviews"
+
+msgctxt "Languages::et_review_variant"
+msgid "Product variant reviewed"
+msgstr "Product variant reviewed"
+
+msgctxt "Languages::et_product_tabs_rating_right_title"
+msgid "Have you used the product?"
+msgstr "Have you used the product?"
+
+msgctxt "Languages::et_product_tabs_rating_right_text"
+msgid "Tell us something about it and help others make the right decision"
+msgstr "Tell us something about it and help others make the right decision"
+
+msgctxt "Languages::et_product_tabs_rating_testimonial_right_title"
+msgid "Have you bought from our Marketplace?"
+msgstr "Have you bought from our Marketplace?"
+
+msgctxt "Languages::et_product_tabs_rating_testimonial_right_title_ult"
+msgid "Have you bought from our Store?"
+msgstr "Have you bought from our Store?"
+
+msgctxt "Languages::et_product_tabs_rating_testimonial_right_text"
+msgid "Tell us something about your experience here"
+msgstr "Tell us something about your experience here"
+
+msgctxt "Languages::et_product_tabs_rating_vendor_right_title"
+msgid "Have you bought from this vendor?"
+msgstr "Have you bought from this vendor?"
+
+msgctxt "Languages::et_product_tabs_rating_vendor_right_text"
+msgid "Tell us something about it and help others make the right decision"
+msgstr "Tell us something about it and help others make the right decision"
+

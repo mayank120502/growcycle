@@ -1,0 +1,1 @@
+{style src="addons/lw_age_verification/styles.less"}

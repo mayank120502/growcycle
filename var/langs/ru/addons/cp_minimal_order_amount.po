@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8"
+"Language-Team: Russian"
+"Language: ru_RU"
+
+msgctxt "Addons::name::cp_minimal_order_amount"
+msgid "Cart-Power: Vendor's minimum order amount"
+msgstr "Cart-Power: Минимальная сумма заказа продавца"
+
+msgctxt "Addons::description::cp_minimal_order_amount"
+msgid "Adds the ability to set a minimum order amount for a vendor, and prohibits placing an order if the purchase amount is less than the minimum. Developed by <a target=\"_blank\" href=\"http://cart-power.ru/\"> Cart-Power </a>"
+msgstr "Добавляет возможность устанавливать минимальную сумму заказа для поставщика, и запрещает оформление заказа если сумма покупки меньше минимальной. Разработано <a target=\"_blank\" href=\"http://cart-power.ru/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_minimal_order_amount.separate_notifications"
+msgid "Separate notifications"
+msgstr "Раздельные уведомления"
+
+msgctxt "Languages::cp_minimal_order_amount.into_one_notifications"
+msgid "All vendors in one notification"
+msgstr "Все продавцы в одном уведомлении"
+
+msgctxt "Languages::cp_minimal_order_amount.can_not_place_order"
+msgid "Attention! For the products of the seller <b>[company]</b>, the minimum order amount is <b>[min_amount]</b>. Add the item to the cart up to the required amount."
+msgstr "Внимание! По товарам продавца <b>[company]</b> минимальная сумма заказа <b>[min_amount]</b>. Добавьте товар в корзину до необходимой суммы."
+
+msgctxt "Languages::cp_minimal_order_amount.ttc_minimal_amount"
+msgid "The amount is indicated in the base currency"
+msgstr "Сумма указывается в базовой валюте"
+
+msgctxt "SettingsOptions::cp_minimal_order_amount::notifications_display_type"
+msgid "Display type of notifications"
+msgstr "Тип отображения уведомлений"
+
+msgctxt "SettingsTooltips::cp_minimal_order_amount::notifications_display_type"
+msgid "Select in what form notifications will be displayed that the required minimum order amount for sellers has not been added to the cart"
+msgstr "Выберите в каком виде будут отображаться уведомления о том, что необходимая минимальная сумма заказа для продавцов не добавлена в корзину"
+
+msgctxt "Languages::cp_minimal_order_amount.minimal_amount"
+msgid "Minimum order amount"
+msgstr "Минимальная сумма заказа"
+
+msgctxt "SettingsOptions::cp_minimal_order_amount::include_shipping_cost"
+msgid "Take into account the cost of delivery"
+msgstr "Учитывать стоимость доставки"
+
+msgctxt "SettingsTooltips::cp_minimal_order_amount::include_shipping_cost"
+msgid "Take into account the cost of delivery when calculating the cost of the order"
+msgstr "Учитывать стоимость доставки при расчете стоимости заказа"

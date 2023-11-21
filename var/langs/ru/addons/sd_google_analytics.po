@@ -1,0 +1,201 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::sd_google_analytics"
+msgid "Simtech Development: Google Analytics Enhanced Ecommerce"
+msgstr "Simtech Development: Google Analytics Enhanced Ecommerce"
+
+msgctxt "Addons::description::sd_google_analytics"
+msgid "Integrates the Google Analytics Enhanced Ecommerce service with the store. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Интеграция сервиса Google Analytics Enhanced Ecommerce (расширенная электронная торговля). <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Поддержка</a>"
+
+msgctxt "SettingsSections::sd_google_analytics::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::sd_google_analytics::lkey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::sd_google_analytics::tracking_code"
+msgid "Google Analytics account number"
+msgstr "Номер учетной записи Google Analytics"
+
+msgctxt "SettingsTooltips::sd_google_analytics::tracking_code"
+msgid "Enter your Tracking ID from the account at analytics.google.com that you can find under Admin->Property->Tracking info->Tracking code (for Universal Analytics) or under Admin->Property->Data streams->{stream} (for GA4)"
+msgstr "Укажите ваш Tracking ID из личного кабинета analytics.google.com, который находится во вкладке Admin->Property->Tracking info->Tracking code (для Universal Analytics) или Admin->Property->Data streams->{stream} (для GA4)"
+
+msgctxt "SettingsOptions::sd_google_analytics::api_secret"
+msgid "Google Analytics API secret"
+msgstr "Google Analytics API secret"
+
+msgctxt "SettingsTooltips::sd_google_analytics::api_secret"
+msgid "GA4: Enter your API secret from the account at analytics.google.com that you can find under Admin->Admin->Property->Data streams->{stream}->Measurement Protocol API secrets"
+msgstr "GA4: Укажите ваш API Secret из личного кабинета analytics.google.com, который находится во вкладке Admin->Property->Data streams->{stream}->Measurement Protocol API secrets"
+
+msgctxt "SettingsOptions::sd_google_analytics::use_as_product_identification"
+msgid "Use as product ID"
+msgstr "Использовать в качестве идентификатора товара"
+
+msgctxt "SettingsTooltips::sd_google_analytics::use_as_product_identification"
+msgid "Define the parameter that will be used as the product identifier in Google Analytics: unique product ID from CS-Cart or its code. If you use products with options, the code of the corresponding option combination will be used as the unique identifier. If the code is not defined for the option combination, the code of the main store will be used."
+msgstr "Необходимо выбрать, что будет использоваться в качестве идентификатора товара в Google Analytics: уникальный ID товара из CS-Cart или его код. Если используется товар с опциями, то в качестве уникального идентификатора будет передаваться код используемой комбинации опций. Если у комбинации опций нет кода, то будет использоваться код главного товара."
+
+msgctxt "SettingsVariants::sd_google_analytics::use_as_product_identification::product_id"
+msgid "Product ID"
+msgstr "ID товара"
+
+msgctxt "SettingsVariants::sd_google_analytics::use_as_product_identification::product_code"
+msgid "Product code"
+msgstr "Код товара"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_user_id_law"
+msgid "Notify visitors about User-ID Google Analytics function use"
+msgstr "Оповещать посетителей об использовании функции User-ID Google Analytics"
+
+msgctxt "Languages::sd_google_analytics.ga_vendors_tracking"
+msgid "Allow vendors to track page views"
+msgstr "Позволить продавцам отслеживать посещение страниц"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_vendors_tracking"
+msgid "Allow vendors to track quantity of page views using their Google Analytics accounts"
+msgstr "Позволить продавцам отслеживать посещение страниц с помощью собственных учетных записей Google Analytics"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_anonymize_ip"
+msgid "IP anonymizer"
+msgstr "Анонимизация IP-адресов"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_anonymize_ip"
+msgid "If the setting is enabled, the user's IP address will be hidden in Google Analytics. <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\" target=\"_blank\">More</a>"
+msgstr "Если настройка включена, то в Google Analytics скрывается ip адрес пользователя. <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\" target=\"_blank\">Подробнее</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::site_speed_sample_rate"
+msgid "Site speed sample rate"
+msgstr "Частота выборки данных о скорости загрузки сайта"
+
+msgctxt "SettingsTooltips::sd_google_analytics::site_speed_sample_rate"
+msgid "Enter site speed sample rate"
+msgstr "Определяет, как часто будут отправляться маркеры отслеживания скорости загрузки сайта"
+
+msgctxt "SettingsOptions::sd_google_analytics::select_brand"
+msgid "Select Brand feature"
+msgstr "Выберите характеристику \"Бренд\""
+
+msgctxt "SettingsTooltips::sd_google_analytics::select_brand"
+msgid "Determines which feature will be selected as the brand name of the product"
+msgstr "Определяет, какая характеристика будет выбираться в качестве бренда товара"
+
+msgctxt "SettingsSections::sd_google_analytics::order_statuses"
+msgid "Order statuses"
+msgstr "Статусы заказов"
+
+msgctxt "SettingsOptions::sd_google_analytics::select_refund_statuses"
+msgid "Statuses of refunded orders"
+msgstr "Статусы возвращенных заказов"
+
+msgctxt "SettingsOptions::sd_google_analytics::select_paid_statuses"
+msgid "Statuses of paid orders"
+msgstr "Статусы оплаченных заказов"
+
+msgctxt "SettingsSections::sd_google_analytics::events_affecting_the_bounce_rate"
+msgid "Events affecting the bounce rate"
+msgstr "События влияющие на показатель отказов"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_quick_view"
+msgid "Product quick view"
+msgstr "Быстрый просмотр товара"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_quick_view"
+msgid "If enabled, the product quick view event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "Если настройка включена, событие быстрый просмотр товара повлияет на показатель отказов. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">Подробнее</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_comparison_list"
+msgid "Add to comparison list"
+msgstr "Добавить в список сравнения"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_comparison_list"
+msgid "If enabled, the add to comparison list event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "Если настройка включена, событие добавить в список сравнения повлияет на показатель отказов. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">Подробнее</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_wishlist"
+msgid "Add to wish list"
+msgstr "Отложить товар"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_wishlist"
+msgid "If enabled, the add to wish list event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "Если настройка включена, событие отложить товар повлияет на показатель отказов. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">Подробнее</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_buy_one_click"
+msgid "Buy with one click"
+msgstr "Купить в один клик"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_buy_one_click"
+msgid "If enabled, the buy with one click event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "Если настройка включена, событие купить в один клик повлияет на показатель отказов. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">Подробнее</a>"
+
+msgctxt "SettingsSections::sd_google_analytics::cross_domain_tracking"
+msgid "Cross domain tracking"
+msgstr "Междоменное отслеживание"
+
+msgctxt "SettingsOptions::sd_google_analytics::enable_cross_domain_tracking"
+msgid "Enable cross domain tracking"
+msgstr "Включить междоменное отслеживание"
+
+msgctxt "SettingsTooltips::sd_google_analytics::enable_cross_domain_tracking"
+msgid "Cross-domain tracking makes it possible for Analytics to see sessions on two related sites (such as an ecommerce site and a separate shopping cart site) as a single session."
+msgstr "Междоменное отслеживание Google Analytics позволяет регистрировать посещение нескольких ресурсов (например, интернет-магазина и корзины покупок на отдельном сайте) как один сеанс."
+
+msgctxt "SettingsOptions::sd_google_analytics::domain_id"
+msgid "Domen id"
+msgstr "Домен"
+
+msgctxt "SettingsTooltips::sd_google_analytics::domain_id"
+msgid "Enter destination domain"
+msgstr "Введите целевые домены через запятую"
+
+msgctxt "Languages::sd_ga_category_products"
+msgid "\"[category]\" products"
+msgstr "Товары \"[category]\""
+
+msgctxt "Languages::sd_ga_brand_products"
+msgid "\"[brand]\" brand products"
+msgstr "Товары бренда \"[brand]\""
+
+msgctxt "Languages::sd_ga_block_products"
+msgid "\"[block]\" block products"
+msgstr "Товары блока \"[block]\""
+
+msgctxt "Languages::sd_ga_tracking_code"
+msgid "Google Analytics account number"
+msgstr "Номер учетной записи Google Analytics"
+
+msgctxt "Languages::sd_ga_tracking_code_tooltip"
+msgid "Enter your Tracking ID from the account at  analytics.google.com that you can find under Admin->Property->Tracking info->Tracking code"
+msgstr "Укажите ваш Tracking ID из личного кабинета analytics.google.com, который находится во вкладке Admin->Property->Tracking info->Tracking code"
+
+msgctxt "Languages::sd_ga_google_analytics_section"
+msgid "Simtech Development: Google Analytics Enhanced Ecommerce"
+msgstr "Simtech Development: Google Analytics Enhanced Ecommerce"
+
+msgctxt "Languages::ga_user_id_law"
+msgid "Google Analytics uses the User-ID function and an encrypted identifier to gather statistics. It does not use the data that allows Google to identify the user's identity (name, social security numbers, email addresses, contact information, etc.). By continuing to use the site, you agree to use this function. <span class=\"button button-wrap-left\"><span class=\"button button-wrap-right\"><a rel=\"nofollow\" href=\"[url]\">OK</a></span></span>"
+msgstr "Google Analytics применяет функцию User-ID и использует засекреченный идентификатор для ведения статистики. Не используются данные, которые позволяют системе Google идентифицировать личность пользователя (имена, номера социального страхования, адреса электронной почты, контактная информация и т. п.). Продолжая использование сайта, вы соглашаетесь с использованием данной функции. <span class=\"button button-wrap-left\"><span class=\"button button-wrap-right\"><a rel=\"nofollow\" href=\"[url]\">OK</a></span></span>"
+
+msgctxt "SettingsTooltips::sd_google_analytics::select_refund_statuses"
+msgid "<p>Specify order statuses set for returned products</p>"
+msgstr "<p>Укажите статусы заказов, означающие возврат товара</p>"
+
+msgctxt "SettingsTooltips::sd_google_analytics::select_paid_statuses"
+msgid "<p>Specify the statuses of paid orders, information about them will be sent to Google Analytics. Removal of products from these orders will be considered as a refund</p>"
+msgstr "<p>Укажите статусы оплаченных заказов, информация о них будет отправляться в Google Analytics. Удаление товаров из этих заказов будет расценено, как возврат</p>"
+
+msgctxt "Languages::sd_google_analytics.view_ga_logs"
+msgid "View related GA logs"
+msgstr "Просмотреть связанные события GA"
+
+msgctxt "Languages::sd_google_analytics.view_order_logs"
+msgid "View related logs"
+msgstr "Просмотреть связанные события"

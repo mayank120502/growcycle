@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<addon scheme='3.0'>
+    <id>cp_company_tab</id>
+    <version>1.0</version>
+    <priority>6000</priority>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>cp_addons_manager</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="enable_company_tab">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="manage_sections_warning">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_company_tab_content` (
+                `company_id` int(11) NOT NULL DEFAULT '0',
+                `section_id` int(11) NOT NULL DEFAULT '0',
+                `section_description` varchar(255) NOT NULL DEFAULT '',
+                `tab_content` text DEFAULT '',
+                `lang_code` char(2) NOT NULL,
+                UNIQUE (`company_id`, `section_id`),
+                KEY `company_lang` (`company_id`, `lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_company_tab_sections` (
+                `section_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `position` int(11) NOT NULL DEFAULT 0,
+                `status` char(1) NOT NULL default 'A',
+                PRIMARY KEY (`section_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:cp_company_tab_section_descriptions` (
+                `section_id` int(11) NOT NULL DEFAULT 0,
+                `description` varchar(255) NOT NULL DEFAULT '',
+                `lang_code` char(2) NOT NULL,
+                UNIQUE (`section_id`, `lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_cp_company_tab', 'Y', 'addons');</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_company_tab_content`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_company_tab_sections`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_company_tab_section_descriptions`;</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege LIKE 'manage_cp_company_tab'</item>
+    </queries>
+</addon>

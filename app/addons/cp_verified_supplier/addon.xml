@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_verified_supplier</id>
+    <version>1.0</version>
+    <priority>99999</priority>
+    <default_language>en</default_language>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>discussion</dependencies>
+    </compatibility>
+    <queries>
+        <item for="install">ALTER TABLE ?:companies ADD cp_verified_supplier char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="uninstall">ALTER TABLE ?:companies DROP cp_verified_supplier</item>
+    </queries>
+</addon>

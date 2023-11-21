@@ -1,0 +1,1 @@
+<option {if $search.type == "E"}selected="selected"{/if} value="E">{__("et_banner")}</option>

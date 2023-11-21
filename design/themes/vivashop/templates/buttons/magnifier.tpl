@@ -1,0 +1,2 @@
+<button title="{$alt}" class="ty-search-magnifier" type="submit" {if $et_color}style="color:{$et_color};"{/if}>{if $et_icon}<i class="{$et_icon}"></i>{else}{include_ext file="common/icon.tpl" class="ty-icon-search"}{/if}</button>
+<input type="hidden" name="dispatch" value="{$but_name}" />

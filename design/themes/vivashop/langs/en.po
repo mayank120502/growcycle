@@ -1,0 +1,502 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Languages::all_categories"
+msgid "All categories"
+msgstr "All categories"
+
+msgctxt "Languages::et_header_call_us"
+msgid "LET US CALL YOU BACK"
+msgstr "LET US CALL YOU BACK"
+
+msgctxt "Languages::et_blog_scroller_secondary_title"
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores hic, sequi suscipit odio ab atque. Ut ipsam atque ipsum fuga quasi, suscipit vero optio sit voluptatem. Aspernatur facilis recusandae obcaecati."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores hic, sequi suscipit odio ab atque. Ut ipsam atque ipsum fuga quasi, suscipit vero optio sit voluptatem. Aspernatur facilis recusandae obcaecati."
+
+msgctxt "Languages::et_newsletter_description"
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+
+msgctxt "Languages::et_email_marketing_description"
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+
+msgctxt "Languages::et_vendor_plans.no_vendor_store"
+msgid "NO microstore"
+msgstr "NO microstore"
+
+msgctxt "Languages::et_wishlist_button_text"
+msgid "Wishlist"
+msgstr "Wishlist"
+
+msgctxt "Languages::et_horziontal_filters_selected"
+msgid "Your selected filters "
+msgstr "Your selected filters "
+
+msgctxt "Languages::et_horziontal_filters_clear"
+msgid "Clear all filters"
+msgstr "Clear all filters"
+
+msgctxt "Languages::my_cart"
+msgid "My cart"
+msgstr "My cart"
+
+msgctxt "Languages::view_more"
+msgid "view more"
+msgstr "view more"
+
+msgctxt "Languages::browse_by_category"
+msgid "Browse by category"
+msgstr "Browse by category"
+
+msgctxt "Languages::login_with_facebook"
+msgid "Login with Facebook"
+msgstr "Login with Facebook"
+
+msgctxt "Languages::login_with_twitter"
+msgid "Login with Twitter"
+msgstr "Login with Twitter"
+
+msgctxt "Languages::login_with_google"
+msgid "Login with Google"
+msgstr "Login with Google"
+
+msgctxt "Languages::login_with_paypal"
+msgid "Login with PayPal"
+msgstr "Login with PayPal"
+
+msgctxt "Languages::login_with_yahoo"
+msgid "Login with Yahoo"
+msgstr "Login with Yahoo"
+
+msgctxt "Languages::login_with_live"
+msgid "Login with Microsoft"
+msgstr "Login with Microsoft"
+
+msgctxt "Languages::login_with_linkedin"
+msgid "Login with LinkedIn"
+msgstr "Login with LinkedIn"
+
+msgctxt "Languages::login_with_foursquare"
+msgid "Login with Foursquare"
+msgstr "Login with Foursquare"
+
+
+
+
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to Wishlist"
+msgstr "Add to Wishlist"
+
+
+
+
+
+
+
+
+msgctxt "Languages::vs_footerbox"
+msgid "Footerbox"
+msgstr "Footerbox"
+
+msgctxt "Languages::vs_icon_menu"
+msgid "Icon menu"
+msgstr "Icon menu"
+
+msgctxt "Languages::vs_recent_blog"
+msgid "Recent blog"
+msgstr "Recent blog"
+
+msgctxt "Languages::vs_testimonials"
+msgid "Testimonials"
+msgstr "Testimonials"
+
+msgctxt "Languages::vs_mainbox"
+msgid "Mainbox"
+msgstr "Mainbox"
+
+msgctxt "Languages::vs_homepage_mainbox"
+msgid "Mainbox Homepage"
+msgstr "Mainbox Homepage"
+
+msgctxt "Languages::vs_footer_mv"
+msgid "Footerbox MultiVendor"
+msgstr "Footerbox MultiVendor"
+
+msgctxt "Languages::vs_mainbox_icon"
+msgid "Mainbox with icon"
+msgstr "Mainbox with icon"
+
+msgctxt "Languages::vs_mainbox_simple"
+msgid "Mainbox simple"
+msgstr "Mainbox simple"
+
+msgctxt "Languages::vs_multi_scroller"
+msgid "Multi scroller"
+msgstr "Multi scroller"
+
+msgctxt "Languages::vs_scroller_category_product"
+msgid "Scroller category product"
+msgstr "Scroller category product"
+
+msgctxt "Languages::vs_scroller_product_page"
+msgid "Scroller product page"
+msgstr "Scroller product page"
+
+msgctxt "Languages::vs_scroller_with_title"
+msgid "Scroller with tittle"
+msgstr "Scroller with tittle"
+
+msgctxt "Languages::vs_sidebox"
+msgid "Sidebox"
+msgstr "Sidebox"
+
+msgctxt "Languages::vs_sidebox_category"
+msgid "Sidebox category"
+msgstr "Sidebox category"
+
+msgctxt "Languages::vs_sidebox_simple"
+msgid "Sidebox simple"
+msgstr "Sidebox simple"
+
+msgctxt "Languages::main_menu"
+msgid "Main menu"
+msgstr "Main menu"
+
+msgctxt "Languages::vs_sidebox_info"
+msgid "Sidebox info"
+msgstr "Sidebox info"
+
+msgctxt "Languages::vs_sidebox_scroller_banner"
+msgid "Sidebox scroller banner"
+msgstr "Sidebox scroller banner"
+
+msgctxt "Languages::vs_sidebox_with_icon"
+msgid "Sidebox with icon"
+msgstr "Sidebox with icon"
+
+msgctxt "Languages::vs_home_box"
+msgid "Home box"
+msgstr "Home box"
+
+msgctxt "Languages::vs_responsive_menu"
+msgid "Responsive menu"
+msgstr "Responsive menu"
+
+msgctxt "Languages::vs_vendor_plans.month"
+msgid "per month"
+msgstr "per month"
+
+msgctxt "Languages::vs_vendor_plans.year"
+msgid "per year"
+msgstr "per year"
+
+msgctxt "Languages::vs_vendor_plans.onetime"
+msgid "one time fee"
+msgstr "one time fee"
+
+msgctxt "Languages::vs_vendor_plans.no_microstore"
+msgid "NO microstore"
+msgstr "NO microstore"
+
+msgctxt "Languages::posted_by"
+msgid "Posted by"
+msgstr "Posted by"
+
+msgctxt "Languages::new_items"
+msgid "New items"
+msgstr "New items"
+
+msgctxt "Languages::vs_vendor_categories"
+msgid "Vendor categories"
+msgstr "Vendor categories"
+
+msgctxt "Languages::et_license_invalid"
+msgid "EnergoThemes license is not valid"
+msgstr "EnergoThemes license is not valid"
+
+msgctxt "Languages::vs_browse_our_categories"
+msgid "Browse our categories"
+msgstr "Browse our categories"
+
+
+msgctxt "Languages::et_product_coming_soon"
+msgid "Available on: [avail_date]"
+msgstr "Available on: [avail_date]"
+
+msgctxt "Languages::et_dd_image"
+msgid "Mega Menu image settings by EnergoThemes"
+msgstr "Mega Menu image settings by EnergoThemes"
+
+msgctxt "Languages::et_dd_image_width"
+msgid "Image width"
+msgstr "Image width"
+
+msgctxt "Languages::et_dd_image_height"
+msgid "Image height"
+msgstr "Image height"
+
+msgctxt "Languages::et_dd_url"
+msgid "Image link"
+msgstr "Image link"
+
+msgctxt "Languages::et_dd_custom_menu_settings"
+msgid "Advanced menu settings"
+msgstr "Advanced menu settings"
+
+msgctxt "Languages::et_dd_offset_right"
+msgid "Image offset right"
+msgstr "Image offset right"
+
+msgctxt "Languages::et_dd_offset_bottom"
+msgid "Image offset bottom"
+msgstr "Image offset bottom"
+
+msgctxt "Languages::et_dd_menu_width"
+msgid "Menu width"
+msgstr "Menu width"
+
+msgctxt "Languages::et_dd_min_menu_height"
+msgid "Menu minimum height"
+msgstr "Menu minimum height"
+
+msgctxt "Languages::et_dd_push_menu_items"
+msgid "Push menu items"
+msgstr "Push menu items"
+
+msgctxt "Languages::theme_editor.product_carousel_scroll_animations_style"
+msgid "Product image in carousel scroll animation"
+msgstr "Product image in carousel scroll animation"
+
+msgctxt "Languages::theme_editor.auto_scroller_animations_style"
+msgid "Image auto scroller animation"
+msgstr "Image auto scroller animation"
+
+msgctxt "Languages::theme_editor.top_panel_links_hover_active"
+msgid "Top link hover/active"
+msgstr "Top link hover/active"
+
+msgctxt "Languages::theme_editor.third_button"
+msgid "Third button"
+msgstr "Third button"
+
+msgctxt "Languages::theme_editor.menu_links_hover"
+msgid "Menu links hover"
+msgstr "Menu links hover"
+
+msgctxt "Languages::theme_editor.category_menu_bkg"
+msgid "Category menu background"
+msgstr "Category menu background"
+
+msgctxt "Languages::theme_editor.category_menu_horizontal_background"
+msgid "Category menu expanded background"
+msgstr "Category menu expanded background"
+
+msgctxt "Languages::theme_editor.category_menu_horizontal_decoration"
+msgid "Category menu expanded decoartion"
+msgstr "Category menu expanded decoartion"
+
+msgctxt "Languages::theme_editor.category_menu_horizontal_decoration_text"
+msgid "Category menu expanded decoartion text"
+msgstr "Category menu expanded decoartion text"
+
+msgctxt "Languages::theme_editor.category_menu_horizontal_decoration_text_hover"
+msgid "Category menu expanded decoartion text hover"
+msgstr "Category menu expanded decoartion text hover"
+
+msgctxt "Languages::theme_editor.category_menu_expand_links"
+msgid "Expanded menu links"
+msgstr "Expanded menu links"
+
+msgctxt "Languages::theme_editor.category_menu_expand_links_hover"
+msgid "Expanded menu links hover"
+msgstr "Expanded menu links hover"
+
+msgctxt "Languages::theme_editor.menu_link_1_background"
+msgid "Main menu link 1 background"
+msgstr "Main menu link 1 background"
+
+msgctxt "Languages::theme_editor.menu_link_2_background"
+msgid "Main menu link 2 background"
+msgstr "Main menu link 2 background"
+
+msgctxt "Languages::theme_editor.menu_link_3_background"
+msgid "Main menu link 3 background"
+msgstr "Main menu link 3 background"
+
+msgctxt "Languages::theme_editor.menu_link_4_background"
+msgid "Main menu link 4 background"
+msgstr "Main menu link 4 background"
+
+msgctxt "Languages::theme_editor.menu_link_5_background"
+msgid "Main menu link 5 background"
+msgstr "Main menu link 5 background"
+
+msgctxt "Languages::theme_editor.menu_link_6_background"
+msgid "Main menu link 6 background"
+msgstr "Main menu link 6 background"
+
+msgctxt "Languages::theme_editor.menu_link_7_background"
+msgid "Main menu link 7 background"
+msgstr "Main menu link 7 background"
+
+msgctxt "Languages::theme_editor.block_titles"
+msgid "Block titles"
+msgstr "Block titles"
+
+msgctxt "Languages::theme_editor.grid_info_background"
+msgid "Grid info background"
+msgstr "Grid info background"
+
+msgctxt "Languages::theme_editor.discount_label_text"
+msgid "Discount label text"
+msgstr "Discount label text"
+
+msgctxt "Languages::theme_editor.list-price"
+msgid "List price"
+msgstr "List price"
+
+msgctxt "Languages::theme_editor.product_title_link"
+msgid "Product title link"
+msgstr "Product title link"
+
+msgctxt "Languages::theme_editor.rating_icons"
+msgid "Rating icons"
+msgstr "Rating icons"
+
+msgctxt "Languages::theme_editor.grid_icon"
+msgid "Grid icons"
+msgstr "Grid icons"
+
+msgctxt "Languages::theme_editor.grid_icon_quick_view_bkg"
+msgid "Quick view background"
+msgstr "Quick view background"
+
+msgctxt "Languages::theme_editor.grid_icon_add_wishlist_bkg"
+msgid "Add to wishlist background"
+msgstr "Add to wishlist background"
+
+msgctxt "Languages::theme_editor.grid_icon_add_to_compare_bkg"
+msgid "Add to compare background"
+msgstr "Add to compare background"
+
+msgctxt "Languages::theme_editor.grid_icon_add_to_cart_bkg"
+msgid "Add to cart background"
+msgstr "Add to cart background"
+
+msgctxt "Languages::theme_editor.font_one"
+msgid "Primary font"
+msgstr "Primary font"
+
+msgctxt "Languages::theme_editor.font_two"
+msgid "Secondary font"
+msgstr "Secondary font"
+
+msgctxt "Languages::theme_editor.google_fonts"
+msgid "Use google fonts"
+msgstr "Use google fonts"
+
+msgctxt "Languages::theme_editor.scroll_animations"
+msgid "Use scroll animations"
+msgstr "Use scroll animations"
+
+msgctxt "Languages::theme_editor.auto_scroll_animations"
+msgid "Use image auto scroller animation"
+msgstr "Use image auto scroller animation"
+
+msgctxt "Languages::theme_editor.te_font_one"
+msgid "Primary font"
+msgstr "Primary font"
+
+msgctxt "Languages::theme_editor.te_font_two"
+msgid "Secondary font"
+msgstr "Secondary font"
+
+msgctxt "Languages::theme_editor.show_dropdown_homepage"
+msgid "Expand menu on homepage"
+msgstr "Expand menu on homepage"
+
+msgctxt "Languages::theme_editor.show_mega_menu_category_images"
+msgid "Mega Menu category thumbnails"
+msgstr "Mega Menu category thumbnails"
+
+msgctxt "Languages::theme_editor.brand_page_image"
+msgid "Brand page images"
+msgstr "Brand page images"
+
+msgctxt "Languages::theme_editor.scroll_up"
+msgid "Scroll up button"
+msgstr "Scroll up button"
+
+msgctxt "Languages::theme_editor.sticky_menu"
+msgid "Sticky menu"
+msgstr "Sticky menu"
+
+msgctxt "Languages::theme_editor.grid_icon_add_to_cart"
+msgid "Add to cart button"
+msgstr "Add to cart button"
+
+msgctxt "Languages::theme_editor.grid_icon_add_to_cart_text"
+msgid "Add to cart button text"
+msgstr "Add to cart button text"
+
+msgctxt "Languages::theme_editor.grid_icon_bkg"
+msgid "Grid icon background"
+msgstr "Grid icon background"
+
+msgctxt "Languages::theme_editor.top_account_cart"
+msgid "Top account/cart"
+msgstr "Top account/cart"
+
+msgctxt "Languages::theme_editor.top_account_cart_hover"
+msgid "Top account/cart hover"
+msgstr "Top account/cart hover"
+
+msgctxt "Languages::theme_editor.header_text"
+msgid "Header text"
+msgstr "Header text"
+
+msgctxt "Languages::theme_editor.menu_links_hover_text"
+msgid "Menu links hover text"
+msgstr "Menu links hover text"
+
+msgctxt "Languages::theme_editor.footer_title"
+msgid "Footer title"
+msgstr "Footer title"
+
+msgctxt "Languages::theme_editor.sub_footer"
+msgid "Sub footer"
+msgstr "Sub footer"
+
+msgctxt "Languages::theme_editor.sub_footer_text"
+msgid "Sub footer text"
+msgstr "Sub footer text"
+
+msgctxt "Languages::theme_editor.primary_button"
+msgid "Primary color"
+msgstr "Primary color"
+
+msgctxt "Languages::theme_editor.primary_button_text"
+msgid "Primary text"
+msgstr "Primary text"
+
+msgctxt "Languages::theme_editor.secondary_button"
+msgid "Secondary color"
+msgstr "Secondary color"
+
+msgctxt "Languages::theme_editor.secondary_button_text"
+msgid "Secondary text"
+msgstr "Secondary text"
+
+msgctxt "Languages::theme_editor.tertiary_button"
+msgid "Tertiary color"
+msgstr "Tertiary color"
+
+msgctxt "Languages::theme_editor.tertiary_button_text"
+msgid "Tertiary text"
+msgstr "Tertiary text"
+

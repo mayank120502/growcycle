@@ -1,0 +1,1026 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::csc_live_search"
+msgid "Live search add-on."
+msgstr "Живой поиск"
+
+msgctxt "Addons::description::csc_live_search"
+msgid "Irreplaceable search toolkit on your website. Developed by <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Уникальный инструмент поиска товаров на вашем сайте. Разработчик <b> <a href=\"https://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+msgctxt "Languages::cls.csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::csc_live_search"
+msgid "Live search add-on"
+msgstr "Модуль Живого поиска"
+
+msgctxt "Languages::cls.settings"
+msgid "General settings"
+msgstr "Основные настройки"
+
+msgctxt "Languages::cls.title_general_settings"
+msgid "General settings"
+msgstr "Основные настройки"
+
+msgctxt "Languages::cls.tab_general"
+msgid "General settings"
+msgstr "Основные настройки"
+
+msgctxt "Languages::cls.menu"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "Languages::cls.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Поставить оценку модулю"
+
+msgctxt "Languages::cls.other_addons"
+msgid "Other our addons"
+msgstr "Другие наши модули →"
+
+msgctxt "Languages::cls.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Есть вопросы? Пишите нам!"
+
+msgctxt "Languages::cls.feedback_info"
+msgid "Have questions about Live search add-on addon by cs-commerce.com<br>or you have any ideas for improving the functionality? Mail us!"
+msgstr "Есть вопросы по работе модуля Модуль Живого поиска от cs-commerce.com<br>или есть идеи по улучшению функционала? Пишите нам!"
+
+msgctxt "Languages::cls.installation_warning"
+msgid "Installation was not completed automatically. User action is needed. Please, <a href='[url]'>go to this page</a> and check red block instructions."
+msgstr "Установка модуля не прошла автоматически. Необходимо действие со стороны пользователя. Пожалуйста, <a href='[url]'>пройдите по ссылке</a> и следуйте инструкциям в красном блоке."
+
+msgctxt "Languages::cls.installation_was_not_completed"
+msgid "Installation was not completed by file system access restrictions, or Live search addon initial file has been deleted from website ROOT folder.<br>Please, <a href='[url]' class=\"cm-ajax\" data-ca-target-id=\"clsWarningInstallation\">click this link</a> to copy initial file to website root folder.<br>If action is not completed success, please, <a href='[download]'>Download file from this link</a> and put it to ROOT folder of your website manually. Downloaded file strongly must have cls.php name."
+msgstr "Установка не была завершена полностью из-за ограничений прав на запись на вашем сервере, или исходный файл модуля Живого поиска был удален из корневой папки веб-сайта. <br> Пожалуйста, <a href = '[url]' class=\"cm-ajax\" data-ca-target-id = \"clsWarningInstallation\"> кликните на эту ссылку </a>, чтобы скопировать исходный файл в корневую папку веб-сайта. <br> Если действие не завершилось успешно, пожалуйста, <a href='[download]'> Скачайте файл по этой ссылке </a> и вручную поместите его в корневую папку вашего сайта. Загружаемый файл обязательно должен иметь название <b>cls.php</b>."
+
+msgctxt "Languages::cls.show_more"
+msgid "Show more products"
+msgstr "Показать еще"
+
+msgctxt "Languages::cls.total_found"
+msgid "Total found products"
+msgstr "Всего найдено товаров"
+
+msgctxt "Languages::cls.featured_products"
+msgid "Featured products"
+msgstr "Рекомендуемые товары"
+
+msgctxt "Languages::cls.found_products"
+msgid "Products search result"
+msgstr "Результат поиска товаров"
+
+msgctxt "Languages::cls.browse_products_by_category"
+msgid "Browse products by category for "
+msgstr "Фильтровать поиск по категориям для запроса "
+
+msgctxt "Languages::cls.back_to_all_cats"
+msgid "Back to all categories"
+msgstr "Вернутся ко всем категориям"
+
+msgctxt "Languages::cls.storefronts_categories"
+msgid "Categories from friendly stores"
+msgstr "Категории из дружественных магазинов"
+
+msgctxt "Languages::cls.text_pages_and_blog"
+msgid "Information pages"
+msgstr "Информационные страницы"
+
+msgctxt "Languages::cls.brand_pages"
+msgid "Brands"
+msgstr "Бренды"
+
+msgctxt "Languages::cls.vendor_pages"
+msgid "Vendor stores"
+msgstr "Магазины продавцов"
+
+msgctxt "Languages::cls.porpose_correction"
+msgid "You may be looking for:"
+msgstr "Возможно вы ищете:"
+
+msgctxt "Languages::cls.popular_searches"
+msgid "Popular search phrases"
+msgstr "Популярные поисковые фразы"
+
+msgctxt "Languages::cls.found_categories"
+msgid "Found categories"
+msgstr "Категории"
+
+
+msgctxt "Languages::cls.allow_storefronts"
+msgid "Allowed storefronts"
+msgstr "Разрешенные витрины"
+
+msgctxt "Languages::cls.allow_storefronts_tooltip"
+msgid "Select the storefronts where you want to search for categories. "
+msgstr "Выберите витрины, по которым вы хотите осуществлять поиск категорий."
+
+msgctxt "Languages::cls.autoredirect"
+msgid "Autoredirect when found 1 product"
+msgstr "Авторедирект на найденный товар"
+
+
+msgctxt "Languages::cls.autoredirect_tooltip"
+msgid "If found 1 product, on press search button customer will be redirected to product page"
+msgstr "Если найден один товар, то при клике на кнопку поиска покупатель будет переадресован сразу на старницу найденного товара"
+
+msgctxt "Languages::cls.block_enter_press"
+msgid "Block Enter button press "
+msgstr "Блокировать кнопку ENTER"
+
+
+msgctxt "Languages::cls.block_enter_press_tooltip"
+msgid "On enter press button user will not be redirected to search results page"
+msgstr "При клике на кнопку ENTER пользователь не будет переброшн на старницу результатов поиска"
+
+msgctxt "Languages::cls.brands_feature_id"
+msgid "Brand feature"
+msgstr "Характеристика бренда"
+
+msgctxt "Languages::cls.brands_limit"
+msgid "Display no more than"
+msgstr "Отображать не более"
+
+msgctxt "Languages::cls.cats_limit"
+msgid "Display no more than"
+msgstr "Отображать не более"
+
+msgctxt "Languages::cls.characters_limit"
+msgid "Min. chars to start search"
+msgstr "Мин. кол-во символов для начала поиска"
+
+msgctxt "Languages::cls.increase_popularity"
+msgid "Automatically increase the search popularity of a product"
+msgstr "Автоматически повышать поисковую популярность товара"
+
+msgctxt "Languages::cls.out_stock_end"
+msgid "Display out of stock products on end of the list"
+msgstr "Отображать в конце списка товары, которых нет на складе"
+
+msgctxt "Languages::cls.pb_limit"
+msgid "Display no more than"
+msgstr "Отображать не более"
+
+msgctxt "Languages::cls.products_per_page"
+msgid "Products per request"
+msgstr "Выводить товаров за один запрос"
+
+msgctxt "Languages::cls.search_blog"
+msgid "Search blog pages"
+msgstr "Искать страницы блога"
+
+msgctxt "Languages::cls.search_brands"
+msgid "Search brands"
+msgstr "Искать бренды"
+
+msgctxt "Languages::cls.search_by_features"
+msgid "Select features"
+msgstr "Выберите характеристики"
+
+
+msgctxt "Languages::cls.search_by_features_tooltip"
+msgid "No select any feature if you need search on all product features. Is recommended to limit the search by selected features for better search performance."
+msgstr "Не выбирайте характеристики, если вам нужен поиск по всем характеристикам товаров. Рекомендуется ограничить поиск выбранными характеристиками для повышения производительности поиска. "
+
+msgctxt "Languages::cls.search_categories"
+msgid "Search categories"
+msgstr "Искать категории"
+
+msgctxt "Languages::cls.search_vendors"
+msgid "Search vendors"
+msgstr "Искать продавцов"
+
+msgctxt "Languages::cls.vendors_limit"
+msgid "Display no more than"
+msgstr "Отображать не более"
+
+
+
+msgctxt "Languages::cls.search_on_category_metakeywords"
+msgid "Search on meta-keywords"
+msgstr "Поиск по мета-ключевым словам"
+
+msgctxt "Languages::cls.search_on_category_name"
+msgid "Search on category name"
+msgstr "Поиск по названиям категорий"
+
+msgctxt "Languages::cls.search_on_description"
+msgid "Search on product descriptions"
+msgstr "Поиск по описаниям товаров"
+
+msgctxt "Languages::cls.search_on_features"
+msgid "Search on product features"
+msgstr "Поиск по хар-кам товара"
+
+msgctxt "Languages::cls.search_on_keywords"
+msgid "Search on search words"
+msgstr "Поиск по ключевым словам поиска"
+
+msgctxt "Languages::cls.search_on_metadesc"
+msgid "Search on meta-descriptions"
+msgstr "Поиск по мета-описания"
+
+msgctxt "Languages::cls.search_on_metakeywords"
+msgid "Search on meta-keywords"
+msgstr "Поиск в мета-ключевым словам"
+
+msgctxt "Languages::cls.search_on_metatitle"
+msgid "Search on meta-title"
+msgstr "Поиск по мета-заголовкам"
+
+msgctxt "Languages::cls.title_search_on_general_title"
+msgid "General search by fields"
+msgstr "Основные поля для поиска"
+
+msgctxt "Languages::cls.title_search_on_general_title_no_speed"
+msgid "Additional search by fields"
+msgstr "Дополнительные поля для поиска"
+
+msgctxt "Languages::cls.search_on_general_title_no_speed_tooltip"
+msgid "<b>Search by additional fields is not performed if the search speed-up mode is enabled!</b>"
+msgstr "Поиск по дополнительным полям не производится, если включен режим <b>Максимального ускорения</b> поиска!"
+
+msgctxt "Languages::cls.title_search_general_title"
+msgid "Extra settings"
+msgstr "Дополнительные надстройки"
+
+
+msgctxt "Languages::cls.search_on_name"
+msgid "Search on product name"
+msgstr "Поиск в названии товара"
+
+msgctxt "Languages::cls.search_on_options"
+msgid "Search on product options"
+msgstr "Поиск в опциях товара"
+
+msgctxt "Languages::cls.search_on_pcode"
+msgid "Search on product code"
+msgstr "Поиск по артикулу товара"
+
+msgctxt "Languages::cls.search_on_product_id"
+msgid "Search on product ID field"
+msgstr "Поиск по полю ID товара"
+
+msgctxt "Languages::cls.search_on_short_description"
+msgid "Search on product short description"
+msgstr "Поиск по краткому описанию товара"
+
+msgctxt "Languages::cls.search_on_tags"
+msgid "Search on product tags"
+msgstr "Поиск по тегам товара"
+
+msgctxt "Languages::cls.search_pages"
+msgid "Search pages"
+msgstr "Искать информационные страницы"
+
+msgctxt "Languages::cls.search_products"
+msgid "Search products"
+msgstr "Искать товары"
+
+msgctxt "Languages::cls.search_storefront_categories"
+msgid "Search storefront categories"
+msgstr "Искать категории с других витрин"
+
+msgctxt "Languages::cls.search_storefront_categories_tooltip"
+msgid "You can search for categories also by all storefronts of your site"
+msgstr "Вы можете осуществлять поиск категорий так же и по другим витринам вашего сайта"
+
+msgctxt "Languages::cls.show_cart"
+msgid "Displaying the \"Add to cart\" button"
+msgstr "Отображение кнопки \"В корзину\""
+
+msgctxt "Languages::cls.show_category"
+msgid "Show product category"
+msgstr "Показать категорию"
+
+msgctxt "Languages::cls.show_compare"
+msgid "Show \"Add to compare\" button"
+msgstr "Отображать кнопку \"В список сравнения\""
+
+msgctxt "Languages::cls.show_parent_category"
+msgid "Show parent category"
+msgstr "Отображать родительскую категорию"
+
+msgctxt "Languages::cls.show_price"
+msgid "Displaying the price"
+msgstr "Отображение цены товара"
+
+msgctxt "Languages::cls.display"
+msgid "Display"
+msgstr "Отображать"
+
+msgctxt "Languages::cls.not_display"
+msgid "Don't display "
+msgstr "Не отображать"
+
+msgctxt "Languages::cls.display_authed"
+msgid "Show for logged in only"
+msgstr "Отображать только залогиненным"
+
+msgctxt "Languages::cls.show_product_code"
+msgid "Show product code"
+msgstr "Отображать артикул товара"
+
+msgctxt "Languages::cls.show_wish"
+msgid "Show \"Add to wishlist\" button"
+msgstr "Отображать кнопку \"В избранное\""
+
+msgctxt "Languages::cls.show_quick_view "
+msgid "Show \"Quick view\" button"
+msgstr "Отображать кнопку \"Быстрый просмотр\""
+
+msgctxt "Languages::cls.sort_by"
+msgid "Sorting"
+msgstr "Сортировка"
+
+msgctxt "Languages::cls.suggest_corrections"
+msgid "Suggest corrections"
+msgstr "Предлагать исправления"
+
+msgctxt "Languages::cls.suggest_corrections_tooltip"
+msgid "When on search results nothing found we can suggest same phrase with corrections. Based on free service Yandex Speller."
+msgstr "Когда результат поиска не дал результат, можно предлагать исправления для поисковой фразы. Сделано на базе бесплатного сервиса Yandex Speller"
+
+msgctxt "Languages::cls.suggest_products_categories"
+msgid "Show search based categories filter"
+msgstr "Отобразить фильтр по категориям на базе результатов поиска"
+
+msgctxt "Languages::cls.suggest_products_categories_tooltip"
+msgid "Will be displayed categories in which the products were found. User will be able to specify the search by selecting one or more categories that will be of interest to him."
+msgstr "Будут отображены категории товаров, в которых были найдены товары. Пользователь сможет уточнить поиск выбрав одну или несколько категорий которые ему будут интересны."
+
+msgctxt "Languages::cls.tab_elements"
+msgid "Display elements"
+msgstr "Элементы отображения"
+
+msgctxt "Languages::cls.tab_search_settings"
+msgid "Product search settings "
+msgstr "Настройки поиска товаров"
+
+msgctxt "Languages::cls.tab_storefronts"
+msgid "Storefronts search"
+msgstr "Поиск по витринам"
+
+msgctxt "Languages::cls.title_ttl_search_elements"
+msgid "Setup search objects"
+msgstr "Настройте объекты поиска"
+
+msgctxt "Languages::cls.title_ttl_serch_on_storefronts"
+msgid "Search storefronts categories"
+msgstr "Искать категории в других витринах"
+
+msgctxt "Languages::cls.guest"
+msgid "Guest"
+msgstr "Гость"
+
+msgctxt "Languages::ls.requests"
+msgid "Requests"
+msgstr "Запросы"
+
+msgctxt "Languages::cls.clicks"
+msgid "Clicks"
+msgstr "Клики"
+
+msgctxt "Languages::cls.click"
+msgid "Click"
+msgstr "Клик"
+
+msgctxt "Languages::cls.history_per_product"
+msgid "History per product"
+msgstr "История по товарам"
+
+msgctxt "Languages::cls.history_per_request"
+msgid "History per requests"
+msgstr "История запросов"
+
+msgctxt "Languages::cls.history_per_user"
+msgid "History per user"
+msgstr "История по пользователям"
+
+msgctxt "Languages::cls.history_per_word"
+msgid "History per search phrase"
+msgstr "История поисковых фраз"
+
+msgctxt "Languages::cls.synonyms"
+msgid "Synonyms"
+msgstr "Синонимы"
+
+msgctxt "Languages::cls.new_synonym"
+msgid "New Synonym"
+msgstr "Новый Синоним"
+
+msgctxt "Languages::cls.synonyms_status"
+msgid "Enable/Disable Synonyms"
+msgstr "Вкл/Выкл Синонимы"
+
+msgctxt "Languages::cls.synonyms_status_ttl"
+msgid "With synonyms enabled, the search will work based on synonyms for a specific search phrase. For example: You have added the synonym \"Mobile phone\" to the search phrase \"phone\", so the search will search for both Mobile phone  and phones"
+msgstr "При включенных синонимах, поиск будет работать с учетом синонимов к конкретной поисковой фразе. Например: Вы добавили к поисковой фразе \"Микроволновка\" синоним \"Микроволновая печь\", таким образом поиск будет искать и микроволновки и микроволновые печи"
+
+msgctxt "Languages::cls.synonyms_ttl"
+msgid "Synonyms can be not only individual words but whole phrases. Start typing a word or phrase and press ENTER when you have finished entering a phrase or you want to start typing a new one."
+msgstr "Синонимами могут быть не только отдельные слова но и целые фразы. Начните вводить слово или фразу и нажмите ENTER когда закончили ввод фразы или для того чтобы начать вводить новую."
+
+msgctxt "Languages::cls.stop_word"
+msgid "If the search query contains phrase"
+msgstr "Если поисковый запрос содержит фразу"
+
+msgctxt "Languages::cls.contain_stop_words"
+msgid "Do not display products that contain the following phrases"
+msgstr "Не отображать товары, которые содержат следующие фразы"
+
+
+msgctxt "Languages::cls.contain_stop_words_ttl"
+msgid "Stop-words can be not only individual words but whole phrases. Start typing a word or phrase and press ENTER when you have finished entering a phrase or you want to start typing a new one."
+msgstr "Стоп-словами могут быть не только отдельные слова но и целые фразы. Начните вводить слово или фразу и нажмите ENTER когда закончили ввод фразы или для того чтобы начать вводить новую. Укажите фразы, товары, содержащие которые, не будут выводится, при совпадении поисковой фразы "
+
+msgctxt "Languages::cls.stop_words_status"
+msgid "Enable/Disable Stop-words"
+msgstr "Вкл/Выкл Стоп-слова"
+
+msgctxt "Languages::cls.new_stop_word"
+msgid "Add stop-word"
+msgstr "Добавить стоп-слово"
+
+
+msgctxt "Languages::cls.stop_words_status_ttl"
+msgid "Change status to \"OFF\" if you don't want use stop-words on search process."
+msgstr "Поменяйте статус на \"OFF\" если вы не хотите использовать стоп-слова в процессе поиска."
+
+msgctxt "Languages::cls.clsm_motivation_text_ru"
+msgid "Search motivation phrases"
+msgstr "Мотивационные фразы для поискового окна."
+
+msgctxt "Languages::cls.clsm_motivation_text_en"
+msgid "Search motivation phrases"
+msgstr "Мотивационные фразы для поискового окна."
+
+msgctxt "Languages::cls.clsm_motivation_text_ru_tooltip"
+msgid "Search motivation phrases can be not only individual words but whole phrases. Start typing a word or phrase and press ENTER when you have finished entering a phrase or you want to start typing a new one."
+msgstr "Мотивационными фразами могут быть не только отдельные слова но и целые фразы. Начните вводить слово или фразу и нажмите ENTER когда закончили ввод фразы или для того чтобы начать вводить новую."
+
+msgctxt "Languages::cls.clsm_status"
+msgid "Enable/Disable Search motivation"
+msgstr "Вкл/Выкл Мотивацию поиска"
+
+msgctxt "Languages::cls.clsm_status_ttl"
+msgid "Change status to \"OFF\" if you don't want use Search motivation function."
+msgstr "Поменяйте статус на \"OFF\" если вы не хотите использовать функцию мотивации поиска."
+
+msgctxt "Languages::cls.title_clsm_title"
+msgid "Search motivation"
+msgstr "Мотивация поиска"
+
+msgctxt "Languages::cls.show_phrases_rec_products"
+msgid "Suggest featured products"
+msgstr "Предлагать рекомендуемые товары"
+
+msgctxt "Languages::cls.show_phrases_rec_products_ttl"
+msgid "Change status to \"OFF\" if you don't want to show featured products by search phrases."
+msgstr "Поменяйте статус на \"OFF\" если вы не хотите отображать рекомендуемые товары к поисковым фразам."
+
+msgctxt "Languages::cls.suggest_phrases"
+msgid "Suggest serach phrases"
+msgstr "Предлагать поисковые фразы"
+
+msgctxt "Languages::cls.suggest_phrases_ttl"
+msgid "Enable this feature if you want to display search phrases when the user starts typing a query. Search phrases will be displayed only relevant to the user's query."
+msgstr "Включите данную функцию, если вы хотите показывать поисковые фразы во время начала ввода пользователем запроса. Поисковые фразы будут выводится только релевантные запросу пользователя."
+
+msgctxt "Languages::cls.speedup_cluster_size"
+msgid "Cluster size"
+msgstr "Размер кластера"
+
+msgctxt "Languages::css.scaner_finish"
+msgid "Products was indexed success!"
+msgstr "Товары успешно проиндексированы!"
+
+
+msgctxt "Languages::cls.speedup_cluster_size_tooltip"
+msgid "The cluster size affects the total number of product groups. For most languages, the optimal cluster size is 2 characters. But for some languages, where one character is a group of sounds, or even a whole word, then for such languages you need to choose 1 as cluster size."
+msgstr "Размер кластера влияет на итоговое кол-во групп товаров. Для большинства языков оптимальный размер кластера 2 символа. Но для некоторых языков, где один символ это группа звуков, или даже целое слово  - то для таких языков нужно выбирать размер кластера 1."
+
+msgctxt "Languages::cls.speedup_cron_key"
+msgid "Cron-key"
+msgstr "Ключ для запуска по крону"
+
+msgctxt "Languages::cls.speedup_cron_key_tooltip"
+msgid "Change this key if you want keep indexation link private."
+msgstr "Поменяйте крон-ключ, если хотите держать ссылку на запуск процесса индексации в секрете."
+
+msgctxt "Languages::cls.speedup_exclude_import"
+msgid "Skip indexation when import is runing"
+msgstr "Не индексировать товары во время импорта"
+
+msgctxt "Languages::cls.speedup_exclude_import_tooltip"
+msgid "Product indexation process takes some time, unchecking the checkbox speed up the import process, but the indexing process will need to be started manually or by cron "
+msgstr "Процесс индексации товара занимает некторое время, снятие галочки ускоряет процесс импорта, но запуск индексации нужно будет провести вручную или по cron"
+
+msgctxt "Languages::cls.speedup_use_on_admin"
+msgid "Use speedup on admi panel"
+msgstr "Использовать ускоритель поиска в панели администратора"
+
+msgctxt "Languages::cls.title_general_info"
+msgid "General info"
+msgstr "Общая информация"
+
+msgctxt "Languages::cls.title_speedup_tech_settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "Languages::cls.search_speedup_indexation"
+msgid "Products Indexation"
+msgstr "Индексация товаров"
+
+msgctxt "Languages::cls.search_speedup_settings"
+msgid "Speed-up settings"
+msgstr "Настройки ускорителя"
+
+msgctxt "Languages::cls.speedup"
+msgid "Search speedup"
+msgstr "Ускоритель поиска"
+
+msgctxt "Languages::cls.clss_status"
+msgid "Speed-up status<br>for storefront" 
+msgstr "Статус ускорителя<br>для витрины"
+
+msgctxt "Languages::cls.clss_admin_status"
+msgid "Speed-up status<br>for admin panel" 
+msgstr "Статус ускорителя<br>для админки"
+
+
+msgctxt "Languages::cls.clss_status_ttl"
+msgid "You can enable speedup only for storefront, or completely disable using toggles." 
+msgstr "Вы можете включить ускорение только для витрины или полностью отключить с помощью переключателей."
+
+msgctxt "Languages::cls.clss_admin_status_ttl"
+msgid "You can enable speedup only for admin panel only, or completely disable using toggles." 
+msgstr "Вы можете включить ускорение только для админки или полностью отключить с помощью переключателей."
+
+
+
+msgctxt "Languages::csc_live_search.click_btn_below"
+msgid "Click button below to start indexation process"
+msgstr "Для запуска процесса индексации нажмите на кнопку ниже"
+
+msgctxt "Languages::csc_live_search.cluster_size"
+msgid "Cluster size"
+msgstr "Размер кластера"
+
+msgctxt "Languages::csc_live_search.duration_process"
+msgid "Process time"
+msgstr "Время выполнения"
+
+msgctxt "Languages::csc_live_search.finished_success"
+msgid "Process of indexation was finished success!"
+msgstr "Процесс индексации товаров успешно завершен!"
+
+msgctxt "Languages::csc_live_search.landing_title"
+msgid "Products indexation page"
+msgstr "Страница индексации товаров"
+
+msgctxt "Languages::csc_live_search.pause"
+msgid "Pause process"
+msgstr "Пауза"
+
+msgctxt "Languages::csc_live_search.process_will_be_stopped"
+msgid "The indexing process will be stopped if it is already running"
+msgstr "Процесс индексации будет остановлен, если до этого был запущен"
+
+msgctxt "Languages::css.no_product_for_index"
+msgid "All products already indexed. Clear indexes first if you want to make full reindexation"
+msgstr "Все товары уже проиндексированы. Очистите индексы если вы хотите сделать полную реиндексацию товаров."
+
+msgctxt "Languages::cls.title_base_styles_settings"
+msgid "Base styles settings"
+msgstr "Базовые настройки стилей"
+
+msgctxt "Languages::cls.theme"
+msgid "Theme"
+msgstr "Тема"
+
+msgctxt "Languages::cls.modern"
+msgid "Modern"
+msgstr "Modern"
+
+msgctxt "Languages::cls.classic"
+msgid "Classic"
+msgstr "Classic"
+
+msgctxt "Languages::cls.active_elements_background"
+msgid "Header and hover background"
+msgstr "Фон шапки и наведения"
+
+msgctxt "Languages::cls.active_elements_color"
+msgid "Buttons color"
+msgstr "Цвет кнопок"
+
+msgctxt "Languages::cls.link_color"
+msgid "Links color"
+msgstr "Цвет ссылок"
+
+
+msgctxt "Languages::cls.base_text_color"
+msgid "Text color"
+msgstr "Цвет текста"
+
+msgctxt "Languages::cls.border_radius"
+msgid "Border radius, px."
+msgstr "Радиус закруглений, px."
+
+msgctxt "Languages::cls.color_type"
+msgid "Label color"
+msgstr "Цвет лейбла"
+
+msgctxt "Languages::cls.fixed_color"
+msgid "One color for all "
+msgstr "Один цвет для всех"
+
+msgctxt "Languages::cls.one_of_ten"
+msgid "One of 10 preset"
+msgstr "Один из 10 предустановленных"
+
+msgctxt "Languages::cls.rand_every_category"
+msgid "Randomly for each category"
+msgstr "Рандомно для каждой категории"
+
+msgctxt "Languages::cls.color_type_tooltip"
+msgid "<b>One color for all:</b> fixed color for all category labels. Color can be selected by admin.<br><b>One of 10 preset:</b> every category will have one of 10 addon preset colors.<br><b>Randomly for each category:</b> every category will have their unique color hash."
+msgstr "<b>Один цвет для всех:</b> фиксированный цвет для всех лейблов категорий. Администратор может сам указать цвет.<br><b>Один из 10 предустановленных:</b> каждая категория будет иметь один из 10 предустановленных модулем цветов.<br><b>Рандомно для каждой категории:</b> каждая категория будет имеют свой уникальный автоматически сгененрированный цвет."
+
+msgctxt "Languages::cls.search_history"
+msgid "Search history"
+msgstr "История поиска"
+
+
+msgctxt "Languages::cls.search_history_menu_description"
+msgid "Search history of your products"
+msgstr "Отслеживайте какие поисковые запросы привели покупателей к вашим товарам"
+
+msgctxt "Languages::cls.search_motivation"
+msgid "Search motivation"
+msgstr "Мотивация поиска"
+
+msgctxt "Languages::cls.search_phrases"
+msgid "Search phrases"
+msgstr "Поисковые фразы"
+
+msgctxt "Languages::cls.search_speedup"
+msgid "Search speed-up"
+msgstr "Ускоритель поиска"
+
+msgctxt "Languages::cls.styles"
+msgid "Appearance settings"
+msgstr "Настройки внешнего вида"
+
+msgctxt "Languages::cls.search_synonyms"
+msgid "Search synonyms"
+msgstr "Синонимы для поиска"
+
+msgctxt "Languages::cls.show_category_gradient"
+msgid "Gradient"
+msgstr "Градиент"
+
+msgctxt "Languages::cls.stop_words"
+msgid "Stop-words"
+msgstr "Стоп-слова"
+
+msgctxt "Languages::cls.stop_then"
+msgid "Then"
+msgstr "То тогда"
+
+
+msgctxt "Languages::cls.title_category_label"
+msgid "Product category label"
+msgstr "Лейбл категории товара"
+
+msgctxt "Languages::cls.category_e"
+msgid "Label color"
+msgstr "Цвет лейбла"
+ 
+
+msgctxt "Languages::css.cron_run_speedup_scaner"
+msgid "Cron job link"
+msgstr "Ссылка для запуска по Cron"
+
+msgctxt "Languages::css.example_run_php_script"
+msgid "Cron job command line example"
+msgstr "Запуск из командной строки"
+
+msgctxt "Languages::css.full_cron_run_speedup_scaner_with"
+msgid "Cron job link with clear indexes"
+msgstr "Ссылка для Cron с очисткой индексов"
+
+msgctxt "Languages::cls.speedup_scaner_instruction"
+msgid "The \"Search Speed-up\" feature can accelerator a search query up to 25 times. Products will be grouped into clusters according to the initial letters of each word in the product fields. This is a kind of internal grouping of products that allows you to search only in clusters that have been determined to be relevant according to the search query. But this logic has a slight limitation in the search. For example, typing query 'amsung' will not show Samsung products in the search.<br>It is enough to make indexation once, then the indexation will occur in an automatic mode if the goods are added through the admin panel. If you use third-party programaddons to import your products, or the \"Skip indexation on import\" function is enabled, after each products catalog update, you need to run products indexation by cron job or manually on the \"Products indexation page\"."
+msgstr "Функция \"Ускоритель поиска\" в режиме Максимального ускорения может ускорять поисковый запрос до 25 раз. Товары группируются по кластерам согласно начальных букв каждого слова в полях товара. Это своего рода внутренняя группировка товаров, которая позволяет производить поиск только в кластерах, которые были определны как подходящие согласно поисковому запросу. Но такая логика имеет небольшое ограничение в поиске. Например, вбивая слово 'amsung' товары Samsung не будут отображаться в поиске. <br>Индексацию товаров достаточно провести один раз, дальше индексация будет происходить в автоматическом режиме, если товары добавляются или редактируются через панель администратора. Если же вы используете сторонние программы для импорта товаров, или включена функция \"Не индексировать товары во время импорта\" - после каждого обновления каталога необходимо выполнять индексацию товаров по крон или в ручном режиме.<br><b>В режиме Максимального ускорения функционал \"Синонимы для поиска\" работать не будет!</b>"
+
+
+msgctxt "Languages::cls.speedup_general_info"
+msgid "<div class='clsWarnBlock strong'>Не забудьте проиндексировать товары перед включением ускорителя поиска.</div>"
+msgstr "<div class='clsWarnBlock strong'>Не забудьте проиндексировать товары перед включением ускорителя поиска.</div>"
+
+msgctxt "Languages::cls.clear_indexes"
+msgid "Clear all indexes"
+msgstr "Очистить индексы"
+
+msgctxt "Languages::css.cron_commands"
+msgid "Cron commands"
+msgstr "Команды CRON"
+
+msgctxt "Languages::sort_by_cls_rel_asc"
+msgid "By relevance"
+msgstr "По релевантности"
+
+msgctxt "Languages::sort_by_cls_rel_pop_asc"
+msgid "By relevance based on popularity "
+msgstr "По релевантности c учетом популярности"
+
+msgctxt "Languages::cls.product_code"
+msgid "Product code: "
+msgstr "Артикул: "
+
+msgctxt "Languages::cls.nothing_found"
+msgid "Unfortunately, for your query <b>[q]</b> nothing was found."
+msgstr "К сожалению, по вашему запросу <b>[q]</b> ничего не найдено."
+
+msgctxt "Languages::cls.phrase"
+msgid "Search phrase"
+msgstr "Поисковая фраза"
+
+msgctxt "Languages::cls.requests"
+msgid "Requests"
+msgstr "Запросы"
+
+msgctxt "Languages::cls.phrases"
+msgid "Search phrases"
+msgstr "Поисковые фразы"
+
+msgctxt "Languages::cls.search_word"
+msgid "Search"
+msgstr "Поиск"
+
+msgctxt "Languages::cls.play_product"
+msgid "Sony PlayStation 5"
+msgstr "Sony PlayStation 5"
+
+msgctxt "Languages::cls.play_product2"
+msgid "Microsoft Xbox One S1"
+msgstr "Microsoft Xbox One S1"
+
+msgctxt "Languages::cls.play_check1"
+msgid "Game consoles"
+msgstr "Игровые консоли"
+
+msgctxt "Languages::cls.play_check2"
+msgid "Console Games "
+msgstr "Игры для консолей"
+
+msgctxt "Languages::cls.play_check3"
+msgid "Console accessories"
+msgstr "Аксессуары для консолей"
+
+msgctxt "Languages::cls.play_category"
+msgid "Game consoles"
+msgstr "Игровые консоли"
+
+msgctxt "Languages::cls.title_elements"
+msgid "Display elements"
+msgstr "Элементы отображения"
+
+msgctxt "Languages::cls.enter_more_symbols"
+msgid "To start a search, enter at least <b>[n] character</b> | To start a search, enter at least <b>[n] characters</b>"
+msgstr "Введите минимум <b>[n] символ</b>|Введите минимум <b>[n] символа</b>|Введите минимум <b>[n] символов</b>"
+
+msgctxt "Languages::cls.show_all"
+msgid "Show all"
+msgstr "Показать все"
+
+
+msgctxt "Languages::cls.tab_developers"
+msgid "For developers"
+msgstr "Для разработчиков"
+
+msgctxt "Languages::cls.hooks_get_products"
+msgid "get_products hook"
+msgstr "Хук get_products"
+
+
+msgctxt "Languages::cls.hooks_before_response"
+msgid "Хук before_response"
+msgstr "Хук before_response"
+
+msgctxt "Languages::cls.hooks_get_joins"
+msgid "get_joins hook"
+msgstr "Хук get_joins"
+
+
+msgctxt "Languages::cls.hooks_get_conditions"
+msgid "get_conditions hook"
+msgstr "Хук get_conditions"
+
+msgctxt "Languages::cls.hooks_get_fields"
+msgid "get_fields hook"
+msgstr "Хук get_fields"
+
+
+msgctxt "Languages::cls.hooks_get_categories"
+msgid "get_categories hook"
+msgstr "Хук get_categories"
+
+
+msgctxt "Languages::cls.hooks_get_brands"
+msgid "get_brands hook"
+msgstr "Хук get_brands"
+
+
+msgctxt "Languages::cls.hooks_get_pages"
+msgid "get_pages hook"
+msgstr "Хук get_pages"
+
+
+msgctxt "Languages::cls.hooks_get_vendors"
+msgid "get_vendors hook"
+msgstr "Хук get_vendors"
+
+msgctxt "Languages::cls.hooks_get_products_tooltip"
+msgid "This feature is for developers! This hook will call the selected functions before sending the SQL request to receive зкщвгсеы. Thus, you can change the search conditions, or the query itself as a whole by changing any parameters. For more information on connecting to a hook, see the add-on's documentation."
+msgstr "Данная функция предназанчена для разработчиков! Данный хук будет вызывать выбранные функции перед отправкой SQL запроса на получение товаров. Таким образом, можно изменить условия поиска, или сам запрос в целом, изменяя любые параметры. Более подробную информацию по подключению к хуку ищите в документации к модулю."
+
+msgctxt "Languages::cls.documentation"
+msgid "Add-on documentation"
+msgstr "Документация к модулю"
+
+msgctxt "Languages::cls.new_phrase"
+msgid "Add new search phrase"
+msgstr "Добавить новую поисковую фразу"
+
+msgctxt "Languages::cls.added_to_cart"
+msgid "Product was added to cart"
+msgstr "Товар успешно добавлен в корзину"
+
+msgctxt "Languages::cls.last_activity"
+msgid "Last activity"
+msgstr "Последняя активность"
+
+msgctxt "Languages::cls.vendor_history_access"
+msgid "Vendor search history access"
+msgstr "Доступ продавцов к истории поиска"
+
+msgctxt "Languages::cls.display_only_by_clicks"
+msgid "Only clicked vebdor products"
+msgstr "Только переходы по товарам продавца"
+
+msgctxt "Languages::cls.display_all"
+msgid "All history"
+msgstr "Вся история"
+
+msgctxt "Languages::cls.tab_multivendor"
+msgid "Multivendor settings"
+msgstr "Настройки Multivendor"
+
+msgctxt "Languages::privilege_groups.csc_live_search"
+msgid "Manage Live search add-on"
+msgstr "Управление модулем \"Живой поиск\""
+
+msgctxt "Languages::cls.search_variation"
+msgid "Search \"Variations as one product\" separately"
+msgstr "Поиск Вариаций товара как один товар"
+
+
+msgctxt "Languages::cls.search_variation_tooltip"
+msgid "Set variations as one product search logic"
+msgstr "Настройте логику поиска по вариациям как один товар"
+
+msgctxt "Languages::cls.dont_search_variation"
+msgid "Don't search on variations"
+msgstr "Не искать в вариациях"
+
+msgctxt "Languages::cls.search_variation_show_main"
+msgid "Search on varioations, but show main product only"
+msgstr "Искать в вариациях, но выводить только главный товар в результатх поиска"
+
+msgctxt "Languages::cls.search_variation_show_all"
+msgid "Search on varioations and show as separate products on search results"
+msgstr "Искать в вариациях и выводить их как отдельные товары в результатах поиска"
+
+msgctxt "Languages::cls.tables_was_cleared"
+msgid "Tables of indexations was cleared success!"
+msgstr "Таблицы индексации товаров успешно очищены."
+
+msgctxt "Languages::cls.desktop_max_width"
+msgid "Max. width, px"
+msgstr "Макс. ширина, px"
+
+msgctxt "Languages::cls.desktop_max_width_tooltip"
+msgid "Only for desktop view"
+msgstr "Только широкоформатных экранов"
+
+msgctxt "Languages::cls.anti_csrf"
+msgid "Block bots"
+msgstr "Блокировать запросы ботов"
+
+msgctxt "Languages::cls.anti_csrf_tooltip"
+msgid "By enabling this option you activate security function, it prevent search results for bots."
+msgstr "Включив эту опцию, вы активируете функцию безопасности, которая предотвратит выдачу результатов поиска ботам."
+
+msgctxt "Languages::abt__ut2.sort_by_cls_rel_pop_asc"
+msgid "Relevance"
+msgstr "Релевантности"
+
+msgctxt "Languages::cls.clsm_redirect_category"
+msgid "Autoredirect to category"
+msgstr "Авторедирект на категорию"
+
+msgctxt "Languages::cls.clsm_redirect_category_tooltip"
+msgid "When nothing found except one category, on submit form user will be redirected to this category"
+msgstr "Когда ничего не найдено, кроме одной категории, при отправке формы пользователь будет перенаправлен в эту категорию."
+
+msgctxt "Languages::cleanup_all_history"
+msgid "Delete all data"
+msgstr "Очистить все данные"
+
+msgctxt "Languages::cls.clear_all_requests"
+msgid "Delete all requests history"
+msgstr "Удалить все запросы"
+
+msgctxt "Languages::cls.search_history_deleted_success"
+msgid "History was deleted success!"
+msgstr "История успешно удалена!"
+
+msgctxt "Languages::cls.days_clear"
+msgid "Delete requests history older than [days] days"
+msgstr "Удалить запросы старше [days] дней"
+
+msgctxt "Languages::cls.cron_job"
+msgid "You can setup cron job to clear old unneeded requests. Change days parameter to delete requests older than pointed days. See below Cron job examples ещ delet requests older than 30 days:"
+msgstr "Вы можете настроить задание cron для удаления старых ненужных запросов. Измените параметр days, чтобы удалять запросы старше указанных дней. См. Ниже примеры заданий Cron на удаление запросов старше 30 дней:"
+
+msgctxt "Languages::cls.clss_can_need_reindexation"
+msgid "You have changed settings search on fields. As you use search SpeedUp function -  In this case you need to delete indexes and run indexation again to apply changes."
+msgstr "Вы изменили настройки полей поиска. Поскольку вы используете функцию Ускоритель поиска - в этом случае вам нужно удалить индексы и снова запустить индексацию, чтобы применить изменения."
+
+msgctxt "Languages::cls.syn_partial_match"
+msgid "Partial synonym match"
+msgstr "Частичное совпадения синонимов"
+
+
+msgctxt "Languages::cls.syn_partial_match_ttl"
+msgid "Enable this function for matching synonyms by part of word."
+msgstr "Отметьте галочку для поиска синонимов по частичному совпадению синонима с поисковой фразой."
+
+msgctxt "Languages::cls.synonyms_phrase_ttl"
+msgid "A search phrase is the correct word or phrase that matches the spelling on your site. Synonyms are words or phrases that users can enter. Synonyms can be misspelled words, abbreviated names, or phrases in local dialects."
+msgstr "Поисковая фраза - это правильное слово или словосочетание, которое совпадает с написанием на вашем сайте. А синонимы - это слова или словосочетания, которые могут вводить пользователи. Синонимами могут быть слова с с ошибками, сокращенные наименования или фразы местных диалектов"
+
+msgctxt "Languages::cls.enable_history"
+msgid "Search history journal status"
+msgstr "Ведение истории поиска"
+
+msgctxt "Languages::cls.light"
+msgid "Recommended"
+msgstr "Оптимальный"
+
+
+msgctxt "Languages::cls.hard"
+msgid "Hard"
+msgstr "Максимальный"
+
+msgctxt "Languages::cls.speedup_level"
+msgid "SpeedUp mode"
+msgstr "Режим ускорения"
+
+msgctxt "Languages::cls.speedup_level_tooltip"
+msgid "Recommended - mode no have search restriction, but Hard mode works faster"
+msgstr "Оптимальный - не ограничнивает возможности поиска, но Максимальный режим работает быстрее. Оба режима требуют индексации товаров."
+
+msgctxt "Languages::cls.found"
+msgid "Found"
+msgstr "Найдено"
+
+msgctxt "Languages::cls.group_by_root_cats"
+msgid "Group by root"
+msgstr "Группировать по родительской"
+
+msgctxt "Languages::cls.group_by_root_cats_tooltip"
+msgid "Group categories by their root category"
+msgstr "Категории будут сгруппированы по родительским категориям"
+
+
+msgctxt "Languages::cls.clsm_show_parent_level"
+msgid "Level of parent category"
+msgstr "Уровень родительской категории"
+
+msgctxt "Languages::cls.clsm_show_parent_level_tooltip"
+msgid "If pointed level will be higher or equal of found category - closest parent category will be displayed"
+msgstr "Если указанный уровень будет выше или равен найденной категории - будет выводится ближайшая родительская категория"

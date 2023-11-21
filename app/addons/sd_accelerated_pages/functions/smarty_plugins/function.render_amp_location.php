@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; function smarty_function_render_amp_location($params, &$smarty) { $runtime = Registry::get('runtime'); $template = 'views/' . $runtime['controller'] . '/' . $runtime['mode'] . '.tpl'; if ($smarty->templateExists($template)) { return $smarty->fetch($template); } else { return false; } } 

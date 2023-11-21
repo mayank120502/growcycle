@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_hide_product_info</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>130</position>
+    <default_language>en</default_language>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+
+    <settings edition_type="ROOT,ULT:VENDOR,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="grid_list">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="hide_control_grid_list">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="hide_vendor_info_grid_list">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="product_list">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="hide_vendor_info_product_list">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="compact_list">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="hide_vendor_info_compact_list">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="products_scroller">
+                        <type>header</type>
+                        <variants/>
+                    </item>
+                    <item id="hide_control_products_scroller">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="hide_vendor_info_products_scroller">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

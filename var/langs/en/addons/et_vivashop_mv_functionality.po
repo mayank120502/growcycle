@@ -1,0 +1,549 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_vivashop_mv_functionality"
+msgid "ET - Advanced Multi-Vendor"
+msgstr "ET - Advanced Multi-Vendor"
+
+msgctxt "Addons::description::et_vivashop_mv_functionality"
+msgid "Adds powerful functionality to Multi-Vendor. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Adds powerful functionality to Multi-Vendor. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_product_header"
+msgid "Product links settings"
+msgstr "Product links settings"
+
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_product_link"
+msgid "Product links"
+msgstr "Product links"
+
+msgctxt "SettingsTooltips::et_vivashop_mv_functionality::et_product_link"
+msgid "Select which product page to use"
+msgstr "Select which product page to use"
+
+msgctxt "SettingsVariants::et_vivashop_mv_functionality::et_product_link::vendor"
+msgid "Use Vendor product page (if available)"
+msgstr "Use Vendor product page (if available)"
+
+msgctxt "SettingsVariants::et_vivashop_mv_functionality::et_product_link::both"
+msgid "Use both Marketplace and Vendor product page (location based)"
+msgstr "Use both Marketplace and Vendor product page (location based)"
+
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::mv_menu_settings"
+msgid "Vendor menu items"
+msgstr "Vendor menu items"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_mv_menu_setting_new"
+msgid "New items"
+msgstr "New items"
+
+msgctxt "SettingsTooltips::et_vivashop_mv_functionality::et_mv_menu_setting_new"
+msgid "Only for Vendors with microstore plan"
+msgstr "Only for Vendors with microstore plan"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_mv_menu_setting_sale"
+msgid "On sale"
+msgstr "On sale"
+
+msgctxt "SettingsTooltips::et_vivashop_mv_functionality::et_mv_menu_setting_sale"
+msgid "Only for Vendors with microstore plan"
+msgstr "Only for Vendors with microstore plan"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_mv_menu_setting_best"
+msgid "Bestsellers"
+msgstr "Bestsellers"
+
+msgctxt "SettingsTooltips::et_vivashop_mv_functionality::et_mv_menu_setting_best"
+msgid "Only for Vendors with microstore plan"
+msgstr "Only for Vendors with microstore plan"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_mv_menu_setting_about"
+msgid "About us"
+msgstr "About us"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_mv_menu_setting_pages"
+msgid "Vendor pages"
+msgstr "Vendor pages"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_mv_menu_setting_contact"
+msgid "Contact"
+msgstr "Contact"
+
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::functionality"
+msgid "Vendor store default settings"
+msgstr "Vendor store default settings"
+
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_vendor_filters"
+msgid "Product filters"
+msgstr "Product filters"
+
+msgctxt "SettingsTooltips::et_vivashop_mv_functionality::et_vendor_filters"
+msgid "Set the default filter type for all vendors stores"
+msgstr "Set the default filter type for all vendors stores"
+
+msgctxt "SettingsVariants::et_vivashop_mv_functionality::et_vendor_filters::horizontal"
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgctxt "SettingsVariants::et_vivashop_mv_functionality::et_vendor_filters::vertical"
+msgid "Vertical"
+msgstr "Vertical"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::et_vendor_categories"
+msgid "Side category menu"
+msgstr "Side category menu"
+
+msgctxt "SettingsTooltips::et_vivashop_mv_functionality::et_vendor_categories"
+msgid "Set the default vendor category sidebar style for all vendor stores"
+msgstr "Set the default vendor category sidebar style for all vendor stores"
+
+
+msgctxt "SettingsVariants::et_vivashop_mv_functionality::et_vendor_categories::expanded"
+msgid "Expanded"
+msgstr "Expanded"
+
+msgctxt "SettingsVariants::et_vivashop_mv_functionality::et_vendor_categories::collapsed"
+msgid "Collapsed"
+msgstr "Collapsed"
+
+msgctxt "Languages::vendor_custom_page"
+msgid "Vendor custom page"
+msgstr "Vendor custom page"
+
+msgctxt "Languages::home_blocks"
+msgid "Vendor home blocks"
+msgstr "Vendor home blocks"
+
+msgctxt "Languages::vendor_store_blocks"
+msgid "Vendor home blocks"
+msgstr "Vendor home blocks"
+
+msgctxt "Languages::et_short_description"
+msgid "Short description"
+msgstr "Short description"
+
+msgctxt "Languages::et_full_width"
+msgid "Full width"
+msgstr "Full width"
+
+msgctxt "Languages::et_show_title"
+msgid "Show title"
+msgstr "Show title"
+
+msgctxt "Languages::et_google_map"
+msgid "Google Map"
+msgstr "Google Map"
+
+msgctxt "Languages::et_vendor_extra_details_k"
+msgid "TikTok"
+msgstr "TikTok"
+
+msgctxt "Languages::et_vendor_extra_details_f"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::et_vendor_extra_details_t"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::et_vendor_extra_details_y"
+msgid "Youtube"
+msgstr "Youtube"
+
+msgctxt "Languages::et_vendor_extra_details_l"
+msgid "Linkedin"
+msgstr "Linkedin"
+
+msgctxt "Languages::et_vendor_extra_details_i"
+msgid "Instagram"
+msgstr "Instagram"
+
+msgctxt "Languages::et_vendor_extra_details_p"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "Languages::et_pp_block"
+msgid "Info blocks"
+msgstr "Info blocks"
+
+msgctxt "Languages::et_pp_block_s"
+msgid "Shipping policy"
+msgstr "Shipping policy"
+
+msgctxt "Languages::et_pp_block_r"
+msgid "Return policy"
+msgstr "Return policy"
+
+msgctxt "Languages::et_pp_block_w"
+msgid "Warranty policy"
+msgstr "Warranty policy"
+
+msgctxt "Languages::et_contact_page"
+msgid "Contact page"
+msgstr "Contact page"
+
+msgctxt "Languages::et_color_hover"
+msgid "Color hover"
+msgstr "Color hover"
+
+msgctxt "Languages::et_background_hover"
+msgid "Background hover"
+msgstr "Background hover"
+
+msgctxt "Languages::et_product_filters"
+msgid "Product filters"
+msgstr "Product filters"
+
+msgctxt "Languages::et_vertical"
+msgid "Vertical"
+msgstr "Vertical"
+
+msgctxt "Languages::et_horizontal"
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgctxt "Languages::et_sidebar_category"
+msgid "Sidebar category"
+msgstr "Sidebar category"
+
+msgctxt "Languages::et_collapsed"
+msgid "Collapsed"
+msgstr "Collapsed"
+
+msgctxt "Languages::et_expanded"
+msgid "Expanded"
+msgstr "Expanded"
+
+msgctxt "Languages::et_text_hover"
+msgid "Text hover"
+msgstr "Text hover"
+
+msgctxt "Languages::et_social_links"
+msgid "Social links"
+msgstr "Social links"
+
+msgctxt "Languages::et_store_settings"
+msgid "Store settings"
+msgstr "Store settings"
+
+msgctxt "Languages::et_update_for_all_languges"
+msgid "Update for all languages"
+msgstr "Update for all languages"
+
+msgctxt "Languages::et_my_content"
+msgid "My content"
+msgstr "My content"
+
+msgctxt "Languages::et_vivashop_mv_functionality.home_blocks"
+msgid "Vendor home blocks"
+msgstr "Vendor home blocks"
+
+msgctxt "Languages::et_vivashop_mv_functionality.vendor_pages"
+msgid "Vendor pages"
+msgstr "Vendor pages"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::colors"
+msgid "Vendor store default colors"
+msgstr "Vendor store default colors"
+
+msgctxt "Languages::et_vivashop_mv_settings.header_bkg"
+msgid "Header background"
+msgstr "Header background"
+
+msgctxt "Languages::et_vivashop_mv_settings.header_text"
+msgid "Header text color"
+msgstr "Header text color"
+
+msgctxt "Languages::et_vivashop_mv_settings.header_hover"
+msgid "Header text hover"
+msgstr "Header text hover"
+
+msgctxt "Languages::et_vivashop_mv_settings.menu_bkg"
+msgid "Menu background"
+msgstr "Menu background"
+
+msgctxt "Languages::et_vivashop_mv_settings.menu_text"
+msgid "Menu text color"
+msgstr "Menu text color"
+
+msgctxt "Languages::et_vivashop_mv_settings.menu_bkg_hover"
+msgid "Menu background hover"
+msgstr "Menu background hover"
+
+msgctxt "Languages::et_vivashop_mv_settings.menu_text_hover"
+msgid "Menu text color hover"
+msgstr "Menu text color hover"
+
+msgctxt "SettingsOptions::et_vivashop_mv_functionality::plans_page"
+msgid "Vendor plans page settings"
+msgstr "Vendor plans page settings"
+
+msgctxt "Languages::et_vivashop_mv_settings.highlight_text"
+msgid "Title highlighted text"
+msgstr "Title highlighted text"
+
+msgctxt "Languages::et_vivashop_mv_settings.price_bkg"
+msgid "Price background"
+msgstr "Price background"
+
+msgctxt "Languages::et_vivashop_mv_settings.price_text"
+msgid "Price text"
+msgstr "Price text"
+
+msgctxt "Languages::et_vivashop_mv_settings.best_bkg"
+msgid "Best choice background"
+msgstr "Best choice background"
+
+msgctxt "Languages::et_vivashop_mv_settings.best_text"
+msgid "Best choice text"
+msgstr "Best choice text"
+
+msgctxt "Languages::et_vivashop_mv_settings.best_outer_bkg"
+msgid "Best choice outer background"
+msgstr "Best choice outer background"
+
+msgctxt "Languages::et_vivashop_mv_settings.best_outer_text"
+msgid "Best choice outer text"
+msgstr "Best choice outer text"
+
+msgctxt "Languages::et_vivashop_mv_settings.show_footer"
+msgid "Show footer"
+msgstr "Show footer"
+
+msgctxt "Languages::et_vivashop_mv_settings.footer_button_text"
+msgid "Button text"
+msgstr "Button text"
+
+msgctxt "Languages::et_vivashop_mv_settings.footer_button_url"
+msgid "Button URL"
+msgstr "Button URL"
+
+msgctxt "Languages::et_vivashop_mv_settings.footer_text"
+msgid "Footer text"
+msgstr "Footer text"
+
+msgctxt "Languages::et_vivashop_mv_settings.footer_bkg"
+msgid "Footer background"
+msgstr "Footer background"
+
+msgctxt "Languages::et_vivashop_mv_settings.footer_bkg_img"
+msgid "Footer background image"
+msgstr "Footer background image"
+
+
+msgctxt "Languages::et_vendor_plans.footer"
+msgid "<div class="et-vendor-plans_footer_big">Not sure which plan will suit you best?</div><div class="et-vendor-plans_footer_small">Start with a 14-day trial of all Marketplace features then choose the plan that's right for you</div>"
+msgstr "<div class="et-vendor-plans_footer_big">Not sure which plan will suit you best?</div><div class="et-vendor-plans_footer_small">Start with a 14-day trial of all Marketplace features then choose the plan that's right for you</div>"
+
+msgctxt "Languages::et_vendor_plans.per"
+msgid "per"
+msgstr "per"
+
+msgctxt "Languages::et_vendor_plans.footer_button_link"
+msgid "./index.php?dispatch=pages.view&page_id=30"
+msgstr "./index.php?dispatch=pages.view&page_id=30"
+
+msgctxt "Languages::et_vendor_plans.footer_button_text"
+msgid "Contact us"
+msgstr "Contact us"
+
+msgctxt "Languages::vendor_plans.select_plan_text"
+msgid "<div class="et-vendor-plans_select_plan_text_big">Find the  <span class="et-highlight">perfect plan</span> for your business</div><div class="et-vendor-plans_select_plan_text_small">You will be charged for the plan after the admin approves your vendor account.</div>"
+msgstr "<div class="et-vendor-plans_select_plan_text_big">Find the  <span class="et-highlight">perfect plan</span> for your business</div><div class="et-vendor-plans_select_plan_text_small">You will be charged for the plan after the admin approves your vendor account.</div>"
+
+msgctxt "Languages::et_pp_sold_by"
+msgid "Sold by"
+msgstr "Sold by"
+
+msgctxt "Languages::et_pp_this_item_sold_by"
+msgid "This item is sold by"
+msgstr "This item is sold by"
+
+msgctxt "Languages::et_featured_vendors_sidebar"
+msgid "ET - Featured vendors sidebar"
+msgstr "ET - Featured vendors sidebar"
+
+msgctxt "Languages::et_vendor_menu"
+msgid "Vendor Menu"
+msgstr "Vendor Menu"
+
+msgctxt "Languages::et_same_vendor"
+msgid "ET - Same vendor"
+msgstr "ET - Same vendor"
+
+msgctxt "Languages::vendor_rating"
+msgid "ET - Vendor rating"
+msgstr "ET - Vendor rating"
+
+msgctxt "Languages::et_home_featured_vendors"
+msgid "ET - Home featured vendors"
+msgstr "ET - Home featured vendors"
+
+msgctxt "Languages::cta"
+msgid "ET - Call to action"
+msgstr "ET - Call to action"
+
+msgctxt "Languages::et_vendor_menu_mobile"
+msgid "ET - Vendor menu mobile"
+msgstr "ET - Vendor menu mobile"
+
+msgctxt "Languages::store_rating"
+msgid "Store rating"
+msgstr "Store rating"
+
+msgctxt "Languages::view_store"
+msgid "View store"
+msgstr "View store"
+
+msgctxt "Languages::et_vendor_header.store"
+msgid "Store"
+msgstr "Store"
+
+msgctxt "Languages::et_vendor_header.feedback"
+msgid "Feedback"
+msgstr "Feedback"
+
+msgctxt "Languages::et_vendor_header.social"
+msgid "Socials"
+msgstr "Socials"
+
+msgctxt "Languages::et_vendor_header.store"
+msgid "Store"
+msgstr "Store"
+
+msgctxt "Languages::et_vendor_header.store"
+msgid "Store"
+msgstr "Store"
+
+msgctxt "Languages::vendor_page.add_post"
+msgid "Add new page"
+msgstr "Add new page"
+
+msgctxt "Languages::vendor_page.editing_post"
+msgid "Editing"
+msgstr "Editing"
+
+msgctxt "Languages::vendor_page.new_post"
+msgid "New vendor page"
+msgstr "New vendor page"
+
+msgctxt "Languages::vsb_new_home_block"
+msgid "New home block"
+msgstr "New home block"
+
+msgctxt "Languages::et_vendor_menu"
+msgid "Vendor Menu"
+msgstr "Vendor Menu"
+
+msgctxt "Languages::block_et_featured_vendors"
+msgid "ET - Featured vendors"
+msgstr "ET - Featured vendors"
+
+msgctxt "Languages::block_et_featured_vendors_sidebar"
+msgid "ET - Featured vendors sidebar"
+msgstr "ET - Featured vendors sidebar"
+
+msgctxt "Languages::block_et_vendor_categories"
+msgid "ET - Vendor categories"
+msgstr "ET - Vendor categories"
+
+msgctxt "Languages::block_et_vendor_contact_button"
+msgid "ET - Vendor contact button"
+msgstr "ET - Vendor contact button"
+
+msgctxt "Languages::block_et_vendor_store_description"
+msgid "ET - Vendor store description"
+msgstr "ET - Vendor store description"
+
+msgctxt "Languages::block_et_vendor_store_header"
+msgid "ET - Vendor store header"
+msgstr "ET - Vendor store header"
+
+msgctxt "Languages::block_et_vendor_store_header_mobile"
+msgid "ET - Vendor store header (mobile)"
+msgstr "ET - Vendor store header (mobile)"
+
+msgctxt "Languages::block_et_vendor_store_menu"
+msgid "ET - Vendor store menu"
+msgstr "ET - Vendor store menu"
+
+msgctxt "Languages::block_et_vendor_store_menu_mobile"
+msgid "ET - Vendor store menu (mobile)"
+msgstr "ET - Vendor store menu (mobile)"
+
+msgctxt "Languages::vendor_pages_title"
+msgid "ET - Vendor pages title"
+msgstr "ET - Vendor pages title"
+
+msgctxt "Languages::et_master_vendors"
+msgid "vendor|vendors"
+msgstr "vendor|vendors"
+
+msgctxt "Languages::et_vendor_store_header_mobile"
+msgid "ET - Vendor store header mobile"
+msgstr "ET - Vendor store header mobile"
+
+msgctxt "Languages::et_vendor_store_header"
+msgid "ET - Vendor store header"
+msgstr "ET - Vendor store header"
+
+msgctxt "Languages::et_vendor_store_menu_mobile"
+msgid "ET - Vendor store menu mobile"
+msgstr "ET - Vendor store menu mobile"
+
+msgctxt "Languages::et_vendor_store_menu"
+msgid "ET - Vendor store menu"
+msgstr "ET - Vendor store menu"
+
+msgctxt "Languages::et_vendor_categories"
+msgid "ET - Vendor categories"
+msgstr "ET - Vendor categories"
+
+msgctxt "Languages::et_contact_info"
+msgid "Contact info"
+msgstr "Contact info"
+
+msgctxt "Languages::et_contact_info"
+msgid "Contact info"
+msgstr "Contact info"
+
+msgctxt "Languages::et_vendor_panel_menu.my_home_blocks"
+msgid "Home blocks"
+msgstr "Home blocks"
+
+msgctxt "Languages::et_vendor_panel_menu.my_pages"
+msgid "Pages"
+msgstr "Pages"
+
+msgctxt "Languages::et_vendor_panel_menu.my_banners"
+msgid "Banners"
+msgstr "Banners"
+
+msgctxt "Languages::et_vendor_panel_menu.default_vendor_store"
+msgid "Default vendor blocks"
+msgstr "Default vendor blocks"
+
+msgctxt "Languages::et_default_vendor"
+msgid "Default vendor"
+msgstr "Default vendor"
+
+msgctxt "Languages::header_colors"
+msgid "Header Colors"
+msgstr "Header Colors"
+
+msgctxt "Languages::menu_colors"
+msgid "Menu Colors"
+msgstr "Menu Colors"
+
+msgctxt "Languages::store_category_settings"
+msgid "Store category settings"
+msgstr "Store category settings"

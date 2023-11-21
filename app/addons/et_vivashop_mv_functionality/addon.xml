@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+  <id>et_vivashop_mv_functionality</id>
+  <version>1.24.4151</version>
+  <priority>4294967294</priority>
+  <position>0</position>
+  <status>active</status>
+  <has_icon>Y</has_icon>
+  <auto_install>MULTIVENDOR</auto_install>
+  <default_language>en</default_language>
+  <compatibility>
+    <core_version>
+        <min>4.15.1.*</min>
+        <max>4.15.1</max>
+    </core_version>
+    <conflicts>rus_theme_style</conflicts>
+    <core_edition>
+        MULTIVENDOR
+    </core_edition>
+  </compatibility>
+  <supplier>EnergoThemes</supplier>
+  <supplier_link>https://www.energothemes.com</supplier_link>
+  <authors>
+    <author>
+      <name>EnergoThemes</name>
+      <email>office@energothemes.com</email>
+      <url>https://www.energothemes.com</url>
+    </author>
+  </authors>
+  <queries>
+    <item>DROP TABLE IF EXISTS ?:et_mv_ved;</item>
+    <item>DROP TABLE IF EXISTS ?:et_mv_vendor_settings;</item>
+    <item>DROP TABLE IF EXISTS ?:et_mv_vsb;</item>
+    <item>DROP TABLE IF EXISTS ?:et_mv_vsb_data;</item>
+    <item>DROP TABLE IF EXISTS ?:et_mv_vsb_banners;</item>
+    <item>DROP TABLE IF EXISTS ?:et_mv_pp_content;</item>
+    <!-- Vendor extra details (contact page map,social media links) -->
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_mv_ved` (
+        `company_id` mediumint(8) unsigned NOT NULL default 0,
+        `type` char(1) NOT NULL default 'M',
+        `description` mediumtext,
+        PRIMARY KEY  (`company_id`,`type`)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_mv_vendor_settings` (
+        `ved_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+        `company_id` mediumint(8) unsigned NOT NULL,
+        `data` text,
+        PRIMARY KEY  (`ved_id`),
+        UNIQUE KEY `company_id` (`company_id`)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <!-- Vendor store blocks -->
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_mv_vsb` (
+        `vsb_id` mediumint(8) unsigned NOT NULL auto_increment,
+        `company_id` mediumint(8) unsigned NOT NULL,
+        `status` char(1) NOT NULL default 'A',
+        `position` smallint(5) unsigned NOT NULL default '0',
+        `data` text default '',
+        PRIMARY KEY  (`vsb_id`)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_mv_vsb_data` (
+        `data_id` mediumint(8) unsigned NOT NULL auto_increment,
+        `vsb_id` mediumint(8) unsigned NOT NULL,
+        `text` text default '',
+        `data` text default '',
+        `lang_code` char(2) NOT NULL default '',
+        PRIMARY KEY  (`data_id`),
+        UNIQUE KEY (`vsb_id`,`lang_code`)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_mv_vsb_banners` (
+        `banner_id` mediumint(8) unsigned NOT NULL auto_increment,
+        `vsb_id` mediumint(8) unsigned NOT NULL,
+        `banner_nr` mediumint(8) DEFAULT NULL,
+        `position` smallint(5) unsigned NOT NULL default '0',
+        `url` mediumtext,
+        `lang_code` char(2) NOT NULL default '',
+        PRIMARY KEY  (`banner_id`),
+        UNIQUE KEY (`banner_id`,`lang_code`)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <!-- Vendor product page blocks -->
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_mv_pp_content` (
+        `company_id` mediumint(8) unsigned NOT NULL default 0,
+        `type` char(1) NOT NULL default 'M',
+        `description` mediumtext,
+        `lang_code` char(2) NOT NULL default '',
+        PRIMARY KEY  (`company_id`,`type`,`lang_code`)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+
+    <item editions="MULTIVENDOR">
+        ALTER TABLE `?:banners`
+        ADD COLUMN `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+        ADD KEY `company_id` (`company_id`);
+    </item>
+
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_mv_ved;</item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_mv_vendor_settings;</item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_mv_pp_content;</item>
+    <item for="uninstall">ALTER TABLE ?:banners DROP COLUMN `company_id`</item>
+  </queries>
+  <functions>
+      <item for="install">fn_et_vivashop_mv_functionality_install</item>
+  </functions>
+  <settings edition_type="ROOT,ULT:VENDOR">
+    <sections>
+      <section id="main">
+        <name>VIVAshop Multi-Vendor functionality settings</name>
+        <items>
+          <item id="et_product_header">
+            <type>header</type>
+          </item>
+          <item id="et_product_link">
+            <type>selectbox</type>
+            <default_value>vendor</default_value>
+            <variants>
+              <item id="vendor"></item>
+              <item id="both"></item>
+            </variants>
+          </item>
+          <item id="mv_menu_settings">
+            <type>header</type>
+          </item>
+          <item id="et_mv_menu_setting_new">
+            <type>checkbox</type>
+            <default_value>Y</default_value>
+          </item>
+          <item id="et_mv_menu_setting_sale">
+            <type>checkbox</type>
+            <default_value>Y</default_value>
+          </item>
+          <item id="et_mv_menu_setting_best">
+            <type>checkbox</type>
+            <default_value>Y</default_value>
+          </item>
+          <item id="et_mv_menu_setting_about">
+            <type>checkbox</type>
+            <default_value>Y</default_value>
+          </item>
+          <item id="et_mv_menu_setting_pages">
+            <type>checkbox</type>
+            <default_value>Y</default_value>
+          </item>
+          <item id="et_mv_menu_setting_contact">
+            <type>checkbox</type>
+            <default_value>Y</default_value>
+          </item>
+
+          <item id="functionality">
+            <type>header</type>
+          </item>
+          <item id="et_vendor_filters">
+            <type>selectbox</type>
+            <default_value>vertical</default_value>
+            <variants>
+              <item id="vertical"></item>
+              <item id="horizontal"></item>
+            </variants>
+          </item>
+          <item id="et_vendor_categories">
+            <type>selectbox</type>
+            <default_value>collapsed</default_value>
+            <variants>
+              <item id="collapsed"></item>
+              <item id="expanded"></item>
+            </variants>
+          </item>
+          <item id="colors">
+            <type>header</type>
+          </item>
+          <item id="tpl_colors">
+            <type>template</type>
+            <name>Colors</name>
+            <default_value>colors.tpl</default_value>
+          </item>
+          <item id="vendor_colors">
+            <type>hidden</type>
+            <default_value>a:7:{s:10:"header_bkg";s:7:"#efefef";s:11:"header_text";s:7:"#0086b5";s:12:"header_hover";s:7:"#fbb500";s:8:"menu_bkg";s:7:"#0086b5";s:9:"menu_text";s:7:"#ffffff";s:14:"menu_bkg_hover";s:7:"#fbb500";s:15:"menu_text_hover";s:7:"#ffffff";}</default_value>
+          </item>
+
+          <item id="plans_page">
+            <type>header</type>
+          </item>
+          <item id="plans_page_settings">
+            <type>template</type>
+            <name>Plans</name>
+            <default_value>plans_page_settings.tpl</default_value>
+          </item>
+          <item id="vendor_plans">
+            <type>hidden</type>
+            <default_value>a:10:{s:14:"highlight_text";s:7:"#00ccdf";s:9:"price_bkg";s:7:"#00ccdf";s:10:"price_text";s:7:"#ffffff";s:8:"best_bkg";s:7:"#62ba00";s:9:"best_text";s:7:"#ffffff";s:14:"best_outer_bkg";s:7:"#ff9900";s:15:"best_outer_text";s:7:"#ffffff";s:11:"show_footer";s:2:"on";s:11:"footer_text";s:7:"#ffffff";s:10:"footer_bkg";s:7:"#01d1f5";}</default_value>
+          </item>
+        </items>
+      </section>
+    </sections>
+  </settings>
+</addon>

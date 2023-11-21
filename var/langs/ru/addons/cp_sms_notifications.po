@@ -1,0 +1,106 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_sms_notifications"
+msgid "Cart-Power: SMS notifications"
+msgstr "Cart-Power: SMS уведомления"
+
+msgctxt "Addons::description::cp_sms_notifications"
+msgid "Provides the ability to send SMS notifications to customers. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Предоставляет возможность отправлять SMS уведомления пользователям. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_sms_notifications::general"
+msgid "General"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::cp_sms_notifications::licensekey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsTooltips::cp_sms_notifications::licensekey"
+msgid "You can find it on your order details page"
+msgstr "Смотрите на детальной странице заказа"
+
+msgctxt "SettingsOptions::cp_sms_notifications::show_manual_send"
+msgid "Show tab for manual SMS sending"
+msgstr "Показывать вкладку ручной отправки SMS"
+
+msgctxt "Languages::privileges.manage_cp_sms_notifications"
+msgid "CP: Manage SMS Notification"
+msgstr "CP: Управление SMS уведомлениями"
+
+msgctxt "Languages::privileges.view_cp_sms_notifications"
+msgid "CP: View SMS Notifications"
+msgstr "CP: Просмотр SMS уведомлений"
+
+msgctxt "Languages::privilege_groups.cp_sms_notifications"
+msgid "CP: SMS notifications"
+msgstr "CP: SMS уведомления"
+
+msgctxt "Languages::cp_sms_notifications"
+msgid "SMS notifications"
+msgstr "SMS уведомления"
+
+msgctxt "Languages::cp_sms_notifications_menu_description"
+msgid "SMS notification management"
+msgstr "Управление SMS уведомлениями"
+
+msgctxt "Languages::cp_sms_logs"
+msgid "SMS notification log"
+msgstr "Журнал SMS уведомлений"
+
+msgctxt "Languages::cp_sn_action_manual_send"
+msgid "Manual sending"
+msgstr "Ручная отправка"
+
+msgctxt "Languages::cp_sn_action_order_change"
+msgid "Change order status"
+msgstr "Изменение статуса заказа"
+
+msgctxt "Languages::cp_sn_action_shipment"
+msgid "Shipment"
+msgstr "Отгрузка"
+
+msgctxt "Languages::cp_sms_templates"
+msgid "Notification templates"
+msgstr "Шаблоны уведомлений"
+
+msgctxt "Languages::cp_sms_message"
+msgid "SMS message"
+msgstr "SMS сообщение"
+
+msgctxt "Languages::cp_sms_send"
+msgid "Sending SMS"
+msgstr "Отправка SMS"
+
+msgctxt "Languages::cp_sms_sent_successfull"
+msgid "Message sent successfully!"
+msgstr "Сообщение успешно отправлено!"
+
+msgctxt "Languages::cp_sn_placeholders_title"
+msgid "Placeholders to use"
+msgstr "Плейсхолдеры для использования"
+
+msgctxt "Languages::cp_sn_default_title_order_status"
+msgid "Your order status #{{ order_id }} has been changed to \"{{ status }}\"."
+msgstr "Статус Вашего заказа #{{ order_id }} изменен на \"{{ status }}\"."
+
+msgctxt "Languages::cp_sn_placeholders_title"
+msgid "Placeholders to use"
+msgstr "Плейсхолдеры для использования"
+
+msgctxt "Languages::cp_sn_receive_sms_notifications"
+msgid "Receive SMS notifications"
+msgstr "Получать оповещения по SMS"
+
+msgctxt "Languages::cp_sn_firstname"
+msgid "Firstname"
+msgstr "Имя"
+
+msgctxt "Languages::cp_sn_lastname"
+msgid "Lastname"
+msgstr "Фамилия"
+

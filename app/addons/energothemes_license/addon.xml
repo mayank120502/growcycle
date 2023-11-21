@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+  <id>energothemes_license</id>
+  <version>3.9.4151</version>
+  <priority>100500</priority>
+  <position>0</position>
+  <has_icon>Y</has_icon>
+  <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+  <default_language>en</default_language>
+  <compatibility>
+    <core_version>
+      <min>4.15.1.*</min>
+      <max>4.15.1</max>
+    </core_version>
+    <conflicts>rus_theme_style</conflicts>
+  </compatibility>
+  <supplier>EnergoThemes</supplier>
+  <supplier_link>https://www.energothemes.com</supplier_link>
+  <authors>
+    <author>
+      <name>EnergoThemes</name>
+      <email>office@energothemes.com</email>
+      <url>https://www.energothemes.com</url>
+    </author>
+  </authors>
+  <settings edition_type="ROOT,ULT:VENDOR">
+    <sections>
+      <section id="main">
+        <name>License</name>
+        <items>
+          <item id="et_license">
+            <type>input</type>
+          </item>
+          <item id="et_license_s">
+            <type>hidden</type>
+            <default_value>aHR0cDovL2xpY2Vuc2UuZW5lcmdvdGhlbWVzLmNvbS9pbmRleC5waHA=</default_value>
+          </item>
+          <item id="et_license_v">
+            <type>hidden</type>
+            <default_value>false</default_value>
+          </item>
+          <item id="et_license_t">
+            <type>hidden</type>
+            <default_value>false</default_value>
+          </item>
+          <item id="et_license_ta">
+            <name>DO NOT MODIFY ANYTHING</name>
+            <type>hidden</type>
+          </item>
+          <item id="et_license_tap">
+            <name>YOU HAVE BEEN WARNED</name>
+            <type>hidden</type>
+          </item>
+          <item id="et_license_iv">
+            <type>hidden</type>
+            <default_value>eyogVGhpcyBmaWxlIGlzIGVtcHR5IGJlY2F1c2UgdGhlIHRoZW1lIGlzIG5vdCBhY3RpdmF0ZWQuIFBsZWFzZSBpbnN0YWxsIGFuZCBhY3RpdmF0ZSB0aGUgRW5lcmdvVGhlbWVzIC0gTGljZW5zZSBhZGRvbiBmb3VuZCBpbiB0aGUgaW5zdGFsbGF0aW9uIGZpbGVzIGFjY29yZGluZyB0byB0aGUgaW5zdGFsbGF0aW9uIGd1aWRlKn0=</default_value>
+          </item>
+          <item id="et_license_sd">
+            <type>hidden</type>
+            <default_value>0</default_value>
+          </item>
+        </items>
+      </section>
+    </sections>
+  </settings>
+  <queries>
+    <item>DROP TABLE IF EXISTS ?:etl;</item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:etl` (
+      `etl_timestamp` int(11) unsigned NOT NULL DEFAULT '0'
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:etl;</item>
+  </queries>
+  <functions>
+    <item for="install">fn_energothemes_license_install</item>
+    <item for="uninstall">fn_energothemes_license_activate</item>
+  </functions>
+</addon>

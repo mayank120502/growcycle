@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); fn_define('MEASUREMENT_GA_URI', 'www.google-analytics.com/collect'); fn_define('MEASUREMENT_GA_URL', 'http://' . MEASUREMENT_GA_URI); fn_define('MEASUREMENT_GA4_URL', 'https://www.google-analytics.com/mp/collect'); fn_define('CHECKOUT_STEP_ONE', 1); fn_define('CHECKOUT_STEP_TWO', 2); fn_define('CHECKOUT_STEP_THREE', 3); fn_define('CHECKOUT_STEP_FOUR', 4); 

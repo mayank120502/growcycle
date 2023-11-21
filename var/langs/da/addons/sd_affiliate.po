@@ -1,0 +1,473 @@
+# Base pack of "Danish" language variables
+msgid ""
+msgstr ""
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Pack-Name: Dansk\n"
+"Lang-Code: da\n"
+"Country-Code: DK\n"
+
+msgctxt "Addons::name::affiliate"
+msgid "Affiliate"
+msgstr "Partner"
+
+msgctxt "Languages::affiliate.new_banner"
+msgid "New banner"
+msgstr "ny banner"
+
+msgctxt "Languages::affiliate.editing_banner"
+msgid "Editing banner"
+msgstr "redigere banner"
+
+msgctxt "Languages::add_affiliate"
+msgid "Add affiliate"
+msgstr "Tilføj affiliate"
+
+msgctxt "Languages::affiliate"
+msgid "Affiliate"
+msgstr "Partner"
+
+msgctxt "Languages::affiliate_information"
+msgid "Affiliate information"
+msgstr "Partner information"
+
+msgctxt "Languages::affiliate_payouts"
+msgid "Affiliate payouts"
+msgstr "Partner udbetaling"
+
+msgctxt "Languages::affiliate_plan"
+msgid "Affiliate plan"
+msgstr "Partner plan"
+
+msgctxt "Languages::affiliate_agree_to_terms_conditions"
+msgid "By clicking the \"[button_name]\" button below, you acknowledge that you agree to and understand the terms and conditions of our affiliate program."
+msgstr "Ved at klikke på \"[button_name]\" knappen nedenfor, accepterer du, at du accepterer og forstå de vilkår og betingelser for vores partner program."
+
+msgctxt "Languages::affiliate_text_letter_footer"
+msgid "Thank you for taking part in our affiliate program."
+msgstr "Tak fordi du er en del af vores partner system"
+
+msgctxt "Languages::affiliate_tree"
+msgid "Affiliate tree"
+msgstr "Partner tre"
+
+msgctxt "Languages::text_banners"
+msgid "Text banners"
+msgstr "Tekst banner"
+
+msgctxt "Languages::graphic_banners"
+msgid "Graphic banners"
+msgstr "Grafisk banner"
+
+msgctxt "Languages::text_no_banners_found"
+msgid "No banners found"
+msgstr "Ingen bannere fundet"
+
+msgctxt "Languages::payout"
+msgid "Payout"
+msgstr "Udbetaling"
+
+msgctxt "Languages::payouts"
+msgid "Payouts"
+msgstr "Udbetaling"
+
+msgctxt "Languages::payout_click"
+msgid "Click"
+msgstr "klik"
+
+msgctxt "Languages::payout_init_balance"
+msgid "Initial balance"
+msgstr "første balance"
+
+msgctxt "Languages::payout_sales"
+msgid "Payout sales"
+msgstr "Udbetaling salg"
+
+msgctxt "Languages::payout_show"
+msgid "Show banner"
+msgstr "Vis banner"
+
+msgctxt "Languages::payout_use_coupon"
+msgid "Use coupon"
+msgstr "Brug kupon"
+
+msgctxt "Languages::product_banners"
+msgid "Product banners"
+msgstr "Produkt banner"
+
+msgctxt "Languages::sale_vs_click"
+msgid "Percentage of sales and banner clicks"
+msgstr "Procentdel af salget og banner klik"
+
+msgctxt "Languages::click_vs_show"
+msgid "Percentage of banner clicks and banner shows"
+msgstr "Procentdel af banner klik og banner viser"
+
+msgctxt "Languages::link_new_affiliate"
+msgid "Link to add a new affiliate"
+msgstr "Link til at tilføje en ny partner"
+
+msgctxt "Languages::multi_tier_affiliates"
+msgid "Multi tier affiliates"
+msgstr "Multi lag Partner"
+
+msgctxt "Languages::payout_new_partner"
+msgid "New affiliate"
+msgstr "ny partner"
+
+msgctxt "Languages::text_no_affiliate_assigned"
+msgid "No affiliate plan has been assigned to your account yet"
+msgstr "Ingen apartner Planen er blevet tildelt til din konto endnu"
+
+msgctxt "Languages::no_payouts_found"
+msgid "No payouts found"
+msgstr "Ingen udbetalinger fundet"
+
+msgctxt "Languages::total_payouts"
+msgid "Total payouts"
+msgstr "Total udbetaling"
+
+msgctxt "Languages::aff_cookie_expiration"
+msgid "Life span of customer cookie (days)"
+msgstr "Levetid for kundernes cookie (dage)"
+
+msgctxt "Languages::set_initial_balance"
+msgid "Initial incentive balance"
+msgstr "Indledende incitament balance"
+
+msgctxt "Languages::total_commissions"
+msgid "Total commissions"
+msgstr "Total provision"
+
+msgctxt "Languages::affiliate_add_payout"
+msgid "Add payout"
+msgstr "Tilføj Udbetaling"
+
+msgctxt "Languages::affiliate_add_plan"
+msgid "Add plan"
+msgstr "Tilføj plan"
+
+msgctxt "Languages::affiliate_new_group"
+msgid "New group"
+msgstr "Ny grup"
+
+msgctxt "Languages::paidup"
+msgid "Paid-up"
+msgstr "Indbetalt"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Datointerval"
+
+msgctxt "Languages::deleted_banners"
+msgid "Deleted banners"
+msgstr "Slet banner"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Ingen gyldige data, der modtages"
+
+msgctxt "Languages::banner_deleted"
+msgid "The banner has been deleted successfully."
+msgstr "Banneret er blevet slettet."
+
+msgctxt "Languages::group_for_category"
+msgid "Group for categories"
+msgstr "Gruppen for kategori"
+
+msgctxt "Languages::group_for_product"
+msgid "Group for products"
+msgstr "Gruppe for produkter"
+
+msgctxt "Languages::deleted_product_groups"
+msgid "Deleted product groups"
+msgstr "Slettet product groups"
+
+msgctxt "Languages::error_payout_gt_balance"
+msgid "The payout cannot exceed the affiliate balance."
+msgstr "Udbetalingstabellen kan ikke være større end affiliate balance."
+
+msgctxt "Languages::error_account_not_approved"
+msgid "Your affiliate account was not approved. Please contact store administration."
+msgstr "Din konto er ikke blevet godkendt. Kontakt venligst butik administration."
+
+msgctxt "Languages::error_account_declined"
+msgid "Your affiliate account was declined. Please contact store administration."
+msgstr "Din konto er lukket. Kontakt venligst butik administration."
+
+msgctxt "Languages::text_partner_create_profile"
+msgid "First you should receive an email message with approval, then you can log in."
+msgstr "I første omgang bør du modtage e-mail med godkendelse, så du kan logge ind"
+
+msgctxt "Languages::affiliates"
+msgid "Affiliates"
+msgstr "Partner"
+
+msgctxt "Languages::affiliate_code"
+msgid "Affiliate code"
+msgstr "Partner kode"
+
+msgctxt "Languages::affiliate_commissions"
+msgid "Affiliate commissions"
+msgstr "Partner provisioner\\n"
+
+msgctxt "Languages::related_actions"
+msgid "Related actions"
+msgstr "Relaterede aktioner"
+
+msgctxt "Languages::disapprove_commissions"
+msgid "Disapprove commissions"
+msgstr "Afvis provision"
+
+msgctxt "Languages::delete_commissions"
+msgid "Delete commissions"
+msgstr "Slet provisioner"
+
+msgctxt "Languages::approve_commissions"
+msgid "Approve commissions"
+msgstr "Godkend provisioner"
+
+msgctxt "Languages::count"
+msgid "Count"
+msgstr "optælling"
+
+msgctxt "Languages::avg"
+msgid "Avg"
+msgstr "Ca."
+
+msgctxt "Languages::show_zero_actions"
+msgid "Show zero actions"
+msgstr "Vis nul aktioner\\n"
+
+msgctxt "Languages::not_show"
+msgid "Not show"
+msgstr "Ikke show"
+
+msgctxt "Languages::only_zero_actions"
+msgid "Only zero actions"
+msgstr "Kun nul aktioner"
+
+msgctxt "Languages::affiliate_settings"
+msgid "Affiliate system settings"
+msgstr "Partner systemindstillinger"
+
+msgctxt "Languages::method_based_selling_price"
+msgid "Commission calculation based on product price"
+msgstr "Kommissionens beregninger baseret på produktets pris"
+
+msgctxt "Languages::coupon_commission_overide_all"
+msgid "Coupon commission should override all the others"
+msgstr "kupon -kommision skal overskive alle andre"
+
+msgctxt "Languages::add_selected"
+msgid "Add selected"
+msgstr "tilføj valgte"
+
+msgctxt "Languages::add_commissions_multi_affiliates"
+msgid "Add commission(s) to multi tier affiliates"
+msgstr "Tilføj provision (er) til flere lag affiliere\\n"
+
+msgctxt "Languages::add_commissions"
+msgid "Add commissions"
+msgstr "Tilføj provisioner"
+
+msgctxt "Languages::add_coupons"
+msgid "Add coupon(s)"
+msgstr "Tilføj kupon(er)"
+
+msgctxt "Languages::new_plan"
+msgid "New plan"
+msgstr "Nye plan"
+
+msgctxt "Languages::editing_plan"
+msgid "Editing plan"
+msgstr "redigere plan"
+
+msgctxt "Languages::product_group"
+msgid "Product group"
+msgstr "Produkt gruppe"
+
+msgctxt "Languages::refresh_banner"
+msgid "Refresh banner"
+msgstr "Opdatere banner"
+
+msgctxt "Languages::align"
+msgid "Align"
+msgstr "Tilpasse"
+
+msgctxt "Languages::show_border"
+msgid "Show border"
+msgstr "Vis grænse"
+
+msgctxt "Languages::show_title"
+msgid "Show title"
+msgstr "Vis titel"
+
+msgctxt "Languages::show_url"
+msgid "Show URL"
+msgstr "Vis URL"
+
+msgctxt "Languages::new_window"
+msgid "New window"
+msgstr "nyt vindue"
+
+msgctxt "Languages::affiliate_tiers_tree"
+msgid "Affiliate tiers tree"
+msgstr "Partner niveau tre"
+
+msgctxt "Languages::without_plan"
+msgid "Without plan"
+msgstr "Uden plan"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "Personale information"
+
+msgctxt "Languages::edit_affiliate"
+msgid "Edit affiliate"
+msgstr "redigere partner"
+
+msgctxt "Languages::viewing_affiliate"
+msgid "Viewing affiliate"
+msgstr "Visning af partner"
+
+msgctxt "Languages::checking_min_payment"
+msgid "Payments with minimum release level only"
+msgstr "Betalinger med minimum frigivet plan kun\\n"
+
+msgctxt "Languages::checking_payment_period"
+msgid "Due payments only"
+msgstr "skyldig betaling"
+
+msgctxt "Languages::amount_of_approved_actions"
+msgid "Amount of approved actions"
+msgstr "Beløb af de godkendte foranstaltninger"
+
+msgctxt "Languages::amount_of_awaiting_approval_actions"
+msgid "Amount of actions awaiting approval"
+msgstr "Mængden af tiltag afventer godkendelse"
+
+msgctxt "Languages::date_of_last_payment"
+msgid "Date of the previous payment"
+msgstr "Dato på sidste betaling"
+
+msgctxt "Languages::pay_affiliates"
+msgid "Pay affiliates"
+msgstr "Betal partner"
+
+msgctxt "Languages::last_payout"
+msgid "Last payout"
+msgstr "Sidste udbetalinger"
+
+msgctxt "Languages::avg_payout"
+msgid "Avg payout"
+msgstr "Ca. udbetaling"
+
+msgctxt "Languages::view_history"
+msgid "View history"
+msgstr "Se historie"
+
+msgctxt "Languages::accounting_history"
+msgid "Accounting History"
+msgstr "Regnskab historie"
+
+msgctxt "Languages::add_group_for_categories"
+msgid "Add group for categories"
+msgstr "Tilføj gruppe for kategori"
+
+msgctxt "Languages::add_group_for_products"
+msgid "Add group for products"
+msgstr "Tilføj gruppe for produkter"
+
+msgctxt "Languages::add_url_group"
+msgid "Add URL group"
+msgstr "Tilføj URL gruppe"
+
+msgctxt "Languages::email_approved_notification_header"
+msgid "Thank you for becoming a registered affiliate of [company]. Your account has been activated."
+msgstr "Tak for at blive registreret affiliate af [company]. Din konto er godkendt."
+
+msgctxt "Languages::email_subj_approved"
+msgid "Your account was approved."
+msgstr "Din konto er godkendt."
+
+msgctxt "Languages::email_declined_notification_header"
+msgid "Your account was declined."
+msgstr "Din account er lukket"
+
+msgctxt "Languages::email_subj_declined"
+msgid "Your account was declined."
+msgstr "Din konto er blevet lukket"
+
+msgctxt "Languages::bottom"
+msgid "Bottom"
+msgstr "Bund"
+
+msgctxt "Languages::tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all"
+msgid "If enabled, coupon commission cancels the other commissions."
+msgstr "Hvis aktiveret, kupon Kommissionen annullerer de andre kommissioner."
+
+msgctxt "SettingsOptions::affiliate::payment_period"
+msgid "Payment period"
+msgstr "Betaling periode"
+
+msgctxt "SettingsOptions::affiliate::number_last_periods"
+msgid "Number of last periods"
+msgstr "Antal sidste perioder"
+
+msgctxt "SettingsOptions::affiliate::automatic_approval_commissions"
+msgid "Automatic approval of affiliate commissions"
+msgstr "Automatisk godkendelse af affiliate provisioner"
+
+msgctxt "SettingsOptions::affiliate::elm_text_banner"
+msgid "Text banner"
+msgstr "Tekst banner"
+
+msgctxt "SettingsOptions::affiliate::title_text_color"
+msgid "Title text color"
+msgstr "Titel tekstfarve"
+
+msgctxt "SettingsOptions::affiliate::text_color"
+msgid "Text color"
+msgstr "Tekstfarve"
+
+msgctxt "SettingsOptions::affiliate::text_background_color"
+msgid "Text background color"
+msgstr "Tekst baggrundsfarve"
+
+msgctxt "SettingsOptions::affiliate::elm_discount_coupons"
+msgid "Discount Coupons"
+msgstr "Rabatkupon"
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Bannere"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliate Banner code"
+msgstr "Bannerkode"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Affiliate Add banner"
+msgstr "Tilføj banner"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Bannerkode for nogle produkter"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "Dit tilknyttede id er [user_id]. For at modtage provision i henhold til planen kan du tilføje <b>[aff_id_?]</b> (eller <b>[aff_id_&]</b> hvis sidekoblingen allerede indeholder "?") Til ethvert link til vores butik. For eksempel er her linket til registrering af en ny tilknyttet: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "Du kan også bruge følgende brugervenlige link til startsiden for at modtage provision i henhold til din plan: [link]"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>Du kan blive proffeselskab og få provisioner <b>kontant</b> til tekst-, produkt- og grafiske bannere samt tilknyttede multi-tiers tilknyttede og brugte kuponer.</p>[link]"

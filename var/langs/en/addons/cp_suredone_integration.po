@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_suredone_integration"
+msgid "Cart-Power: Suredone integration"
+msgstr "Cart-Power: Suredone integration"
+
+msgctxt "Addons::description::cp_suredone_integration"
+msgid "Synchronizes stock balances with Suredone. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "Synchronizes stock balances with Suredone. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_suredone_integration.cp_use_for_upload_products_suredone"
+msgid "Use to upload new products from Suredone service"
+msgstr "Use to upload new products from Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.cron_updated_orders_checker"
+msgid "Use this script to update order status in Suredone service"
+msgstr "Use this script to update order status in Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.cp_keyword_to_search_ebay_categories"
+msgid "Keyword to search eBay categories"
+msgstr "Keyword to search eBay categories"
+
+msgctxt "Languages::cp_suredone_integration.cp_update_amount"
+msgid "Update inventory"
+msgstr "Update inventory"
+
+msgctxt "Languages::cp_suredone_integration.try_manually"
+msgid "Start manually"
+msgstr "Start manually"
+
+msgctxt "SettingsSections::cp_suredone_integration::cron"
+msgid "CRON"
+msgstr "CRON"
+
+msgctxt "SettingsSections::cp_suredone_integration::login_suredone"
+msgid "Login to Suredone"
+msgstr "Login to Suredone"
+
+msgctxt "Languages::cp_suredone_integration.cron_added_orders_checker"
+msgid "Use this script to place an order on Suredone"
+msgstr "Use this script to place an order on Suredone"
+
+msgctxt "Languages::cp_suredone_integration.cron_added_new_products_checker"
+msgid "Use this script to add new products from Suredone service"
+msgstr "Use this script to add new products from Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.added_new_products_checker"
+msgid "Checking the addition of new products from the Suredone service"
+msgstr "Checking the addition of new products from the Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.updated_order_checker"
+msgid "Checking order Update in Suredone Service"
+msgstr "Checking order Update in Suredone Service"
+
+msgctxt "Languages::cp_suredone_integration.cron_updated_amount_products_checker"
+msgid "Use this script to update product balances from Suredone service"
+msgstr "Use this script to update product balances from Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.updated_amount_products_checker"
+msgid "Checking for updates of product balances from the Suredone service"
+msgstr "Checking for updates of product balances from the Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.added_order_checker"
+msgid "Checking the placement of an order in the Suredone service"
+msgstr "Checking the placement of an order in the Suredone service"
+
+msgctxt "Languages::cp_suredone_integration.cp_ebay_associated_category"
+msgid "Associated eBay category"
+msgstr "Associated eBay category"
+
+msgctxt "Languages::cp_suredone_integration.text_products_have_been_updated"
+msgid "The rest of the product or products were successfully updated"
+msgstr "The rest of the product or products were successfully updated"
+
+msgctxt "Languages::cp_suredone_integration.cp_update_amount_all_products"
+msgid "Update quantity for selected items"
+msgstr "Update quantity for selected items"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cron_password"
+msgid "Cron password"
+msgstr "Cron password"
+
+msgctxt "SettingsOptions::cp_suredone_integration::api_key_suredone"
+msgid "API key Suredone"
+msgstr "API key Suredone"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cp_suredone_username"
+msgid "Username into Suredone"
+msgstr "Username into Suredone"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cp_suredone_token"
+msgid "Token into Suredone"
+msgstr "Token into Suredone"
+
+msgctxt "SettingsSections::cp_suredone_integration::cp_settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cp_company_id"
+msgid "Select a store to download new products from the Suredone service"
+msgstr "Select a store to download new products from the Suredone service"

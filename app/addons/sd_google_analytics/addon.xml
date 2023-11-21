@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_google_analytics</id>
+    <version>4.10.23</version>
+    <priority>7000</priority>
+    <position>700</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Simtech Development</supplier>
+    <supplier_link>https://www.simtechdev.com</supplier_link>
+    <authors>
+        <author>
+            <name>Simtech Development</name>
+            <email>sales@simtechdev.com</email>
+            <url>https://www.simtechdev.com</url>
+        </author>
+    </authors>
+
+    <compatibility>
+        <conflicts>google_analytics,retailcrm</conflicts>
+        <core_version>
+            <min>4.10.1</min>
+        </core_version>
+        <php_version>
+            <min>7.0</min>
+        </php_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="tracking_code">
+                        <type>input</type>
+                    </item>
+                    <item id="api_secret">
+                        <type>input</type>
+                    </item>
+                    <item id="use_as_product_identification">
+                        <type>selectbox</type>
+                        <default_value>product_id</default_value>
+                        <variants>
+                            <item id="product_id">
+                            </item>
+                            <item id="product_code">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="ga_user_id_law">
+                        <type>checkbox</type>
+                        <default>N</default>
+                    </item>
+                    <item id="ga_anonymize_ip">
+                        <type>checkbox</type>
+                        <default>N</default>
+                    </item>
+                    <item id="site_speed_sample_rate">
+                        <type>input</type>
+                        <default_value>100</default_value>
+                    </item>
+                    <item id="select_brand">
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+            <section id="order_statuses">
+                <items>
+                    <item id="select_paid_statuses">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#C=Y&P=Y]]></default_value>
+                        <variants/>
+                    </item>
+                    <item id="select_refund_statuses">
+                        <type>multiple checkboxes</type>
+                        <default_value><![CDATA[#M#I=Y&D=Y]]></default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="events_affecting_the_bounce_rate">
+                <items>
+                    <item id="ga_quick_view">
+                        <type>checkbox</type>
+                        <default>N</default>
+                    </item>
+                    <item id="ga_comparison_list">
+                        <type>checkbox</type>
+                        <default>N</default>
+                    </item>
+                    <item id="ga_wishlist">
+                        <type>checkbox</type>
+                        <default>N</default>
+                    </item>
+                    <item id="ga_buy_one_click">
+                        <type>checkbox</type>
+                        <default>N</default>
+                    </item>
+                </items>
+            </section>
+            <section id="cross_domain_tracking">
+                <items>
+                    <item id="enable_cross_domain_tracking">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="domain_id" parent_id="enable_cross_domain_tracking">
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install">
+            ALTER TABLE ?:orders ADD sd_ga_cid varchar(30) NOT NULL DEFAULT '';
+        </item>
+        <item for="install">
+            ALTER TABLE ?:orders ADD sd_ga_status char(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="install" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies ADD sd_ga_tracking_code varchar(50) NOT NULL DEFAULT '';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:orders DROP sd_ga_cid;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:orders DROP sd_ga_status;
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies DROP sd_ga_tracking_code;
+        </item>
+        <item for="install" editions="MULTIVENDOR">
+            ALTER TABLE ?:vendor_plans ADD ga_vendors_tracking char(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR">
+            ALTER TABLE ?:vendor_plans DROP ga_vendors_tracking;
+        </item>
+    </queries>
+<marketplace_product_id>1396</marketplace_product_id><marketplace_license_number>GA-ENHANCED-854L-J793-9O2G-S8JK</marketplace_license_number></addon>

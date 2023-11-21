@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); if ($_SERVER['REQUEST_METHOD'] == 'POST') { return; } if ($mode == 'home_page_route') { if (!empty($_REQUEST['custom_affiliate_parameter'])) { fn_sd_affiliate_identify_affiliate_by_custom_affiliate_parameter($_REQUEST['custom_affiliate_parameter']); } return [CONTROLLER_STATUS_REDIRECT, fn_url()]; } 

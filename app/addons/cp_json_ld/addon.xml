@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_json_ld</id>
+    <version>1.6</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <marketplace_product_id>2630</marketplace_product_id>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>cp_addons_manager</dependencies>
+    </compatibility>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="products">
+                <items>
+                    <item id="use_product_markup">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="price_valid_period">
+                        <type>input</type>
+                        <default_value>30</default_value>
+                    </item>
+                    <item id="review_qty">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="features_txt">
+                        <type>template</type>
+                        <default_value>features_txt.tpl</default_value>
+                    </item>
+                    <item id="feature_brand">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_condition">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="avail_conditions_string">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="conditions_variants">
+                        <type>info</type>
+                        <handler>fn_cp_json_ld_get_conditions_variants</handler>
+                    </item>
+                    <item id="feature_availability">
+                        <type>selectbox</type>
+                        <default_value>auto</default_value>
+                    </item>
+                    <item id="avail_vars_string">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="availability_variants">
+                        <type>info</type>
+                        <handler>fn_cp_json_ld_get_availability_vars</handler>
+                    </item>
+                    <item id="feature_material">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_color">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_pattern">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_retailer_item_id">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="gtin_txt">
+                        <type>template</type>
+                        <default_value>global_ids.tpl</default_value>
+                    </item>
+                    <item id="feature_gtin8">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_gtin12">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_gtin13">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_gtin14">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_mpn">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="company">
+                <items>
+                    <item id="recomendation_txt">
+                        <type>template</type>
+                        <default_value>recomendation_txt.tpl</default_value>
+                    </item>
+                    <item id="company_markup_display_on">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                        <variants>
+                            <item id="none"></item>
+                            <item id="all"></item>
+                            <item id="page"></item>
+                        </variants>
+                    </item>
+                    <item id="company_markup_page">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                    </item>
+                    <item id="company_name">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="company_description_tpl">
+                        <type>template</type>
+                        <default_value>company_description.tpl</default_value>
+                    </item>
+                    <item id="use_rating">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="use_address">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="use_phone">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="local_business">
+                        <type>header</type>
+                    </item>
+                    <item id="local_business_info">
+                        <type>info</type>
+                        <handler>fn_cp_json_ld_business_info</handler>
+                    </item>
+                    <item id="store_type">
+                        <type>selectbox</type>
+                        <default_value>none</default_value>
+                    </item>
+                    <item id="currencies_accepted">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="opening_hours">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="payment_accepted">
+                        <type>input</type>
+                        <default_value>Cash, Credit Card</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="other">
+                <items>
+                    <item id="use_markup_for">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                        <default_value>none</default_value>
+                    </item>
+                    <item id="use_breadcrumbs_markup">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="use_search_markup">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <queries>
+        <item for="install" version="1.2">
+            CREATE TABLE `?:cp_json_ld_company_descriptions` (
+                `company_id` mediumint(8) unsigned NOT NULL DEFAULT '0',
+                `cp_description` mediumtext,
+                `cp_socials` mediumtext,
+                `lang_code` char(2) NOT NULL DEFAULT 'en',
+                PRIMARY KEY (`company_id`, `lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="uninstall">
+             DROP TABLE IF EXISTS ?:cp_json_ld_company_descriptions;
+        </item>
+
+        <item for="install" version="1.2">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('view_cp_json_ld_company', 'Y', 'addons');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'view_cp_extended_catalog'</item>
+
+        <item for="install" version="1.2">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_cp_json_ld_company', 'Y', 'addons');</item>
+        <item for="uninstall">DELETE FROM ?:privileges WHERE privilege = 'manage_cp_extended_catalog'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_update_cp_json_ld_priviliges</item>
+    </functions>
+    <scripts>
+        <item version="1.5">upgrades/1.5/scripts/post_script.php</item>
+        <item version="1.6">upgrades/1.6/scripts/post_script.php</item>
+    </scripts>
+</addon>

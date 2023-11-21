@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; defined('BOOTSTRAP') or die('Access denied'); fn_define('SD_TAXJAR_ORDER_EXPORT_FROM_DATE', Registry::get('addons.sd_taxjar.time_from')); fn_define('SD_TAXJAR_ORDER_EXPORT_ITEMS_PER_PAGE', 5000); fn_define('SD_TAXJAR_ORDER_EXPORT_TYPE_ORDER', 'Order'); fn_define('SD_TAXJAR_ORDER_EXPORT_TYPE_REFUND', 'Refund'); fn_define('SD_TAXJAR_ORDER_EXPORT_PROVIDER', 'mycart'); 

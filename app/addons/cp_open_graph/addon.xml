@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_open_graph</id>
+    <version>1.8</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>cp_addons_manager</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="fb_app_id">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="use_homepage_markup">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="homepage_markup_link">
+                        <type>template</type>
+                        <default_value>homepage_markup_link.tpl</default_value>
+                    </item>
+                    <item id="use_pages_markup">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="use_markup_for">
+                        <type>multiple checkboxes</type>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="products">
+                <items>
+                    <item id="use_products_markup">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="feature_brand">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_condition">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_availability">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_retailer_item_id">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="feature_item_group_id">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="categories">
+                <items>
+                    <item id="use_categories_markup">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="use_product_image">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE ?:products ADD cp_og_data_type char(1) NOT NULL DEFAULT 'A';</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP cp_og_data_type;</item>
+
+        <item for="install">ALTER TABLE ?:pages ADD cp_og_data_type char(1) NOT NULL DEFAULT 'A';</item>
+        <item for="uninstall">ALTER TABLE ?:pages DROP cp_og_data_type;</item>
+
+        <item for="install">ALTER TABLE ?:categories ADD cp_og_data_type char(1) NOT NULL DEFAULT 'A';</item>
+        <item for="uninstall">ALTER TABLE ?:categories DROP cp_og_data_type;</item>
+
+        <item for="install">
+            CREATE TABLE `?:cp_og_meta_data` (
+                `object_id` mediumint(8) unsigned NOT NULL default '0',
+                `object_type` varchar(10) NOT NULL default '',
+                `cp_og_title` varchar(255) NOT NULL default '',
+                `cp_og_description` mediumtext,
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`object_id`,`object_type`,`lang_code`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_og_meta_data;</item>
+    </queries>
+    <scripts>
+        <item version="1.5">upgrades/1.5/scripts/post_script.php</item>
+    </scripts>
+</addon>

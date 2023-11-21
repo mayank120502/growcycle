@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>ez_vendor_min_orders</id>
+	<version>4.12.4</version>
+	<supplier>EZ Merchant Solutions</supplier>
+	<supplier_link>https://ez-ms.com</supplier_link>
+	<priority>1</priority>
+	<position>0</position>
+	<status>active</status>
+	<default_language>en</default_language>
+	<settings  edition_type="ROOT,ULT:VENDOR" layout="separate" >
+		<sections>
+			<section id="general" edition_type="ROOT" >
+				<items>
+					<item id="general_addon_configuration">
+						<type>header</type>
+					</item>
+					
+					<item id="license_key">
+						<type>input</type>
+						<default_value></default_value>
+					</item>
+					<item id="upgrade_frequency">
+						<type>selectbox</type>
+						<default_value>daily</default_value>
+						<variants>
+							<item id="daily"></item>
+							<item id="weekly"></item>
+							<item id="monthly"></item>
+						</variants>
+					</item>
+					<item id="auto_install">
+						<type>checkbox</type>
+						<default_value>Y</default_value>
+					</item>
+					<item id="silent_install">
+						<type>checkbox</type>
+						<default_value>N</default_value>
+					</item>
+				</items>
+			</section>
+			<!-- Addon specific settings here -->
+			<section id="addon_basic"  edition_type="ROOT">
+				<items>
+					<item id="addon_configuration">
+						<type>header</type>
+					</item>
+					<item id="log_level">
+						<type>selectbox</type>
+						<default_value>1</default_value>
+						<variants>
+							<item id="1"></item>
+							<item id="0"></item>
+							<item id="3"></item>
+						</variants>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<functions>
+		<item for="install">ez_vendor_min_orders_install</item>
+	</functions>
+<!--
+	<queries>
+		<item for="uninstall">
+			ALTER TABLE ?:companies DROP COLUMN vendor_min_order_amount;
+		</item>
+	</queries>
+-->
+</addon>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+  <id>et_featured_product_banner_tabs</id>
+  <version>1.12.4151</version>
+  <priority>4294967224</priority>
+  <position>0</position>
+  <status>active</status>
+  <has_icon>Y</has_icon>
+  <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+  <default_language>en</default_language>
+  <compatibility>
+    <core_version>
+        <min>4.15.1.*</min>
+        <max>4.15.1</max>
+    </core_version>
+    <conflicts>rus_theme_style</conflicts>
+    <dependencies>banners</dependencies>
+  </compatibility>
+  <supplier>EnergoThemes</supplier>
+  <supplier_link>https://www.energothemes.com</supplier_link>
+  <authors>
+    <author>
+      <name>EnergoThemes</name>
+      <email>office@energothemes.com</email>
+      <url>https://www.energothemes.com</url>
+    </author>
+  </authors>
+
+  <queries>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_featured_product_banner_tabs` (
+            `block_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `data` text default '',
+            `status` char(1) NOT NULL default 'A',
+            PRIMARY KEY  (`block_id`)
+          ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_featured_product_banner_tabs_data` (
+            `block_id` mediumint(8) unsigned NOT NULL,
+            `data` text default '',
+            `lang_code` char(2) NOT NULL default '',
+            UNIQUE KEY (`block_id`,`lang_code`)
+          ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_featured_product_banner_tabs_tabs` (
+            `tab_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `block_id` mediumint(8) unsigned NOT NULL,
+            `position` smallint(5) unsigned NOT NULL default '0',
+            `data` text default '',
+            PRIMARY KEY  (`tab_id`)
+          ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item>
+      CREATE TABLE IF NOT EXISTS `?:et_featured_product_banner_tabs_tabs_data` (
+            `data_id` mediumint(8) unsigned NOT NULL auto_increment,
+            `tab_id` mediumint(8) unsigned NOT NULL,
+            `data` text default '',
+            `lang_code` char(2) NOT NULL default '',
+            PRIMARY KEY  (`data_id`),
+            UNIQUE KEY (`tab_id`,`lang_code`)
+          ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_featured_product_banner_tabs;</item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_featured_product_banner_tabs_data;</item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_featured_product_banner_tabs_tabs;</item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_featured_product_banner_tabs_tabs_data;</item>
+  </queries>
+</addon>

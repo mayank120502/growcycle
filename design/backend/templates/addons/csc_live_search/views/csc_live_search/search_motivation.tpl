@@ -1,0 +1,1 @@
+{include file="addons/`$addon_base_name`/views/`$addon_base_name`/settings.tpl"}

@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_vivashop_mv_seo"
+msgid "ET - SEO links for vendor stores"
+msgstr "ET - SEO links for vendor stores"
+
+msgctxt "Addons::description::et_vivashop_mv_seo"
+msgid "Adds Search engine-friendly URLs support for the Vendor store. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Adds Search engine-friendly URLs support for the Vendor store. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "Languages::et_seo_rules"
+msgid "VIVAshop SEO rules for vendor stores"
+msgstr "VIVAshop SEO rules for vendor stores"

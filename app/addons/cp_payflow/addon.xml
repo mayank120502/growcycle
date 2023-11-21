@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>cp_payflow</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>paypal</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT">
+        <sections>
+            <section id="cp_payflow_settings">
+                <items>
+                    <item id="order_status">
+                        <type>selectbox</type>
+                        <default_value>P</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_cp_payflow_install</item>
+        <item for="uninstall">fn_cp_payflow_uninstall</item>
+    </functions>
+</addon>

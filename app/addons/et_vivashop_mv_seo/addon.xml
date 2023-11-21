@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+  <id>et_vivashop_mv_seo</id>
+  <version>1.10.4151</version>
+  <priority>4294967294</priority>
+  <position>0</position>
+  <status>active</status>
+  <has_icon>Y</has_icon>
+  <auto_install>MULTIVENDOR</auto_install>
+  <default_language>en</default_language>
+  <compatibility>
+    <core_version>
+        <min>4.15.1.*</min>
+        <max>4.15.1</max>
+    </core_version>
+    <conflicts>rus_theme_style</conflicts>
+    <core_edition>
+        MULTIVENDOR
+    </core_edition>
+    <dependencies>seo</dependencies>
+    <dependencies>energothemes_license</dependencies>
+    <dependencies>et_vivashop_mv_functionality</dependencies>
+  </compatibility>
+  <supplier>EnergoThemes</supplier>
+  <supplier_link>https://www.energothemes.com</supplier_link>
+  <authors>
+    <author>
+      <name>EnergoThemes</name>
+      <email>office@energothemes.com</email>
+      <url>https://www.energothemes.com</url>
+    </author>
+  </authors>
+	<queries>
+    <item>DROP TABLE IF EXISTS ?:et_seo_names;</item>
+    <item>
+      CREATE TABLE `?:et_seo_names` (
+        `name` varchar(250) NOT NULL default '',
+        `dispatch` varchar(64) NOT NULL default '',
+        `lang_code` char(2) not null default '',
+        PRIMARY KEY  (`dispatch`,`lang_code`),
+        KEY `name` (`name`,`lang_code`),
+        KEY (dispatch)
+      ) Engine=MyISAM DEFAULT CHARSET UTF8;
+    </item>
+    <item for="uninstall">DROP TABLE IF EXISTS ?:et_seo_names;</item>
+    <item for="uninstall">
+      ALTER TABLE `?:seo_names` DROP `et_vendor_id`;
+    </item>
+
+    <item for="install" type="file">database/data.sql</item>
+    <item for="install">
+      ALTER TABLE `?:seo_names` ADD COLUMN `et_vendor_id` int(11) unsigned NOT NULL DEFAULT '0';
+    </item>
+
+	</queries>
+  <functions>
+    <!-- <item for="install">fn_seo_install</item> -->
+  </functions>
+</addon>

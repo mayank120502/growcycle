@@ -1,0 +1,1372 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_vivashop_settings"
+msgid "ET - VIVAshop settings"
+msgstr "ET - VIVAshop settings"
+
+msgctxt "Addons::description::et_vivashop_settings"
+msgid "Add your own custom settings to the VIVAshop theme. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Add your own custom settings to the VIVAshop theme. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+
+msgctxt "SettingsOptions::et_vivashop_settings::demo_data"
+msgid "Demo data"
+msgstr "Demo data"
+
+msgctxt "Languages::et_vivashop_settings.demo_banners"
+msgid "<p><a class=\"cm-ajax btn btn-primary\" href=\"[demo_data_url]\">Add all demo data</a></p> <br/> <p><a class=\"cm-ajax btn btn-secondary\" href=\"[demo_banners_url]\">Add only demo banners</a></p>"
+msgstr "<p><a class=\"cm-ajax btn btn-primary\" href=\"[demo_data_url]\">Add all demo data</a></p> <br/> <p><a class=\"cm-ajax btn btn-secondary\" href=\"[demo_banners_url]\">Add only demo banners</a></p>"
+
+
+msgctxt "SettingsOptions::et_vivashop_settings::functionality"
+msgid "VIVAshop functionality settings"
+msgstr "VIVAshop functionality settings"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_product_title_rows"
+msgid "Product title rows"
+msgstr "Product title rows"
+
+msgctxt "SettingsTooltips::et_vivashop_settings::et_viva_product_title_rows"
+msgid "Display the product titles on single or multiple rows"
+msgstr "Display the product titles on single or multiple rows"
+
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_product_title_rows::1"
+msgid "1 row"
+msgstr "1 row"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_product_title_rows::2"
+msgid "2 rows"
+msgstr "2 rows"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_product_title_rows::3"
+msgid "3 rows"
+msgstr "3 rows"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_scroll_up"
+msgid "Scroll up button position"
+msgstr "Scroll up button position"
+
+msgctxt "SettingsTooltips::et_vivashop_settings::et_viva_scroll_up"
+msgid "Choose the position of the scroll to top button"
+msgstr "Choose the position of the scroll to top button"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_scroll_up::right"
+msgid "Right"
+msgstr "Right"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_scroll_up::left"
+msgid "Left"
+msgstr "Left"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_scroll_up::off"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_brand_page"
+msgid "Brand page type"
+msgstr "Brand page type"
+
+msgctxt "SettingsTooltips::et_vivashop_settings::et_viva_brand_page"
+msgid "Set the way brands are displayed on the Brands page"
+msgstr "Set the way brands are displayed on the Brands page"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_brand_page::image"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_brand_page::text"
+msgid "Text"
+msgstr "Text"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_filters"
+msgid "Filters"
+msgstr "Filters"
+
+msgctxt "SettingsTooltips::et_vivashop_settings::et_viva_filters"
+msgid "Set the way filters are displayed"
+msgstr "Set the way filters are displayed"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_filters::horizontal"
+msgid "Horizontal"
+msgstr "Horizontal"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_filters::vertical"
+msgid "Vertical"
+msgstr "Vertical"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_side_categories"
+msgid "Sidebar categories"
+msgstr "Sidebar categories"
+
+msgctxt "SettingsTooltips::et_vivashop_settings::et_viva_side_categories"
+msgid "Set the way the category sidebar is displayed"
+msgstr "Set the way the category sidebar is displayed"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_side_categories::expanded"
+msgid "Expanded"
+msgstr "Expanded"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_side_categories::collapsed"
+msgid "Collapsed"
+msgstr "Collapsed"
+
+
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_responsive"
+msgid "Responsive mode"
+msgstr "Responsive mode"
+
+msgctxt "SettingsTooltips::et_vivashop_settings::et_viva_responsive"
+msgid "Set the responsive mode to be used: <br/><b>Default</b> (device based)<br/>or <br/><b>Traditional</b> (resolution based)"
+msgstr "Set the responsive mode to be used: <br/><b>Default</b> (device based)<br/>or <br/><b>Traditional</b> (resolution based)"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_responsive::default"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "SettingsVariants::et_vivashop_settings::et_viva_responsive::traditional"
+msgid "Traditional"
+msgstr "Traditional"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_sidebar_pc"
+msgid "Show product count on sidebar categories block"
+msgstr "Show product count on sidebar categories block"
+
+msgctxt "SettingsOptions::et_vivashop_settings::et_viva_filter_pc"
+msgid "Show product count on filters block"
+msgstr "Show product count on filters block"
+
+
+
+msgctxt "Languages::et_vivashop_settings.main_bkg_color"
+msgid "Background color"
+msgstr "Background color"
+
+msgctxt "Languages::et_vivashop_settings.text_top"
+msgid "Title text"
+msgstr "Title text"
+
+msgctxt "Languages::et_vivashop_settings.circles_bkg"
+msgid "Circle background"
+msgstr "Circle background"
+
+msgctxt "Languages::et_vivashop_settings.circles_text"
+msgid "Circle text"
+msgstr "Circle text"
+
+msgctxt "Languages::et_vivashop_settings.circles_icons"
+msgid "Circle icon"
+msgstr "Circle icon"
+
+msgctxt "Languages::et_vivashop_settings.circles_steps_txt"
+msgid "Step number text"
+msgstr "Step number text"
+
+msgctxt "Languages::et_vivashop_settings.circles_step_bkg"
+msgid "Step number background"
+msgstr "Step number background"
+
+msgctxt "Languages::et_vivashop_settings.arrow"
+msgid "Arrow"
+msgstr "Arrow"
+
+msgctxt "Languages::et_vivashop_settings.go_btn_txt"
+msgid "Button text"
+msgstr "Button text"
+
+msgctxt "Languages::et_vivashop_settings.go_btn_bkg"
+msgid "Button background"
+msgstr "Button background"
+
+msgctxt "Languages::et_vivashop_settings.go_btn_txt_hover"
+msgid "Button hover text"
+msgstr "Button hover text"
+
+msgctxt "Languages::et_vivashop_settings.go_btn_bkg_hover"
+msgid "Button hover background"
+msgstr "Button hover background"
+
+msgctxt "Languages::et_vivashop_settings.text"
+msgid "Text"
+msgstr "Text"
+
+msgctxt "Languages::et_vivashop_settings.icons"
+msgid "Icons"
+msgstr "Icons"
+
+msgctxt "Languages::all_products"
+msgid "All products"
+msgstr "All products"
+
+msgctxt "Languages::store_home"
+msgid "Store home"
+msgstr "Store home"
+
+msgctxt "Languages::about_us"
+msgid "About us"
+msgstr "About us"
+
+msgctxt "Languages::contact"
+msgid "Contact"
+msgstr "Contact"
+
+msgctxt "Languages::et_read_more"
+msgid "Read more"
+msgstr "Read more"
+
+msgctxt "Languages::marketplace_menu"
+msgid "Marketplace Menu"
+msgstr "Marketplace Menu"
+
+msgctxt "Languages::et_marketplace_menu"
+msgid "ET - Marketplace Menu"
+msgstr "ET - Marketplace Menu"
+
+msgctxt "Languages::et_mobile_menu_wrapper"
+msgid "ET - Mobile Menu"
+msgstr "ET - Mobile Menu"
+
+msgctxt "Languages::et_multi_scroller"
+msgid "ET - Multi scroller"
+msgstr "ET - Multi scroller"
+
+msgctxt "Languages::block_et_home_banners"
+msgid "ET - Home banners"
+msgstr "ET - Home banners"
+
+
+msgctxt "Languages::et_banners"
+msgid "ET - Home banners"
+msgstr "ET - Home banners"
+
+
+msgctxt "Languages::block_et_home_grid"
+msgid "ET - Home grid"
+msgstr "ET - Home grid"
+
+msgctxt "Languages::et_home_grid"
+msgid "ET - Home grid"
+msgstr "ET - Home grid"
+
+
+msgctxt "Languages::cta"
+msgid "ET - Call to action"
+msgstr "ET - Call to action"
+
+msgctxt "Languages::block_et_cta"
+msgid "ET - Call to action"
+msgstr "ET - Call to action"
+
+msgctxt "Languages::et_cta_title_text"
+msgid "Block title"
+msgstr "Block title"
+
+msgctxt "Languages::et_cta_step_1_title"
+msgid "Step 1 title"
+msgstr "Step 1 title"
+
+msgctxt "Languages::et_cta_step_1_text"
+msgid "Step 1 text"
+msgstr "Step 1 text"
+
+msgctxt "Languages::et_cta_step_2_title"
+msgid "Step 2 title"
+msgstr "Step 2 title"
+
+msgctxt "Languages::et_cta_step_2_text"
+msgid "Step 2 text"
+msgstr "Step 2 text"
+
+msgctxt "Languages::et_cta_step_3_title"
+msgid "Step 3 title"
+msgstr "Step 3 title"
+
+msgctxt "Languages::et_cta_step_3_text"
+msgid "Step 3 text"
+msgstr "Step 3 text"
+
+msgctxt "Languages::et_cta_button_text"
+msgid "Button text"
+msgstr "Button text"
+
+msgctxt "Languages::et_cta_button_url"
+msgid "Button URL"
+msgstr "Button URL"
+
+msgctxt "Languages::et_use_bkg_overlay"
+msgid "Use background overlay"
+msgstr "Use background overlay"
+
+msgctxt "Languages::et_vivashop_settings.overlay"
+msgid "Overlay color"
+msgstr "Overlay color"
+
+msgctxt "Languages::et_vivashop_settings.overlay_alpha"
+msgid "Overlay opacity"
+msgstr "Overlay opacity"
+
+msgctxt "Languages::et_main_slider"
+msgid "ET - Main slider"
+msgstr "ET - Main slider"
+
+msgctxt "Languages::et_full_grid"
+msgid "ET - Full width grid"
+msgstr "ET - Full width grid"
+
+msgctxt "Languages::block_et_eib"
+msgid "ET - Extra info block"
+msgstr "ET - Extra info block"
+
+msgctxt "Languages::eib"
+msgid "ET - Extra info block"
+msgstr "ET - Extra info block"
+
+msgctxt "Languages::eib_wrapper"
+msgid "ET - Extra info block"
+msgstr "ET - Extra info block"
+
+msgctxt "Languages::fib_wrapper"
+msgid "ET - Footer info block"
+msgstr "ET - Footer info block"
+
+msgctxt "Languages::et_eib_block_1_title"
+msgid "Block 1 title"
+msgstr "Block 1 title"
+
+msgctxt "Languages::et_eib_block_1_text"
+msgid "Block 1 text"
+msgstr "Block 1 text"
+
+msgctxt "Languages::et_eib_block_2_title"
+msgid "Block 2 title"
+msgstr "Block 2 title"
+
+msgctxt "Languages::et_eib_block_2_text"
+msgid "Block 2 text"
+msgstr "Block 2 text"
+
+msgctxt "Languages::et_eib_block_3_title"
+msgid "Block 3 title"
+msgstr "Block 3 title"
+
+msgctxt "Languages::et_eib_block_3_text"
+msgid "Block 3 text"
+msgstr "Block 3 text"
+
+msgctxt "Languages::et_eib_block_4_title"
+msgid "Block 4 title"
+msgstr "Block 4 title"
+
+msgctxt "Languages::et_eib_block_4_text"
+msgid "Block 4 text"
+msgstr "Block 4 text"
+
+msgctxt "Languages::et_icon_position"
+msgid "Icon position"
+msgstr "Icon position"
+
+msgctxt "Languages::et_home_special_title"
+msgid "ET - Banner title and description"
+msgstr "ET - Banner title and description"
+
+msgctxt "Languages::et_home_testimonials"
+msgid "ET - Home testimonials"
+msgstr "ET - Home testimonials"
+
+msgctxt "Languages::block_et_main_menu"
+msgid "ET - Main menu"
+msgstr "ET - Main menu"
+
+msgctxt "Languages::blog.et_featured_recent_posts_scroller"
+msgid "ET - Blog featured recent posts scroller"
+msgstr "ET - Blog featured recent posts scroller"
+
+msgctxt "Languages::blog.et_sidebar_latest_posts_scroller"
+msgid "ET - Blog sidebar latest posts scroller"
+msgstr "ET - Blog sidebar latest posts scroller"
+
+
+msgctxt "Languages::et_separate_blog_image"
+msgid "ET - Blog image"
+msgstr "ET - Blog image"
+
+
+msgctxt "Languages::et_featured_products_banner"
+msgid "ET - Featured products and banners"
+msgstr "ET - Featured products and banners"
+
+msgctxt "Languages::block_et_featured_product_banner_tabs"
+msgid "ET - Featured product banner tabs"
+msgstr "ET - Featured product banner tabs"
+
+msgctxt "Languages::et_vivashop_settings.title_color"
+msgid "Title color"
+msgstr "Title color"
+
+msgctxt "Languages::et_vivashop_settings.box_color"
+msgid "Box color"
+msgstr "Box color"
+
+msgctxt "Languages::et_vivashop_settings.text_color"
+msgid "Text color"
+msgstr "Text color"
+
+msgctxt "Languages::et_vivashop_settings.icon_color"
+msgid "Icon color"
+msgstr "Icon color"
+
+msgctxt "Languages::et_vivashop_settings.icon_bkg"
+msgid "Icon background color"
+msgstr "Icon background color"
+
+msgctxt "Languages::et_home_blog"
+msgid "ET - Home blog"
+msgstr "ET - Home blog"
+
+msgctxt "Languages::et_sidebox_simple_open_on_mobile"
+msgid "ET - Sidebox open on mobile"
+msgstr "ET - Sidebox open on mobile"
+
+msgctxt "Languages::et_coming_soon"
+msgid "Coming soon"
+msgstr "Coming soon"
+
+msgctxt "Languages::et_top_menu"
+msgid "ET - Top menu"
+msgstr "ET - Top menu"
+
+msgctxt "Languages::block_et_top_menu"
+msgid "ET - Top menu"
+msgstr "ET - Top menu"
+
+msgctxt "Languages::et_category_description"
+msgid "ET - Category description"
+msgstr "ET - Category description"
+
+msgctxt "Languages::et_category_title"
+msgid "ET - Category title"
+msgstr "ET - Category title"
+
+
+msgctxt "Languages::et_category_menu_vertical"
+msgid "ET - Category menu (vertical)"
+msgstr "ET - Category menu (vertical)"
+
+msgctxt "Languages::et_category_menu_icon"
+msgid "ET - Category menu (icon)"
+msgstr "ET - Category menu (icon)"
+
+msgctxt "Languages::et_category_menu"
+msgid "ET - Category menu"
+msgstr "ET - Category menu"
+
+msgctxt "Languages::block_et_menu_horizontal"
+msgid "ET - Menu (horizontal)"
+msgstr "ET - Menu (horizontal)"
+
+msgctxt "Languages::et_menu_horizontal"
+msgid "ET - Menu (horizontal)"
+msgstr "ET - Menu (horizontal)"
+
+msgctxt "Languages::et_ask_a_question"
+msgid "Ask a question"
+msgstr "Ask a question"
+
+msgctxt "Languages::et_newsletter_description"
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+
+msgctxt "Languages::et_search_marketplace_products"
+msgid "Search by Marketplace products"
+msgstr "Search by Marketplace products"
+
+
+msgctxt "Languages::block_et_search"
+msgid "ET - Search"
+msgstr "ET - Search"
+
+msgctxt "Languages::et_search"
+msgid "ET - Search"
+msgstr "ET - Search"
+
+
+msgctxt "Languages::theme_editor.top_panel_links_hover"
+msgid "Top panel links hover"
+msgstr "Top panel links hover"
+
+msgctxt "Languages::theme_editor.search_button_bkg"
+msgid "Search button background"
+msgstr "Search button background"
+
+msgctxt "Languages::theme_editor.search_button_text"
+msgid "Search button icon"
+msgstr "Search button icon"
+
+msgctxt "Languages::theme_editor.search_button_bkg_hover"
+msgid "Search button background hover"
+msgstr "Search button background hover"
+
+msgctxt "Languages::theme_editor.search_button_text_hover"
+msgid "Search button icon hover"
+msgstr "Search button icon hover"
+
+msgctxt "Languages::theme_editor.header_call_request_link"
+msgid "Header call request link"
+msgstr "Header call request link"
+
+msgctxt "Languages::theme_editor.header_icons"
+msgid "Header icons"
+msgstr "Header icons"
+
+msgctxt "Languages::theme_editor.header_icons_hover"
+msgid "Header icons hover"
+msgstr "Header icons hover"
+
+msgctxt "Languages::theme_editor.header_cart_ammount"
+msgid "Header cart amount"
+msgstr "Header cart amount"
+
+msgctxt "Languages::theme_editor.header_cart_ammount_bkg"
+msgid "Header cart amount background"
+msgstr "Header cart amount background"
+
+msgctxt "Languages::theme_editor.menu_categ_title"
+msgid "Categories menu title"
+msgstr "Categories menu title"
+
+msgctxt "Languages::theme_editor.menu_categ_title_bkg"
+msgid "Categories menu background"
+msgstr "Categories menu background"
+
+msgctxt "Languages::theme_editor.menu_categ_left_content_link"
+msgid "Categories menu left content link"
+msgstr "Categories menu left content link"
+
+msgctxt "Languages::theme_editor.menu_categ_left_content_link_hover"
+msgid "Categories menu left content link hover"
+msgstr "Categories menu left content link hover"
+
+msgctxt "Languages::theme_editor.menu_categ_left_content_description"
+msgid "Categories menu left content description"
+msgstr "Categories menu left content description"
+
+msgctxt "Languages::theme_editor.menu_categ_right_content_title"
+msgid "Categories menu right content title"
+msgstr "Categories menu right content title"
+
+msgctxt "Languages::theme_editor.menu_categ_right_content_link"
+msgid "Categories menu right content link"
+msgstr "Categories menu right content link"
+
+msgctxt "Languages::theme_editor.menu_categ_right_content_link_hover"
+msgid "Categories menu right content link hover"
+msgstr "Categories menu right content link hover"
+
+msgctxt "Languages::theme_editor.menu_color"
+msgid "Main Menu"
+msgstr "Main Menu"
+
+msgctxt "Languages::theme_editor.menu_links_color"
+msgid "Main Menu links"
+msgstr "Main Menu links"
+
+msgctxt "Languages::theme_editor.menu_color_hover"
+msgid "Main Menu background hover"
+msgstr "Main Menu background hover"
+
+msgctxt "Languages::theme_editor.menu_links_color_hover"
+msgid "Main Menu links hover"
+msgstr "Main Menu links hover"
+
+msgctxt "Languages::theme_editor.multiscroller"
+msgid "Multiscroller header background"
+msgstr "Multiscroller header background"
+
+msgctxt "Languages::theme_editor.multiscroller_link_bkg"
+msgid "Multiscroller tab background"
+msgstr "Multiscroller tab background"
+
+msgctxt "Languages::theme_editor.multiscroller_link"
+msgid "Multiscroller tab text"
+msgstr "Multiscroller tab text"
+
+msgctxt "Languages::theme_editor.multiscroller_link_active_hover_bkg"
+msgid "Multiscroller tab background hover"
+msgstr "Multiscroller tab background hover"
+
+msgctxt "Languages::theme_editor.multiscroller_link_hover"
+msgid "Multiscroller tab text hover"
+msgstr "Multiscroller tab text hover"
+
+msgctxt "Languages::theme_editor.multiscroller_icon"
+msgid "Multiscroller Quick view, Compare, Wishlist icons"
+msgstr "Multiscroller Quick view, Compare, Wishlist icons"
+
+msgctxt "Languages::theme_editor.multiscroller_icon_border"
+msgid "Multiscroller icon border"
+msgstr "Multiscroller icon border"
+
+msgctxt "Languages::theme_editor.multiscroller_quick_view_color"
+msgid "Multiscroller Quick view hover"
+msgstr "Multiscroller Quick view hover"
+
+msgctxt "Languages::theme_editor.multiscroller_compare_color"
+msgid "Multiscroller Compare hover"
+msgstr "Multiscroller Compare hover"
+
+msgctxt "Languages::theme_editor.multiscroller_wishlist_color"
+msgid "Multiscroller Wishlist hover"
+msgstr "Multiscroller Wishlist hover"
+
+
+msgctxt "Languages::theme_editor.mainbox_title"
+msgid "Mainbox title"
+msgstr "Mainbox title"
+
+msgctxt "Languages::theme_editor.mainbox_title_bkg"
+msgid "Mainbox title background"
+msgstr "Mainbox title background"
+
+msgctxt "Languages::theme_editor.secondbox_title"
+msgid "Secondbox title"
+msgstr "Secondbox title"
+
+msgctxt "Languages::theme_editor.secondbox_title_bkg"
+msgid "Secondbox title background"
+msgstr "Secondbox title background"
+
+msgctxt "Languages::theme_editor.grid_info_title"
+msgid "Grid info title"
+msgstr "Grid info title"
+
+msgctxt "Languages::theme_editor.grid_info_title_hover"
+msgid "Grid info title hover"
+msgstr "Grid info title hover"
+
+msgctxt "Languages::theme_editor.grid_icon"
+msgid "Grid Quick view, Compare, Wishlist icons"
+msgstr "Grid Quick view, Compare, Wishlist icons"
+
+msgctxt "Languages::theme_editor.grid_icon_bkg"
+msgid "Grid Quick view, Compare, Wishlist icons background"
+msgstr "Grid Quick view, Compare, Wishlist icons background"
+
+msgctxt "Languages::theme_editor.grid_icon_hover"
+msgid "Grid Quick view, Compare, Wishlist icons hover"
+msgstr "Grid Quick view, Compare, Wishlist icons hover"
+
+msgctxt "Languages::theme_editor.quick_view_color"
+msgid "Quick view hover"
+msgstr "Quick view hover"
+
+msgctxt "Languages::theme_editor.compare_color"
+msgid "Compare hover"
+msgstr "Compare hover"
+
+msgctxt "Languages::theme_editor.wishlist_color"
+msgid "Wishlist hover"
+msgstr "Wishlist hover"
+
+
+msgctxt "Languages::theme_editor.atc_button_bkg"
+msgid "Add to cart"
+msgstr "Add to cart"
+
+msgctxt "Languages::theme_editor.atc_button_text"
+msgid "Add to cart text"
+msgstr "Add to cart text"
+
+msgctxt "Languages::theme_editor.call_request_bkg"
+msgid "Buy now with one click"
+msgstr "Buy now with one click"
+
+msgctxt "Languages::theme_editor.call_request_text"
+msgid "Buy now with one click text"
+msgstr "Buy now with one click text"
+
+msgctxt "Languages::theme_editor.sidebar"
+msgid "Sidebar background"
+msgstr "Sidebar background"
+
+msgctxt "Languages::theme_editor.sidebar_title"
+msgid "Sidebar title"
+msgstr "Sidebar title"
+
+msgctxt "Languages::theme_editor.sidebar_link"
+msgid "Sidebar links"
+msgstr "Sidebar links"
+
+msgctxt "Languages::theme_editor.sidebar_links"
+msgid "Sidebar links"
+msgstr "Sidebar links"
+
+msgctxt "Languages::theme_editor.sidebar_decorative"
+msgid "Sidebar decorative"
+msgstr "Sidebar decorative"
+
+msgctxt "Languages::theme_editor.links_hover"
+msgid "Links hover"
+msgstr "Links hover"
+
+msgctxt "Languages::theme_editor.popup_title_bkg"
+msgid "Popup title background"
+msgstr "Popup title background"
+
+msgctxt "Languages::theme_editor.popup_title_text"
+msgid "Popup title text"
+msgstr "Popup title text"
+
+msgctxt "Languages::theme_editor.rating_color"
+msgid "Rating color"
+msgstr "Rating color"
+
+msgctxt "Languages::theme_editor.rating_text"
+msgid "Rating text"
+msgstr "Rating text"
+
+msgctxt "Languages::theme_editor.shipping_label"
+msgid "Shipping label"
+msgstr "Shipping label"
+
+msgctxt "Languages::theme_editor.shipping_label_text"
+msgid "Shipping label text"
+msgstr "Shipping label text"
+
+msgctxt "Languages::theme_editor.discount_label_text"
+msgid "Discount label text"
+msgstr "Discount label text"
+
+msgctxt "Languages::theme_editor.footer_social_icons"
+msgid "Footer social icons"
+msgstr "Footer social icons"
+
+msgctxt "Languages::theme_editor.footer_bottom_text"
+msgid "Footer bottom text"
+msgstr "Footer bottom text"
+
+msgctxt "Languages::theme_editor.footer_location_icon"
+msgid "Footer location icons"
+msgstr "Footer location icons"
+
+msgctxt "Languages::theme_editor.footer_location_icon_bkg"
+msgid "Footer location icons background"
+msgstr "Footer location icons background"
+
+msgctxt "Languages::theme_editor.pp_price_saving_text"
+msgid "Product page price saving text"
+msgstr "Product page price saving text"
+
+msgctxt "Languages::theme_editor.pp_price_saving_bkg"
+msgid "Product page price saving background"
+msgstr "Product page price saving background"
+
+msgctxt "Languages::theme_editor.vendor_name"
+msgid "Vendor name"
+msgstr "Vendor name"
+
+msgctxt "Languages::theme_editor.vendor_location"
+msgid "Vendor location"
+msgstr "Vendor location"
+
+msgctxt "Languages::theme_editor.vendor_phone"
+msgid "Vendor phone"
+msgstr "Vendor phone"
+
+msgctxt "Languages::theme_editor.vendor_product_number"
+msgid "Vendor product number"
+msgstr "Vendor product number"
+
+msgctxt "Languages::theme_editor.vendor_rating"
+msgid "Vendor rating"
+msgstr "Vendor rating"
+
+msgctxt "Languages::theme_editor.vendor_rating_text"
+msgid "Vendor rating text"
+msgstr "Vendor rating text"
+
+msgctxt "Languages::theme_editor.vendor_store_button_bkg"
+msgid "Vendor store button background"
+msgstr "Vendor store button background"
+
+msgctxt "Languages::theme_editor.vendor_store_button_text"
+msgid "Vendor store button text"
+msgstr "Vendor store button text"
+
+msgctxt "Languages::theme_editor.vendor_contact_link"
+msgid "Vendor cotact link"
+msgstr "Vendor cotact link"
+
+msgctxt "Languages::theme_editor.vendor_store_social_icon_bkg"
+msgid "Vendor store social icon background"
+msgstr "Vendor store social icon background"
+
+msgctxt "Languages::theme_editor.vendor_store_social_icon_text"
+msgid "Vendor store social icon"
+msgstr "Vendor store social icon"
+
+msgctxt "Languages::theme_editor.vendor_store_header_background"
+msgid "Vendor store header background"
+msgstr "Vendor store header background"
+
+msgctxt "Languages::theme_editor.vendor_store_header_title"
+msgid "Vendor store header titles"
+msgstr "Vendor store header titles"
+
+msgctxt "Languages::theme_editor.vendor_store_header_name"
+msgid "Vendor store header name"
+msgstr "Vendor store header name"
+
+msgctxt "Languages::theme_editor.secondary_content_bg"
+msgid "Secondary content"
+msgstr "Secondary content"
+
+msgctxt "Languages::theme_editor.tertiary_content_bg"
+msgid "Teritary content"
+msgstr "Teritary content"
+
+msgctxt "Languages::theme_editor.footer_bottom"
+msgid "Footer bottom"
+msgstr "Footer bottom"
+
+msgctxt "Languages::theme_editor.product_title"
+msgid "Product title"
+msgstr "Product title"
+
+msgctxt "Languages::theme_editor.info_blocks"
+msgid "Info blocks"
+msgstr "Info blocks"
+
+msgctxt "Languages::footer_bottom"
+msgid "Footer bottom"
+msgstr "Footer bottom"
+
+msgctxt "Languages::et_update_for_all_languages"
+msgid "Update for all languages"
+msgstr "Update for all languages"
+
+msgctxt "Languages::et_image_background_color"
+msgid "Image background color"
+msgstr "Image background color"
+
+msgctxt "Languages::et_image_url"
+msgid "Image URL"
+msgstr "Image URL"
+
+msgctxt "Languages::et_image_position"
+msgid "Image position"
+msgstr "Image position"
+
+msgctxt "Languages::et_image_position_horizontal"
+msgid "Image position horizontal"
+msgstr "Image position horizontal"
+
+msgctxt "Languages::et_image_position_vertical"
+msgid "Image position vertical"
+msgstr "Image position vertical"
+
+msgctxt "Languages::et_image_position_inside"
+msgid "Image position inside"
+msgstr "Image position inside"
+
+msgctxt "Languages::et_vertical_align"
+msgid "Vertical align"
+msgstr "Vertical align"
+
+msgctxt "Languages::et_horizontal_align"
+msgid "Horizontal align"
+msgstr "Horizontal align"
+
+msgctxt "Languages::et_image_margin"
+msgid "Image margin"
+msgstr "Image margin"
+
+msgctxt "Languages::et_image_animation"
+msgid "Image animation"
+msgstr "Image animation"
+
+msgctxt "Languages::et_title_text"
+msgid "Title text"
+msgstr "Title text"
+
+msgctxt "Languages::et_title_line_height"
+msgid "Title line-height"
+msgstr "Title line-height"
+
+msgctxt "Languages::et_title_font_size"
+msgid "Title font size"
+msgstr "Title font size"
+
+msgctxt "Languages::et_title_font_weight"
+msgid "Title font weight"
+msgstr "Title font weight"
+
+msgctxt "Languages::et_title_font_style"
+msgid "Title font style"
+msgstr "Title font style"
+
+msgctxt "Languages::et_title_text_color"
+msgid "Title text color"
+msgstr "Title text color"
+
+msgctxt "Languages::et_title_text_background"
+msgid "Title text background"
+msgstr "Title text background"
+
+msgctxt "Languages::et_opacity"
+msgid "Opacity"
+msgstr "Opacity"
+
+msgctxt "Languages::et_hover_opacity"
+msgid "Hover opacity"
+msgstr "Hover opacity"
+
+msgctxt "Languages::et_padding"
+msgid "Padding"
+msgstr "Padding"
+
+msgctxt "Languages::et_rounded_corners"
+msgid "Rounded corners"
+msgstr "Rounded corners"
+
+msgctxt "Languages::et_title_margin"
+msgid "Title margin"
+msgstr "Title margin"
+
+msgctxt "Languages::et_text_align"
+msgid "Text align"
+msgstr "Text align"
+
+msgctxt "Languages::et_title_animation"
+msgid "Title Animation"
+msgstr "Title Animation"
+
+msgctxt "Languages::et_description_text"
+msgid "Description text"
+msgstr "Description text"
+
+msgctxt "Languages::et_description_line_height"
+msgid "Description line-height"
+msgstr "Description line-height"
+
+msgctxt "Languages::et_description_font_size"
+msgid "Description font size"
+msgstr "Description font size"
+
+msgctxt "Languages::et_description_font_weight"
+msgid "Description font weight"
+msgstr "Description font weight"
+
+msgctxt "Languages::et_description_font_style"
+msgid "Description font style"
+msgstr "Description font style"
+
+msgctxt "Languages::et_description_text_color"
+msgid "Description text color"
+msgstr "Description text color"
+
+msgctxt "Languages::et_description_text_background"
+msgid "Description text background"
+msgstr "Description text background"
+
+msgctxt "Languages::et_description_margin"
+msgid "Description margin"
+msgstr "Description margin"
+
+msgctxt "Languages::et_description_animation"
+msgid "Description Animation"
+msgstr "Description Animation"
+
+msgctxt "Languages::et_button_text"
+msgid "Button text"
+msgstr "Button text"
+
+msgctxt "Languages::et_button_url"
+msgid "Button URL"
+msgstr "Button URL"
+
+msgctxt "Languages::et_button_shadow"
+msgid "Add button shadow"
+msgstr "Add button shadow"
+
+msgctxt "Languages::et_button_font_size"
+msgid "Button font size"
+msgstr "Button font size"
+
+msgctxt "Languages::et_button_font_weight"
+msgid "Button font weight"
+msgstr "Button font weight"
+
+msgctxt "Languages::et_button_font_style"
+msgid "Button font style"
+msgstr "Button font style"
+
+msgctxt "Languages::et_button_rounded_corners"
+msgid "Button rounded corners"
+msgstr "Button rounded corners"
+
+msgctxt "Languages::et_button_text_color"
+msgid "Button text color"
+msgstr "Button text color"
+
+msgctxt "Languages::et_button_hover_text_color"
+msgid "Button hover text color"
+msgstr "Button hover text color"
+
+msgctxt "Languages::et_button_background"
+msgid "Button background"
+msgstr "Button background"
+
+msgctxt "Languages::et_button_hover_background"
+msgid "Button hover background"
+msgstr "Button hover background"
+
+msgctxt "Languages::et_button_border"
+msgid "Button border"
+msgstr "Button border"
+
+msgctxt "Languages::et_button_border_size"
+msgid "Border size"
+msgstr "Border size"
+
+msgctxt "Languages::et_button_border_style"
+msgid "Border style"
+msgstr "Border style"
+
+msgctxt "Languages::et_button_padding"
+msgid "Button padding"
+msgstr "Button padding"
+
+msgctxt "Languages::et_button_align"
+msgid "Button align"
+msgstr "Button align"
+
+msgctxt "Languages::et_button_margin"
+msgid "Button margin"
+msgstr "Button margin"
+
+msgctxt "Languages::et_button_animation"
+msgid "Button Animation"
+msgstr "Button Animation"
+
+msgctxt "Languages::et_hover_color"
+msgid "Hover color"
+msgstr "Hover color"
+
+msgctxt "Languages::et_center"
+msgid "Center"
+msgstr "Center"
+
+msgctxt "Languages::et_top"
+msgid "Top"
+msgstr "Top"
+
+msgctxt "Languages::et_bottom"
+msgid "Bottom"
+msgstr "Bottom"
+
+msgctxt "Languages::et_horizontal_with_info_block"
+msgid "Horizontal with the Info Block"
+msgstr "Horizontal with the Info Block"
+
+msgctxt "Languages::et_vertical_with_info_block"
+msgid "Vertical with the Info Block"
+msgstr "Vertical with the Info Block"
+
+msgctxt "Languages::et_inside_info_block"
+msgid "Inside the Info Block"
+msgstr "Inside the Info Block"
+
+msgctxt "Languages::et_left_of_info_block"
+msgid "Left (of the Info Block)"
+msgstr "Left (of the Info Block)"
+
+msgctxt "Languages::et_right_of_info_block"
+msgid "Right (of the Info Block)"
+msgstr "Right (of the Info Block)"
+
+msgctxt "Languages::et_above_info_block"
+msgid "Above (the Info Block)"
+msgstr "Above (the Info Block)"
+
+msgctxt "Languages::et_below_info_block"
+msgid "Below (the Info Block)"
+msgstr "Below (the Info Block)"
+
+msgctxt "Languages::et_above_title"
+msgid "Above the TITLE"
+msgstr "Above the TITLE"
+
+msgctxt "Languages::et_above_description"
+msgid "Above the DESCRIPTION"
+msgstr "Above the DESCRIPTION"
+
+msgctxt "Languages::et_above_button"
+msgid "Above the BUTTON"
+msgstr "Above the BUTTON"
+
+msgctxt "Languages::et_below_button"
+msgid "Below the BUTTON"
+msgstr "Below the BUTTON"
+
+msgctxt "Languages::et_info_block_width"
+msgid "Info block width"
+msgstr "Info block width"
+
+msgctxt "Languages::et_vertical_align"
+msgid "Vertical align"
+msgstr "Vertical align"
+
+msgctxt "Languages::et_horizontal_align"
+msgid "Horizontal align"
+msgstr "Horizontal align"
+
+msgctxt "Languages::et_info_block_margin"
+msgid "Info block margin"
+msgstr "Info block margin"
+
+msgctxt "Languages::et_info_block_background"
+msgid "Info block background"
+msgstr "Info block background"
+
+msgctxt "Languages::et_banner"
+msgid "Extended banner"
+msgstr "Extended banner"
+
+msgctxt "Languages::et_colors"
+msgid "Colors"
+msgstr "Colors"
+
+msgctxt "Languages::et_custom_color"
+msgid "Custom color"
+msgstr "Custom color"
+
+msgctxt "Languages::et_label_colors"
+msgid "Label colors"
+msgstr "Label colors"
+
+msgctxt "Languages::et_background_settings"
+msgid "Background settings"
+msgstr "Background settings"
+
+msgctxt "Languages::et_overlay_settings"
+msgid "Overlay settings"
+msgstr "Overlay settings"
+
+msgctxt "Languages::et_additional_settings"
+msgid "Additional settings"
+msgstr "Additional settings"
+
+msgctxt "Languages::et_additional_image"
+msgid "Additional image"
+msgstr "Additional image"
+
+msgctxt "Languages::et_button"
+msgid "Button"
+msgstr "Button"
+
+msgctxt "Languages::et_info_block_settings"
+msgid "Info Block Settings"
+msgstr "Info Block Settings"
+
+msgctxt "Languages::et_add_title_text_shadow"
+msgid "Add title text shadow"
+msgstr "Add title text shadow"
+
+msgctxt "Languages::et_add_description_text_shadow"
+msgid "Add description text shadow"
+msgstr "Add description text shadow"
+
+msgctxt "Languages::et_addons"
+msgid "ET Addons"
+msgstr "ET Addons"
+
+msgctxt "Languages::et_settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "Languages::et_icon_settings"
+msgid "Icon settings"
+msgstr "Icon settings"
+
+msgctxt "Languages::et_color_settings"
+msgid "Color settings"
+msgstr "Color settings"
+
+msgctxt "Languages::et_vendor_menu"
+msgid "Vendor Menu"
+msgstr "Vendor Menu"
+
+msgctxt "Languages::mobile_sticky_compare"
+msgid "ET - Mobile sticky compare"
+msgstr "ET - Mobile sticky compare"
+
+msgctxt "Languages::et_register_text"
+msgid "Register text"
+msgstr "Register text"
+
+msgctxt "Languages::et_profile_text"
+msgid "Profile text"
+msgstr "Profile text"
+
+msgctxt "Languages::mobile_sticky_wishlist"
+msgid "ET - Mobile sticky wishlist"
+msgstr "ET - Mobile sticky wishlist"
+
+msgctxt "Languages::mobile_sticky_home"
+msgid "ET - Mobile sticky home"
+msgstr "ET - Mobile sticky home"
+
+msgctxt "Languages::block_et_profile_info"
+msgid "ET - Profile info"
+msgstr "ET - Profile info"
+
+msgctxt "Languages::et_profile_info"
+msgid "ET - Profile info"
+msgstr "ET - Profile info"
+
+msgctxt "Languages::block_et_sidebar_subcategories"
+msgid "ET - Sidebar subcategories"
+msgstr "ET - Sidebar subcategories"
+
+
+msgctxt "Languages::et_sidebar_subcategories"
+msgid "ET - Sidebar subcategories"
+msgstr "ET - Sidebar subcategories"
+
+msgctxt "Languages::block_et_subcategories"
+msgid "ET - Subcategories"
+msgstr "ET - Subcategories"
+
+msgctxt "Languages::block_et_subcaegories"
+msgid "ET - Subcategories"
+msgstr "ET - Subcategories"
+
+msgctxt "Languages::et_subcategories"
+msgid "ET - Subcategories"
+msgstr "ET - Subcategories"
+
+msgctxt "Languages::et_subcateg_opt_img_title"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "Languages::et_type"
+msgid "Type"
+msgstr "Type"
+
+
+msgctxt "Languages::top_wishlist_compare"
+msgid "ET - Top wishlist compare"
+msgstr "ET - Top wishlist compare"
+
+msgctxt "Languages::et_banner_full_width_no_title"
+msgid "ET - Banner full width (no title)"
+msgstr "ET - Banner full width (no title)"
+
+msgctxt "Languages::et_footer_info"
+msgid "ET - Footer info"
+msgstr "ET - Footer info"
+
+
+msgctxt "Languages::et_home_featured_vendors"
+msgid "ET - Home featured vendors"
+msgstr "ET - Home featured vendors"
+
+msgctxt "Languages::et_home_special_title"
+msgid "ET - Home special title"
+msgstr "ET - Home special title"
+
+msgctxt "Languages::et_home_special_title_2"
+msgid "ET - Home special title (H2)"
+msgstr "ET - Home special title (H2)"
+
+msgctxt "Languages::et_home_testimonials"
+msgid "ET - Home testimonials"
+msgstr "ET - Home testimonials"
+
+msgctxt "Languages::et_left_menu"
+msgid "ET - Left menu (mobile)"
+msgstr "ET - Left menu (mobile)"
+
+msgctxt "Languages::et_right_menu"
+msgid "ET - Right menu (mobile)"
+msgstr "ET - Right menu (mobile)"
+
+msgctxt "Languages::et_mainbox_general"
+msgid "ET - Mainbox general"
+msgstr "ET - Mainbox general"
+
+msgctxt "Languages::et_mainbox_general_full_width_no_title"
+msgid "ET - Mainbox general full width (no title)"
+msgstr "ET - Mainbox general full width (no title)"
+
+msgctxt "Languages::et_mainbox_general_full_width_title"
+msgid "ET - Mainbox general full width"
+msgstr "ET - Mainbox general full width"
+
+
+
+msgctxt "Languages::et_mainbox_simple"
+msgid "ET - Mainbox simple"
+msgstr "ET - Mainbox simple"
+
+msgctxt "Languages::et_mainbox_simple_full_width_no_title"
+msgid "ET - Mainbox simple full width (no title)"
+msgstr "ET - Mainbox simple full width (no title)"
+
+msgctxt "Languages::et_mainbox_simple_full_width_title"
+msgid "ET - Mainbox simple full width"
+msgstr "ET - Mainbox simple full width"
+
+msgctxt "Languages::et_mobile_footer_block"
+msgid "ET - Footer block (mobile)"
+msgstr "ET - Footer block (mobile)"
+
+msgctxt "Languages::et_mobile_footer_menu"
+msgid "ET - Footer menu (mobile)"
+msgstr "ET - Footer menu (mobile)"
+
+
+msgctxt "Languages::et_search_wrapper"
+msgid "ET - Search"
+msgstr "ET - Search"
+
+
+msgctxt "Languages::et_sidebox_filters"
+msgid "ET - Sidebox filters"
+msgstr "ET - Sidebox filters"
+
+msgctxt "Languages::et_sidebox_products"
+msgid "ET - Sidebox products"
+msgstr "ET - Sidebox products"
+
+msgctxt "Languages::et_sidebox_subcategories"
+msgid "ET - Sidebox subcategories"
+msgstr "ET - Sidebox subcategories"
+
+msgctxt "Languages::et_sticky_cart"
+msgid "ET - Sticky cart"
+msgstr "ET - Sticky cart"
+
+msgctxt "Languages::et_sticky_my_account"
+msgid "ET - Sticky My account"
+msgstr "ET - Sticky My account"
+
+msgctxt "Languages::et_banner_wrapper"
+msgid "ET - Banner wrapper"
+msgstr "ET - Banner wrapper"
+
+msgctxt "Languages::description"
+msgid "Description"
+msgstr "Description"
+
+
+msgctxt "Languages::et_select_category_hover_text"
+msgid "Select category"
+msgstr "Select category"
+

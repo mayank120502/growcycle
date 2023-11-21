@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<addon scheme='3.0' edition_type="ROOT,ULT:VENDOR">
+    <id>cp_discussion</id>
+    <version>1.0</version>
+    <priority>6000</priority>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="cp_discussion_header_settings">
+                        <type>header</type>
+                    </item>
+                    <item id="time_template">
+                        <type>template</type>
+                        <default_value>select_time.tpl</default_value>
+                    </item>
+                    <item id="cp_date_reviews">
+                        <type>hidden</type>
+                        <default_value>0</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_cp_discussion_set_settings</item>
+    </functions>
+</addon>

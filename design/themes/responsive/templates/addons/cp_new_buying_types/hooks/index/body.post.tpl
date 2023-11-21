@@ -1,0 +1,1 @@
+<div id="cp_nbt_login_popup" class="hidden"></div>

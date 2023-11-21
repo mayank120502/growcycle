@@ -1,0 +1,323 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_json_ld"
+msgid "Cart-Power: JSON-LD Markup"
+msgstr "Cart-Power: Микроразметка JSON-LD"
+
+msgctxt "Addons::description::cp_json_ld"
+msgid "Adds structured data in JSON-LD format to your store. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>."
+msgstr "Добавляет на страницы магазина структурированные данные в формате JSON-LD. Разработано <a target=\"_blank\" href=\"https://cart-power.ru/\">Cart-Power</a>."
+
+msgctxt "Languages::cp_json_avalability_mapping"
+msgid "Availability feature variants mapping"
+msgstr "Соответствия вариантов характеристики \"Доступность\""
+
+msgctxt "Languages::cp_json_condition_mapping"
+msgid "Condition feature variants mapping"
+msgstr "Соответствия вариантов характеристики \"Cостояние\""
+
+msgctxt "Languages::cp_json_condition_mapping_descr"
+msgid "Indicate the correspondence between the \"Condition\" feature variants and the transmitted value"
+msgstr "Укажите соответствия между вариантами характеристики \"Состояние\" и передаваемым значением"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_material"
+msgid "Material feature"
+msgstr "Характеристика Материал"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_color"
+msgid "Color feature"
+msgstr "Характеристика Цвет"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_pattern"
+msgid "Pattern feature"
+msgstr "Характеристика Шаблон"
+
+msgctxt "Languages::cp_json_avalability_mapping_descr"
+msgid "Indicate the correspondence between the \"Availability\" feature variants and the transmitted value"
+msgstr "Укажите соответствия между вариантами характеристики \"Доступность\" и передаваемым значением"
+
+msgctxt "SettingsOptions::cp_json_ld::local_business"
+msgid "Settigns for LocalBusiness markup"
+msgstr "Настройки для разметки LocalBusiness"
+
+msgctxt "SettingsTooltips::cp_json_ld::store_type"
+msgid "Will use <a href=\"https://schema.org/Organization\">Organization</a> markup if \"Store type\" not selected"
+msgstr "Будет использоваться разметка <a href=\"https://schema.org/Organization\">Organization</a>, если \"Тип магазина\" не выбран"
+
+msgctxt "Languages::cp_json_ld.local_business_info"
+msgid "For more flexible markup use LocalBusiness settings, select the type of the store. Important! The address field is mandatory and it will be added in any case, if it is not empty"
+msgstr "Для более гибкой разметки используйте LocalBusiness настройки, выберите тип магазина. Важно! Поле адреса является обязательным и будет добавлено в любом случае, если оно не пустое"
+
+msgctxt "SettingsOptions::cp_json_ld::payment_accepted"
+msgid "Accepted payment systems"
+msgstr "Принимаемые платежные системы"
+
+msgctxt "SettingsTooltips::cp_json_ld::payment_accepted"
+msgid "Cash, Credit Card, Cryptocurrency, Local Exchange Tradings System, etc"
+msgstr "Cash, Credit Card, Cryptocurrency, Local Exchange Tradings System, etc"
+
+msgctxt "SettingsOptions::cp_json_ld::opening_hours"
+msgid "The general opening hours for a business"
+msgstr "Общие часы работы магазина"
+
+msgctxt "SettingsTooltips::cp_json_ld::opening_hours"
+msgid "Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'. See <a class=\"cp-ld__link-color\" target=\"_blank\" href=\"https://schema.org/openingHours\">more</a>"
+msgstr "Часы работы могут быть указаны как недельный временной диапазон, начиная с дней, а затем раз в день. Несколько дней можно указать через запятую ',', разделяя каждый день. Дневной или временной диапазон указывается через дефис '-'. Узнать <a class=\"cp-ld__link-color\" target=\"_blank\" href=\"https://schema.org/openingHours\">больше</a>"
+
+msgctxt "SettingsOptions::cp_json_ld::currencies_accepted"
+msgid "The currency accepted"
+msgstr "Принимаемая валюта"
+
+msgctxt "SettingsTooltips::cp_json_ld::currencies_accepted"
+msgid "Use <a class=\"cp-ld__link-color\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/ISO_4217\">ISO 4217 currency format</a> e.g. \"USD\"; Ticker symbol for cryptocurrencies e.g. \"BTC\"; well known names for Local Exchange Tradings Systems (LETS) and other currency types e.g. \"Ithaca HOUR\""
+msgstr "Используйте <a class=\"cp-ld__link-color\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/ISO_4217\">формат валюты ISO 4217</a>, например - \"USD\"; Символ тикера для криптовалют, например \"BTC\"; хорошо известные названия для систем локальных биржевых торгов (LETS) и других типов валют, например \"Ithaca HOUR\""
+
+msgctxt "SettingsOptions::cp_json_ld::store_type"
+msgid "Store type"
+msgstr "Тип магазина"
+
+msgctxt "SettingsOptions::cp_json_ld::use_rating"
+msgid "Include rating"
+msgstr "Включить в разметку рейтинг"
+
+msgctxt "SettingsTooltips::cp_json_ld::use_rating"
+msgid "Rating data will be taken from \"Testimonial\""
+msgstr "Рейтинг будет взят из отзывов о магазине"
+
+msgctxt "SettingsSections::cp_json_ld::products"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "SettingsSections::cp_json_ld::company"
+msgid "Company"
+msgstr "Компания"
+
+msgctxt "SettingsSections::cp_json_ld::other"
+msgid "Other"
+msgstr "Другое"
+
+msgctxt "SettingsSections::cp_json_ld::breadcrumbs"
+msgid "Breadcrumbs"
+msgstr "Строка навигации"
+
+msgctxt "SettingsOptions::cp_json_ld::use_product_markup"
+msgid "Use markup for products"
+msgstr "Использовать разметку для товаров"
+
+msgctxt "SettingsOptions::cp_json_ld::price_valid_period"
+msgid "Price validity period (days)"
+msgstr "Срок действия цены (в днях)"
+
+msgctxt "SettingsOptions::cp_json_ld::review_qty"
+msgid "Quantity of reviews"
+msgstr "Количество отзывов"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_brand"
+msgid "Brand feature"
+msgstr "Характеристика Бренд"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_condition"
+msgid "Condition feature"
+msgstr "Характеристика Состояние"
+
+msgctxt "SettingsOptions::cp_json_ld::company_markup_display_on"
+msgid "Use company markup on"
+msgstr "Использовать разметку о компании на"
+
+msgctxt "SettingsOptions::cp_json_ld::contacts"
+msgid "Contacts"
+msgstr "Контакты"
+
+msgctxt "SettingsOptions::cp_json_ld::social"
+msgid "Social Profiles"
+msgstr "Профили в Соц. сетях"
+
+msgctxt "SettingsOptions::cp_json_ld::company_name"
+msgid "Company name"
+msgstr "Название компании"
+
+msgctxt "SettingsOptions::cp_json_ld::company_description"
+msgid "Company description"
+msgstr "Описание компании"
+
+msgctxt "SettingsOptions::cp_json_ld::company_markup_page"
+msgid "Chosen page"
+msgstr "Выбранная страница"
+
+msgctxt "SettingsOptions::cp_json_ld::use_address"
+msgid "Include address"
+msgstr "Включить в разметку адрес"
+
+msgctxt "SettingsOptions::cp_json_ld::use_phone"
+msgid "Include phone"
+msgstr "Включить в разметку телефон"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_gtin8"
+msgid "Gtin8 feature"
+msgstr "Характеристика gtin8"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_gtin12"
+msgid "Gtin12 feature"
+msgstr "Характеристика gtin12"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_gtin13"
+msgid "Gtin13 feature"
+msgstr "Характеристика gtin13"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_mpn"
+msgid "Mpn feature"
+msgstr "Характеристика Mpn"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_gtin14"
+msgid "Gtin14 feature"
+msgstr "Характеристика gtin14"
+
+msgctxt "SettingsOptions::cp_json_ld::use_markup_for"
+msgid "Use markup for"
+msgstr "Использовать разметку для"
+
+msgctxt "SettingsOptions::cp_json_ld::use_breadcrumbs_markup"
+msgid "Use markup for breadcrumbs"
+msgstr "Использовать разметку для строки навигации"
+
+msgctxt "SettingsOptions::cp_json_ld::use_search_markup"
+msgid "Use markup to search the site"
+msgstr "Использовать разметку для поиска по сайту"
+
+msgctxt "SettingsTooltips::cp_json_ld::use_search_markup"
+msgid "Adding the markup of the search box on the site."
+msgstr "Добавление разметки окна поиска по сайту."
+
+msgctxt "SettingsVariants::cp_json_ld::company_markup_display_on::none"
+msgid "---"
+msgstr "---"
+
+msgctxt "SettingsVariants::cp_json_ld::company_markup_display_on::all"
+msgid "All pages"
+msgstr "Все страницы"
+
+msgctxt "SettingsVariants::cp_json_ld::company_markup_display_on::page"
+msgid "Chosen page"
+msgstr "Выбранная страница"
+
+msgctxt "SettingsTooltips::cp_json_ld::price_valid_period"
+msgid "Defines which date to show in priceValidUntil property. Will be calculated by adding this value to current date.<br /> Leave this field empty to exclude priceValidUntil property from markup."
+msgstr "Необходим для расчета значения для priceValidUntil. Рассчитывается путем прибавления указанного количества дней к сегодняшней дате.<br /> Если оставить поле пустым, данное свойство не будет использоваться в разметке."
+
+msgctxt "SettingsTooltips::cp_json_ld::feature_condition"
+msgid "Product condition at the time of sale.<br />Use the product feature to specify product condition. This should be a feature with type text (select box). There should be four available variants to select: \"new\", \"used\", \"refurbished\" and \"damaged\"."
+msgstr "Состояние товара в момент продажи. <br />Чтобы указать состояние товара, используйте характеристику с типом текст (список вариантов), у которой доступны следующие варианты: \"new\", \"used\", \"refurbished\", \"damaged\"."
+
+msgctxt "SettingsTooltips::cp_json_ld::social"
+msgid "Add links to your social profiles comma-separated. <br> Example:<br> https://www.facebook.com/your-company,http://www.twitter.com/YourCompany"
+msgstr "Укажите ссылки на профили в соц. сетях, разделив их запятой. <br> Пример:<br> https://www.facebook.com/your-company,http://www.twitter.com/YourCompany"
+
+msgctxt "SettingsTooltips::cp_json_ld::company_markup_display_on"
+msgid "Specify the pages where company markup will be included."
+msgstr "Укажите на каких страницах включить разметку о компании."
+
+msgctxt "SettingsTooltips::cp_json_ld::use_address"
+msgid "Address data will be taken from Settings > Company (Address, City, Country, State, Zip code)"
+msgstr "Адрес будет взят из Настройки > Компания (Адрес, Город, Страна, Регион, Почтовый индекс)"
+
+msgctxt "SettingsTooltips::cp_json_ld::use_phone"
+msgid "Phone data will be taken from Settings > Company (Company phone, Company phone 2). <br />Phone number must be in international format, starting with the "+" symbol and country code (e.g. +1 in the US and Canada)."
+msgstr "Данные о телефоне будут взяты из Настройки > Компания (Телефон, Телефон 2). <br />Номера телефонов в должны быть указаны в международном формате, начиная со знака \"+\" и кода страны (+7 для Российской Федерации)."
+
+msgctxt "Languages::cp_json_ld.recomendation_txt"
+msgid "Do not use data for markup that is not visible to your customers. For example, if the JSON-LD markup contains company information, the HTML body must contain the same company information."
+msgstr "Не вводите данные, которые не видны покупателям. Если для разметки указано описание компании, то такое описание должно отображаться для покупателя и на странице."
+
+msgctxt "Languages::cp_json_ld.product_global_id_txt"
+msgid "Global identifiers"
+msgstr "Глобальный идентификатор"
+
+msgctxt "Languages::ttc_cp_json_ld.product_global_id_txt"
+msgid "Google recommends specifying at least one identifier for each product. Include all applicable global identifiers. <br />These identifiers are described at <a href=\"https://schema.org/Product\">schema.org/Product</a>."
+msgstr "Google рекомендует указывать хотя бы один глобальный идентификатор для продукта. Выберите характеристики для всех доступных идентификаторов. <br />Подробнее об идентификаторах  на <a href=\"https://schema.org/Product\">schema.org/Product</a>."
+
+msgctxt "Languages::cp_json_ld.use_product_code"
+msgid "Use product code"
+msgstr "Использовать код товара"
+
+msgctxt "Languages::cp_json_ld.use_product_id"
+msgid "Use product ID"
+msgstr "Использовать ID товара"
+
+msgctxt "SettingsSections::cp_json_ld::general"
+msgid "General"
+msgstr "Основное"
+
+msgctxt "SettingsOptions::cp_json_ld::licensekey"
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsTooltips::cp_json_ld::licensekey"
+msgid "You can find it on your order details page"
+msgstr "Смотрите на детальной странице заказа"
+
+msgctxt "SettingsTooltips::cp_json_ld::company_name"
+msgid "If this field is empty, the company name will be taken from <b>Settings -> Company -> Company Name</b>."
+msgstr "Если это поле пустое, название компании будет взято из <b>Настройки -> Компания -> Название компании</b>."
+
+msgctxt "Languages::cp_json_ld.company_multilang_settings"
+msgid "Edit company description and social links"
+msgstr "Редактировать описание компании и ссылки на соц.сети"
+
+msgctxt "Languages::cp_json_ld.company_description"
+msgid "Company description"
+msgstr "Описание компании"
+
+msgctxt "Languages::ttc_cp_json_ld.company_description"
+msgid "If the company description is indicated, then the HTML body must contain the same company description on the page with JSON-LD markup."
+msgstr "Если указано описание компании, то такое описание должно отображаться для покупателя и на размеченной странице."
+
+msgctxt "Languages::cp_json_ld.social"
+msgid "Social Profiles"
+msgstr "Профили в Соц. сетях"
+
+msgctxt "Languages::ttc_cp_json_ld.social"
+msgid "Add links to your social profiles comma-separated. <br> Example:<br> https://www.facebook.com/your-company,http://www.twitter.com/YourCompany"
+msgstr "Укажите ссылки на профили в соц. сетях, разделив их запятой. <br> Пример:<br> https://www.facebook.com/your-company,http://www.twitter.com/YourCompany"
+
+msgctxt "Languages::cp_json_ld.company_multilang_settings"
+msgid "Editing the company data for JSON-LD markup"
+msgstr "Редактирование данных о компании для JSON-LD разметки"
+
+msgctxt "Languages::privilege_groups.cp_json_ld"
+msgid "JSON-LD: additional company data"
+msgstr "JSON-LD: доп. данные о компании"
+
+msgctxt "Languages::privileges.manage_cp_json_ld_company"
+msgid "JSON-LD: manage company data"
+msgstr "JSON-LD: редактирование данных о компании"
+
+msgctxt "Languages::privileges.view_cp_json_ld_company"
+msgid "JSON-LD: view company data"
+msgstr "JSON-LD: просмотр данных о компании"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_availability"
+msgid "Availability feature"
+msgstr "Характеристика Доступность"
+
+msgctxt "SettingsOptions::cp_json_ld::feature_retailer_item_id"
+msgid "Retailer item ID"
+msgstr "ID товара продавца"
+
+msgctxt "SettingsTooltips::cp_json_ld::feature_availability"
+msgid "Product availability.<br />Use the product feature to specify product condition. <br />This should be a feature with text type (select box). There should be the following available variants to select: \"in stock\", \"out of stock\"."
+msgstr "Чтобы добавить в разметку доступность товара, можно воспользоваться автоматической подстановкой параметра (в зависимости от количества товара) или использовать характеристику. Характеристика должна быть с типом текст (список вариантов), у которой доступны следующие варианты: \"in stock\", \"out of stock\"."
+
+msgctxt "Languages::cp_json_ld.auto"
+msgid "Automatically"
+msgstr "Автоматически"
+
+msgctxt "Languages::ttc_cp_json_ld.product_feature_txt"
+msgid "Feature will be included in product markup if it appears on the features tab or in the title on the product details page."
+msgstr "Характеристики будут включены в разметку в том случае, если их значение отображается во вкладке «Характеристики» карточки товара или в заголовке карточки товара."
+
+

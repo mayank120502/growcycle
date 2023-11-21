@@ -1,0 +1,1 @@
+{style src="addons/cp_open_graph/styles.less"}

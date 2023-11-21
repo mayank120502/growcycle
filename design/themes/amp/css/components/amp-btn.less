@@ -1,0 +1,74 @@
+.amp-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: .8rem;
+  line-height: 1.125rem;
+  padding: .5rem 2rem;
+  text-decoration: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #222;
+  -webkit-transition: background-color .2s ease-in,color .2s ease-in;
+  transition: background-color .2s ease-in,color .2s ease-in
+}
+
+.amp-btn:visited {
+  color: #fff
+}
+
+.amp-btn:active,
+.amp-btn:focus {
+  opacity: .8
+}
+
+.amp-btn[disabled],
+.amp-btn[disabled]:active,
+.amp-btn[disabled]:focus,
+.amp-btn[disabled]:hover {
+  opacity: .5;
+  outline: 0;
+  cursor: default
+}
+
+.amp-mode-mouse .amp-btn:hover {
+  background-color: #fff;
+  color: #222
+}
+
+.amp-btn-secondary {
+  background-color: #fff;
+  color: #222
+}
+
+.amp-mode-mouse .amp-btn-secondary:hover {
+  background-color: #222;
+  color: #fff
+}
+
+.amp-btn-secondary:visited {
+  color: #222
+}
+
+@media (min-width:52.06rem) {
+  .amp-hero-content-wrapper .amp-btn {
+    background-color: #fff;
+    border: none;
+    color: #222;
+    font-size: .94rem
+  }
+
+  .amp-hero-content-theme-secondary .amp-btn {
+    color: #fff;
+    background-color: #222
+  }
+
+  .amp-mode-mouse .amp-hero-content-theme-secondary .amp-btn:hover {
+    background-color: #fff;
+    color: #222
+  }
+}

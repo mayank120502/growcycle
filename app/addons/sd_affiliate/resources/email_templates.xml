@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<email_templates scheme="1.0">
+    <templates>
+        <item>
+            <code><![CDATA[affiliate_approve_user]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("email_subj_approved") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("profile_approved")}) }}
+{{ __("dear") }}{% if user_data.firstname %} {{ user_data.firstname }} {% else %} {{ __("to_affiliate") }}{% endif %},<br/><br/>
+{{ __("email_approved_notification_header", {"[company]": company_data.company_name}) }}<br/><br/>
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td colspan="2" class="form-title">
+            {{__("user_account_info")}}
+            <hr size="1" noshade>
+        </td> 
+    </tr>
+    <tr>
+        <td class="form-field-caption" nowrap>{{__("email")}}:&nbsp;</td>
+        <td>{{user_data.email}}</td>
+    </tr>
+    {% if settings.General.quick_registration == "Y" %}
+    <tr>
+        <td class="form-field-caption" nowrap>{{__("login")}} {{__("url")}}:&nbsp;</td>
+        <td><a href="{{ url }}">{{ url|puny_decode }}</a></td>
+    </tr>
+    {% endif %}
+    {% if is_allowed_for and user_data.usergroups %}
+    <tr>
+        <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="form-title">{{__("usergroups")}}<hr size="1" noshade></td>
+    </tr>
+    {% for user_usergroup in user_data.usergroups %}
+    <tr>
+        <td class="form-field-caption" nowrap>{{usergroups[user_usergroup.usergroup_id].usergroup}}:&nbsp;</td>
+        <td>{% if user_usergroup.status == "P" %}{{__("pending")}}{% else %}{{__("active")}}{% endif %}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+    {% if settings.General.user_multiple_profiles == "Y" %}
+    <tr>
+        <td class="form-title">{{__("profile_name")}}:&nbsp;</td>
+        <td>{{user_data.profile_name}}</td>
+    </tr>
+    {% endif %}
+    {% if user_data.tax_exempt == "Y" %}
+    <tr>
+        <td class="form-title">{{__("tax_exempt")}}:&nbsp;</td>
+        <td>{{__("yes")}}</td>
+    </tr>
+    {% endif %}
+</table>
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+    {% if profile_fields.C %}
+    <tr>
+        <td valign="top" width="50%">
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("contact_information")}}<hr size="1" noshade="noshade" /></td> 
+                </tr> 
+                {% for field in contact_fields.0 %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td>{{ user_data[field.field_name]|default("-") }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </td>
+        <td width="1%">&nbsp;</td>
+        <td valign="top" width="49%">
+        {% if contact_fields.1 %}
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("contact_information")}}<hr size="1" noshade="noshade" /></td>
+                </tr>
+                {% for field in contact_fields.1 %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td> {{ user_data[field.field_name]|default("-") }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% endif %}
+        </td>
+    </tr>
+    {% endif %}
+    {% if (profile_fields.B or profile_fields.S) and user_data.register_at_checkout != "Y" and not settings.General.quick_registration == "Y" %}
+    <tr> 
+        <td valign="top">
+        {% if profile_fields.B %}
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("billing_address")}}<hr size="1" noshade="noshade" /></td>
+                </tr>
+                {% for field in profile_fields.B %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td>{{ user_data[field.field_name]|default("-") }}</td>
+                </tr> 
+                {% endfor %} 
+            </table>
+        {% else %}
+            &nbsp;
+        {% endif %}
+        </td>
+        <td>&nbsp;</td>
+        <td valign="top">
+            {% if profile_fields.S %}
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("shipping_address")}}<hr size="1" noshade="noshade" /></td>
+                </tr>
+                {% for field in profile_fields.S %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td>{{ user_data[field.field_name]|default("-") }}</td>
+                </tr> 
+                {% endfor %}
+            </table>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td> 
+    </tr> 
+{% endif %}
+</table>
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[sd_affiliate]]></addon>
+        </item>
+        <item>
+            <code><![CDATA[affiliate_create_user]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("new_profile_notification") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("new_profile_notification")}) }}
+{{ __("dear") }}{% if user_data.firstname %} {{ user_data.firstname }} {% else %} {{ __("to_affiliate") }}{% endif %},<br/><br/>
+{{ __("create_profile_notification_header") }} {{company_data.company_name}}<br/><br/>{{__("text_partner_create_profile")}}<br><br>
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td colspan="2" class="form-title">
+            {{__("user_account_info")}}
+            <hr size="1" noshade>
+        </td> 
+    </tr>
+    <tr>
+        <td class="form-field-caption" nowrap>{{__("email")}}:&nbsp;</td>
+        <td>{{user_data.email}}</td>
+    </tr>
+    {% if settings.General.quick_registration == "Y" %}
+    <tr>
+        <td class="form-field-caption" nowrap>{{__("login")}} {{__("url")}}:&nbsp;</td>
+        <td><a href="{{ url }}">{{ url|puny_decode }}</a></td>
+    </tr>
+    {% endif %}
+    {% if is_allowed_for and user_data.usergroups %}
+    <tr>
+        <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="form-title">{{__("usergroups")}}<hr size="1" noshade></td>
+    </tr>
+    {% for user_usergroup in user_data.usergroups %}
+    <tr>
+        <td class="form-field-caption" nowrap>{{usergroups[user_usergroup.usergroup_id].usergroup}}:&nbsp;</td>
+        <td>{% if user_usergroup.status == "P" %}{{__("pending")}}{% else %}{{__("active")}}{% endif %}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+    {% if settings.General.user_multiple_profiles == "Y" %}
+    <tr>
+        <td class="form-title">{{__("profile_name")}}:&nbsp;</td>
+        <td>{{user_data.profile_name}}</td>
+    </tr>
+    {% endif %}
+    {% if user_data.tax_exempt == "Y" %}
+    <tr>
+        <td class="form-title">{{__("tax_exempt")}}:&nbsp;</td>
+        <td>{{__("yes")}}</td>
+    </tr>
+    {% endif %}
+</table>
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+    {% if profile_fields.C %}
+    <tr>
+        <td valign="top" width="50%">
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("contact_information")}}<hr size="1" noshade="noshade" /></td> 
+                </tr> 
+                {% for field in contact_fields.0 %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td>{{ user_data[field.field_name]|default("-") }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </td>
+        <td width="1%">&nbsp;</td>
+        <td valign="top" width="49%">
+        {% if contact_fields.1 %}
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("contact_information")}}<hr size="1" noshade="noshade" /></td>
+                </tr>
+                {% for field in contact_fields.1 %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td> {{ user_data[field.field_name]|default("-") }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% endif %}
+        </td>
+    </tr>
+    {% endif %}
+    {% if (profile_fields.B or profile_fields.S) and user_data.register_at_checkout != "Y" and not settings.General.quick_registration == "Y" %}
+    <tr> 
+        <td valign="top">
+        {% if profile_fields.B %}
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("billing_address")}}<hr size="1" noshade="noshade" /></td>
+                </tr>
+                {% for field in profile_fields.B %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td>{{ user_data[field.field_name]|default("-") }}</td>
+                </tr> 
+                {% endfor %} 
+            </table>
+        {% else %}
+            &nbsp;
+        {% endif %}
+        </td>
+        <td>&nbsp;</td>
+        <td valign="top">
+            {% if profile_fields.S %}
+            <table>
+                <tr>
+                    <td colspan="2" class="form-title">{{__("shipping_address")}}<hr size="1" noshade="noshade" /></td>
+                </tr>
+                {% for field in profile_fields.S %}
+                <tr>
+                    <td class="form-field-caption" width="30%" nowrap="nowrap">{{field.description}}:&nbsp;</td>
+                    <td>{{ user_data[field.field_name]|default("-") }}</td>
+                </tr> 
+                {% endfor %}
+            </table>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td> 
+    </tr> 
+{% endif %}
+</table>
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[sd_affiliate]]></addon>
+        </item>
+        <item>
+            <code><![CDATA[affiliate_decline_user]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("email_declined_notification_header") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("profile_has_been_declined")}) }}
+{{ __("dear") }}{% if user_data.firstname %} {{ user_data.firstname }} {% else %} {{ __("to_affiliate") }}{% endif %},<br/><br/>
+{{__("email_declined_notification_header")}}<br/><br/>
+<b>{{__("reason")}}</b><br/>
+{{reason_declined}}
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[sd_affiliate]]></addon>
+        </item>
+        <item>
+            <code><![CDATA[new_affiliate_notification]]></code>
+            <area><![CDATA[A]]></area>
+            <status><![CDATA[A]]></status>
+            <subject/>
+            <default_subject><![CDATA[{{ company_name }}: {{ __("addons.sd_affiliate.new_affiliate_subj") }}]]></default_subject>
+            <template/>
+            <default_template><![CDATA[{{ snippet("header", {"title": __("addons.sd_affiliate.new_affiliate_subj")}) }}
+{{__("hello")}},<br><br>
+{{__("addons.sd_affiliate.new_affiliate_mail_text")}}<br/><br/>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td valign="top">
+        <table cellpadding="1" cellspacing="1" border="0" width="100%">
+        <tr>
+            <td colspan="2" class="form-title">{{ __("user_account_info") }}<hr size="1" noshade></td>
+        </tr>
+        <tr>
+            <td class="form-field-caption" nowrap>{{ __("email") }}:&nbsp;</td>
+            <td>{{ user_data.email }}</td>
+        </tr>
+        </table>
+    </td>
+    <td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+    <td colspan="3">&nbsp;</td>
+</tr>
+</table>
+{{ snippet("footer") }}]]></default_template>
+            <params_schema/>
+            <params/>
+            <addon><![CDATA[sd_affiliate]]></addon>
+        </item>
+    </templates>
+    <snippets/>
+</email_templates>

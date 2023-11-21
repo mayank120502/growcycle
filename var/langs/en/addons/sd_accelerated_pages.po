@@ -1,0 +1,165 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_accelerated_pages"
+msgid "Simtech Development: Google AMP for SEO"
+msgstr "Simtech Development: Google AMP for SEO"
+
+msgctxt "Addons::description::sd_accelerated_pages"
+msgid "Adds support for Accelerated Mobile Pages (AMP) functionality that provides mobile optimized content. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Adds support for Accelerated Mobile Pages (AMP) functionality that provides mobile optimized content. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "Languages::sd_accelerated_pages.amp"
+msgid "Google AMP for SEO"
+msgstr "Google AMP for SEO"
+
+msgctxt "SettingsSections::sd_accelerated_pages::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::sd_accelerated_pages::thumbnails"
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+msgctxt "SettingsSections::sd_accelerated_pages::logo"
+msgid "Logo"
+msgstr "Logo"
+
+msgctxt "SettingsSections::sd_accelerated_pages::cache"
+msgid "Cache warmup"
+msgstr "Cache warmup"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::lkey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::google_tracking_code"
+msgid "Google Analytics account number"
+msgstr "Google Analytics account number"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::pixel_tracking_code"
+msgid "Facebook pixel account number"
+msgstr "Facebook pixel account number"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::show_cookie_agreement"
+msgid "Notify visitors about cookies use"
+msgstr "Notify visitors about cookies use"
+
+msgctxt "Languages::sd_accelerated_pages.full_description"
+msgid "Full description"
+msgstr "Full description"
+
+msgctxt "Languages::sd_accelerated_pages.amp_full_description"
+msgid "Google AMP: Full description"
+msgstr "Google AMP: Full description"
+
+msgctxt "Languages::sd_accelerated_pages.view_detailes"
+msgid "AMP View detailes"
+msgstr "View detailes"
+
+msgctxt "Languages::theme_editor.amp"
+msgid "AMP"
+msgstr "AMP"
+
+msgctxt "Languages::sd_accelerated_pages.text_amp_page_logo"
+msgid "Logo for the AMP pages"
+msgstr "Logo for the AMP pages"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by"
+msgid "Sort"
+msgstr "Sort"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_null_asc"
+msgid "No sorting"
+msgstr "No sorting"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_popularity_asc"
+msgid "Popularity: Low to High"
+msgstr "Popularity: Low to High"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_popularity_desc"
+msgid "Popularity"
+msgstr "Popularity"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_position_asc"
+msgid "Position: Low to High"
+msgstr "Position: Low to High"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_position_desc"
+msgid "Position: High to Low"
+msgstr "Position: High to Low"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_price_asc"
+msgid "Price: Low to High"
+msgstr "Price: Low to High"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_price_desc"
+msgid "Price: High to Low"
+msgstr "Price: High to Low"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_product_asc"
+msgid "Alphabetically: A to Z"
+msgstr "Alphabetically: A to Z"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_product_desc"
+msgid "Alphabetically: Z to A"
+msgstr "Alphabetically: Z to A"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_timestamp_asc"
+msgid "Oldest Items First"
+msgstr "Oldest Items First"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_timestamp_desc"
+msgid "Newest Items First"
+msgstr "Newest Items First"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_bestsellers_asc"
+msgid "Bestselling: Low to High"
+msgstr "Bestselling: Low to High"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_bestsellers_desc"
+msgid "Bestselling"
+msgstr "Bestselling"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_on_sale_asc"
+msgid "Discount: Low to High"
+msgstr "Discount: Low to High"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_on_sale_desc"
+msgid "Discount: High to Low"
+msgstr "Discount: High to Low"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_lists_thumbnail_width"
+msgid "Products list thumbnail width"
+msgstr "Products list thumbnail width"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_lists_thumbnail_height"
+msgid "Products list thumbnail height"
+msgstr "Products list thumbnail height"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_details_thumbnail_width"
+msgid "Product details page thumbnail width"
+msgstr "Product details page thumbnail width"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_details_thumbnail_height"
+msgid "Product details page thumbnail height"
+msgstr "Product details page thumbnail height"
+
+msgctxt "Languages::sd_accelerated_pages.cookies_law"
+msgid "Cookies are used on this site to provide the best user experience. If you continue, we assume that you agree to receive cookies from this site."
+msgstr "Cookies are used on this site to provide the best user experience. If you continue, we assume that you agree to receive cookies from this site."
+
+msgctxt "Languages::sd_accelerated_pages.cookies_law_dismiss"
+msgid "Ok"
+msgstr "Ok"
+
+msgctxt "Languages::sd_accelerated_pages.no_image"
+msgid "Image is available in full page"
+msgstr "Image is available in full page"
+
+msgctxt "Languages::sd_accelerated_pages.cache_warmup_info"
+msgid "<p>AMP pages generate a large number of product thumbnails. To reduce server load, it is recommended to launch thumbnails generation in advance.</p><p>Use this link to launch thumbnail generation. Launch it more than once if needed:</p><p><a href=\"[url]\" target=\"_blank\">[url]</a></p>"
+msgstr "<p>AMP pages generate a large number of product thumbnails. To reduce server load, it is recommended to launch thumbnails generation in advance.</p><p>Use this link to launch thumbnail generation. Launch it more than once if needed:</p><p><a href=\"[url]\" target=\"_blank\">[url]</a></p>"

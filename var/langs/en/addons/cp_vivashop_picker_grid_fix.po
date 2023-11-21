@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_vivashop_picker_grid_fix"
+msgid "Cart-Power: Fix product picker for vivashop block"
+msgstr "Cart-Power: Fix product picker for vivashop block"
+
+msgctxt "Addons::description::cp_vivashop_picker_grid_fix"
+msgid "Added common products for manually filling in \"ET - Home grid\" block. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "Added common products for manually filling in \"ET - Home grid\" block. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"

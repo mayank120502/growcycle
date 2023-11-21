@@ -1,0 +1,49 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_discussion"
+msgid "Cart-Power: Random review date"
+msgstr "Cart-Power: Random review date"
+
+msgctxt "Addons::description::cp_discussion"
+msgid "Generates a random date for product reviews and discussions. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Generates a random date for product reviews and discussions. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsOptions::cp_discussion::cp_discussion_header_settings"
+msgid "Add a random creation time for all product reviews and discussions in the date range"
+msgstr "Add a random creation time for all product reviews and discussions in the date range"
+
+msgctxt "Languages::cp_discussion.rnd_time_storefront"
+msgid "Add random creation time when creating product reviews and discussions"
+msgstr "Add random creation time when creating product reviews and discussions"
+
+msgctxt "Languages::cp_discussion.use_rnd_time"
+msgid "Use random time"
+msgstr "Use random time"
+
+msgctxt "Languages::cp_discussion.am"
+msgid "AM"
+msgstr "AM"
+
+msgctxt "Languages::cp_discussion.pm"
+msgid "PM"
+msgstr "PM"
+
+msgctxt "Languages::cp_discussion.enter_time_more_current"
+msgid "Field cannot be more than the current date"
+msgstr "Field \"[cp_date_setting]\" cannot be more than the current date"
+
+msgctxt "Languages::cp_discussion.enter_error_time"
+msgid "Field \"Start date\" cannot be more or equal to \"End date\""
+msgstr "Field \"Start date\" cannot be more or equal to \"End date\""
+
+msgctxt "Languages::cp_discussion.run_manually"
+msgid "Run manually"
+msgstr "Run manually"
+
+msgctxt "Languages::cp_discussion.success_generate_time"
+msgid "The dates of product reviews and discussions have been successfully updated"
+msgstr "The dates of product reviews and discussions have been successfully updated"

@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_custom_price"
+msgid "Cart-Power: Product custom price"
+msgstr "Cart-Power: Product custom price"
+
+msgctxt "Addons::description::cp_custom_price"
+msgid "The addon adds the ability to set a custom price for products. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "The addon adds the ability to set a custom price for products. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_custom_price.info_for_activate"
+msgid "To use Custom price, the customer should be able to contact you. Please, configure Buying types in your account"
+msgstr "To use Custom price, the customer should be able to contact you. Please, configure Buying types in your account"
+
+msgctxt "Languages::cp_custom_price.custom_price"
+msgid "Custom price"
+msgstr "Custom price"
+
+msgctxt "Languages::cp_custom_price.price_from"
+msgid "Price from"
+msgstr "Price from"
+
+msgctxt "Languages::cp_custom_price.price_to"
+msgid "Price to"
+msgstr "Price to"
+
+msgctxt "Languages::cp_custom_price.from"
+msgid "From"
+msgstr "From"
+
+msgctxt "Languages::cp_custom_price.to"
+msgid "To"
+msgstr "To"
+
+msgctxt "Languages::cp_custom_price.error_save_product.empty_price_from"
+msgid "The \"Price from\" field cannot be left empty or zero if \"Price to\" field is filled"
+msgstr "The \"Price from\" field cannot be left empty or zero if \"Price to\" field is filled"
+
+msgctxt "Languages::cp_custom_price.error_save_product.price_to_less_price_from"
+msgid "The \"Price to\" field cannot be less than or equal to the \"Price from\""
+msgstr "The \"Price to\" field cannot be less than or equal to the \"Price from\""
+
+msgctxt "Languages::cp_custom_price.contact_us"
+msgid "Contact us for a price"
+msgstr "Contact us for a price"
+
+msgctxt "Languages::cp_custom_price.filter"
+msgid "Exclude products with custom price"
+msgstr "Exclude products with custom price"

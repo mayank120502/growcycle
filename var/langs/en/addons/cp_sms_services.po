@@ -1,0 +1,206 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_sms_services"
+msgid "Cart-Power: SMS services"
+msgstr "Cart-Power: SMS services"
+
+msgctxt "Addons::description::cp_sms_services"
+msgid "Provides the ability to send messages via SMS services. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Provides the ability to send messages via SMS services. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_sms_services::service_twilio"
+msgid "twilio"
+msgstr "twilio"
+
+msgctxt "SettingsOptions::cp_sms_services::service_twilio_account_sid"
+msgid "Account SID"
+msgstr "Account SID"
+
+msgctxt "SettingsOptions::cp_sms_services::service_twilio_auth_token"
+msgid "Auth Token"
+msgstr "Auth Token"
+
+msgctxt "SettingsOptions::cp_sms_services::service_twilio_messaging_service_sid"
+msgid "Messaging service id"
+msgstr "Messaging service id"
+
+msgctxt "SettingsOptions::cp_sms_services::service_twilio_from"
+msgid "Sender phone"
+msgstr "Sender phone" 
+
+msgctxt "SettingsSections::cp_sms_services::service_melipayamak"
+msgid "melipayamak"
+msgstr "melipayamak"
+
+msgctxt "SettingsOptions::cp_sms_services::service_melipayamak_login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "SettingsOptions::cp_sms_services::service_melipayamak_psw"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsOptions::cp_sms_services::service_melipayamak_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsSections::cp_sms_services::service_sms_myphone_ge"
+msgid "My Phone"
+msgstr "myphone.ge"
+
+msgctxt "SettingsOptions::cp_sms_services::service_sms_myphone_ge_api_key"
+msgid "Api key"
+msgstr "Api key"
+
+msgctxt "SettingsOptions::cp_sms_services::service_sms_myphone_ge_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsOptions::cp_sms_services::service_sms_myphone_ge_login"
+msgid "Login/email"
+msgstr "Login/email"
+
+msgctxt "SettingsSections::cp_sms_services::service_beeline"
+msgid "beeline"
+msgstr "beeline"
+
+msgctxt "SettingsOptions::cp_sms_services::service_beeline_login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "SettingsOptions::cp_sms_services::service_beeline_psw"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsOptions::cp_sms_services::service_beeline_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsTooltips::cp_sms_services::service_beeline_from"
+msgid "Sender registered for you in the system beeline.amega-inform.ru"
+msgstr "Sender registered for you in the system beeline.amega-inform.ru"
+
+msgctxt "SettingsSections::cp_sms_services::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_sms_services::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsTooltips::cp_sms_services::licensekey"
+msgid "You can find it on your order details page"
+msgstr "You can find it on your order details page"
+
+msgctxt "SettingsOptions::cp_sms_services::service"
+msgid "Service"
+msgstr "Service"
+
+msgctxt "SettingsSections::cp_sms_services::service_smsc_ru"
+msgid "smsc.ru"
+msgstr "smsc.ru"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsc_ru_login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsc_ru_psw"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsc_ru_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsSections::cp_sms_services::service_smsc_ua"
+msgid "smsc.ua"
+msgstr "smsc.ua"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsc_ua_login"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsc_ua_psw"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsc_ua_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsSections::cp_sms_services::service_clickatell"
+msgid "clickatell"
+msgstr "clickatell"
+
+msgctxt "SettingsOptions::cp_sms_services::service_clickatell_api_key"
+msgid "Api key"
+msgstr "Api key"
+
+msgctxt "SettingsOptions::cp_sms_services::service_clickatell_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsSections::cp_sms_services::service_sms_ru"
+msgid "sms.ru"
+msgstr "sms.ru"
+
+msgctxt "SettingsOptions::cp_sms_services::service_sms_ru_api_key"
+msgid "Api key"
+msgstr "Api key"
+
+msgctxt "SettingsOptions::cp_sms_services::service_sms_ru_from"
+msgid "Sender name"
+msgstr "Sender name"
+
+msgctxt "SettingsSections::cp_sms_services::service_smsaero_ru"
+msgid "smsaero.ru"
+msgstr "smsaero.ru"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsaero_ru_login"
+msgid "Login/email"
+msgstr "Login/email"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsaero_ru_api_key"
+msgid "Api key"
+msgstr "Api key"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsaero_ru_sign"
+msgid "Sender's signature"
+msgstr "Sender's signature"
+
+msgctxt "SettingsOptions::cp_sms_services::service_smsaero_ru_channel"
+msgid "Send channel"
+msgstr "Send channel"
+
+msgctxt "SettingsTooltips::cp_sms_services::service_smsaero_ru_channel"
+msgid "INFO - Info signature for all operators.<br />INTERNATIONAL - International delivery.<br />DIRECT - Advertising channel for sending messages with a free letter signature.<br />SERVICE - Service channel for sending service SMS according to an approved template with a paid sender's signature.<br />"
+msgstr "INFO - Info signature for all operators.<br />INTERNATIONAL - International delivery.<br />DIRECT - Advertising channel for sending messages with a free letter signature.<br />SERVICE - Service channel for sending service SMS according to an approved template with a paid sender's signature.<br />"
+
+msgctxt "SettingsVariants::cp_sms_services::service_smsaero_ru_channel::INFO"
+msgid "INFO"
+msgstr "INFO"
+
+msgctxt "SettingsVariants::cp_sms_services::service_smsaero_ru_channel::INTERNATIONAL"
+msgid "INTERNATIONAL"
+msgstr "INTERNATIONAL"
+
+msgctxt "SettingsVariants::cp_sms_services::service_smsaero_ru_channel::DIRECT"
+msgid "DIRECT"
+msgstr "DIRECT"
+
+msgctxt "SettingsVariants::cp_sms_services::service_smsaero_ru_channel::SERVICE"
+msgid "SERVICE"
+msgstr "SERVICE"
+
+msgctxt "Languages::cp_sms_services"
+msgid "SMS services"
+msgstr "SMS services"
+
+msgctxt "Languages::cp_sms_api_request"
+msgid "API request"
+msgstr "API request"
+

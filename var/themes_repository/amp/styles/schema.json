@@ -1,0 +1,37 @@
+{
+    "general": {
+        "fields": {
+            "rounded_corners": {
+                "description": "theme_editor.rounded_corners",
+                "type": "checkbox",
+                "true": "true",
+                "false": "false"
+            }
+        },
+        "vendor_can_edit": false
+    },
+    "colors": {
+        "fields": {
+            "links": {
+                "description": "theme_editor.link_color"
+            },
+            "base": {
+                "description": "theme_editor.base_color"
+            },
+            "discount_label": {
+                "description": "theme_editor.discount_label"
+            },
+            "background_color": {
+                "description": "theme_editor.background_color"
+            },
+            "secondary_button": {
+                "description": "theme_editor.secondary_button"
+            },
+        },
+        "vendor_can_edit": true
+    },
+    "css":{
+        "fields": [],
+        "vendor_can_edit": true
+    }
+}

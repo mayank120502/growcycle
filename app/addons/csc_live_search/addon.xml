@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>csc_live_search</id>	
+    <version>7.3.4</version>
+    <priority>99500</priority>
+    <position>0</position>
+    <status>active</status>
+	<default_language>en</default_language>	
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+	<supplier>cs-commerce.com</supplier>
+	<supplier_link>https://www.cs-commerce.com</supplier_link>	
+	<compatibility>       
+        <core_version>
+            <min>4.1.0</min>
+			<conflicts>csc_search_speedup</conflicts>			
+        </core_version>
+    </compatibility>
+	<authors>
+        <author>
+            <name>CS-Commerce Software Solutions</name>
+            <email>info@cs-commerce.com</email>
+            <url>https://www.cs-commerce.com</url>            
+        </author>
+    </authors>
+	<settings edition_type="ROOT,STOREFRONT">
+		<sections>
+		<section id="general">
+			<name>General</name>
+			<items>
+				<item id="sys">					
+					<type>header</type>							
+				</item>
+			</items>
+		</section>
+		</sections>
+	</settings>
+	<queries>
+		<!--MYSQL 8 only <item for="install">
+			SET SQL_REQUIRE_PRIMARY_KEY = 0;
+		</item>-->
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search` (
+			  `name` varchar(255) NOT NULL,
+			  `company_id` mediumint(8) NOT NULL DEFAULT '0',
+			  `value` text NOT NULL,
+			  UNIQUE KEY `name` (`name`,`company_id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search`;	
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_phrases` (
+			  `phrase_id` mediumint(10) NOT NULL AUTO_INCREMENT,
+			  `company_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `priority` mediumint(5) NOT NULL,
+			  `phrase` varchar(250) NOT NULL,
+			  `lang_code` char(2) NOT NULL,
+			  `product_ids` text NOT NULL,
+			  `timestamp` int(11) NOT NULL DEFAULT '0',
+			  `user_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `status` char(1) NOT NULL DEFAULT 'A',
+			  PRIMARY KEY (`phrase_id`),
+			  KEY `phrase_lang_code` (`phrase`,`lang_code`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search_phrases`;
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_popularity` (
+			  `product_id` mediumint(10) NOT NULL,
+			  `qid` mediumint(10) NOT NULL,
+			  `popularity` int(8) NOT NULL DEFAULT '0',
+			  UNIQUE KEY `product_id_q_id` (`product_id`,`qid`),
+			  KEY `popularity` (`popularity`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search_popularity`;
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_q_base` (
+			  `qid` mediumint(10) NOT NULL AUTO_INCREMENT,
+			  `company_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `q` varchar(128) NOT NULL,
+			  `lang_code` char(2) NOT NULL,
+			  PRIMARY KEY (`qid`),
+			  KEY `q_lang_code` (`q`,`lang_code`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search_q_base`;
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_q_products` (
+			  `rid` mediumint(10) NOT NULL,
+			  `pid` mediumint(10) NOT NULL,
+			  UNIQUE KEY `request_id_product_id` (`rid`,`pid`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search_q_products`;
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_q_requests` (
+			  `rid` mediumint(10) NOT NULL AUTO_INCREMENT,
+			  `company_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `qid` mediumint(10) NOT NULL,
+			  `timestamp` int(11) NOT NULL,
+			  `user_ip` tinyblob NOT NULL,
+			  `lang_code` char(2) NOT NULL,
+			  `user_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `found_products` mediumint(10) NOT NULL DEFAULT '0',
+			  PRIMARY KEY (`rid`),	
+			  KEY `company_id_qid_timestamp` (`company_id`, `qid`, `timestamp`),		  
+			  KEY `lang_code` (`lang_code`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search_q_requests`;
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_stop_words` (
+			  `stop_id` mediumint(10) NOT NULL AUTO_INCREMENT,
+			  `company_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `phrase` varchar(25) CHARACTER SET utf8 NOT NULL,
+			  `synonyms` text CHARACTER SET utf8 NOT NULL,
+			  `timestamp` int(11) NOT NULL DEFAULT '0',
+			  `user_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `lang_code` char(2) CHARACTER SET utf16 NOT NULL,
+			  `status` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'A',
+			  PRIMARY KEY (`stop_id`),
+			  KEY `phrase_lang_code` (`phrase`,`lang_code`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+			
+		</item>		
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_live_search_stop_words`;
+		</item>
+		
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_live_search_synonyms` (
+			  `synonym_id` mediumint(10) NOT NULL AUTO_INCREMENT,
+			  `company_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `phrase` varchar(250) NOT NULL,
+			  `synonyms` text NOT NULL,
+			  `timestamp` int(11) NOT NULL,
+			  `user_id` mediumint(10) NOT NULL DEFAULT '0',
+			  `lang_code` char(2) NOT NULL,
+			  `status` char(1) NOT NULL DEFAULT 'A',
+			  PRIMARY KEY (`synonym_id`),
+			  KEY `phrase_lang_code` (`phrase`,`lang_code`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		</item>		
+		<item for="uninstall">	
+			DROP TABLE IF EXISTS `?:csc_live_search_synonyms`;
+		</item>
+		
+		
+		<!--Clusters Speed-Up-->	
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_search_speedup_index` (
+			  `product_id` mediumint NOT NULL,
+			  `description` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+			  `lang_code` char(2) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+			  UNIQUE KEY `product_id_lang_code` (`product_id`,`lang_code`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		</item>
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_search_speedup_index`;
+		</item>
+			
+		<item for="install">
+			CREATE TABLE IF NOT EXISTS `?:csc_search_speedup_clusters` (
+			  `cluster_id` mediumint(9) NOT NULL AUTO_INCREMENT,
+			  `cluster` varchar(3) NOT NULL DEFAULT '',
+			  PRIMARY KEY (`cluster_id`),
+			  KEY `cluster` (`cluster`)
+			) DEFAULT CHARSET=utf8;
+		</item>
+		<item for="uninstall">
+			DROP TABLE IF EXISTS `?:csc_search_speedup_clusters`;
+		</item>
+			
+	</queries>
+	<functions>
+        <item for="install">fn_cls_install</item>        
+        <item for="uninstall">fn_cls_uninstall</item>
+    </functions>	 
+</addon>

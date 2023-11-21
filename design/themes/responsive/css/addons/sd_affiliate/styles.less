@@ -1,0 +1,277 @@
+/* Affiliate */
+@commisions-table-alt: #f8f9fa;
+
+.tree-limb {
+    padding-bottom: 5px;
+}
+.affiliate .subheader {
+    font-weight: normal;
+    padding-top: 0;
+}
+.affiliate .ty-table {
+    margin: 15px 0 40px 0;
+}
+.affiliate-code {
+    color: #999999;
+    font-size: 69%;
+    text-align: center;
+}
+.affiliate-block {
+    border-bottom: 1px solid #dedede;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+.affiliate-block.last {
+    border-color: transparent;
+}
+.affiliate-block .info-block {
+    margin-top: 15px;
+    color: #333;
+}
+.affiliate-block pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-all;
+}
+.affiliate-title,
+.affiliate-title {
+    font-size: 120%;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.affiliate-content {
+    margin: 10px 0;
+}
+.affiliate-content .no-image {
+    width: 50px;
+    height: 50px;
+}
+.affiliate-link,
+.affiliate-link:hover,
+.affiliate-link:active {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: underline;
+}
+.affiliate-block .link-dashed {
+    display: inline-block;
+    margin-right: 14px;
+    text-decoration: none;
+    height: 16px;
+    position: relative;
+}
+.affiliate-block .link-dashed .caret-info {
+    top: 26px;
+    z-index: 2;
+    left: 50%;
+    margin-left: -5px;
+}
+.affiliate-block .link-dashed.on .caret-info {
+    display: block;
+}
+.affiliate-menu {
+    margin-bottom: 30px;
+}
+.affiliate-menu li {
+    float: left;
+    margin-right: 20px;
+}
+.affiliate-plan-block {
+    margin: 0 0 40px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px 0px;
+    min-width: 52%;
+}
+.affiliate-plan-block td {
+    padding: 13px 10px 11px 0;
+    vertical-align: top;
+}
+.affiliate-plan__table {
+    width: 100%;
+}
+.affiliate-plan__row {
+    border-bottom: 1px solid #E3E9EC;
+}
+.affiliate-plan__row:last-child {
+    border-bottom: 0px;
+}
+.affilate-banner-link {
+    word-break: break-all;
+}
+.payout-info dt {
+    width: 110px;
+}
+.payout-info dd {
+    width: 250px;
+}
+.affiliate-rates {
+    margin-left: 60px;
+}
+.affiliate-rates dl {
+    width: 300px;
+}
+.affiliate-rates dt {
+    width: 200px;
+}
+.affiliate-rates dd {
+    width: 60px;
+}
+.general-statistics .affiliate-plan-block {
+    margin-top: 30px;
+}
+.affiliate .dir-list {
+    color: #b3b3b3;
+}
+.ty-affiliate-table-wrapper {
+    float: left;
+    margin: 20px 20px 20px 0px;
+    padding: 4px 20px;
+    min-width: 30%;
+    background: lighten(@base, 4%);
+    border: 1px solid @base;
+    .border-radius(5px);
+    .box-sizing(border-box);
+}
+.ty-affiliate-summary__table {
+    width: 100%;
+}
+.ty-affiliate-summary__row {
+    border-bottom: 1px solid #E3E9EC;
+}
+.ty-affiliate-summary__row:last-child {
+    border-bottom: 0px;
+}
+.affiliate-banner-code {
+    border: dashed 1px #634F36;
+    padding: 5px 10px 10px;
+    width: 60%;
+}
+.ty-input-display {
+    padding-right: 35px;
+    margin-top: 6px;
+}
+
+.commissions-table {
+    tbody {
+        tr {
+            &,
+            &:nth-child(2n),
+            & + .extra-row {
+                background-color: #fff;
+            }
+
+            &.alt-row,
+            &.alt-row + .extra-row {
+                background-color: @commisions-table-alt;
+            }
+        }
+    }
+}
+
+.commissions-table-extra {
+    margin-top: 10px;
+}
+
+.commissions-additional {
+    margin-top: 10px;
+    padding: 5px 13px;
+    background: #fff;
+
+    p {
+
+    }
+
+    ul {
+        margin: 0;
+        padding: 5px 0;
+        list-style: none;
+    }
+
+    li {
+        padding: 0 0 5px 0;
+    }
+}
+
+.affiliate-active-tab {
+    color: black;
+}
+
+.ty-table__responsive-content {
+    .box-sizing(border-box);
+}
+
+@media (max-width: 768px) {
+    .ty-input-display {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .ty-input-display {
+        width: 55%;
+    }
+}
+
+@media (max-width: 767px) {
+    .commissions-table {
+        tbody {
+            tr {
+                display: block;
+            }
+        }
+    }
+
+    .commissions-table-extra {
+        thead {
+            display: none;
+        }
+
+        & + .ty-table__responsive-header {
+            display: none;
+
+            & + .ty-table__responsive-content {
+                padding: 0;
+            }
+        }
+    }
+
+    .ty-affiliate-table-wrapper {
+        width: 100%;
+        padding: 4px 10px;
+    }
+
+    .affilate-extra-data__td {
+        .ty-table {
+            &__responsive-header,
+            &__responsive-content {
+                width: 100%;
+                padding: 0 0 5px 0;
+            }
+        }
+    }
+}
+
+.commissions-details-header {
+    margin-top: 27px;
+}
+
+.affiliate-plan-description {
+    font-size: 14px;
+}
+
+.affiliate-widget-select {
+    margin-left: 65px;
+}
+
+#custom_affiliate_parameter {
+    vertical-align: middle;
+}
+
+.affiliate-coupon-code {
+    padding-top: 5px;
+}
+
+/* /Affiliate */

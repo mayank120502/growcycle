@@ -1,0 +1,565 @@
+# Base pack of "Greek" language variables
+msgid ""
+msgstr ""
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Pack-Name: Ελληνικά\n"
+"Lang-Code: el\n"
+"Country-Code: GR\n"
+
+msgctxt "Addons::name::affiliate"
+msgid "Affiliate"
+msgstr "Συνεργάτης"
+
+msgctxt "Languages::affiliate.new_banner"
+msgid "New banner"
+msgstr "Νέο banner"
+
+msgctxt "Languages::affiliate.editing_banner"
+msgid "Editing banner"
+msgstr "Επεξεργασία banner"
+
+msgctxt "Languages::add_affiliate"
+msgid "Add affiliate"
+msgstr "Προσθήκη ανταποδοτικού μάρκετινγκ"
+
+msgctxt "Languages::affiliate"
+msgid "Affiliate"
+msgstr "Πρόγραμμα ανταπόδοσης (Affiliate)"
+
+msgctxt "Languages::affiliate_information"
+msgid "Affiliate information"
+msgstr "Πληροφορίες προγράμματος ανταπόδωσης (Affiliate)"
+
+msgctxt "Languages::affiliate_payouts"
+msgid "Affiliate payouts"
+msgstr "Πληρωμές προγράμματος ανταπόδωσης (Affiliate)"
+
+msgctxt "Languages::affiliate_plan"
+msgid "Affiliate plan"
+msgstr "Πλάνο προγράμματος ανταπόδωσης (Affiliate)"
+
+msgctxt "Languages::affiliate_partners_menu_description"
+msgid "Manage your affiliate partners."
+msgstr "Διαχείριση των συνεργαζόμενων συνεργατών σας."
+
+msgctxt "Languages::affiliate_agree_to_terms_conditions"
+msgid "By clicking the \"[button_name]\" button below, you acknowledge that you agree to and understand the terms and conditions of our affiliate program."
+msgstr "Πατώντας το \"[button_name]\" δηλώνετε ότι συμφωνείτε και καταλαβαίνετε τους όρους και συνθήκες του προγράμματος ανταπόδοσης (Affiliate)."
+
+msgctxt "Languages::affilate_banners_manager_menu_description"
+msgid "Create banners that your affiliates can then place at their websites."
+msgstr "Δημιουργεία γραφιστικών banners που οι συνεργάτες σας μπορούν να προσθέσουν στις ιστοσελίδες τους."
+
+msgctxt "Languages::affiliates_menu_description"
+msgid "List of store affiliates, registered users with an affiliate account."
+msgstr "Λίστα των συνεργαζόμενων καταστημάτων, εγεγραμμένοι χρήστες με λογαριασμό διαχειριστή."
+
+msgctxt "Languages::affiliate_text_letter_footer"
+msgid "Thank you for taking part in our affiliate program."
+msgstr "Ευχαριστούμε που πήρατε μέρος στο πρόγραμμα ανταπόδωσης (Affiliate)."
+
+msgctxt "Languages::affiliate_tree"
+msgid "Affiliate tree"
+msgstr "Δένδρο προγράμματος ανταπόδωσης (Affiliate)"
+
+msgctxt "Languages::text_banners"
+msgid "Text banners"
+msgstr "Βanners κειμένου"
+
+msgctxt "Languages::graphic_banners"
+msgid "Graphic banners"
+msgstr "Banners γραφικών"
+
+msgctxt "Languages::text_no_banners_found"
+msgid "No banners found"
+msgstr "Δεν βρέθηκαν banners"
+
+msgctxt "Languages::payout"
+msgid "Payout"
+msgstr "Πληρωμή"
+
+msgctxt "Languages::payouts"
+msgid "Payouts"
+msgstr "Πληρωμές"
+
+msgctxt "Languages::payout_click"
+msgid "Click"
+msgstr "Κλικ"
+
+msgctxt "Languages::payout_init_balance"
+msgid "Initial balance"
+msgstr "Αρχικό υπόλοιπο"
+
+msgctxt "Languages::payout_sales"
+msgid "Payout sales"
+msgstr "Πληρωμή των πωλήσεων"
+
+msgctxt "Languages::payout_show"
+msgid "Show banner"
+msgstr "Προβολή banner"
+
+msgctxt "Languages::payout_use_coupon"
+msgid "Use coupon"
+msgstr "Χρήση εκπτωτικού κουπονιού"
+
+msgctxt "Languages::product_banners"
+msgid "Product banners"
+msgstr "Προϊόντα banners"
+
+msgctxt "Languages::sale_vs_click"
+msgid "Percentage of sales and banner clicks"
+msgstr "Ποσοστό των πωλήσεων και των κλίκς των banner"
+
+msgctxt "Languages::click_vs_show"
+msgid "Percentage of banner clicks and banner shows"
+msgstr "Ποσοστό κλικ banner και προβολής banner"
+
+msgctxt "Languages::approve_commissions_menu_description"
+msgid "Approve or disapprove affiliate commission."
+msgstr "Έγκριση ή όχι της προμήθειας του συνεργαζόμενου."
+
+msgctxt "Languages::accounting_history_menu_description"
+msgid "Summary of the commission payments in your store."
+msgstr "Συνοπτική παρουσίαση των προμηθειών πληρωμών στο κατάστημα."
+
+msgctxt "Languages::link_new_affiliate"
+msgid "Link to add a new affiliate"
+msgstr "Σύνδεσμος για προσθήκη καινούργιου συστήματος ανταπόδοσης (Affiliate)"
+
+msgctxt "Languages::multi_tier_affiliates"
+msgid "Multi tier affiliates"
+msgstr "Πολλαπλές βαθμίδες συνεργατών"
+
+msgctxt "Languages::payouts_menu_description"
+msgid "List of all monetary commission payments to the affiliates."
+msgstr "Λίστα όλων των πληρωμών των χρηματικών επιτροπών για τους συνεργάτες."
+
+msgctxt "Languages::payout_new_partner"
+msgid "New affiliate"
+msgstr "Νέα συνεργασία"
+
+msgctxt "Languages::pay_affiliates_menu_description"
+msgid "Process payments that your affiliates have earned as a commission."
+msgstr "Διαδικασία πληρωμών που έχουν κερδίσει οι συνεργάτες σας σαν προμήθεια."
+
+msgctxt "Languages::plans_menu_description"
+msgid "Create and configure affiliate plans."
+msgstr "Δημιουργία και ρυθμίσεις πλάνων συνεργατών."
+
+msgctxt "Languages::product_groups_menu_description"
+msgid "Define groups of products that can then be pointed to by the affiliate banners."
+msgstr "Επιλογή ομάδων προϊόντων που μπορούν να χρησιμοποιηθούν σαν ανταποδοτικό banner συνεργαζόμενου."
+
+msgctxt "Languages::text_no_affiliate_assigned"
+msgid "No affiliate plan has been assigned to your account yet"
+msgstr "Δεν ανατέθηκε πρόγραμμα ανταπόδοσης ακόμα στον λογαριασμό σας"
+
+msgctxt "Languages::no_payouts_found"
+msgid "No payouts found"
+msgstr "Δεν βρέθηκαν πληρωμές"
+
+msgctxt "Languages::total_payouts"
+msgid "Total payouts"
+msgstr "Σύνολο αποπληρωμών"
+
+msgctxt "Languages::aff_cookie_expiration"
+msgid "Life span of customer cookie (days)"
+msgstr "Διάρκεια ζωής των cookie στους πελάτες (μέρες)"
+
+msgctxt "Languages::set_initial_balance"
+msgid "Initial incentive balance"
+msgstr "Αρχικό ερέθισμα υπολοίπου"
+
+msgctxt "Languages::total_commissions"
+msgid "Total commissions"
+msgstr "Σύνολο προμηθειών"
+
+msgctxt "Languages::affiliate_add_payout"
+msgid "Add payout"
+msgstr "Προσθήκη πληρωμών"
+
+msgctxt "Languages::affiliate_add_plan"
+msgid "Add plan"
+msgstr "Προσθήκη Σχεδίου"
+
+msgctxt "Languages::affiliate_new_group"
+msgid "New group"
+msgstr "Νέα ομάδα"
+
+msgctxt "Languages::paidup"
+msgid "Paid-up"
+msgstr "Αποπληρωμένο"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Εύρος ημερομηνιών"
+
+msgctxt "Languages::deleted_banners"
+msgid "Deleted banners"
+msgstr "Διαγραμμένα banners"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Δεν έγινε λήψη  έγκυρων δεδομένων"
+
+msgctxt "Languages::banner_deleted"
+msgid "The banner has been deleted successfully."
+msgstr "Το banner έχει διαγραφεί επιτυχώς."
+
+msgctxt "Languages::group_for_category"
+msgid "Group for categories"
+msgstr "Ομάδα κατηγοριών"
+
+msgctxt "Languages::group_for_product"
+msgid "Group for products"
+msgstr "Ομάδα προϊόντων"
+
+msgctxt "Languages::deleted_product_groups"
+msgid "Deleted product groups"
+msgstr "Διαγραμμένες ομάδες προϊόντων"
+
+msgctxt "Languages::error_payout_gt_balance"
+msgid "The payout cannot exceed the affiliate balance."
+msgstr "Η πληρωμή δεν μπορεί να υπερβαίνει το συνολικό ποσό των συνεργατών."
+
+msgctxt "Languages::error_account_not_approved"
+msgid "Your affiliate account was not approved. Please contact store administration."
+msgstr "Ο λογαριασμός (συνεργάτη) ανταπόδοσης σας δεν εγκρίθηκε. Παρακαλούμε επικοινωνήστε με την διοίκηση του καταστήματος."
+
+msgctxt "Languages::error_account_declined"
+msgid "Your affiliate account was declined. Please contact store administration."
+msgstr "Ο λογαριασμός (συνεργάτη) ανταπόδοσης σας απορρίφθηκε."
+
+msgctxt "Languages::text_partner_create_profile"
+msgid "First you should receive an email message with approval, then you can log in."
+msgstr "Πρώτα θα πρέπει να λάβετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου με την έγκριση και  τότε θα μπορείτε να συνδεθείτε!"
+
+msgctxt "Languages::affiliates"
+msgid "Affiliates"
+msgstr "Προγράμματα ανταπόδοσης (Affiliate)"
+
+msgctxt "Languages::affiliate_code"
+msgid "Affiliate code"
+msgstr "Κωδικός προγράμματος ανταπόδοσης (Affiliate)"
+
+msgctxt "Languages::affiliate_commissions"
+msgid "Affiliate commissions"
+msgstr "Προμήθειες προγράμματος ανταπόδοσης (Affiliate)"
+
+msgctxt "Languages::related_actions"
+msgid "Related actions"
+msgstr "Σχετικές  ενέργειες"
+
+msgctxt "Languages::disapprove_commissions"
+msgid "Disapprove commissions"
+msgstr "Απόρριψη προμηθειών"
+
+msgctxt "Languages::delete_commissions"
+msgid "Delete commissions"
+msgstr "Διαγραφή προμηθειών"
+
+msgctxt "Languages::approve_commissions"
+msgid "Approve commissions"
+msgstr "Έγκριση επιτροπών"
+
+msgctxt "Languages::count"
+msgid "Count"
+msgstr "Αρίθμηση"
+
+msgctxt "Languages::sum"
+msgid "Sum"
+msgstr "Άθροισμα"
+
+msgctxt "Languages::avg"
+msgid "Avg"
+msgstr "ΜΟ"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "Σχέδιο"
+
+msgctxt "Languages::show_zero_actions"
+msgid "Show zero actions"
+msgstr "Προβολή μηδενικών ενεργειών"
+
+msgctxt "Languages::not_show"
+msgid "Not show"
+msgstr "Δεν εμφανίζεται"
+
+msgctxt "Languages::only_zero_actions"
+msgid "Only zero actions"
+msgstr "Μόνο μηδενικές δράσεις"
+
+msgctxt "Languages::affiliate_settings"
+msgid "Affiliate system settings"
+msgstr "Ρυθμίσεις συστήματος προγράμματος ανταπόδωσης (Affiliate)"
+
+msgctxt "Languages::plans"
+msgid "Plans"
+msgstr "Σχέδια"
+
+msgctxt "Languages::method_based_selling_price"
+msgid "Commission calculation based on product price"
+msgstr "Προμήθεια υπολογισμού βασισμένη στην τιμή του προϊόντος"
+
+msgctxt "Languages::coupon_commission_overide_all"
+msgid "Coupon commission should override all the others"
+msgstr "Η προμήθεια του κουπονιού θα πρέπει να έχει προτεραιότητα έναντι όλων των άλλων"
+
+msgctxt "Languages::add_selected"
+msgid "Add selected"
+msgstr "Προσθήκη επιλεγμένων"
+
+msgctxt "Languages::add_commissions_multi_affiliates"
+msgid "Add commission(s) to multi tier affiliates"
+msgstr "Προσθήκη επιτροπής (ών) σε πολλαπλές βαθμίδες ανταπόδοσης"
+
+msgctxt "Languages::add_commissions"
+msgid "Add commissions"
+msgstr "Προσθήκη Επιτροπών"
+
+msgctxt "Languages::add_coupons"
+msgid "Add coupon(s)"
+msgstr "Προσθήκη κουπονιού(-ών)"
+
+msgctxt "Languages::new_plan"
+msgid "New plan"
+msgstr "Νέο σχέδιο"
+
+msgctxt "Languages::editing_plan"
+msgid "Editing plan"
+msgstr "Επεξεργασία σχεδίου"
+
+msgctxt "Languages::product_group"
+msgid "Product group"
+msgstr "Ομάδα προϊόντος"
+
+msgctxt "Languages::refresh_banner"
+msgid "Refresh banner"
+msgstr "Ανανέωση banner"
+
+msgctxt "Languages::align"
+msgid "Align"
+msgstr "Στοίχιση"
+
+msgctxt "Languages::center"
+msgid "Center"
+msgstr "Κέντρο"
+
+msgctxt "Languages::show_border"
+msgid "Show border"
+msgstr "Προβολή ορίου"
+
+msgctxt "Languages::show_title"
+msgid "Show title"
+msgstr "Προβολή τίτλου"
+
+msgctxt "Languages::show_url"
+msgid "Show URL"
+msgstr "Προβολή URL"
+
+msgctxt "Languages::new_window"
+msgid "New window"
+msgstr "Νέο παράθυρο"
+
+msgctxt "Languages::affiliate_tiers_tree"
+msgid "Affiliate tiers tree"
+msgstr "Δένδρο βαθμίδων προγράμματος ανταπόδωσης (Affiliate)"
+
+msgctxt "Languages::without_plan"
+msgid "Without plan"
+msgstr "Χωρίς σχέδιο"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "Προσωπικές Πληροφορίες"
+
+msgctxt "Languages::edit_affiliate"
+msgid "Edit affiliate"
+msgstr "Επεξεργασία ανταπόδοσης"
+
+msgctxt "Languages::viewing_affiliate"
+msgid "Viewing affiliate"
+msgstr "Προβολή affiliate"
+
+msgctxt "Languages::checking_min_payment"
+msgid "Payments with minimum release level only"
+msgstr "Απελευθέρωση πληρωμών μόνο με το ελάχιστο  επίπεδο"
+
+msgctxt "Languages::checking_payment_period"
+msgid "Due payments only"
+msgstr "Λόγω πληρωμών  μόνο"
+
+msgctxt "Languages::amount_of_approved_actions"
+msgid "Amount of approved actions"
+msgstr "Η ποσότητα των εγκεκριμένων ενεργειών"
+
+msgctxt "Languages::amount_of_awaiting_approval_actions"
+msgid "Amount of actions awaiting approval"
+msgstr "Η ποσότητα των ενεργειών που περιμένουν αποδοχή"
+
+msgctxt "Languages::date_of_last_payment"
+msgid "Date of the previous payment"
+msgstr "Ημερομηνία της προηγούμενης πληρωμής"
+
+msgctxt "Languages::pay_affiliates"
+msgid "Pay affiliates"
+msgstr "Πληρωμή θυγατρικών"
+
+msgctxt "Languages::last_payout"
+msgid "Last payout"
+msgstr "Τελευταία πληρωμή"
+
+msgctxt "Languages::avg_payout"
+msgid "Avg payout"
+msgstr "ΜΟ πληρωμής"
+
+msgctxt "Languages::view_history"
+msgid "View history"
+msgstr "Προβολή ιστορικού"
+
+msgctxt "Languages::accounting_history"
+msgid "Accounting History"
+msgstr "Ιστορικό λογαριασμών"
+
+msgctxt "Languages::add_group_for_categories"
+msgid "Add group for categories"
+msgstr "Προσθήκη Ομάδας σε κατηγορίες"
+
+msgctxt "Languages::add_group_for_products"
+msgid "Add group for products"
+msgstr "Προσθήκη Ομάδας σε Προϊόντα"
+
+msgctxt "Languages::add_url_group"
+msgid "Add URL group"
+msgstr "Προσθήκη ομάδας URL"
+
+msgctxt "Languages::email_approved_notification_header"
+msgid "Thank you for becoming a registered affiliate of [company]. Your account has been activated."
+msgstr "Σας ευχαριστούμε που γίνατε  καταχωρημένο μέλος της [company]. Ο λογαριασμός σας έχει ενεργοποιηθεί."
+
+msgctxt "Languages::email_subj_approved"
+msgid "Your account was approved."
+msgstr "Ο λογαριασμός σας έχει εγκριθεί."
+
+msgctxt "Languages::email_declined_notification_header"
+msgid "Your account was declined."
+msgstr "Ο λογαριασμός σας απορρίφθηκε."
+
+msgctxt "Languages::email_subj_declined"
+msgid "Your account was declined."
+msgstr "Ο λογαριασμός σας απορρίφθηκε."
+
+msgctxt "Languages::top"
+msgid "Top"
+msgstr "Πάνω"
+
+msgctxt "Languages::bottom"
+msgid "Bottom"
+msgstr "Κάτω"
+
+msgctxt "Languages::tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all"
+msgid "If enabled, coupon commission cancels the other commissions."
+msgstr "Εάν είναι ενεργοποιημένοι προμήθεια του κουπονιού ακυρώνει τις άλλες προμήθειες."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Εάν το κουτάκι επιλογής περιέχει μόνο το  Καμία  αξία, αυτό σημαίνει ότι οι κατηγορίες  προϊόντων δεν καθορίζονται."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Εάν το κουτάκι επιλογής περιέχει μόνο το  Καμία  αξία, αυτό σημαίνει ότι οι κατηγορίες  προϊόντων δεν καθορίζονται."
+
+msgctxt "Languages::affiliate_partners"
+msgid "Affiliates"
+msgstr "Συνεργάζόμενοι"
+
+msgctxt "SettingsOptions::affiliate::payment_period"
+msgid "Payment period"
+msgstr "Περίοδος πληρωμής"
+
+msgctxt "SettingsVariants::affiliate::payment_period::1w"
+msgid "1 week"
+msgstr "1 εβδομάδα"
+
+msgctxt "SettingsVariants::affiliate::payment_period::2w"
+msgid "twice a month"
+msgstr "Δυο φορές τον μήνα"
+
+msgctxt "SettingsVariants::affiliate::payment_period::1m"
+msgid "1 month"
+msgstr "1 μήνας"
+
+msgctxt "SettingsOptions::affiliate::number_last_periods"
+msgid "Number of last periods"
+msgstr "Αριθμός των τελευταίων περιόδων"
+
+msgctxt "SettingsOptions::affiliate::automatic_approval_commissions"
+msgid "Automatic approval of affiliate commissions"
+msgstr "Αυτόματη έγκριση προμηθειών συνεργατών"
+
+msgctxt "SettingsOptions::affiliate::elm_text_banner"
+msgid "Text banner"
+msgstr "Βanner κειμένου"
+
+msgctxt "SettingsOptions::affiliate::out_line_color"
+msgid "Outline color"
+msgstr "Χρώμα περιγράμματος"
+
+msgctxt "SettingsOptions::affiliate::title_text_color"
+msgid "Title text color"
+msgstr "Χρώμα τίτλου κειμένου"
+
+msgctxt "SettingsOptions::affiliate::text_color"
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+msgctxt "SettingsOptions::affiliate::text_background_color"
+msgid "Text background color"
+msgstr "Χρώμα φόντου του κειμένου"
+
+msgctxt "SettingsOptions::affiliate::elm_discount_coupons"
+msgid "Discount Coupons"
+msgstr "Εκπτωτικά κουπόνια"
+
+msgctxt "SettingsOptions::affiliate::use_affiliate_id"
+msgid "Affiliate ID is used as coupon prefix"
+msgstr "Το ID συνεργατών χρησιμοποιείται για το πρόθεμα των κουπονιών"
+
+msgctxt "SettingsOptions::affiliate::coupon_prefix_delim"
+msgid "Delimiter between prefix and coupon-code"
+msgstr "Οριοθέτη μεταξύ προθέματος και κωδικού κουπονιού"
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Banner"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Banners"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliate Banner code"
+msgstr "Κωδικός banner"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Add banner"
+msgstr "Προσθήκη banner"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Κωδικός banner για κάποια προϊόντα"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "Το αναγνωριστικό συνεργάτη σας είναι [user_id]. Για να λάβετε προμήθεια σύμφωνα με το σχέδιο μπορείτε να προσθέσετε <b>[aff_id_?]</b>(ή <b>[aff_id_&]</b> εάν ο σύνδεσμος σελίδας περιέχει ήδη "?") Σε οποιονδήποτε σύνδεσμο στο κατάστημά μας. Για παράδειγμα, εδώ είναι ο σύνδεσμος για την εγγραφή μιας νέας θυγατρικής: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "Μπορείτε επίσης να χρησιμοποιήσετε τον ακόλουθο φιλικό προς τον χρήστη σύνδεσμο για την αρχική σελίδα για να λαμβάνετε προμήθειες σύμφωνα με το σχέδιό σας: [link]"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>Μπορείτε να γίνετε επαγγελματίας συνεργάτης και να λάβετε προμήθειες <b>σε μετρητά</b> για πανό κειμένου, προϊόντων και γραφικών, καθώς και θυγατρικών πολλαπλών επιπέδων και μεταχειρισμένων κουπονιών.</p>[link]"

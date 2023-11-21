@@ -1,0 +1,12 @@
+Legend:
+[+] - new feature/improvement
+[*] - functionality changes
+[!] - bugfix
+
+Version 1.1, 17 July 2019
+
+[!] Pages name were not update during first import due to sharing. Fixed
+
+Version 1.2, 26 May 2021
+
+[!] Import did not work in Multi-Vendor 4.12.x due to company condition. Fixed

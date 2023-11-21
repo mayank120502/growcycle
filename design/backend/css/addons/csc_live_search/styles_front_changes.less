@@ -1,0 +1,28 @@
+.clsActive .clsCss {
+	min-width: initial;
+	position:relative;
+	ul {
+		margin: 0;
+		list-style: none;
+	}
+}
+
+.clsLabel {
+	background: @cls_category;
+}
+@media(max-width: 767px) {
+	.clsActive {
+		border: 1px solid rgba(150,161,181,0.2);
+		margin: 10px 0;
+		padding: 0;
+		position: static;
+		.clsCss {
+			margin: 0;
+			padding: 0;
+		}
+		.clsCss ul {
+			padding: 40px 10px 10px;
+			position: relative;
+		}
+	}
+}

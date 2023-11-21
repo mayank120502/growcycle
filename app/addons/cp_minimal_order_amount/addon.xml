@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_minimal_order_amount</id>
+    <version>1.0</version>
+    <priority>600</priority>
+    <position>200</position>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="notifications_display_type">
+                        <type>selectbox</type>
+                        <default_value>S</default_value>
+                    </item>
+                    <item id="include_shipping_cost">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_cp_minimal_order_amount_install</item>
+        <item for="uninstall">fn_cp_minimal_order_amount_uninstall</item>
+    </functions>
+</addon>

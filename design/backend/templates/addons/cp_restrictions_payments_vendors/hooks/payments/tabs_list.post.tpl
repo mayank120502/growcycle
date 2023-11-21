@@ -1,0 +1,1 @@
+<li id="tab_cp_picker_vendor_{$id}" class="cm-js"><a>{__("vendors")}</a></li>

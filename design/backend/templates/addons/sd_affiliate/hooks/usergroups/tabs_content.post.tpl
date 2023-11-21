@@ -1,0 +1,1 @@
+<input type="text" id="elm_usergroup_{$id}" name="usergroup_data[privileges][partnership]" value="Y" class="hidden" />

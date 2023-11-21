@@ -1,0 +1,2 @@
+<?php
+ $schema = array( 'sidebar' => 'amp-sidebar-0.1.js', 'bind' => 'amp-bind-0.1.js', 'carousel' => 'amp-carousel-0.1.js', 'accordion' => 'amp-accordion-0.1.js', 'form' => 'amp-form-0.1.js', 'list' => 'amp-list-0.1.js', 'iframe' => 'amp-iframe-0.1.js', 'youtube' => 'amp-youtube-0.1.js', 'analytics' => 'amp-analytics-0.1.js', 'selector' => 'amp-selector-0.1.js', 'user-notification' => 'amp-user-notification-0.1.js', 'facebook' => 'amp-facebook-0.1.js' ); return $schema; 

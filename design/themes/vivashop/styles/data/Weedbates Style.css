@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300i,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+.ui-dialog[aria-describedby*="new_thread_dialog_"] {
+    max-width: 480px;
+}
+.ui-dialog[aria-describedby*="new_thread_dialog_"] {
+    max-width: 480px;
+}
+.ui-dialog[aria-describedby*="new_thread_dialog_"] input[type="text"], 
+.ui-dialog[aria-describedby*="new_thread_dialog_"] input[type="password"], 
+.ui-dialog[aria-describedby*="new_thread_dialog_"] input[type="tel"], 
+.ui-dialog[aria-describedby*="new_thread_dialog_"] input[type="number"], 
+.ui-dialog[aria-describedby*="new_thread_dialog_"] textarea, 
+.ui-dialog[aria-describedby*="new_thread_dialog_"] select {
+    width: 100%;
+    max-width: 100%;
+}
+.ui-dialog[aria-describedby*="new_thread_dialog_"] .object-container {
+    @media (min-width: 768px) {
+        padding-bottom: 75px;
+        height: auto !important;
+    }
+}

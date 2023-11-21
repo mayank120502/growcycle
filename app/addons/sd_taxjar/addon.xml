@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_taxjar</id>
+    <version>4.5.11</version>
+    <priority>70000</priority>
+    <position>1</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Simtech Development</supplier>
+    <supplier_link>http://www.simtechdev.com</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.4.0</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    
+                    <item id="api_key">
+                        <type>input</type>
+                        <default_value/>
+                    </item>
+                    <item id="amount_of_days">
+                        <type>input</type>
+                        <default_value>14</default_value>
+                    </item>
+                    <item id="required_api" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="template_product_tax_code_update">
+                        <type>template</type>
+                        <default_value>general.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>
+            ALTER TABLE ?:companies
+                ADD taxjar_key varchar(255) NOT NULL DEFAULT '',
+                ADD taxjar_export_statuses text NULL,
+                ADD taxjar_export_csv_data text NULL;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:companies
+                DROP taxjar_key,
+                DROP taxjar_export_statuses,
+                DROP taxjar_export_csv_data;
+        </item>
+
+        <item>
+            ALTER TABLE ?:products
+                ADD product_tax_code varchar(255) CHARACTER SET utf8 NOT NULL;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:products
+                DROP product_tax_code;
+        </item>
+
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:sd_taxjar_product_tax_code (
+                name varchar(32) CHARACTER SET utf8 NOT NULL,
+                product_tax_code varchar(32) CHARACTER SET utf8 NOT NULL,
+                description varchar(255) CHARACTER SET utf8 NOT NULL,
+                PRIMARY KEY (product_tax_code)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:sd_taxjar_product_tax_code;</item>
+
+        <item for="install">
+            REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES
+                ('sd_taxjar', 'Y', 'addons');
+        </item>
+        <item for="uninstall">
+            DELETE FROM ?:privileges WHERE privilege IN ('sd_taxjar');
+        </item>
+    </queries>
+<marketplace_product_id>1723</marketplace_product_id><marketplace_license_number>TAXJAR-6D38-15A5-5NG9-82M8</marketplace_license_number></addon>

@@ -1,0 +1,1114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.net\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-07-17 08:40-0400\n"
+
+msgctxt "Addons::name::sd_affiliate"
+msgid "Affiliate"
+msgstr "Simtech Development: Партнерство"
+
+msgctxt "Addons::description::sd_affiliate"
+msgid "The add-on allows the CS-Cart store owner to create affiliate programs for other web stores and websites."
+msgstr "Позволяет создавать партнерские программы с другими онлайн магазинами и веб-сайтами. <a href=\"https://www.simtechdev.com/docs/addons/affiliate/index.html\" target=\"_blank\">Инструкция</a>. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Поддержка</a>"
+
+msgctxt "Languages::to_affiliate"
+msgid "to_affiliate"
+msgstr "партнер"
+
+msgctxt "Languages::affiliate.products_note"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > General payout sales. If the sales commission is specified for a product in this tab, this value will be used to calculate the Payout sales commission for the affiliate."
+msgstr "Примечание. Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Общие выплаты по продажам. Если для продукта на этой вкладке указана комиссия за продажу, это значение будет использоваться для расчета комиссии за продажу для партнера."
+
+msgctxt "Languages::affiliate.products_note_mv"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > Vendor > General payout sales. If the sales commission is specified for a product in this tab, this value will be used to calculate the Payout sales commission for the affiliate."
+msgstr "Примечание. Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Продавец -> Общие выплаты по продажам. Если для продукта на этой вкладке указана комиссия за продажу, это значение будет использоваться для расчета комиссии за продажу для партнера."
+
+msgctxt "Languages::affiliate.categories_note"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > General payout sales. If the sales commission is specified for a category in this tab, this value will be used to calculate the Payout sales commission for the affiliate unless another value is specified in the <b>Products</b> tab."
+msgstr "Примечание. Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Общие выплаты по продажам. Значение комиссии на этой вкладке будет использоваться для расчета комиссии за продажу для партнера, если на вкладке <b>Товары</b> не указано другое значение."
+
+msgctxt "Languages::affiliate.categories_note_mv"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > Vendor > General payout sales. If the sales commission is specified for a category in this tab, this value will be used to calculate the Payout sales commission for the affiliate unless another value is specified in the <b>Products</b> tab."
+msgstr "Примечание. Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Продавец -> Общие выплаты по продажам. Значение комиссии на этой вкладке будет использоваться для расчета комиссии за продажу для партнера, если на вкладке <b>Товары</b> не указано другое значение."
+
+msgctxt "Languages::affiliate.vendors_note"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > Vendor > General payout sales. If the sales commission is specified for a vendor in this tab, this value will be used to calculate the Payout sales commission for the affiliate unless another value is specified in the <b>Products</b> or <b>Categories</b> tab. "
+msgstr "Примечание. Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Продавец -> Общие выплаты по продажам. Значение комиссии на этой вкладке будет использоваться для расчета комиссии за продажу для партнера, если на вкладке <b>Товары</b> или <b>Категории</b> не указано другое значение."
+
+msgctxt "Languages::affiliate.payout_sales_note"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > General payout sales. If the sales commission is specified in this tab, this value will be used to calculate the Payout sales commission for the affiliate unless another value is specified in the <b>Products</b> or <b>Categories</b> tab."
+msgstr "Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Общие выплаты по продажам. Значение комиссии в этом поле будет использоваться для расчета комиссии за продажу для партнера, если на вкладке <b>Товары</b> или <b>Категории</b> не указано никакое значение."
+
+msgctxt "Languages::affiliate.payout_sales_note_mv"
+msgid "Note: The priority of applying the commission value for orders will be Product > Category > Vendor > General payout sales. If the sales commission is specified in this tab, this value will be used to calculate the Payout sales commission for the affiliate unless another value is specified in the <b>Products</b>, <b>Categories</b> or <b>Vendors</b> tab."
+msgstr "Приоритет выбора комиссии для заказов следующий: Товар -> Категория -> Продавец -> Общие выплаты по продажам. Значение комиссии в этом поле будет использоваться для расчета комиссии за продажу для партнера, если на вкладке <b>Товары</b>, <b>Категории</b> или <b>Поставщики</b> не указано никакое значение."
+
+msgctxt "Languages::sd_affilate.vendors"
+msgid "Vendors"
+msgstr "Поставщики"
+
+msgctxt "Languages::affiliate.new_banner"
+msgid "New banner"
+msgstr "Новый баннер"
+
+msgctxt "Languages::affiliate.editing_banner"
+msgid "Editing banner"
+msgstr "Редактирование баннера"
+
+msgctxt "Languages::add_affiliate"
+msgid "Add affiliate"
+msgstr "Добавить партнера"
+
+msgctxt "Languages::affiliate"
+msgid "Affiliate"
+msgstr "Партнер"
+
+msgctxt "Languages::to_approve"
+msgid "to_approve"
+msgstr "Утвердить"
+
+msgctxt "Languages::affiliate_information"
+msgid "Affiliate information"
+msgstr "Информация о партнере"
+
+msgctxt "SettingsOptions::sd_affiliate::lkey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "Languages::affiliate_payouts"
+msgid "Affiliate payouts"
+msgstr "Партнерские выплаты"
+
+msgctxt "Languages::affiliate_plan"
+msgid "Affiliate plan"
+msgstr "Партнерский план"
+
+msgctxt "Languages::affiliate_partners_menu_description"
+msgid "Manage your affiliate partners."
+msgstr "Управление партнерами."
+
+msgctxt "Languages::affiliate_agree_to_terms_conditions"
+msgid "By clicking the \"[button_name]\" button below, you acknowledge that you agree to and understand the terms and conditions of our affiliate program."
+msgstr "Нажимая кнопку \"[button_name]\", Вы подтверждаете, что понимаете и соглашаетесь с условиями нашей партнерской программы."
+
+msgctxt "Languages::affilate_banners_manager_menu_description"
+msgid "Create banners that your affiliates can then place at their websites."
+msgstr "Создание баннеров, которые ваши партнеры смогут размещать на своих сайтах."
+
+msgctxt "Languages::affiliates_partnership_menu_description"
+msgid "List of store affiliates, registered users with an affiliate account."
+msgstr "Управление партнерами."
+
+msgctxt "Languages::affiliates_menu_description"
+msgid "List of store affiliates, registered users with an affiliate account."
+msgstr "Список партнеров магазина —   зарегистрированных пользователей с учетной записью партнера."
+
+msgctxt "Languages::affiliate_text_letter_footer"
+msgid "Thank you for taking part in our affiliate program."
+msgstr "Спасибо, что принимаете участие в нашей партнерской программе."
+
+msgctxt "Languages::affiliate_tree"
+msgid "Affiliate tree"
+msgstr "Дерево партнерства"
+
+msgctxt "Languages::text_banners"
+msgid "Text banners"
+msgstr "Текстовые баннеры"
+
+msgctxt "Languages::graphic_banners"
+msgid "Graphic banners"
+msgstr "Графические баннеры"
+
+msgctxt "Languages::text_no_banners_found"
+msgid "No banners found"
+msgstr "Баннеры не найдены"
+
+msgctxt "Languages::payout"
+msgid "Payout"
+msgstr "Выплата"
+
+msgctxt "Languages::payouts"
+msgid "Payouts"
+msgstr "Выплаты"
+
+msgctxt "Languages::payout_click"
+msgid "Click"
+msgstr "Переход по баннеру"
+
+msgctxt "Languages::payout_click_ref"
+msgid "Click_ref"
+msgstr "Переход по реферальной ссылке"
+
+msgctxt "Languages::payout_init_balance"
+msgid "Initial balance"
+msgstr "Исходный баланс"
+
+msgctxt "Languages::payout_sales"
+msgid "Payout sales"
+msgstr "Продажи"
+
+msgctxt "Languages::payout_show"
+msgid "Show banner"
+msgstr "Показ баннера"
+
+msgctxt "Languages::payout_use_coupon"
+msgid "Use coupon"
+msgstr "Использование купона"
+
+msgctxt "Languages::product_banners"
+msgid "Product banners"
+msgstr "Баннеры товаров"
+
+msgctxt "Languages::sale_vs_click"
+msgid "Percentage of sales and banner clicks"
+msgstr "Соотношение продаж и баннерных кликов в процентах"
+
+msgctxt "Languages::click_vs_show"
+msgid "Percentage of banner clicks and banner shows"
+msgstr "Соотношение кликов и показов баннеров в процентах"
+
+msgctxt "Languages::approve_commissions_menu_description"
+msgid "Approve or disapprove affiliate commission."
+msgstr "Одобрение/отклонение вознаграждения партнеров."
+
+msgctxt "Languages::accounting_history_menu_description"
+msgid "Summary of the commission payments in your store."
+msgstr "Список всех вознаградительных выплат вашего магазина."
+
+msgctxt "Languages::link_new_affiliate"
+msgid "Link to add a new affiliate"
+msgstr "Ссылка для добавления партнера"
+
+msgctxt "Languages::multi_tier_affiliates"
+msgid "Multi tier affiliates"
+msgstr "Многоуровневые партнеры"
+
+msgctxt "Languages::payouts_menu_description"
+msgid "List of all monetary commission payments to the affiliates."
+msgstr "Список всех вознаградительных денежных выплат партнерам."
+
+msgctxt "Languages::payout_new_partner"
+msgid "New affiliate"
+msgstr "Новый партнер"
+
+msgctxt "Languages::pay_affiliates_menu_description"
+msgid "Process payments that your affiliates have earned as a commission."
+msgstr "Оплата вознаграждений партнеров."
+
+msgctxt "Languages::plans_menu_description"
+msgid "Create and configure affiliate plans."
+msgstr "Созданиеи настройка партнерских планов."
+
+msgctxt "Languages::product_groups_menu_description"
+msgid "Define groups of products that can then be pointed to by the affiliate banners."
+msgstr "создание группы товаров, на которые будут указывать баннеры партнеров."
+
+msgctxt "Languages::text_no_affiliate_assigned"
+msgid "No affiliate plan has been assigned to your account yet"
+msgstr "Для вашего аккаунта ещё не были заданы партнерские планы или ваш план выключен"
+
+msgctxt "Languages::no_payouts_found"
+msgid "No payouts found"
+msgstr "Выплаты не найдены"
+
+msgctxt "Languages::total_payouts"
+msgid "Total payouts"
+msgstr "Итоговые выплаты"
+
+msgctxt "Languages::aff_cookie_expiration"
+msgid "Life span of customer cookie (days)"
+msgstr "Время хранения cookie покупателей (в днях)"
+
+msgctxt "Languages::set_initial_balance"
+msgid "Initial incentive balance"
+msgstr "Начальный поощрительный баланс"
+
+msgctxt "Languages::total_commissions"
+msgid "Total commissions"
+msgstr "Итоговое вознаграждение"
+
+msgctxt "Languages::affiliate_add_payout"
+msgid "Add payout"
+msgstr "Добавить выплату"
+
+msgctxt "Languages::affiliate_add_plan"
+msgid "Add plan"
+msgstr "Добавить план"
+
+msgctxt "Languages::affiliate_new_group"
+msgid "New group"
+msgstr "Новая группа"
+
+msgctxt "Languages::paidup"
+msgid "Paid-up"
+msgstr "Оплачено"
+
+msgctxt "Languages::chart_period"
+msgid "Date range"
+msgstr "Период времени"
+
+msgctxt "Languages::aff_cant_create_banner"
+msgid "Banner cannot be modified"
+msgstr "Баннер не может быть изменен"
+
+msgctxt "Languages::aff_cant_create_group"
+msgid "Group cannot be modified"
+msgstr "Группа не может быть изменена"
+
+msgctxt "Languages::aff_object_cant_delete"
+msgid "Object cannot be deleted"
+msgstr "Объект не может быть удалён"
+
+msgctxt "Languages::block_affiliate"
+msgid "Affiliate"
+msgstr "Партнер"
+
+msgctxt "Languages::block_affiliate_description"
+msgid "Affiliate profile access"
+msgstr "Доступ к учетной записи партнера"
+
+msgctxt "Languages::text_aff_no_actions_found"
+msgid "No actions found"
+msgstr "Ни одного действия не найдено"
+
+msgctxt "Languages::aff_successfully_registered"
+msgid "Successfully registered as affiliate"
+msgstr "Вы успешно зарегистрированы как партнер"
+
+msgctxt "Languages::privileges.manage_affiliate"
+msgid "Manage affiliate system"
+msgstr "Управление партнерской системой"
+
+msgctxt "Languages::deleted_banners"
+msgid "Deleted banners"
+msgstr "Удаленные баннеры"
+
+msgctxt "Languages::undeleted_banners"
+msgid "Not deleted banners"
+msgstr "Неудаленные баннеры"
+
+msgctxt "Languages::error_no_data"
+msgid "No valid data received"
+msgstr "Получены неверные данные"
+
+msgctxt "Languages::banner_deleted"
+msgid "The banner has been deleted successfully."
+msgstr "Баннер был успешно удалён."
+
+msgctxt "Languages::group_for_category"
+msgid "Group for categories"
+msgstr "Группа для категории"
+
+msgctxt "Languages::group_for_product"
+msgid "Group for products"
+msgstr "Группа для товаров"
+
+msgctxt "Languages::deleted_product_groups"
+msgid "Deleted product groups"
+msgstr "Удаленные группы товаров"
+
+msgctxt "Languages::undeleted_product_groups"
+msgid "Not deleted product groups"
+msgstr "Неудаленные группы товаров"
+
+msgctxt "Languages::error_payout_gt_balance"
+msgid "The payout cannot exceed the affiliate balance."
+msgstr "Выплата не может быть больше баланса партнера."
+
+msgctxt "Languages::error_account_not_approved"
+msgid "Your affiliate account was not approved. Please contact store administration."
+msgstr "Ваша учетная запись не подтверждена. Пожалуйста, свяжитесь с администрацией магазина."
+
+msgctxt "Languages::error_account_declined"
+msgid "Your affiliate account was declined. Please contact store administration."
+msgstr "Ваша учетная запись заблокирована. Пожалуйста, обратитесь к администрации магазина."
+
+msgctxt "Languages::text_partner_create_profile"
+msgid "In order to get access to the Affiliate menu, your e-mail should be approved by the administrator. When it is done, you will receive a notification to the specified e-mail."
+msgstr "Для получения доступа к меню партнерства Ваш e-mail должен подтвердить администратор. Когда это будет сделано, Вы получите уведомление на указанный e-mail."
+
+msgctxt "Languages::affiliates"
+msgid "Affiliates"
+msgstr "Партнеры"
+
+msgctxt "Languages::affiliate_code"
+msgid "Affiliate code"
+msgstr "Партнерский код"
+
+msgctxt "Languages::affiliate_commissions"
+msgid "Affiliate commissions"
+msgstr "Партнерские вознаграждения"
+
+msgctxt "Languages::related_actions"
+msgid "Related actions"
+msgstr "Связанные действия"
+
+msgctxt "Languages::disapprove_commissions"
+msgid "Disapprove commissions"
+msgstr "Отклонить вознаграждения"
+
+msgctxt "Languages::delete_commissions"
+msgid "Delete commissions"
+msgstr "Удалить вознаграждения"
+
+msgctxt "Languages::approve_commissions"
+msgid "Approve commissions"
+msgstr "Подтвердить вознаграждения"
+
+msgctxt "Languages::count"
+msgid "Count"
+msgstr "Количество"
+
+msgctxt "Languages::sum"
+msgid "Sum"
+msgstr "Сумма"
+
+msgctxt "Languages::avg"
+msgid "Avg"
+msgstr "Среднее значение"
+
+msgctxt "Languages::plan"
+msgid "Plan"
+msgstr "План"
+
+msgctxt "Languages::show_zero_actions"
+msgid "Show zero actions"
+msgstr "Показать действия при нулевой цене"
+
+msgctxt "Languages::not_show"
+msgid "Not show"
+msgstr "Не показывать"
+
+msgctxt "Languages::only_zero_actions"
+msgid "Only zero actions"
+msgstr "Только нулевые действия"
+
+msgctxt "Languages::affiliate_settings"
+msgid "Affiliate system settings"
+msgstr "Настройки партнерской системы"
+
+msgctxt "Languages::plans"
+msgid "Plans"
+msgstr "Планы"
+
+msgctxt "Languages::method_based_selling_price"
+msgid "Commission calculation based on product price"
+msgstr "Начисление многоуровневых вознаграждений на основе цены товара"
+
+msgctxt "Languages::coupon_commission_overide_all"
+msgid "Coupon commission should override all the others"
+msgstr "Вознаграждение купона заменит все остальные вознаграждения"
+
+msgctxt "Languages::add_selected"
+msgid "Add selected"
+msgstr "Добавить выбранное"
+
+msgctxt "Languages::add_commissions_multi_affiliates"
+msgid "Add commission(s) to multi tier affiliates"
+msgstr "Добавить вознаграждение(-я) многоуровневым партнерам"
+
+msgctxt "Languages::add_commissions"
+msgid "Add commissions"
+msgstr "Добавить вознаграждение(-я)"
+
+msgctxt "Languages::add_coupons"
+msgid "Add coupon(s)"
+msgstr "Добавить купон(ы)"
+
+msgctxt "Languages::new_plan"
+msgid "New plan"
+msgstr "Новый план"
+
+msgctxt "Languages::editing_plan"
+msgid "Editing plan"
+msgstr "Редактирование плана"
+
+msgctxt "Languages::product_group"
+msgid "Product group"
+msgstr "Группа товара"
+
+msgctxt "Languages::refresh_banner"
+msgid "Refresh banner"
+msgstr "Обновить баннер"
+
+msgctxt "Languages::align"
+msgid "Align"
+msgstr "Выравнивание"
+
+msgctxt "Languages::center"
+msgid "Center"
+msgstr "Центр"
+
+msgctxt "Languages::show_border"
+msgid "Show border"
+msgstr "Показывать границу"
+
+msgctxt "Languages::show_title"
+msgid "Show title"
+msgstr "Показать заголовок"
+
+msgctxt "Languages::show_url"
+msgid "Show URL"
+msgstr "Показать URL"
+
+msgctxt "Languages::new_window"
+msgid "New window"
+msgstr "Новое окно"
+
+msgctxt "Languages::affiliate_tiers_tree"
+msgid "Affiliate tiers tree"
+msgstr "Дерево партнерства"
+
+msgctxt "Languages::without_plan"
+msgid "Without plan"
+msgstr "Без плана"
+
+msgctxt "Languages::personal_information"
+msgid "Personal information"
+msgstr "Личные данные"
+
+msgctxt "Languages::edit_affiliate"
+msgid "Edit affiliate"
+msgstr "Редактировать партнера"
+
+msgctxt "Languages::viewing_affiliate"
+msgid "Viewing affiliate"
+msgstr "Просмотр партнера"
+
+msgctxt "Languages::checking_min_payment"
+msgid "Payments with minimum release level only"
+msgstr "Показывать платежи только с требуемым минимальным уровнем"
+
+msgctxt "Languages::checking_payment_period"
+msgid "Due payments only"
+msgstr "Показывать только последние платежи"
+
+msgctxt "Languages::amount_of_approved_actions"
+msgid "Amount of approved actions"
+msgstr "Одобренные действия"
+
+msgctxt "Languages::amount_of_awaiting_approval_actions"
+msgid "Amount of actions awaiting approval"
+msgstr "Действия, ожидающие одобрения"
+
+msgctxt "Languages::date_of_last_payment"
+msgid "Date of the previous payment"
+msgstr "Дата последнего платежа"
+
+msgctxt "Languages::pay_affiliates"
+msgid "Pay affiliates"
+msgstr "Платить партнерам"
+
+msgctxt "Languages::last_payout"
+msgid "Last payout"
+msgstr "Последняя выплата"
+
+msgctxt "Languages::avg_payout"
+msgid "Avg payout"
+msgstr "Средн. выплата"
+
+msgctxt "Languages::view_history"
+msgid "View history"
+msgstr "Показать историю"
+
+msgctxt "Languages::accounting_history"
+msgid "Accounting History"
+msgstr "Данные учёта"
+
+msgctxt "Languages::add_group_for_categories"
+msgid "Add group for categories"
+msgstr "Добавить группу для категорий"
+
+msgctxt "Languages::add_group_for_products"
+msgid "Add group for products"
+msgstr "Добавить группу для товаров"
+
+msgctxt "Languages::add_url_group"
+msgid "Add URL group"
+msgstr "Добавить группу url"
+
+msgctxt "Languages::email_approved_notification_header"
+msgid "Thank you for becoming a registered affiliate of [company]. Your account has been activated."
+msgstr "Спасибо за то, что стали зарегистрированным партнером [company]. Ваша учетная запись подтверждена."
+
+msgctxt "Languages::email_subj_approved"
+msgid "Your account was approved."
+msgstr "Ваша учетная запись подтверждена"
+
+msgctxt "Languages::email_declined_notification_header"
+msgid "Your account was declined."
+msgstr "Ваша учетная запись отклонена."
+
+msgctxt "Languages::email_subj_declined"
+msgid "Your account was declined."
+msgstr "Ваша учетная запись отклонена"
+
+msgctxt "Languages::top"
+msgid "Top"
+msgstr "Верхняя часть"
+
+msgctxt "Languages::bottom"
+msgid "Bottom"
+msgstr "Нижняя часть"
+
+msgctxt "Languages::tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all"
+msgid "If enabled, coupon commission cancels the other commissions."
+msgstr "Если опция включена, аннулируются все вознаграждения, кроме вознаграждения купона."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Если выпадающий список содержит только значение \'Пусто\', это означает, что группы товаров не заданы."
+
+msgctxt "Languages::tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group"
+msgid "If the select box contains only the \'None\' value, it means that product groups are not specified."
+msgstr "Если выпадающий список содержит только значение \'Пусто\', это означает, что группы товаров не заданы."
+
+msgctxt "Languages::affilate_banners_manager"
+msgid "Banners"
+msgstr "Баннеры"
+
+msgctxt "Languages::affiliate_partners"
+msgid "Affiliates"
+msgstr "Партнеры"
+
+msgctxt "SettingsSections::sd_affiliate::general"
+msgid "General"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::sd_affiliate::payment_period"
+msgid "Payment period"
+msgstr "Период оплаты"
+
+msgctxt "SettingsTooltips::sd_affiliate::payment_period"
+msgid "Period between two payments"
+msgstr "Период между двумя выплатами"
+
+msgctxt "SettingsVariants::sd_affiliate::payment_period::1w"
+msgid "1 week"
+msgstr "1 неделя"
+
+msgctxt "SettingsVariants::sd_affiliate::payment_period::2w"
+msgid "twice a month"
+msgstr "2 недели"
+
+msgctxt "SettingsVariants::sd_affiliate::payment_period::1m"
+msgid "1 month"
+msgstr "1 месяц"
+
+msgctxt "SettingsOptions::sd_affiliate::number_last_periods"
+msgid "Number of last periods"
+msgstr "Количество последних периодов"
+
+msgctxt "SettingsTooltips::sd_affiliate::number_last_periods"
+msgid "Sets the number of the latest periods which will be displayed"
+msgstr "Устанавливает количество последних периодов, которые будут отображаться"
+
+msgctxt "SettingsOptions::sd_affiliate::automatic_approval_commissions"
+msgid "Automatic approval of affiliate commissions"
+msgstr "Автоматическое утверждение партнерского вознаграждения"
+
+msgctxt "SettingsTooltips::sd_affiliate::automatic_approval_commissions"
+msgid "If the parameter is enabled, all commissions (for displaying banners, for clicks etc.) will be set automatically"
+msgstr "Если параметр включён, то все вознаграждения (за показ баннеров, за клики и т.д.) будут утверждены автоматически"
+
+msgctxt "SettingsOptions::sd_affiliate::elm_text_banner"
+msgid "Text banner"
+msgstr "Текстовый баннер"
+
+msgctxt "SettingsOptions::sd_affiliate::out_line_color"
+msgid "Outline color"
+msgstr "Цвет контура"
+
+msgctxt "SettingsTooltips::sd_affiliate::out_line_color"
+msgid "Sets the color of the outline of the text banner"
+msgstr "Устанавливает цвет контура текстового баннера"
+
+msgctxt "SettingsOptions::sd_affiliate::title_text_color"
+msgid "Title text color"
+msgstr "Цвет заголовка"
+
+msgctxt "SettingsTooltips::sd_affiliate::title_text_color"
+msgid "Sets the color of the title of the text banner"
+msgstr "Устанавливает цвет заголовка текстового баннера"
+
+msgctxt "SettingsOptions::sd_affiliate::text_color"
+msgid "Text color"
+msgstr "Цвет текста"
+
+msgctxt "SettingsTooltips::sd_affiliate::text_color"
+msgid "Sets the color of the text in the text banner"
+msgstr "Устанавливает цвет текста текстового баннера"
+
+msgctxt "SettingsOptions::sd_affiliate::text_background_color"
+msgid "Text background color"
+msgstr "Цвет фона текста"
+
+msgctxt "SettingsTooltips::sd_affiliate::text_background_color"
+msgid "Sets the color of the text background in the text banner"
+msgstr "Устанавливает цвет фона текста текстового баннера"
+
+msgctxt "SettingsOptions::sd_affiliate::elm_discount_coupons"
+msgid "Discount Coupons"
+msgstr "Купоны на скидку"
+
+msgctxt "SettingsOptions::sd_affiliate::use_affiliate_id"
+msgid "Affiliate ID is used as coupon prefix"
+msgstr "Использовать ID партнера как префикс для купона"
+
+msgctxt "SettingsTooltips::sd_affiliate::use_affiliate_id"
+msgid "If the parameter is enabled, the coupon code will look like 6-123, where 6 is the affiliate ID, 123 is the coupon code"
+msgstr "Если параметр включён, то код купона будет иметь вид 6-123, где 6 - ID партнера, 123 - код купона"
+
+msgctxt "SettingsOptions::sd_affiliate::coupon_prefix_delim"
+msgid "Delimiter between prefix and coupon-code"
+msgstr "Разделитель между префиксом и кодом купона"
+
+msgctxt "SettingsTooltips::sd_affiliate::coupon_prefix_delim"
+msgid "The coupon code will look like HIXBLNGNVD-123 by default, where HIXBLNGNVD is the prefix, 123 is the coupon code, “-” is the delimiter"
+msgstr "По умолчанию код купона будет иметь вид HIXBLNGNVD-123, где HIXBLNGNVD - префикс, 123 - код купона, "-" - разделитель"
+
+msgctxt "Languages::your_aff_id"
+msgid "Your affiliate ID"
+msgstr "Ваш партнерский ID ="
+
+msgctxt "Languages::add_parameter_id"
+msgid "To receive commission according to the plan you can add"
+msgstr "Для того, чтобы получать вознаграждения по тарифу, вы можете добавлять параметр"
+
+msgctxt "Languages::to_any_link"
+msgid "to any link to our store"
+msgstr "к любым ссылкам на наш магазин (либо параметр"
+
+msgctxt "Languages::for_example_link"
+msgid "For example, here is the link for registration of a new affiliate"
+msgstr ", если адрес страницы уже содержит знак "?"). Например, ссылка для регистрации нового партнера"
+
+msgctxt "Languages::affiliate_banner"
+msgid "Affiliate Banner"
+msgstr "Баннер"
+
+msgctxt "Languages::affiliate_banners"
+msgid "Affiliate Banners"
+msgstr "Баннеры"
+
+msgctxt "Languages::affiliate_banner_code"
+msgid "Affiliate Banner code"
+msgstr "Код баннера"
+
+msgctxt "Languages::affiliate_add_banner"
+msgid "Affiliate Add banner"
+msgstr "Добавить баннер"
+
+msgctxt "Languages::affiliate_banner_code_for_some_products"
+msgid "Affiliate Banner code for some products"
+msgstr "Код баннера для определенных товаров"
+
+msgctxt "SettingsOptions::sd_affiliate::general_settings_header"
+msgid "general_settings_header"
+msgstr "Общие настройки"
+
+msgctxt "SettingsSections::sd_affiliate::text_banner"
+msgid "text_banner"
+msgstr "Текстовый баннер"
+
+msgctxt "SettingsSections::sd_affiliate::discount_coupons"
+msgid "discount_coupons"
+msgstr "Купоны"
+
+msgctxt "Languages::user_status"
+msgid "user_status"
+msgstr "Статус пользователя"
+
+msgctxt "Languages::partner_status"
+msgid "partner_status"
+msgstr "Статус партнера"
+
+msgctxt "Languages::affiliates_partnership"
+msgid "affiliates_partnership"
+msgstr "Партнерство"
+
+msgctxt "Languages::email_template.affiliate_decline_user"
+msgid "Affiliate: User profile deactivation"
+msgstr "Партнеры: дезактивация профиля пользователя"
+
+msgctxt "Languages::email_template.affiliate_approve_user"
+msgid "Affiliate: User profile approved"
+msgstr "Партнеры: активация профиля пользователя"
+
+msgctxt "Languages::email_template.affiliate_create_user"
+msgid "Affiliate: User profile creation"
+msgstr "Партнеры: создание профиля пользователя"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "Баннер"
+
+msgctxt "Languages::profile_approved"
+msgid "Profile approved"
+msgstr "Профиль активирован"
+
+msgctxt "Languages::profile_has_been_declined"
+msgid "Profile has been declined"
+msgstr "Профиль был отклонен"
+
+msgctxt "Languages::addons.sd_affiliate.use_coupons_commission"
+msgid "addons.sd_affiliate.use_coupons_commission"
+msgstr "Вознаграждение за использование купона"
+
+msgctxt "Languages::addons.sd_affiliate.pay_affiliate"
+msgid "addons.sd_affiliate.pay_affiliate"
+msgstr "Платить"
+
+msgctxt "Languages::addons.sd_affiliate.coupon_period_not_set"
+msgid "addons.sd_affiliate.coupon_period_not_set"
+msgstr "Не указан"
+
+msgctxt "SettingsOptions::sd_affiliate::allow_all_customers_be_affiliates"
+msgid "Allow all customers to be affiliates"
+msgstr "Разрешить всем пользователям быть партнерами"
+
+msgctxt "SettingsTooltips::sd_affiliate::allow_all_customers_be_affiliates"
+msgid "If the setting is enabled, all customers will be able to get commissions for certain actions in reward points. Reward points add-on should be active."
+msgstr "Если данная настройка включена, то все пользователи смогут получать вознаграждения за определенные действия в бонусных баллах. Модуль Бонусные баллы должен быть включен."
+
+msgctxt "Languages::addons.sd_affiliate.super_affiliates_plans"
+msgid "addons.sd_affiliate.super_affiliates_plans"
+msgstr "Планы для партнеров"
+
+msgctxt "Languages::addons.sd_affiliate.usual_customers_plan"
+msgid "addons.sd_affiliate.usual_customers_plan"
+msgstr "План для всех пользователей"
+
+msgctxt "Languages::addons.sd_affiliate.invitation_to_become_super_affiliate"
+msgid "<p>You can become a pro affiliate and get commissions <b>in cash</b> for text, product and graphic banners, as well as multi tiers affiliates and used coupons.</p>[link]"
+msgstr "<p>Вы можете стать профессиональным партнером и получать комиссионные <b>наличными</b> за текстовые, товарные и графические баннеры, а также за многоуровневые партнерские программы и использованные купоны.</p>[link]"
+
+msgctxt "Languages::addons.sd_affiliate.become_super_affiliate"
+msgid "addons.sd_affiliate.become_super_affiliate"
+msgstr "Стать полноценным партнером"
+
+msgctxt "Languages::addons.sd_affiliate.become_affiliate_successfully"
+msgid "addons.sd_affiliate.become_affiliate_successfully"
+msgstr "Ваш запрос отправлен администратору. После того, как Ваш аккаунт будет подтвержден, Вы станете полноценным партнером!"
+
+msgctxt "Languages::addons.sd_affiliate.commissions_details"
+msgid "addons.sd_affiliate.commissions_details"
+msgstr "Детали"
+
+msgctxt "Languages::addons.sd_affiliate.usual_customers"
+msgid "addons.sd_affiliate.usual_customers"
+msgstr "Обычные пользователи"
+
+msgctxt "Languages::addons.sd_affiliate.customers_plan_description"
+msgid "addons.sd_affiliate.customers_plan_description"
+msgstr "Вы можете принять участие в нашей партнерской программе. Получайте за это бонусные баллы и оплачивайте ими покупки в нашем магазине. Количество начисляемых баллов зависит от тарифов установленного плана."
+
+msgctxt "Languages::promotion_cond_affiliate_link"
+msgid "promotion_cond_affiliate_link"
+msgstr "Пользователь перешел по партнерской ссылке"
+
+msgctxt "Languages::addons.sd_affiliate.add_plans"
+msgid "addons.sd_affiliate.add_plans"
+msgstr "Добавить планы"
+
+msgctxt "Languages::addons.sd_affiliate.add_plans_and_close"
+msgid "addons.sd_affiliate.add_plans_and_close"
+msgstr "Добавить планы и закрыть"
+
+msgctxt "Languages::addons.sd_affiliate.add_plan"
+msgid "addons.sd_affiliate.add_plan"
+msgstr "Добавить план"
+
+msgctxt "Languages::addons.sd_affiliate.show_to_affiliate"
+msgid "addons.sd_affiliate.show_to_affiliate"
+msgstr "Показать партнеру"
+
+msgctxt "Languages::addons.sd_affiliate.widget"
+msgid "addons.sd_affiliate.widget"
+msgstr "Виджет"
+
+msgctxt "Languages::addons.sd_afiliate.no_available_layouts"
+msgid "addons.sd_afiliate.no_available_layouts"
+msgstr "На данный момент нет доступных виджетов."
+
+msgctxt "Languages::plans_pro_affilates"
+msgid "plans_pro_affilates"
+msgstr "Планы: Партнеры"
+
+msgctxt "Languages::plans_usual_customers"
+msgid "plans_usual_customers"
+msgstr "Планы: Пользователи"
+
+msgctxt "SettingsOptions::sd_affiliate::successful_order_statuses"
+msgid "successful_order_statuses"
+msgstr "Статусы успешных заказов"
+
+msgctxt "SettingsTooltips::sd_affiliate::successful_order_statuses"
+msgid "If the 'Automatic approval of affiliate commissions' setting is enabled, commissions for sale and coupon using will be approved automatically for selected order statuses. Commissions for sale and coupon using will be disapproved for the unselected statuses regardless of the 'Automatic approval of affiliate commissions' setting."
+msgstr "Если настройка 'Автоматическое утверждение партнерских вознаграждений' включена, то вознаграждения за продажу и использование купона будут утверждены автоматически для выбранных статусов. Вознаграждения за продажу и использование купона будут отклонены для невыбранных статусов независимо от настройки 'Автоматическое утверждение партнерского вознаграждения'."
+
+msgctxt "Languages::addons.sd_affiliate.commission_rates_in_reward_points"
+msgid "addons.sd_affiliate.commission_rates_in_reward_points"
+msgstr "Вознаграждения (бонусные баллы)"
+
+msgctxt "Languages::addons.sd_affiliate.to_disapprove"
+msgid "addons.sd_affiliate.to_disapprove"
+msgstr "Отклонить"
+
+msgctxt "SettingsOptions::sd_affiliate::custom_affiliate_parameter"
+msgid "Custom affiliates parameter"
+msgstr "Пользовательский параметр партнеров"
+
+msgctxt "SettingsTooltips::sd_affiliate::custom_affiliate_parameter"
+msgid "Allows to replace the aff_id parameter in the url of the home page to make it look more user-friendly. For example, www.example.com/affiliates/john, where 'affiliates' is entered by the admin in this field and 'john' is defined by an affiliate in their profile."
+msgstr "Позволяет заменить параметр aff_id в ссылке на домашнюю страницу, чтобы сделать её более привлекательной для пользователей. Например, www.example.com/affiliates/john, где affiliates вводится администратором в данном поле, а параметр john определяет партнер в своем профиле. Оставьте это поле пустым, если не хотите использовать данную функцию."
+
+msgctxt "Languages::addons.sd_affiliate.custom_affiliate_parameter_for_affiliate"
+msgid "Custom affiliates parameter"
+msgstr "Пользовательский параметр партнера"
+
+msgctxt "Languages::addons.sd_affiliate.custom_affiliate_parameter_for_affiliate_tooltip"
+msgid "Allows to replace the aff_id parameter in the url of the home page to make it look more user-friendly. For example, www.example.com/affiliates/john, where 'affiliates' is entered by the admin in this field and 'john' is defined by an affiliate in their profile."
+msgstr "Позволяет заменить параметр aff_id в ссылке на домашнюю страницу, чтобы сделать её более привлекательной для пользователей. Например, www.example.com/affiliates/john, где affiliates определяется администратором, а параметр john вводится партнером в данном поле."
+
+msgctxt "Languages::addons.sd_affiliate.check_custom_affiliate_parameter_for_affiliate"
+msgid "Check"
+msgstr "Проверить"
+
+msgctxt "Languages::addons.sd_affiliate.empty_custom_affiliate_parameter"
+msgid "The 'Custom affiliate parameter' field is empty."
+msgstr "Поле 'Пользовательский параметр партнера' пустое."
+
+msgctxt "Languages::addons.sd_affiliate.custom_affiliate_parameter_can_be_used"
+msgid "You can use the entered custom affiliate parameter, it is unique."
+msgstr "Вы можете использовать введенный пользовательский параметр партнера - он уникальный."
+
+msgctxt "Languages::addons.sd_affiliate.custom_affiliate_parameter_already_exists"
+msgid "The entered custom affiliate parameter already exists, please try again."
+msgstr "Введенный пользовательский параметр партнера уже существует, пожалуйста, попробуйте ещё раз."
+
+msgctxt "Languages::addons.sd_affiliate.custom_affiliate_parameter_saved_successfully"
+msgid "The custom affiliate parameter has been saved successfully."
+msgstr "Пользовательский параметр партнера успешно сохранен."
+
+msgctxt "Languages::addons.sd_affiliate.attractive_url_frontend_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan"
+msgstr "Вы так же можете использовать следующую ссылку, которая ведет на главную страницу, чтобы получать вознаграждения по тарифу"
+
+msgctxt "Languages::addons.sd_affiliate.empty_attractive_url_frontend_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan."
+msgstr "Пожалуйста, обратите внимание на поле 'Пользовательский параметр партнера' в Вашем профиле. Данный параметр позволяет заменить параметр aff_id в ссылке на домашнюю страницу, чтобы сделать её более привлекательной для пользователей. Например, www.example.com/affiliates/john, где affiliates вводится администратором, а параметр john определяется Вами в профиле."
+
+msgctxt "Languages::addons.sd_affiliate.new_vendor"
+msgid "New vendor"
+msgstr "Новый продавец"
+
+msgctxt "Languages::addons.sd_affiliate.note_awaiting_commissions_will_be_lost"
+msgid "Note that if you change your account type to 'Customer' all awaiting approval commissions will be lost."
+msgstr "Внимание! Если вы поменяете тип учетной записи на 'Покупатель', все вознаграждения, ожидающие подтверждения, будут потеряны."
+
+msgctxt "Languages::addons.sd_affiliate.graphic_banner_height_width_tooltip"
+msgid "If you leave the field empty or set it to 0, the image will be shown in the original size."
+msgstr "Если оставить поле пустым или установить значение 0, то изображение будет показано в оригинальном размере."
+
+msgctxt "Languages::addons.sd_affiliate.aff_id"
+msgid "Affiliate ID"
+msgstr "Партнерский ID"
+
+msgctxt "Languages::addons.sd_affiliate.product_group_empty_data"
+msgid "You did not select any products or categories, so the product group page will be empty."
+msgstr "Вы не выбрали ни одного продукта или категории, поэтому страница группы товаров будет пустой."
+
+msgctxt "SettingsOptions::sd_affiliate::notify_admin_about_new_affiliate"
+msgid "Notify the administrator by email about registration of new affiliates"
+msgstr "Уведомлять администратора по email о регистрации новых партнеров"
+
+msgctxt "Languages::addons.sd_affiliate.new_affiliate_subj"
+msgid "New affiliate profile"
+msgstr "Новый профиль партнера"
+
+msgctxt "Languages::addons.sd_affiliate.new_affiliate_mail_text"
+msgid "A new affiliate is waiting for your approval. The account details are displayed below."
+msgstr "Новый партнер ожидает Вашего подтверждения. Детали аккаунта представлены ниже."
+
+msgctxt "Languages::email_template.new_affiliate_notification"
+msgid "Affiliate: New affiliate profile"
+msgstr "Партнеры: Новый профиль партнера"
+
+msgctxt "SettingsOptions::sd_affiliate::use_multiple_promotions"
+msgid "Use multiple promotions"
+msgstr "Использовать несколько промо-акций"
+
+msgctxt "SettingsTooltips::sd_affiliate::use_multiple_promotions"
+msgid "If selected you can assign multiple promotions to each plan otherwise each affiliate will have their unique coupon code."
+msgstr "Если включена, то вы можете использовать несколько промо-акций в каждом плане, иначе каждому партнеру можно будет присвоить уникальный код купона."
+
+msgctxt "Languages::addons.sd_affiliate.coupon_code"
+msgid "Coupon code"
+msgstr "Код купона"
+
+msgctxt "Languages::addons.sd_affiliate.select_coupon_code"
+msgid "Select coupon code"
+msgstr "Выберите код купона"
+
+msgctxt "Languages::addons.sd_affiliate.affiliate_coupon_text"
+msgid "Here is your unique coupon code. You can send it to your friends and get the commission according to your plan."
+msgstr "Ниже представлен ваш личный код купона. Вы можете прислать его друзьям и получить вознаграждение согласно вашему плану."
+
+msgctxt "Languages::addons.sd_affiliate.become_affiliate_failed"
+msgid "Some technical error occured. Please try later."
+msgstr "Возникла техническая ошибка. Пожалуйста, попробуйте позже."
+
+msgctxt "Languages::addons.sd_affiliate.allow_all_customers_be_affiliates_or_reward_points_disabled"
+msgid "Allow all customers to be affiliates setting or Reward points add-on is disabled."
+msgstr "Настройка Разрешить всем пользователям быть партнерами или модуль Бонусные баллы выключены."
+
+msgctxt "Languages::addons.sd_affiliate.reward_points_addon_disabled"
+msgid "To enable Allow all customers to be affiliates setting you need to enable Reward points add-on first."
+msgstr "Чтобы включить настройку Разрешить всем пользователям быть партнерами, нужно включить модуль Бонусные баллы."
+
+msgctxt "Languages::addons.sd_affiliate.disable_allow_all_customers_be_affiliates"
+msgid "Allow all customers to be affiliates setting has been disabled."
+msgstr "Настройка Разрешить всем пользователям быть партнерами была выключена."
+
+msgctxt "Languages::addons.sd_affiliate.unique_affiliates"
+msgid "Unique affiliates"
+msgstr "Уникальные партнеры"
+
+msgctxt "Languages::addons.sd_affiliate.average_statistics_value_tooltip"
+msgid "The average value is calculated by dividing the sum by the count. Example: if Sum equals $6 and Count equals 2, Average = $3 (Average = Sum / Count). Note: the average total is not the sum of separate average values. The Average total = Sum total / Count total."
+msgstr "Среднее значение рассчитывается путем деления суммы на количество. Пример: если сумма равна $6, а количество равно 2, Среднее значение = $3 (Среднее значение = Сумма / Количество). Примечание: значение «Итого» для среднего значения не является суммой отдельных средних значений. Среднее общее значение = общая сумма / общее количество."
+
+msgctxt "Languages::addons.sd_affiliate.affiliates_statistics_tooltip"
+msgid "The number of unique affiliates that performed actions. Example: if New customer equals 3, it means that 3 affiliates attracted new customers. Note: Affiliates total is not the sum of separate affiliate values. The affiliates total is the sum of all unique affiliates. Example: if Show banner equals 2 (Affiliate A and Affiliate B) and New customer equals 3 (Affiliate B, Affiliate C, and Affiliate D), the Affiliates total equals 4 (Affiliate A+Affiliate B+Affiliate C+Affiliate D)."
+msgstr "Количество уникальных партнеров, которые выполняли действия. Пример: если «Новый покупатель» равен 3, это означает, что 3 партнера привлекли новых покупателей. Примечание: Значение «Итого» для партнеров не являются суммой отдельных партнеров. Общее количество партнеров - это сумма всех уникальных партнеров. Пример: если «Показ баннера» равно 2 (Партнер A+Партнер B), а «Новый покупатель» равно 3 (Партнер B+Партнер C+Партнер D), то общее количество партнеров будет равным 4 (Партнер A+Партнер B+Партнер C+Партнер D)."
+
+msgctxt "Languages::addons.sd_affiliate.aff_id_note"
+msgid "Please note that we have already added your partner ID to product, category and content page links. Now you can share product links to social networks directly from this site."
+msgstr "Пожалуйста, обратите внимание, что мы уже добавили Ваш партнерский ID в ссылки на продукты, категории и контентные страницы. Теперь Вы можете поделиться ссылкой на продукт в социальных сетях напрямую с данного сайта."
+
+msgctxt "Languages::addons.sd_affiliate.invited_affiliate"
+msgid "Invited affiliate"
+msgstr "Пригласивший партнер"
+
+msgctxt "Languages::sd_affiliate.default_customer_plan"
+msgid "Default customer plan"
+msgstr "План для покупателей"
+
+msgctxt "Languages::sd_affiliate.default_customer_plan_description"
+msgid "Default customer plan description"
+msgstr "План по умолчанию для покупателей"
+
+msgctxt "Languages::sd_affiliate.commissions"
+msgid "Affiliate commissions"
+msgstr "Вознаграждения"
+
+msgctxt "Languages::sd_affiliate.commission_rates"
+msgid "Commission rates"
+msgstr "Ставки вознаграждений"
+
+msgctxt "Languages::sd.affiliate.commissions_of_last_periods"
+msgid "Commissions of latest periods"
+msgstr "Вознаграждения за последний период"
+
+msgctxt "SettingsOptions::sd_affiliate::show_vendor_to_affiliate"
+msgid "Show vendor to affiliate"
+msgstr "Показывать продавца партнеру"
+
+msgctxt "SettingsTooltips::sd_affiliate::show_vendor_to_affiliate"
+msgid "If enabled, vendor column will appear in the commission list at the storefront."
+msgstr "Если настройка включена, то на странице комиссий партнера на витрине появится столбец с именем продавца."
+
+msgctxt "SettingsOptions::sd_affiliate::no_rewards_registered_users"
+msgid "The affiliate link does not apply for registered users"
+msgstr "Партнерская ссылка не действует для зарегистрированных пользователей"
+
+msgctxt "SettingsTooltips::sd_affiliate::no_rewards_registered_users"
+msgid "If enabled, affiliates will not get rewards for registered users, except for those who were registered by their referral link."
+msgstr "Если настройка включена, то партнеры не будут получать вознаграждения за зарегистрированных пользователей, кроме тех кто был зарегистрирован по их реферальной ссылке."
+
+msgctxt "SettingsOptions::sd_affiliate::time_uniq_banner"
+msgid "Set time for unique click and banner view"
+msgstr "Время уникальности клика и просмотра баннера"
+
+msgctxt "SettingsTooltips::sd_affiliate::time_uniq_banner"
+msgid "Sets a number of days during which all repeated clicks on the same banner will count as one unique click."
+msgstr "Данная настройка устанавливает период(количество дней), в течение которого повторный клик по баннеру не будет засчитываться."
+
+msgctxt "SettingsOptions::sd_affiliate::show_only_non_zero_cost_actions"
+msgid "Show only actions with non-zero cost"
+msgstr "Показывать только действия с ненулевой стоимостью"
+
+msgctxt "SettingsTooltips::sd_affiliate::show_only_non_zero_cost_actions"
+msgid "If enabled, only actions with non-zero cost are shown"
+msgstr "Если настройка включена, будут показаны только действия с ненулевой стоимостью. Во вкладке \"Общая статистика\" будут отображаться все действия"
+
+msgctxt "SettingsOptions::sd_affiliate::automatic_approval_affiliates"
+msgid "Enable affiliate autoapprove"
+msgstr "Автоматически подтверждать партнеров"
+
+msgctxt "SettingsOptions::sd_affiliate::plan_auto_set"
+msgid "Set default plan automatically"
+msgstr "Автоматически устанавливать план по умолчанию"
+
+msgctxt "Languages::sd_affiliate.set_as_default"
+msgid "Set as default"
+msgstr "Установить по умолчанию"
+
+msgctxt "SettingsOptions::sd_affiliate::show_only_approved_comissions"
+msgid "Show affiliates only approved commissions"
+msgstr "Показывать партнерам только утвержденные комиссии"
+
+msgctxt "SettingsOptions::sd_affiliate::show_attracted_users_ip"
+msgid "Show IP addresses of attracted users"
+msgstr "Показывать IP адреса привлечённых пользователей"
+
+msgctxt "SettingsTooltips::sd_affiliate::show_attracted_users_ip"
+msgid "Allows to enable the display of user IP addresses on the affiliate statistics page in the \"Comissions\" tab"
+msgstr "Позволяет включить отображение IP-адресов привлечённых пользователей на странице статистики партнера во вкладке \"Вознаграждения\""
+
+msgctxt "SettingsOptions::sd_affiliate::aff_banner_multilang"
+msgid "Enable multi-language images/URLs"
+msgstr "Разрешить разные изображения и URL для разных языков"
+
+msgctxt "SettingsTooltips::sd_affiliate::aff_banner_multilang"
+msgid "Allows uploading different images for different languages (for graphic banners)"
+msgstr "Позволяет загружать разные изображения для разных языков (для графических баннеров)"
+
+msgctxt "SettingsOptions::sd_affiliate::affiliates_usergroup"
+msgid "User group for affiliates"
+msgstr "Группа пользователей для партнеров"
+
+msgctxt "SettingsOptions::sd_affiliate::auto_assign_affiliates_usergroup"
+msgid "Auto assign group for affiliates"
+msgstr "Автоматически назначать группу партнеров для новых партнеров"
+
+msgctxt "Languages::affiliate_user_group_title"
+msgid "Affiliate user group"
+msgstr "Группы пользователей для партнеров"
+
+msgctxt "Languages::sd_affiliate.user_group_not_assigned"
+msgid "User group for affiliates is not assigned"
+msgstr "Группа пользователей для партнеров не задана"
+
+msgctxt "Languages::sd_affiliate.affiliate_plan_text"
+msgid "Your affiliate ID is [user_id]. To receive commission according to the plan you can add <b>[aff_id_?]</b> (or <b>[aff_id_&]</b> if the page link already contains "?") to any link to our store. For example, here is the link for registration of a new affiliate: [link]"
+msgstr "Ваш партнерский идентификатор [user_id]. Чтобы получать комиссию в соответствии с планом, вы можете добавить <b>[aff_id_?]</b> (или <b>[aff_id_&]</b> если ссылка на страницу уже содержит «?») к любой ссылке в нашем магазине. Например, вот ссылка для регистрации нового партнера: [link]"
+
+msgctxt "Languages::sd_affiliate.friendly_link_text"
+msgid "You can also use the following user-friendly link for the home page to receive commissions according to your plan: [link]"
+msgstr "Вы также можете использовать следующую удобную ссылку на домашнюю страницу, чтобы получать комиссионные в соответствии с вашим планом: [link]"
+
+msgctxt "Languages::sd_affiliate.log_in_as_user"
+msgid "Log in as user"
+msgstr "Войти как пользователь"
+
+msgctxt "Languages::sd_affiliate.widget"
+msgid "Widget"
+msgstr "Виджет"

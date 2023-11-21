@@ -1,0 +1,1 @@
+{style src="addons/et_vivashop_settings/styles.less"}

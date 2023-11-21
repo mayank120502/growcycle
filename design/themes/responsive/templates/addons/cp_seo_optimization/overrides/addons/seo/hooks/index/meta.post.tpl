@@ -1,0 +1,38 @@
+{if $cp_seo_index_rule}
+    <meta name="robots" content="{$cp_seo_index_rule}" />
+{elseif $cp_seo_filter_indexed}
+    <meta name="robots" content="index,follow" />
+{elseif $cp_seo_index.noindex}
+    <meta name="robots" content="{$cp_seo_index.noindex}" />
+{elseif !fn_seo_is_indexed_page($smarty.request)}
+    <meta name="robots" content="noindex" />
+{else}
+    {if $seo_canonical.current}
+        {if $runtime.controller == 'companies' && $runtime.mode == 'products' && $smarty.request.category_id}
+            <link rel="canonical" href="{"categories.view?category_id=`$smarty.request.category_id`"|fn_url}" />
+        {else}
+            <link rel="canonical" href="{$seo_canonical.current}" />
+        {/if}
+    {/if}
+    {if $seo_canonical.prev}
+        <link rel="prev" href="{$seo_canonical.prev}" />
+    {/if}
+    {if $seo_canonical.next}
+        <link rel="next" href="{$seo_canonical.next}" />
+    {/if}
+{/if}
+
+{foreach $seo_alt_hreflangs_list as $seo_alt_lang_code => $seo_alt_lang}
+    <link title="{$seo_alt_lang.name}" dir="{$seo_alt_lang.direction}" type="text/html" rel="alternate" hreflang="{$seo_alt_lang_code}" href="{$seo_alt_lang.href}" />
+{/foreach}
+
+{foreach $schema_org_markup_items as $markup_item}
+    <script type="application/ld+json">
+        {$pretty_print = 0}
+        {if defined("DEVELOPMENT") && $smarty.const.DEVELOPMENT}
+            {$pretty_print = constant("JSON_PRETTY_PRINT")}
+        {/if}
+        {json_encode($markup_item, $pretty_print) nofilter}
+    </script>
+    {$is_json_schema_org_markup_displayed = true scope="root"}
+{/foreach}

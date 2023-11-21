@@ -1,0 +1,2 @@
+<?php
+ namespace Tygh\Addons\SdGoogleAnalytics; class EventData { public $id; public $name; public $brand; public $category; public $coupon; public $list_name; public $list_position; public $price; public $quantity; public $variant; public $company_id; } 

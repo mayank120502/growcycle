@@ -1,0 +1,382 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_seo_templates"
+msgid "Cart-Power: SEO templates"
+msgstr "Cart-Power: SEO templates"
+
+msgctxt "Addons::description::cp_seo_templates"
+msgid "Allows to create templates for generating meta-data. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Allows to create templates for generating meta-data. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_seo_custom_h1"
+msgid "Custom H1"
+msgstr "Custom H1"
+
+msgctxt "Languages::cp_st_fields_override_descr"
+msgid "The setting \"Overwrite filled fields\" will be applied only to the values of fields with the enabled checkboxes below"
+msgstr "The setting \"Overwrite filled fields\" will be applied only to the values of fields with the enabled checkboxes below"
+
+msgctxt "Languages::cp_seo_cron_hint_2"
+msgid "CRON commands"
+msgstr "CRON commands"
+
+msgctxt "Languages::cp_seo_cron_info_hint"
+msgid "To automatically fill in SEO data using active templates"
+msgstr "To automatically fill in SEO data using active templates"
+
+msgctxt "Languages::cp_seo_field_best_price_delivery"
+msgid "the best price and delivery"
+msgstr "the best price and delivery"
+
+msgctxt "Languages::cp_seo_field_with_delivery"
+msgid "with delivery"
+msgstr "with delivery"
+
+msgctxt "Languages::cp_seo_field_buy_from"
+msgid "buy from"
+msgstr "buy from"
+
+msgctxt "Languages::cp_seo_field_from"
+msgid "from"
+msgstr "from"
+
+msgctxt "Languages::cp_seo_field_buy"
+msgid "Buy"
+msgstr "Buy"
+
+msgctxt "Languages::cp_seo_field_is_online_store"
+msgid "in the online store"
+msgstr "in the online store"
+
+msgctxt "Languages::cp_seo_field_combo"
+msgid "✔ Best prices ✔ Wide choice ✔ Fast delivery!"
+msgstr "✔ Best prices ✔ Wide choice ✔ Fast delivery!"
+
+msgctxt "Languages::cp_st_pagination_descr"
+msgid "The placeholder will be replaced by the text \" - page №\" and will be used on the second and subsequent pages. It is not recommended to use it for titles and meta descriptions of the pages, as the default SEO add-on adds the same text in these fields in case of pagination. You can change the placeholder text <a href=\"[href]\">here</a>"
+msgstr "The placeholder will be replaced by the text \" - page №\" and will be used on the second and subsequent pages. It is not recommended to use it for titles and meta descriptions of the pages, as the default SEO add-on adds the same text in these fields in case of pagination. You can change the placeholder text <a href=\"[href]\">here</a>"
+
+msgctxt "Languages::cp_st_page_title_placeholder"
+msgid " - page [n]"
+msgstr " - page [n]"
+
+msgctxt "Languages::cp_st_pagination_txt"
+msgid "Pagination"
+msgstr "Pagination"
+
+msgctxt "Languages::cp_seo_dynamic_placeholders_tooltip"
+msgid "Placeholder data is substituted at the page load"
+msgstr "Placeholder data is substituted at the page load"
+
+msgctxt "Languages::cp_seo_dynamic_placeholders_title"
+msgid "Placeholders for dynamically changing data"
+msgstr "Placeholders for dynamically changing data"
+
+msgctxt "Languages::cp_seo_category_path"
+msgid "Category path"
+msgstr "Category path"
+
+msgctxt "Languages::cp_seo_twig_filter_example"
+msgid "Example: <code>{{ product|lower }}</code>"
+msgstr "Example: <code>{{ product|lower }}</code>"
+
+msgctxt "Languages::cp_seo_twig_filters_doc_info"
+msgid "More information about the use of the placeholder modifiers is in the add-on docs"
+msgstr "More information about the use of the placeholder modifiers is in the add-on docs"
+
+msgctxt "Languages::cp_seo_twig_filters_title"
+msgid "Modifiers to use"
+msgstr "Modifiers to use"
+
+msgctxt "Languages::cp_seo_filter_last_descr"
+msgid "Returns the last symbol of a string"
+msgstr "Returns the last symbol of a string"
+
+msgctxt "Languages::cp_seo_filter_last_tp"
+msgid "{{ '1234'|last }} result: 4"
+msgstr "{{ '1234'|last }} result: 4"
+
+msgctxt "Languages::cp_seo_filter_first_descr"
+msgid "Returns the first symbol of a string"
+msgstr "Returns the first symbol of a string"
+
+msgctxt "Languages::cp_seo_filter_first_tp"
+msgid "{{ '1234'|first }} result: 1"
+msgstr "{{ '1234'|first }} result: 1"
+
+msgctxt "Languages::cp_seo_filter_slice_descr"
+msgid "Extracts a slice of a string"
+msgstr "Extracts a slice of a string"
+
+msgctxt "Languages::cp_seo_filter_slice_tp"
+msgid "{{ '12345'|slice(1, 2) }} result: 23"
+msgstr "{{ '12345'|slice(1, 2) }} result: 23"
+
+msgctxt "Languages::cp_seo_filter_reverse_descr"
+msgid "Reverses a string"
+msgstr "Reverses a string"
+
+msgctxt "Languages::cp_seo_filter_trim_descr"
+msgid "Strips whitespace"
+msgstr "Strips whitespace"
+
+msgctxt "Languages::cp_seo_filter_trim_tp"
+msgid "Strips hitespace (or other characters) from the beginning and end of a string"
+msgstr "Strips hitespace (or other characters) from the beginning and end of a string"
+
+msgctxt "Languages::cp_seo_filter_lower_descr"
+msgid "Converts a value to lowercase"
+msgstr "Converts a value to lowercase"
+
+msgctxt "Languages::cp_seo_filter_upper_descr"
+msgid "Converts a value to uppercase"
+msgstr "Converts a value to uppercase"
+
+msgctxt "Languages::cp_seo_filter_capitalize_descr"
+msgid "Capitalizes a value"
+msgstr "Capitalizes a value"
+
+msgctxt "Languages::cp_seo_filter_capitalize_tp"
+msgid "The first character will be uppercase, all others lowercase"
+msgstr "The first character will be uppercase, all others lowercase"
+
+msgctxt "Languages::cp_seo_filter_title_descr"
+msgid "Returns a titlecased version of the value"
+msgstr "Returns a titlecased version of the value"
+
+msgctxt "Languages::cp_seo_filter_title_tp"
+msgid "Words will start with uppercase letters, all remaining characters are lowercase"
+msgstr "Words will start with uppercase letters, all remaining characters are lowercase"
+
+msgctxt "Languages::cp_seo_filter_abs_descr"
+msgid "Returns the absolute value"
+msgstr "Returns the absolute value"
+
+msgctxt "Languages::cp_seo_filter_round_descr"
+msgid "Rounds a number to a given precision"
+msgstr "Rounds a number to a given precision"
+
+msgctxt "Languages::cp_seo_filter_round_tp"
+msgid "The round filter takes two optional arguments; the first one specifies the precision (default is 0) and the second the rounding method (default is common)"
+msgstr "The round filter takes two optional arguments; the first one specifies the precision (default is 0) and the second the rounding method (default is common)"
+
+msgctxt "Languages::cp_seo_override_all"
+msgid "Override all"
+msgstr "Override all"
+
+msgctxt "Languages::cp_seo_fill_if_empty"
+msgid "Fill in if empty"
+msgstr "Fill in if empty"
+
+msgctxt "Languages::privilege_groups.cp_seo"
+msgid "CP: SEO templates"
+msgstr "CP: SEO templates"
+
+msgctxt "Languages::privileges.view_cp_seo"
+msgid "View SEO templates"
+msgstr "View SEO templates"
+
+msgctxt "Languages::privileges.manage_cp_seo"
+msgid "Manage SEO templates"
+msgstr "Manage SEO templates"
+
+msgctxt "Languages::cp_seo_please_check_settings"
+msgid "Please, check add-on settings and SEO templates"
+msgstr "Please, check add-on settings and SEO templates"
+
+msgctxt "Languages::cp_seo_subheader"
+msgid "CP: SEO templates"
+msgstr "CP: SEO templates"
+
+msgctxt "Languages::custom_h1"
+msgid "Custom H1"
+msgstr "Custom H1"
+
+msgctxt "Languages::custom_breadcrumb"
+msgid "Custom title in the breadcrumbs"
+msgstr "Custom title in the breadcrumbs"
+
+msgctxt "Languages::cp_seo_custom_breadcrumb"
+msgid "Custom title in the breadcrumbs"
+msgstr "Custom title in the breadcrumbs"
+
+msgctxt "SettingsSections::cp_seo_templates::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_seo_templates::use_custom_h1"
+msgid "Use custom h1"
+msgstr "Use custom h1"
+
+msgctxt "SettingsOptions::cp_seo_templates::use_for_invoices"
+msgid "Use custom h1 for invoices"
+msgstr "Use custom h1 for invoices"
+
+msgctxt "SettingsOptions::cp_seo_templates::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsTooltips::cp_seo_templates::licensekey"
+msgid "You can find it on your order details page"
+msgstr "You can find it on your order details page"
+
+msgctxt "Languages::cp_your_license_is_not_valid"
+msgid "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+msgstr "You should enter valid License Key. Please, contact us (sales@cart-power.com), if you face any issues."
+
+msgctxt "SettingsOptions::cp_seo_templates::auto_remove_many_spaces"
+msgid "Automatically remove more than one space"
+msgstr "Automatically remove more than one space"
+
+msgctxt "SettingsTooltips::cp_seo_templates::auto_remove_many_spaces"
+msgid "When enabled, automatically removes extra spaces when displaying SEO template"
+msgstr "When enabled, automatically removes extra spaces when displaying SEO template"
+
+msgctxt "Languages::cp_seo_templates"
+msgid "SEO template"
+msgstr "SEO template"
+
+msgctxt "Languages::cp_seo_templates_menu_description"
+msgid "Managing templates for metadata"
+msgstr "Managing templates for metadata"
+
+msgctxt "Languages::cp_new_seo_template"
+msgid "New seo template"
+msgstr "New seo template"
+
+msgctxt "Languages::cp_seo_template"
+msgid "SEO template"
+msgstr "SEO template"
+
+msgctxt "Languages::cp_page_title"
+msgid "Page title"
+msgstr "Page title"
+
+msgctxt "Languages::cp_meta_description"
+msgid "Meta description"
+msgstr "Meta description"
+
+msgctxt "Languages::cp_meta_keywords"
+msgid "Meta keywords"
+msgstr "Meta keywords"
+
+msgctxt "Languages::cp_page_h1"
+msgid "Header (h1)"
+msgstr "Header (h1)"
+
+msgctxt "Languages::cp_seo_placeholders_title"
+msgid "Placeholders to use"
+msgstr "Placeholders to use"
+
+msgctxt "Languages::cp_main_product_category"
+msgid "Main product category"
+msgstr "Main product category"
+
+msgctxt "Languages::cp_add_all_subcategories"
+msgid "Add all subcategories"
+msgstr "Add all subcategories"
+
+msgctxt "Languages::cp_seo_names_templates"
+msgid "SEO-names templates"
+msgstr "SEO-names templates"
+
+msgctxt "SettingsSections::cp_seo_templates::cron"
+msgid "CRON"
+msgstr "CRON"
+
+msgctxt "SettingsOptions::cp_seo_templates::cron_key"
+msgid "CRON password"
+msgstr "CRON password"
+
+msgctxt "Languages::cp_seo_templates_cron_info"
+msgid "<strong>To automatically fill in SEO data using active templates:</strong><br /><a href=\"[url]/[admin_index]?dispatch=[dispatch]&company_id=[company_id]&switch_company_id=[switch_company_id]&access_key=[cron_key]\" class=\"btn btn-primary cm-ajax cm-comet\">Apply templates</a><br /><strong>CRON commands:</strong><br />1) php [dir]/[admin_index] --dispatch=[dispatch] --company_id=[company_id] --switch_company_id=[switch_company_id] --access_key=[cron_key]<br />2) curl [url]/[admin_index]?dispatch=[dispatch]&company_id=[company_id]&switch_company_id=[switch_company_id]&access_key=[cron_key]"
+msgstr "<strong>To automatically fill in SEO data using active templates:</strong><br /><a href=\"[url]/[admin_index]?dispatch=[dispatch]&company_id=[company_id]&switch_company_id=[switch_company_id]&access_key=[cron_key]\" class=\"btn btn-primary cm-ajax cm-comet\">Apply templates</a><br /><strong>CRON commands:</strong><br />1) php [dir]/[admin_index] --dispatch=[dispatch] --company_id=[company_id] --switch_company_id=[switch_company_id] --access_key=[cron_key]<br />2) curl [url]/[admin_index]?dispatch=[dispatch]&company_id=[company_id]&switch_company_id=[switch_company_id]&access_key=[cron_key]"
+
+msgctxt "Languages::cp_seo_name_generate_info"
+msgid "In order to avoid creating incorrect names, in the absence of a value for the products for the placeholder specified in the template, the SEO name will not be replaced."
+msgstr "In order to avoid creating incorrect names, in the absence of a value for the products for the placeholder specified in the template, the SEO name will not be replaced."
+
+msgctxt "Languages::cp_apply_seo_template"
+msgid "Apply template"
+msgstr "Apply template"
+
+msgctxt "Languages::cp_apply_seo_templates"
+msgid "Apply templates"
+msgstr "Apply templates"
+
+msgctxt "Languages::cp_text_templates_clone"
+msgid "Templates have been duplicated successfully!"
+msgstr "Templates have been duplicated successfully!"
+
+msgctxt "Languages::cp_text_template_clone"
+msgid "Template has been duplicated successfully!"
+msgstr "Template has been duplicated successfully!"
+
+msgctxt "Languages::cp_text_templates_apply"
+msgid "Templates have been successfully applied!"
+msgstr "Templates have been successfully applied!"
+
+msgctxt "Languages::cp_text_template_apply"
+msgid "Template has been successfully applied!"
+msgstr "Template has been successfully applied!"
+
+msgctxt "Languages::cp_text_templates_delete"
+msgid "Templates have been deleted successfully!"
+msgstr "Templates have been deleted successfully!"
+
+msgctxt "Languages::cp_text_template_delete"
+msgid "Template has been deleted successfully!"
+msgstr "Template has been deleted successfully!"
+
+msgctxt "Languages::cp_st_fields_override"
+msgid "Overwrite filled fields"
+msgstr "Overwrite filled fields"
+
+msgctxt "Languages::cp_st_select_store"
+msgid "To display CRON links, select a storefront."
+msgstr "To display CRON links, select a storefront."
+
+msgctxt "Languages::cp_st_max_price"
+msgid "Maximum price"
+msgstr "Maximum price"
+
+msgctxt "Languages::cp_st_min_price"
+msgid "Minimum price"
+msgstr "Minimum price"
+
+msgctxt "Languages::cp_st_receive_data"
+msgid "Receive data"
+msgstr "Receive data"
+
+msgctxt "Languages::cp_st_lang_go_to_link"
+msgid "To change dynamic data templates, follow the <a target="_blank" href="[link]">link</a>."
+msgstr "To change dynamic data templates, follow the <a target="_blank" href="[link]">link</a>."
+
+msgctxt "Languages::cp_st_dynamic_template.pagination.page_title"
+msgid "[content] - page [placeholder]"
+msgstr "[content] - page [placeholder]"
+
+msgctxt "Languages::cp_st_dynamic_template.pagination.meta_description"
+msgid "[content] page [placeholder]"
+msgstr "[content] page [placeholder]"
+
+msgctxt "Languages::cp_st_dynamic_template.pagination.meta_keywords"
+msgid "[content], page [placeholder]"
+msgstr "[content], page [placeholder]"
+
+msgctxt "Languages::cp_st_dynamic_template.storefront.page_title"
+msgid "[content] | [placeholder]"
+msgstr "[content] | [placeholder]"
+
+msgctxt "Languages::cp_st_dynamic_template.storefront.meta_description"
+msgid "[content] | [placeholder]"
+msgstr "[content] | [placeholder]"
+
+msgctxt "Languages::cp_st_dynamic_template.storefront.meta_keywords"
+msgid "[content], [placeholder]"
+msgstr "[content], [placeholder]"
+

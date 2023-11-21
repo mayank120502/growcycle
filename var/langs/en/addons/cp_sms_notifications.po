@@ -1,0 +1,103 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_sms_notifications"
+msgid "Cart-Power: SMS notifications"
+msgstr "Cart-Power: SMS notifications"
+
+msgctxt "Addons::description::cp_sms_notifications"
+msgid "Provides the ability to send SMS notifications to customers. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Provides the ability to send SMS notifications to customers. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_sms_notifications::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_sms_notifications::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsTooltips::cp_sms_notifications::licensekey"
+msgid "You can find it on your order details page"
+msgstr "You can find it on your order details page"
+
+msgctxt "SettingsOptions::cp_sms_notifications::show_manual_send"
+msgid "Show tab for manual SMS sending"
+msgstr "Show tab for manual SMS sending"
+
+msgctxt "Languages::privileges.manage_cp_sms_notifications"
+msgid "CP: Manage SMS Notification"
+msgstr "CP: Manage SMS Notification"
+
+msgctxt "Languages::privileges.view_cp_sms_notifications"
+msgid "CP: View SMS Notifications"
+msgstr "CP: View SMS Notifications"
+
+msgctxt "Languages::privilege_groups.cp_sms_notifications"
+msgid "CP: SMS notifications"
+msgstr "CP: SMS notifications"
+
+msgctxt "Languages::cp_sms_notifications"
+msgid "SMS notifications"
+msgstr "SMS notifications"
+
+msgctxt "Languages::cp_sms_notifications_menu_description"
+msgid "SMS notification management"
+msgstr "SMS notification management"
+
+msgctxt "Languages::cp_sms_logs"
+msgid "SMS notification log"
+msgstr "SMS notification log"
+
+msgctxt "Languages::cp_sn_action_manual_send"
+msgid "Manual sending"
+msgstr "Manual sending"
+
+msgctxt "Languages::cp_sn_action_order_change"
+msgid "Change order status"
+msgstr "Change order status"
+
+msgctxt "Languages::cp_sn_action_shipment"
+msgid "Shipment"
+msgstr "Shipment"
+
+msgctxt "Languages::cp_sms_templates"
+msgid "Notification templates"
+msgstr "Notification templates"
+
+msgctxt "Languages::cp_sms_message"
+msgid "SMS message"
+msgstr "SMS message"
+
+msgctxt "Languages::cp_sms_send"
+msgid "Sending SMS"
+msgstr "Sending SMS"
+
+msgctxt "Languages::cp_sms_sent_successfull"
+msgid "Message sent successfully!"
+msgstr "Message sent successfully!"
+
+msgctxt "Languages::cp_sn_placeholders_title"
+msgid "Placeholders to use"
+msgstr "Placeholders to use"
+
+msgctxt "Languages::cp_sn_default_title_order_status"
+msgid "Your order status #{{ order_id }} has been changed to \"{{ status }}\"."
+msgstr "Your order status #{{ order_id }} has been changed to \"{{ status }}\"."
+
+msgctxt "Languages::cp_sn_receive_sms_notifications"
+msgid "Receive SMS notifications"
+msgstr "Receive SMS notifications"
+
+msgctxt "Languages::cp_sn_firstname"
+msgid "Firstname"
+msgstr "Firstname"
+
+msgctxt "Languages::cp_sn_lastname"
+msgid "Lastname"
+msgstr "Lastname"
+
+

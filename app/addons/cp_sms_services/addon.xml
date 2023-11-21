@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_sms_services</id>
+    <version>1.4</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <default_language>en</default_language>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>cp_addons_manager</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                   <item id="licensekey">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="service_smsc_ru">
+                <items>
+                    <item id="service_smsc_ru_login">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_smsc_ru_psw">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_smsc_ru_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_smsc_ua">
+                <items>
+                    <item id="service_smsc_ua_login">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_smsc_ua_psw">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_smsc_ua_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_sms_ru">
+                <items>
+                    <item id="service_sms_ru_api_key">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_sms_ru_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_clickatell">
+                <items>
+                    <item id="service_clickatell_api_key">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_clickatell_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_smsaero_ru">
+                <items>
+                    <item id="service_smsaero_ru_login">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_smsaero_ru_api_key">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_smsaero_ru_sign">
+                        <type>input</type>
+                        <default_value>SMS AERO</default_value>
+                    </item>
+                    <item id="service_smsaero_ru_channel">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="INFO"></item>
+                            <item id="INTERNATIONAL"></item>
+                            <item id="DIRECT"></item>
+                            <item id="SERVICE"></item>
+                        </variants>
+                        <default_value>INFO</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_beeline">
+                <items>
+                    <item id="service_beeline_login">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_beeline_psw">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_beeline_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_sms_myphone_ge">
+                <items>
+                    <item id="service_sms_myphone_ge_login">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_sms_myphone_ge_api_key">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_sms_myphone_ge_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_melipayamak">
+                <items>
+                    <item id="service_melipayamak_login">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_melipayamak_psw">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="service_twilio">
+                <items>
+                    <item id="service_twilio_account_sid">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_twilio_auth_token">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_twilio_messaging_service_sid">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="service_twilio_from">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

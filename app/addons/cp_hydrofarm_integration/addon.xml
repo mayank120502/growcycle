@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_hydrofarm_integration</id>
+    <version>1.0</version>
+    <priority>10000</priority>
+    <default_language>en</default_language>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="client_id">
+                        <type>input</type>
+                    </item>
+                    <item id="client_secret">
+                        <type>input</type>
+                    </item>
+                    <item id="company_id">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="import_category_id">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item>
+                    <item id="startup_info">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="profit_margin">
+                <items>
+                    <item id="profit_info">
+                        <type>template</type>
+                        <default_value>profit.tpl</default_value>
+                    </item>
+                    <item id="margin_percent">
+                        <type>hidden</type>
+                        <default_value>15</default_value>
+                    </item>
+                    <item id="margin_absolute">
+                        <type>hidden</type>
+                        <default_value>0.00</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS ?:cp_hydrofarm_import (
+                id int(11) unsigned NOT NULL auto_increment,
+                part_id varchar(255),
+                main text,
+                detailed char(1) NOT NULL default 'N',
+                PRIMARY KEY  (id),
+                UNIQUE (part_id)
+            ) CHARACTER SET utf8 COLLATE utf8_general_ci;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:cp_hydrofarm_import;
+        </item>
+        <item for="install">ALTER TABLE ?:products ADD old_hydrofarm_price decimal(12,2) NOT NULL DEFAULT '0.00'</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP COLUMN old_hydrofarm_price</item>
+    </queries>
+</addon>

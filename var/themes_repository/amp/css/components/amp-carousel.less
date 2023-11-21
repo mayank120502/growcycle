@@ -1,0 +1,51 @@
+/* AMP Carousel */
+
+amp-carousel > div > div,.amp-carousel-slide {
+  max-width: 100%;
+}
+
+.amp-scrollable-carousel-slide:first-child {
+  margin-left: 2px;
+}
+
+.carousel-preview button {
+  background-color: white;
+  border: 0;
+  min-width: 100px;
+  margin: 10px;
+  padding: 0;
+  margin-left: 1px;
+}
+
+.carousel-preview {
+  .amp-carousel-button-next,.amp-carousel-button-prev {
+    display: block;
+  }
+}
+
+.amp-carousel-button-next,.amp-carousel-button-prev {
+  display: none
+}
+
+.amp-related-products .amp-carousel-button {
+  background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/><path d="M0-.5h24v24H0z" fill="none"/></svg>') 30px 30px transparent;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  top: 40%
+}
+
+.amp-related-products .amp-carousel-button-next,
+.amp-related-products .amp-carousel-button-prev {
+  display: initial
+}
+
+.amp-related-products .amp-carousel-button-prev {
+  left: 0
+}
+
+.amp-related-products .amp-carousel-button-next {
+  right: 0;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg)
+}

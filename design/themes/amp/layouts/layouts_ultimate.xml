@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<block_scheme scheme="1.0">
+    <settings>
+        <default_language>en</default_language>
+    </settings>
+    <layout edition="ULTIMATE">
+        <name>AMPLayout</name>
+        <is_default>1</is_default>
+        <width>16</width>
+        <layout_width>fluid</layout_width>
+        <min_width>280</min_width>
+        <max_width>1200</max_width>
+        <style_id>Bass</style_id>
+    </layout>
+    <location dispatch="default" is_default="1" layout_id="6" object_ids="" custom_html="" position="10" lang_code="en" name="Default" title="" meta_description="" meta_keywords="">
+        <containers>
+            <container container_id="357" location_id="90" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A"/>
+            <container container_id="358" location_id="90" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
+            <container container_id="359" location_id="90" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A" />
+            <container container_id="360" location_id="90" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A"/>
+        </containers>
+        <translations/>
+    </location>
+    <location dispatch="index.index" is_default="1" layout_id="6" object_ids="" custom_html="" position="20" lang_code="en" name="Homepage" title="" meta_description="" meta_keywords="">
+        <containers>
+            <container container_id="401" location_id="95" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A"/>
+            <container container_id="402" location_id="95" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
+            <container container_id="403" location_id="95" position="CONTENT" width="16" user_class="" linked_to_default="Y" status="A">
+                <grid width="16" user_class="" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="0">
+                    <blocks>
+                    </blocks>
+                </grid>
+            </container>
+            <container container_id="360" location_id="95" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A"/>
+        </containers>
+        <translations/>
+    </location>
+
+    <location dispatch="sidebar.menu" is_default="0" layout_id="6" object_ids="" custom_html="" position="110" lang_code="en" name="Sidebar menu" title="" meta_description="" meta_keywords="">
+        <containers>
+            <container container_id="397" location_id="100" position="TOP_PANEL" width="16" user_class="" linked_to_default="Y" status="A"/>
+            <container container_id="398" location_id="100" position="HEADER" width="16" user_class="" linked_to_default="Y" status="A"/>
+            <container container_id="399" location_id="100" position="CONTENT" width="16" user_class="content-grid" linked_to_default="Y" status="A">
+                <grid width="16" user_class="main-content-grid" linked_to_default="Y" status="A" offset="0" omega="1" alpha="1" wrapper="" content_align="FULL_WIDTH" html_element="div" clear="1">
+                    <blocks>
+                        </block>
+                    </blocks>
+                </grid>
+            </container>
+            <container container_id="400" location_id="100" position="FOOTER" width="16" user_class="" linked_to_default="Y" status="A"/>
+        </containers>
+        <translations/>
+    </location>
+</block_scheme>

@@ -1,0 +1,170 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::sd_taxjar"
+msgid "Simtech Development: TaxCalcs by TaxJar"
+msgstr "Simtech Development: TaxCalcs от TaxJar"
+
+msgctxt "Addons::description::sd_taxjar"
+msgid "Calculates taxes via the TaxJar service. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Производит подсчет налогов с помощью сервиса TaxJar. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Поддержка</a>"
+
+msgctxt "SettingsOptions::sd_taxjar::api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "SettingsOptions::sd_taxjar::lkey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsTooltips::sd_taxjar::api_key"
+msgid "In order to get API key you need to register on the TaxJar service, then go to Account tab, select SmartCalcs API and press Generate API key button."
+msgstr "Для получения API ключа зарегистрируйтесь на сервисе <a href=\"https://www.taxjar.com/\" target=\"_blank\">TaxJar</a>, затем перейдите во вкладку Account, выберете SmartCalcs API, и нажмите Сгенерировать API key."
+
+msgctxt "SettingsOptions::sd_taxjar::required_api"
+msgid "Make the API key field obligatory for the vendors"
+msgstr "Сделать поле API key обязательным"
+
+msgctxt "SettingsTooltips::sd_taxjar::required_api"
+msgid "If the field is enabled all your vendors must have TaxJar account."
+msgstr "Если выбрана эта настройка, то у всех продавцов должен быть аккаунт в TaxJar."
+
+msgctxt "SettingsOptions::sd_taxjar::amount_of_days"
+msgid "Amount of days"
+msgstr "Количество дней"
+
+msgctxt "SettingsTooltips::sd_taxjar::amount_of_days"
+msgid "Specify for how many days the cache of the requests sent to the TaxJar service should be stored."
+msgstr "Сколько дней хранить кэш запросов к сервису TaxJar."
+
+msgctxt "Languages::addons.sd_taxjar.no_auth_user"
+msgid "Entered user data is not enough. Tax calculation can be incorrect."
+msgstr "Недостаточно пользовательских данных. Подсчет налога может быть некорректным."
+
+msgctxt "Languages::addons.sd_taxjar.taxjar"
+msgid "TaxJar"
+msgstr "TaxJar"
+
+msgctxt "Languages::addons.sd_taxjar.bad_auth_data"
+msgid "Incorrect address or shipping information. Tax calculation can be incorrect. Please add your country, state and zip-code in the My account area or at the ckeck-out."
+msgstr "Данные о проживании/доставке некорректны. Подсчет налога может быть неправильным. Пожалуйста, добавьте страну, штат и почтовый индекс в профиле пользователя либо на странице оформления заказа."
+
+msgctxt "Languages::addons.sd_taxjar.product_tax_code"
+msgid "Product tax code"
+msgstr "Налоговый код продукта"
+
+msgctxt "Languages::addons.sd_taxjar.get_taxes"
+msgid "Calculate tax"
+msgstr "Получить налог"
+
+msgctxt "Languages::addons.sd_taxjar.info_to_country_and_state"
+msgid "Select a country and region from the list. If your country has no list of regions, enter a two-digit ISO code of your region."
+msgstr "Выберете страну и регион из выпадающего списка. Если для Вашей страны нет выпадающего списка регионов, то следует вводить двузначный ISO-код региона"
+
+msgctxt "Languages::addons.sd_taxjar.info_to_zip"
+msgid "Enter a zip code"
+msgstr "Введите почтовый индекс"
+
+msgctxt "Languages::addons.sd_taxjar.info_shipping"
+msgid "Enter shipping cost"
+msgstr "Введите цену доставки"
+
+msgctxt "Languages::addons.sd_taxjar.api_key"
+msgid "API key"
+msgstr "API key"
+
+msgctxt "Languages::addons.sd_taxjar.get_taxes_popup"
+msgid "Tax information"
+msgstr "Информация о налоге"
+
+msgctxt "Languages::addons.sd_taxjar.get_taxes_button"
+msgid "Calculate tax"
+msgstr "Рассчитать налог"
+
+msgctxt "Languages::addons.sd_taxjar.update_product_tax_code"
+msgid "Update the list of tax codes"
+msgstr "Обновить список налоговых кодов"
+
+msgctxt "Languages::addons.sd_taxjar.--"
+msgid "addons.sd_taxjar.--"
+msgstr "--"
+
+msgctxt "Languages::privileges.sd_taxjar"
+msgid "Tax checking"
+msgstr "Проверка налогов"
+
+msgctxt "Languages::addons.sd_taxjar.add_nexus"
+msgid "Add Nexus addresses database"
+msgstr "Добавить базу Nexus адресов"
+
+msgctxt "Languages::addons.sd_taxjar.update_nexus"
+msgid "Update Nexus addresses database"
+msgstr "Обновить базу Nexus адресов"
+
+msgctxt "Languages::addons.sd_taxjar.info"
+msgid "Use the following command to run the cron script: <b> php [path] --dispatch=sd_taxjar_order_export.cron --cron_password=CRON_PASSWORD</b> Where CRON_PASSWORD is the access key to the cron script that you can find under Settings - Security settings. Exports orders to the CSV file to import them to the TaxJar service."
+msgstr "Используйте следующую команду для запуска скрипта по крону: <b> php [path] --dispatch=sd_taxjar_order_export.cron –cron_password=CRON_PASSWORD</b>, где CRON_PASSWORD - ключ доступа к крон скрипту, который вы можете найти, перейдя в \"Настройки\" - \"Настройки безопасности\". Скрипт экспортирует заказы в CSV файл для их дальнейшего импорта в сервис TaxJar."
+
+msgctxt "Languages::addons.sd_taxjar.export_orders"
+msgid "Export orders"
+msgstr "Экспорт заказов"
+
+msgctxt "Languages::addons.sd_taxjar.export_orders_counter"
+msgid "Export orders: [counter]"
+msgstr "Экспорт заказов: [counter]"
+
+msgctxt "Languages::addons.sd_taxjar.return"
+msgid "Return to <a href=\"[return]\">[return]</a>"
+msgstr "Вернуться на страницу <a href=\"[return]\">[return]</a>"
+
+msgctxt "Languages::addons.sd_taxjar.download_archive"
+msgid "The archive download should start in several seconds automatically, if not <a href=\"[url]\">Click here</a>"
+msgstr "Загрузка архива должна начаться через несколько секунд автоматически. Если не началась <a href=\"[url]\">Нажмите сюда</a>"
+
+msgctxt "Languages::addons.sd_taxjar.compress_error"
+msgid "An unknown error is occurred while creating the archive"
+msgstr "При создании архива возникла неизвестная ошибка"
+
+msgctxt "Languages::addons.sd_taxjar.items_per_file"
+msgid "Elements per file"
+msgstr "Элементов в файле"
+
+msgctxt "SettingsSections::sd_taxjar::general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "SettingsSections::sd_taxjar::export"
+msgid "Export"
+msgstr "Экспорт"
+
+msgctxt "Languages::addons.sd_taxjar.order_statuses"
+msgid "Order statuses"
+msgstr "Статусы заказов"
+
+msgctxt "Languages::ttc_addons.sd_taxjar.order_statuses"
+msgid "Select statuses that will trigger sending updated tax information"
+msgstr "Статусы, при переводе к которым, будет отправляться обновленная информация о налогах"
+
+msgctxt "Languages::addons.sd_taxjar.taxjar_csv_export"
+msgid "To download information about orders to CSV"
+msgstr "TaxJar: Сделать выгрузку информации о заказах в CSV"
+
+msgctxt "Languages::addons.sd_taxjar.taxjar_order_transactions"
+msgid "TaxJar: Settings for sending information about orders to the TaxJar service"
+msgstr "TaxJar: Настройки отправки информации о заказах в сервис"
+
+msgctxt "Languages::addons.sd_taxjar.sales_tax"
+msgid "Sales Tax"
+msgstr "Налог с продаж"
+
+msgctxt "Languages::addons.sd_taxjar.no_statuses_selected"
+msgid "Не выбраны статусы"
+msgstr "Не выбраны статусы"
+
+msgctxt "Languages::addons.sd_taxjar.zip"
+msgid "ZIP code"
+msgstr "ZIP"
+

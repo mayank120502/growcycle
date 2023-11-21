@@ -1,0 +1,1 @@
+{script src="design/themes/vivashop/js/et-search.js"}

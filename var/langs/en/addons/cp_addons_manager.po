@@ -1,0 +1,430 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_addons_manager"
+msgid "Cart-Power:  Add-ons Manager"
+msgstr "Cart-Power:  Add-ons Manager"
+
+msgctxt "Addons::description::cp_addons_manager"
+msgid "The best way to manage all Cart-Power add-ons. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>. Professional CS-Cart development."
+msgstr "The best way to manage all Cart-Power add-ons. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>. Professional CS-Cart development."
+
+msgctxt "SettingsSections::cp_addons_manager::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsSections::cp_addons_manager::logs"
+msgid "Event log"
+msgstr "Event log"
+
+msgctxt "SettingsOptions::cp_addons_manager::notify_me_about_new_versions"
+msgid "Notify me about new versions of add-ons"
+msgstr "Notify me about new versions of add-ons"
+
+msgctxt "SettingsOptions::cp_addons_manager::use_logs"
+msgid "Event log for"
+msgstr "Event log for"
+
+msgctxt "Languages::privileges.manage_cp_addons_manager"
+msgid "Manage Cart-Power add-ons manager"
+msgstr "Manage Cart-Power add-ons manager"
+
+msgctxt "Languages::privilege_groups.cp_addons_manager"
+msgid "CP: Add-ons manager"
+msgstr "CP: Add-ons manager"
+
+msgctxt "Languages::cp_addons_manager"
+msgid "Add-ons Manager"
+msgstr "Add-ons Manager"
+
+msgctxt "Languages::cp_addons_manager_menu_description"
+msgid "Manage your licenses and add-ons."
+msgstr "Manage your licenses and add-ons."
+
+msgctxt "Languages::cp_you_should_enter_your_license_key"
+msgid "You should enter license key"
+msgstr "You should enter license key"
+
+msgctxt "Languages::cart_power"
+msgid "Cart-Power"
+msgstr "Cart-Power"
+
+msgctxt "Languages::cart_power_addons"
+msgid "Cart-Power: Add-ons"
+msgstr "Cart-Power: Add-ons"
+
+msgctxt "Languages::cp_addon_is_up_to_date"
+msgid "Add-on is up to date"
+msgstr "Add-on is up to date"
+
+msgctxt "Languages::cp_install_and_activate"
+msgid "Install and activate"
+msgstr "Install and activate"
+
+msgctxt "Languages::cp_cant_get_information_from_server"
+msgid "There was an error occured while processing request. Please, try later"
+msgstr "There was an error occured while processing request. Please, try later"
+
+msgctxt "Languages::cp_not_installed"
+msgid "Not installed"
+msgstr "Not installed"
+
+msgctxt "Languages::cp_purchase_license"
+msgid "Purchase license"
+msgstr "Purchase license"
+
+msgctxt "Languages::cp_up_to_date"
+msgid "Up to date"
+msgstr "Up to date"
+
+msgctxt "Languages::cp_prolongation"
+msgid "Prolongation"
+msgstr "Prolongation"
+
+msgctxt "Languages::cp_addon_has_been_installed_successfully"
+msgid "The <b>[addon]</b> has been installed successfully."
+msgstr "The <b>[addon]</b> has been installed successfully."
+
+msgctxt "Languages::cp_addon_has_been_updated_successfully"
+msgid "The <b>[addon]</b> has been updated successfully."
+msgstr "The <b>[addon]</b> has been updated successfully."
+
+msgctxt "Languages::cp_downloading_not_allowed"
+msgid "Not allowed to download"
+msgstr "Not allowed to download"
+
+msgctxt "Languages::cp_versions_history"
+msgid "Versions history"
+msgstr "Versions history"
+
+msgctxt "Languages::cp_current_version"
+msgid "Current version"
+msgstr "Current version"
+
+msgctxt "Languages::cp_storefront_demo"
+msgid "Storefront demo"
+msgstr "Storefront demo"
+
+msgctxt "Languages::cp_admin_demo"
+msgid "Admin demo"
+msgstr "Admin demo"
+
+msgctxt "Languages::cp_this_addon_did_not_licensed_for_following_domains"
+msgid "This add-on does not have a license on following domains:"
+msgstr "This add-on does not have a license on following domains:"
+
+msgctxt "Languages::cp_updates_are_available_for_the_following_add_ons"
+msgid "Updates are available for the following add-ons:"
+msgstr "Updates are available for the following add-ons:"
+
+msgctxt "Languages::cp_addon_name_and_versions"
+msgid "<br/><strong>[addon]</strong>(installed version: [current_version]) available version: [available_version]"
+msgstr "<br/><strong>[addon]</strong>(installed version: [current_version]) available version: [available_version]"
+
+msgctxt "Languages::cp_addon_name_and_versions_fail"
+msgid "<strong>[addon]</strong> - new version: [latest_version] of [latest_date] - no update available. You need to renew your subscription.<br/>"
+msgstr "<strong>[addon]</strong> - new version: [latest_version] of [latest_date] - no update available. You need to renew your subscription.<br/>"
+
+msgctxt "Languages::cp_update_addon_message_links"
+msgid "<div class=\"cp-buttons-inside-notification\"><a href=\"[view_link]\">View</a><a class=\"pull-right cm-notification-close cm-ajax\" href=\"[hide_link]\">Hide</a></div>"
+msgstr "<div class=\"cp-buttons-inside-notification\"><a href=\"[view_link]\">View</a><a class=\"pull-right cm-notification-close cm-ajax\" href=\"[hide_link]\">Hide</a></div>"
+
+msgctxt "Languages::cp_following_addons_have_a_license_domanis_mismatch"
+msgid "Following add-ons have a license domanis mismatch:"
+msgstr "Following add-ons have a license domanis mismatch:"
+
+msgctxt "Languages::cp_mismatch_addon_names"
+msgid "<br/><strong>[addon]</strong>"
+msgstr "<br/><strong>[addon]</strong>"
+
+msgctxt "Languages::cp_click_following_link_for_more_information"
+msgid "<div class=\"cp-buttons-inside-notification\">Click <a href=\"[view_link]\">this link</a> for more information</div>"
+msgstr "<div class=\"cp-buttons-inside-notification\">Click <a href=\"[view_link]\">this link</a> for more information</div>"
+
+msgctxt "Languages::cp_following_addons_has_been_disabled_because_of_license_failure"
+msgid "Following add-ons has been disabled because of license failure:"
+msgstr "Following add-ons has been disabled because of license failure:"
+
+msgctxt "Languages::cp_get_custom_development_quote"
+msgid "Get custom development quote"
+msgstr "Get custom development quote"
+
+msgctxt "Languages::cp_broken_addon_pack"
+msgid "Broken add-on package"
+msgstr "Broken add-on package"
+
+msgctxt "Languages::cp_my_addons"
+msgid "My add-ons"
+msgstr "My add-ons"
+
+msgctxt "Languages::cp_avail_addons"
+msgid "Available add-ons"
+msgstr "Available add-ons"
+
+msgctxt "Languages::cp_all_addons"
+msgid "All add-ons"
+msgstr "All add-ons"
+
+msgctxt "Languages::cp_updates"
+msgid "Updates"
+msgstr "Updates"
+
+msgctxt "Languages::cp_action"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "Languages::cp_version"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "Languages::cp_release_date"
+msgid "Release date"
+msgstr "Release date"
+
+msgctxt "Languages::cp_updates_avail_until"
+msgid "Upgrades available until"
+msgstr "Upgrades available until"
+
+msgctxt "Languages::cp_purchased"
+msgid "Purchased"
+msgstr "Purchased"
+
+msgctxt "Languages::cp_licensed_domains"
+msgid "Licensed domains"
+msgstr "Licensed domains"
+
+msgctxt "Languages::cp_domains_amount"
+msgid "Number of domains"
+msgstr "Number of domains"
+
+msgctxt "Languages::cp_update_period"
+msgid "Update period"
+msgstr "Update period"
+
+msgctxt "Languages::cp_ends"
+msgid "Ends"
+msgstr "Ends"
+
+msgctxt "Languages::cp_ended"
+msgid "Ended"
+msgstr "Ended"
+
+msgctxt "Languages::cp_months"
+msgid "month(s)"
+msgstr "month(s)"
+
+msgctxt "Languages::cp_addon_info"
+msgid "Addon information"
+msgstr "Addon information"
+
+msgctxt "Languages::cp_prolongate_license"
+msgid "Prolongate license"
+msgstr "Prolongate license"
+
+msgctxt "Languages::cp_purchase"
+msgid "Purchase"
+msgstr "Purchase"
+
+msgctxt "Languages::cp_from"
+msgid "from"
+msgstr "from"
+
+msgctxt "Languages::cp_support"
+msgid "Support"
+msgstr "Support"
+
+msgctxt "Languages::cp_text_reviews"
+msgid "[n] review(s)"
+msgstr "[n] review(s)"
+
+msgctxt "Languages::cp_receive"
+msgid "Get"
+msgstr "Get"
+
+msgctxt "Languages::cp_license_error"
+msgid "License error"
+msgstr "License error"
+
+msgctxt "Languages::cp_license_error_domains"
+msgid "Domain does not match the order"
+msgstr "Domain does not match the order"
+
+msgctxt "Languages::cp_license_error_not_active"
+msgid "License is not active"
+msgstr "License is not active"
+
+msgctxt "Languages::cp_already_purchased"
+msgid "Already purchased"
+msgstr "Already purchased"
+
+msgctxt "Languages::cp_addons_info"
+msgid "Add-ons information"
+msgstr "Add-ons information"
+
+msgctxt "Languages::cp_display_avail_addons"
+msgid "Show add-ons compatible with the current version of the store"
+msgstr "Show add-ons compatible with the current version of the store"
+
+msgctxt "Languages::cp_avail_for_store"
+msgid "Available for your store"
+msgstr "Available for your store"
+
+msgctxt "Languages::cp_not_avail_for_store"
+msgid "Not available for your store"
+msgstr "Not available for your store"
+
+msgctxt "Languages::cp_no_license_for_domains"
+msgid "Your license can't be used on the following domains:"
+msgstr "Your license can't be used on the following domains:"
+
+msgctxt "Languages::cp_am_buy"
+msgid "Buy"
+msgstr "Buy"
+
+msgctxt "Languages::cp_am_contact_us"
+msgid "Contact us"
+msgstr "Contact us"
+
+msgctxt "Languages::cp_am_prolongate"
+msgid "extend the update period"
+msgstr "extend the update period"
+
+msgctxt "Languages::cp_am_upgrade"
+msgid "to update"
+msgstr "to update"
+
+msgctxt "Languages::cp_installed_version"
+msgid "Installed"
+msgstr "Installed"
+
+msgctxt "Languages::cp_available_version"
+msgid "Available"
+msgstr "Available"
+
+msgctxt "Languages::cp_actual_version"
+msgid "Latest"
+msgstr "Latest"
+
+msgctxt "Languages::cp_addon_status_on"
+msgid "Add-on status - enabled"
+msgstr "Add-on status - enabled"
+
+msgctxt "Languages::cp_addon_status_off"
+msgid "Add-on status - disabled"
+msgstr "Add-on status - disabled"
+
+msgctxt "Languages::cp_addon_status_not_installed"
+msgid "Add-on status - not installed"
+msgstr "Add-on status - not installed"
+
+msgctxt "Languages::cp_am_settings"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "Languages::cp_am_reference"
+msgid "Reference"
+msgstr "Reference"
+
+msgctxt "Languages::cp_am_documentation"
+msgid "Documentation"
+msgstr "Documentation"
+
+msgctxt "Languages::cp_am_documentation_not_exists"
+msgid "This add-on has no documentation yet."
+msgstr "This add-on has no documentation yet."
+
+msgctxt "Languages::cp_am_installed_avail_version"
+msgid "The latest version available to you is installed"
+msgstr "The latest version available to you is installed"
+
+msgctxt "Languages::cp_am_can_install_avail_version"
+msgid "The following verison is available to you"
+msgstr "The following verison is available to you"
+
+msgctxt "Languages::cp_am_subscribe_exists"
+msgid "Your upgrade subscription is valid up to [date]"
+msgstr "Your upgrade subscription is valid up to [date]"
+
+msgctxt "Languages::cp_am_subscribe_exists_text"
+msgid "You can extend the update period for a longer period."
+msgstr "You can extend the update period for a longer period."
+
+msgctxt "Languages::cp_am_subscribe_expired"
+msgid "Your subscription has expired [date]"
+msgstr "Your subscription has expired [date]"
+
+msgctxt "Languages::cp_am_subscribe_expired_text"
+msgid "To access the current version of the add-on need to buy a subscription."
+msgstr "To access the current version of the add-on need to buy a subscription."
+
+msgctxt "Languages::cp_am_buy_subscr"
+msgid "Buy subscription"
+msgstr "Buy subscription"
+
+msgctxt "Languages::cp_am_prolong_subscr"
+msgid "Renew subscription"
+msgstr "Renew subscription"
+
+msgctxt "Languages::cp_am_versions"
+msgid "Versions"
+msgstr "Versions"
+
+msgctxt "Languages::cp_install"
+msgid "Install"
+msgstr "Install"
+
+msgctxt "Languages::cp_upgrade_to"
+msgid "Upgrade to"
+msgstr "Upgrade to"
+
+msgctxt "Languages::cp_сompatibility"
+msgid "Compatibility"
+msgstr "Compatibility"
+
+msgctxt "Languages::cp_cscart"
+msgid "CS-Cart"
+msgstr "CS-Cart"
+
+msgctxt "Languages::cp_multivendor"
+msgid "Multivendor"
+msgstr "Multivendor"
+
+msgctxt "Languages::cp_view_demo"
+msgid "View demo"
+msgstr "View demo"
+
+msgctxt "Languages::cp_go_to_cartpower"
+msgid "Go to the Cart-Power store"
+msgstr "Go to the Cart-Power store"
+
+msgctxt "Languages::cp_ask_question"
+msgid "Ask question"
+msgstr "Ask question"
+
+msgctxt "Languages::cp_domains_error_reasons"
+msgid "<div><b>Possible reasons:</b></div><ul><li>Not purchased domain licenses</li><li>Failed to validate domains</li><li>The add-on has different licenses for different domains</li></ul>"
+msgstr "<div><b>Possible reasons:</b></div><ul><li>Not purchased domain licenses</li><li>Failed to validate domains</li><li>The add-on has different licenses for different domains</li></ul>"
+
+msgctxt "Languages::cp_update_via_uc"
+msgid "Upgrade via Upgrade Center"
+msgstr "Upgrade via Upgrade Center"
+
+msgctxt "Languages::cp_upgrade_tooltip_text"
+msgid "Update via Cart-Power add-ons manager."
+msgstr "Update via Cart-Power add-ons manager."
+
+msgctxt "Languages::cp_am_need_reinstall"
+msgid "Unfortunately, there is no way to upgrade this add-on via the Add-on manager or the Upgrade center.<br />Please follow the <a href=\"[link]\" target=\"_blank\">manual upgrade instructions</a>."
+msgstr "Unfortunately, there is no way to upgrade this add-on via the Add-on manager or the Upgrade center.<br />Please follow the <a href=\"[link]\" target=\"_blank\">manual upgrade instructions</a>."
+
+msgctxt "Languages::cp_am_custom_addons_text"
+msgid "A modified version of the add-on is installed. The upgrade option is disabled for you not to lose your changes."
+msgstr "A modified version of the add-on is installed. The upgrade option is disabled for you not to lose your changes."
+
+msgctxt "Languages::cp_custom_logs"
+msgid "Event log"
+msgstr "Event log"
+

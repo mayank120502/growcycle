@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Registry; defined('BOOTSTRAP') or die('Access denied'); if (!empty($_REQUEST['product_id'])) { $product = fn_get_product_data($_REQUEST['product_id'], $auth, CART_LANGUAGE); if (empty($product)) { return [CONTROLLER_STATUS_NO_PAGE]; } fn_gather_additional_product_data($product, true, true); Tygh::$app['view']->assign('product', $product); Tygh::$app['view']->display('addons/sd_affiliate/views/banner_products/view.tpl'); exit; } 

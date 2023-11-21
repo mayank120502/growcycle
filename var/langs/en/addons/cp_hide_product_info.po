@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_hide_product_info"
+msgid "Cart-Power: Hide product information"
+msgstr "Cart-Power: Hide product information"
+
+msgctxt "Addons::description::cp_hide_product_info"
+msgid "The module allows you to hide some information about products in the lists. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "The module allows you to hide some information about products in the lists. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_hide_product_info::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_hide_product_info::hide_control_grid_list"
+msgid "Hide buttons"
+msgstr "Hide buttons"
+
+msgctxt "SettingsOptions::cp_hide_product_info::hide_vendor_info_grid_list"
+msgid "Hide vendor information"
+msgstr "Hide vendor information"
+
+msgctxt "SettingsOptions::cp_hide_product_info::grid_list"
+msgid "Grid list"
+msgstr "Grid list"
+
+msgctxt "SettingsOptions::cp_hide_product_info::product_list"
+msgid "List without options"
+msgstr "List without options"
+
+msgctxt "SettingsOptions::cp_hide_product_info::hide_vendor_info_product_list"
+msgid "Hide vendor information"
+msgstr "Hide vendor information"
+
+msgctxt "SettingsOptions::cp_hide_product_info::compact_list"
+msgid "Compact list"
+msgstr "Compact list"
+
+msgctxt "SettingsOptions::cp_hide_product_info::hide_vendor_info_compact_list"
+msgid "Hide vendor information"
+msgstr "Hide vendor information"
+
+msgctxt "SettingsOptions::cp_hide_product_info::products_scroller"
+msgid "Products scroller"
+msgstr "Products scroller"
+
+msgctxt "SettingsOptions::cp_hide_product_info::hide_vendor_info_products_scroller"
+msgid "Hide vendor information"
+msgstr "Hide vendor information"
+
+msgctxt "SettingsOptions::cp_hide_product_info::hide_control_products_scroller"
+msgid "Hide buttons"
+msgstr "Hide buttons"

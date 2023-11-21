@@ -1,0 +1,165 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::sd_accelerated_pages"
+msgid "Simtech Development: Google AMP for SEO"
+msgstr "Simtech Development: Google AMP для SEO"
+
+msgctxt "Addons::description::sd_accelerated_pages"
+msgid "Describe the functionality of the add-on, the functions it adds and how it can be useful for customers. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Добавляет поддержку Accelerated Mobile Pages (AMP) и ускоряет загрузку страниц. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Поддержка</a>"
+
+msgctxt "Languages::sd_accelerated_pages.amp"
+msgid "Google AMP for SEO"
+msgstr "Google AMP для SEO"
+
+msgctxt "SettingsSections::sd_accelerated_pages::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsSections::sd_accelerated_pages::thumbnails"
+msgid "Thumbnails"
+msgstr "Иконки"
+
+msgctxt "SettingsSections::sd_accelerated_pages::logo"
+msgid "Logo"
+msgstr "Логотип"
+
+msgctxt "SettingsSections::sd_accelerated_pages::cache"
+msgid "Cache warmup"
+msgstr "Кэш"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::lkey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::google_tracking_code"
+msgid "Google Analytics account number"
+msgstr "Номер учетной записи Google Analytics"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::pixel_tracking_code"
+msgid "Facebook pixel account number"
+msgstr "Номер учетной записи Facebook pixel"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::show_cookie_agreement"
+msgid "Notify visitors about cookies use"
+msgstr "Оповещать посетителей об использовании кук"
+
+msgctxt "Languages::sd_accelerated_pages.full_description"
+msgid "Full description"
+msgstr "Полное описание"
+
+msgctxt "Languages::sd_accelerated_pages.amp_full_description"
+msgid "Google AMP: Full description"
+msgstr "Google AMP: Полное описание"
+
+msgctxt "Languages::sd_accelerated_pages.view_detailed"
+msgid "AMP View detailed"
+msgstr "Смотреть подробнее"
+
+msgctxt "Languages::theme_editor.amp"
+msgid "AMP"
+msgstr "AMP"
+
+msgctxt "Languages::sd_accelerated_pages.text_amp_page_logo"
+msgid "Logo for the AMP pages"
+msgstr "Логотип для AMP страниц"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by"
+msgid "Sort"
+msgstr "Сортировать"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_null_asc"
+msgid "No sorting"
+msgstr "Без сортировки"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_popularity_asc"
+msgid "Popularity: Low to High"
+msgstr "По популярности: менее популярные выше"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_popularity_desc"
+msgid "Popularity"
+msgstr "По популярности: по убыванию"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_position_asc"
+msgid "Position: Low to High"
+msgstr "По позиции: низкие позиции выше"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_position_desc"
+msgid "Position: High to Low"
+msgstr "По позиции: высокие позиции выше"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_price_asc"
+msgid "Price: Low to High"
+msgstr "По цене: дешевые выше"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_price_desc"
+msgid "Price: High to Low"
+msgstr "По цене: дорогие выше"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_product_asc"
+msgid "Alphabetically: A to Z"
+msgstr "По алфавиту: от А до Я"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_product_desc"
+msgid "Alphabetically: Z to A"
+msgstr "По алфавиту: от Я до А"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_timestamp_asc"
+msgid "Oldest Items First"
+msgstr "По времени: новинки ниже"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_timestamp_desc"
+msgid "Newest Items First"
+msgstr "По времени: новинки выше"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_bestsellers_asc"
+msgid "Bestselling: Low to High"
+msgstr "По покупаемости: Наименее покупаемые в начале"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_bestsellers_desc"
+msgid "Bestselling"
+msgstr "По покупаемости"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_on_sale_asc"
+msgid "Discount: Low to High"
+msgstr "По размеру скидки: высокие скидки в конце"
+
+msgctxt "Languages::sd_accelerated_pages.sort_by_on_sale_desc"
+msgid "Discount: High to Low"
+msgstr "По размеру скидки: высокие скидки в начале"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_lists_thumbnail_width"
+msgid "Products list thumbnail width"
+msgstr "Ширина иконки в списке товаров"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_lists_thumbnail_height"
+msgid "Products list thumbnail height"
+msgstr "Высота иконки в списке товаров"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_details_thumbnail_width"
+msgid "Product details page thumbnail width"
+msgstr "Ширина иконки на детальной странице товара"
+
+msgctxt "SettingsOptions::sd_accelerated_pages::product_details_thumbnail_height"
+msgid "Product details page thumbnail height"
+msgstr "Высота иконки на детальной странице товара"
+
+msgctxt "Languages::sd_accelerated_pages.cookies_law"
+msgid "Cookies are used on this site to provide the best user experience. If you continue, we assume that you agree to receive cookies from this site."
+msgstr "Для обеспечения высокого уровня обслуживания на этом сайте используются куки (cookies). Продолжая его использование, вы соглашаетесь с тем, что куки (cookies) будут сохраняться на вашем компьютере."
+
+msgctxt "Languages::sd_accelerated_pages.cookies_law_dismiss"
+msgid "Ok"
+msgstr "Хорошо"
+
+msgctxt "Languages::sd_accelerated_pages.no_image"
+msgid "Image is available in full page"
+msgstr "Изображение доступно в полной версии страницы"
+
+msgctxt "Languages::sd_accelerated_pages.cache_warmup_info"
+msgid "<p>AMP pages generate a large number of product thumbnails. To reduce server load, it is recommended to launch thumbnails generation in advance.</p><p>Use this link to launch thumbnail generation. Launch it more than once if needed:</p><p><a href=\"[url]\" target=\"_blank\">[url]</a></p>"
+msgstr "<p>AMP страницы генерируют большое количество мини-изображений товаров. Чтобы снизить нагрузку на сервер, желательно заранее запустить их генерацию.</p><p>Для запуска используйте эту ссылку. При необходимости запустите процесс генерации несколько раз:</p><p><a href=\"[url]\" target=\"_blank\">[url]</a></p>"

@@ -1,0 +1,34 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+amp-user-notification.amp-active {
+  visibility: visible;
+
+  animation: fadeIn ease-in 300ms 1 forwards;
+}
+
+amp-user-notification {
+  background: #fff;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  visibility: hidden;
+  background: hsla(0, 0%, 100%, 0.95);
+  z-index: 1000;
+  width: 100%;
+
+  .amp-btn {
+    padding: .4rem .8rem;
+  }
+}
+
+amp-user-notification > div {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

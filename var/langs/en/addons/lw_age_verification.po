@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::lw_age_verification"
+msgid "[LW]Age verification Pop-up"
+msgstr "[LW]Age verification Pop-up"
+
+msgctxt "Addons::description::lw_age_verification"
+msgid "Ask if the customer is older of current age before he enters the site."
+msgstr "Ask if the customer is older of current age before he enters the site."
+
+msgctxt "SettingsOptions::lw_age_verification::marketplace_license_number"
+msgid "Marketplace license number"
+msgstr "Marketplace license number"
+
+msgctxt "SettingsOptions::lw_age_verification::lw_license_number"
+msgid "License Key"
+msgstr "License Key"
+
+msgctxt "SettingsSections::lw_age_verification::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::lw_age_verification::lw_selected_age"
+msgid "Age Limit"
+msgstr "Minimum Age"
+
+msgctxt "Languages::lw_age_verification.title"
+msgid "AGE VERIFICATION"
+msgstr "AGE VERIFICATION"
+
+msgctxt "Languages::lw_age_verification.welcome_message"
+msgid "Welcome to Example.gr"
+msgstr "Welcome to Example.gr"
+
+msgctxt "Languages::lw_age_verification.verification_text"
+msgid "By clicking enter, I certify that I am over the age of 18 and will comply with the above statement."
+msgstr "By clicking enter, I certify that I am over the age of 18 and will comply with the above statement."
+
+msgctxt "Languages::lw_age_verification.under_age"
+msgid "EXIT"
+msgstr "EXIT"
+
+msgctxt "Languages::lw_age_verification.over_age"
+msgid "ENTER"
+msgstr "ENTER"
+
+msgctxt "Languages::lw_age_verification.or"
+msgid "OR"
+msgstr "OR"
+
+msgctxt "Languages::lw_age_verification.cant_enter_size"
+msgid "You must confirm that you are over 18 in order to browse our website."
+msgstr "You must confirm that you are over 18 in order to browse our website."

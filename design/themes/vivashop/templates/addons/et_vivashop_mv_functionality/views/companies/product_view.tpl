@@ -1,0 +1,1 @@
+{include file="views/products/view.tpl" vendor_store=true}

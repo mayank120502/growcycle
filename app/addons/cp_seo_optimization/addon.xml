@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_seo_optimization</id>
+    <priority>20000</priority>
+    <version>1.5</version>
+    <position>200</position>
+    <status>disabled</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <dependencies>seo,cp_addons_manager</dependencies>
+        <conflicts>ab__so_noindex_tech_pages</conflicts>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="licensekey">
+                        <type>input</type>
+                    </item>
+                    <item id="hide_description">
+                        <type>multiple checkboxes</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="html_minify">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="redirect_404">
+                        <type>selectbox</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="first_page_canonical">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="links">
+                <items>
+                    <item id="url_slash">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="none"></item>
+                            <item id="add"></item>
+                            <item id="remove"></item>
+                        </variants>
+                        <default_value>none</default_value>
+                    </item>
+                    <item id="exclude_m_slashes">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item> 
+                    <item id="links_products">
+                        <type>header</type>
+                    </item>
+                    <item id="use_product_prefix">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="product_prefix_301" parent_id="use_product_prefix">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="product_prefix" parent_id="use_product_prefix">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="only_main_category" parent_id="use_product_prefix">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="links_categories">
+                        <type>header</type>
+                    </item>
+                    <item id="use_category_prefix">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="category_prefix_301" parent_id="use_category_prefix">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="category_prefix" parent_id="use_category_prefix">
+                        <type>input</type>
+                        <default_value></default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="ext_links">
+                <items>
+                    <item id="ext_links_nofollow">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="ext_links_new_window">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="indexing">
+                <items>
+                    <item id="noindex_header">
+                        <type>header</type>
+                    </item>
+                    <item id="noindex_robots">
+                        <type>input</type>
+                        <default_value>noindex</default_value>
+                    </item>
+                    <item id="noindex_hidden">
+                        <type>multiple checkboxes</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="noindex_product">
+                        <type>multiple checkboxes</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="noindex_without_products">
+                        <type>multiple checkboxes</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="noindex_params">
+                        <type>textarea</type>
+                        <default_value>sort_by,items_per_page,selected_section,page</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="last_modified">
+                <items>
+                    <item id="use_lastmod">
+                        <type>multiple checkboxes</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="lastmod_for">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="all"></item>
+                            <item id="robots"></item>
+                            <item id="users"></item>
+                        </variants>
+                        <default_value>all</default_value>
+                    </item>
+                    <item id="lastmod_time">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="start_day"></item>
+                            <item id="update"></item>
+                        </variants>
+                        <default_value>start_day</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install" version="1.1">
+            CREATE TABLE IF NOT EXISTS `?:cp_seo_links` (
+                `link_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `type` char(1) NOT NULL DEFAULT '',
+                `object_id` int(11) NOT NULL DEFAULT 0,
+                `src` varchar(255) NOT NULL DEFAULT '',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `no_index` char(1) NOT NULL default 'N',
+                `extra` text NOT NULL,
+                PRIMARY KEY  (`link_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install" version="1.4">
+            CREATE TABLE IF NOT EXISTS `?:cp_seo_index_rules` (
+                `rule_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `dispatch` varchar(255) NOT NULL DEFAULT '',
+                `rule` char(1) NOT NULL DEFAULT 'Y',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`rule_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+        <item for="install" version="1.1">ALTER TABLE `?:categories` ADD `cp_seo_lastmod` int(11) NOT NULL default 0;</item>
+        <item for="install" version="1.1">ALTER TABLE `?:pages` ADD `cp_seo_lastmod` int(11) NOT NULL default 0;</item>
+        
+        <item for="install" version="1.4">ALTER TABLE ?:categories ADD cp_seo_use_addon char(1) NOT NULL default 'Y';</item>
+        <item for="install" version="1.4">ALTER TABLE ?:categories ADD cp_seo_no_index char(1) NOT NULL default 'D';</item>
+        <item for="install" version="1.4">ALTER TABLE ?:products ADD cp_seo_use_addon char(1) NOT NULL default 'Y';</item>
+        <item for="install" version="1.4">ALTER TABLE ?:products ADD cp_seo_no_index char(1) NOT NULL default 'D';</item>
+        <item for="install" version="1.4">ALTER TABLE ?:pages ADD cp_seo_use_addon char(1) NOT NULL default 'Y';</item>
+        <item for="install" version="1.4">ALTER TABLE ?:pages ADD cp_seo_no_index char(1) NOT NULL default 'D';</item>
+        <item for="install" version="1.4">ALTER TABLE ?:product_filters ADD cp_seo_index_result char(1) NOT NULL default 'N';</item>
+        <item for="install" version="1.4" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('view_cp_seo_opt', 'Y', 'addons', 'cp_seo_optimization', 'Y');</item>
+        <item for="install" version="1.4" editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id, group_id, is_view) VALUES ('manage_cp_seo_opt', 'Y', 'addons', 'cp_seo_optimization', 'N');</item>
+        
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_seo_links`;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:cp_seo_index_rules`;</item>
+        
+        <item for="uninstall">ALTER TABLE `?:categories` DROP `cp_seo_lastmod`;</item>
+        <item for="uninstall">ALTER TABLE `?:pages` DROP `cp_seo_lastmod`;</item>
+        <item for="uninstall">ALTER TABLE `?:categories` DROP `cp_seo_use_addon`;</item>
+        <item for="uninstall">ALTER TABLE `?:categories` DROP `cp_seo_no_index`;</item>
+        <item for="uninstall">ALTER TABLE `?:products` DROP `cp_seo_use_addon`;</item>
+        <item for="uninstall">ALTER TABLE `?:products` DROP `cp_seo_no_index`;</item>
+        <item for="uninstall">ALTER TABLE `?:pages` DROP `cp_seo_use_addon`;</item>
+        <item for="uninstall">ALTER TABLE `?:pages` DROP `cp_seo_no_index`;</item>
+        
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'view_cp_seo_opt'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'view_cp_seo_opt'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_cp_seo_opt'</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:usergroup_privileges WHERE privilege = 'manage_cp_seo_opt'</item>
+    </queries>
+    <functions>
+        <item for="install">fn_cp_seo_optimization_install</item>
+        <item for="uninstall">fn_cp_seo_optimization_uninstall</item>
+    </functions>
+    <scripts>
+        <item version="1.4">upgrades/1.4/scripts/post_script.php</item>
+        <item version="1.5">upgrades/1.5/scripts/post_script.php</item>
+    </scripts>
+</addon>

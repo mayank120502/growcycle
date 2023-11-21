@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_restrictions_payments_vendors</id>
+    <version>1.0</version>
+    <priority>2000</priority>
+    <position>140</position>
+	<default_language>en</default_language>
+    <has_icon>Y</has_icon>
+	<status>active</status>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>http://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <queries>
+        <item for="install">ALTER TABLE `?:payments` ADD `cp_company_ids` text NULL DEFAULT NULL;</item>
+
+        <item for="uninstall">ALTER TABLE ?:payments DROP COLUMN cp_company_ids;</item>
+    </queries>
+</addon>

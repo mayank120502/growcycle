@@ -1,0 +1,90 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8"
+"Language-Team: English"
+"Language: en_US"
+
+msgctxt "Addons::name::ez_vendor_min_orders"
+msgid "EZ Vendor Minimum Orders"
+msgstr "EZ Vendor Minimum Orders"
+
+msgctxt "Addons::description::ez_vendor_min_orders"
+msgid "Require minimum order amounts for different vendors"
+msgstr "Require minimum order amounts for different vendors"
+
+msgctxt "SettingsSections::ez_vendor_min_orders::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cat_discounts::general_addon_configuration"
+msgid "Addon configuration"
+msgstr "Addon configuration"
+
+msgctxt "SettingsOptions::ez_vendor_min_orders::license_key"
+msgid "License Key (required)"
+msgstr "License Key (required)"
+
+msgctxt "SettingsOptions::ez_vendor_min_orders::upgrade_frequency"
+msgid "Frequency of upgrade checks"
+msgstr "Frequency of upgrade checks"
+
+msgctxt "SettingsVariants::ez_vendor_min_orders::upgrade_frequency::daily"
+msgid "Daily"
+msgstr "Daily"
+
+msgctxt "SettingsVariants::ez_vendor_min_orders::upgrade_frequency::weekly"
+msgid "Weekly"
+msgstr "Weekly"
+
+msgctxt "SettingsVariants::ez_vendor_min_orders::upgrade_frequency::monthly"
+msgid "Monthly"
+msgstr "Monthly"
+
+msgctxt "SettingsOptions::ez_vendor_min_orders::auto_install"
+msgid "Automatic Installation"
+msgstr "Automatic Installation"
+
+msgctxt "SettingsOptions::ez_vendor_min_orders::silent_install"
+msgid "Silent Installation"
+msgstr "Silent Installation"
+
+msgctxt "SettingsSections::ez_vendor_min_orders::addon_basic"
+msgid "Basic settings"
+msgstr "Basic settings"
+
+msgctxt "SettingsOptions::ez_vendor_min_orders::addon_configuration"
+msgid "EZ Vendor Min Orders configuration"
+msgstr "EZ Vendor Min Orders configuration"
+
+msgctxt "SettingsOptions::ez_vendor_min_orders::log_level"
+msgid "Logging level"
+msgstr "Logging level"
+
+msgctxt "SettingsVariants::ez_vendor_min_orders::log_level::0"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::ez_vendor_min_orders::log_level::1"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsVariants::ez_vendor_min_orders::log_level::3"
+msgid "Detailed"
+msgstr "Detailed"
+
+msgctxt "Languages::vendor_min_orders"
+msgid "EZ Vendor Minimum Orders"
+msgstr "EZ Vendor Minimum Orders"
+
+msgctxt "Languages::ez_vendor_min_orders"
+msgid "EZ Vendor Minimum Orders"
+msgstr "EZ Vendor Minimum Orders"
+
+msgctxt "Languages::vendor_min_orders_min_order_amount"
+msgid "Minimum order amount"
+msgstr "Minimum order amount"
+
+msgctxt "Languages::vendor_min_orders_fail_msg"
+msgid "Minimum purchase amount for %[company_name]% must be %[currency_symbol]%%[amount]% or more"
+msgstr "Minimum purchase amount for %[company_name]% must be %[currency_symbol]%%[amount]% or more"
+

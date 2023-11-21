@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_new_buying_types</id>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>100</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>cp_otp_registration,</dependencies>
+    </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="header_O">
+                        <type>header</type>
+                    </item>
+                    <item id="order_status_for_O">
+                        <type>selectbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="payment_for_O">
+                        <type>selectbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="header_C">
+                        <type>header</type>
+                    </item>
+                    <item id="order_status_for_C">
+                        <type>selectbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="payment_for_C">
+                        <type>selectbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="shipping_for_C">
+                        <type>selectbox</type>
+                        <default_value/>
+                    </item>
+                    <item id="attachment_supported_formats">
+                        <type>input</type>
+                        <default_value>jpg,jpeg,png,gif,doc,docx,xls,xlsx,ppt,pptx,pdf,txt,rar,zip,mp3,avi,mov,mpg,wmv,csv,webp,mp4,amr,xlsm,rtf,apk,json,csv,webm,amr,gz,tgz</default_value>
+                    </item>
+                    <item id="max_attachments">
+                        <type>input</type>
+                        <default_value>6</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">ALTER TABLE ?:vendor_communication_messages ADD cp_count int(11) unsigned</item>
+        <item for="uninstall">ALTER TABLE ?:vendor_communication_messages DROP cp_count</item>
+    </queries>
+    <functions>
+        <item for="install">fn_install_cp_new_buying_types</item>
+        <item for="uninstall">fn_uninstall_cp_new_buying_types</item>
+    </functions>
+</addon>

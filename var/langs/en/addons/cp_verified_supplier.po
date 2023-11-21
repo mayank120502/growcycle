@@ -1,0 +1,37 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_verified_supplier"
+msgid "Cart-Power: Verified supplier"
+msgstr "Cart-Power: Verified supplier"
+
+msgctxt "Addons::description::cp_verified_supplier"
+msgid "The addon allows administrators to make suppliers verified. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "The addon allows administrators to make suppliers verified. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_verified_supplier.is_verified"
+msgid "Verified supplier"
+msgstr "Verified supplier"
+
+msgctxt "Languages::cp_verified_supplier.is_not_verified"
+msgid "Not verified supplier"
+msgstr "Not verified supplier"
+
+msgctxt "Languages::cp_verified_supplier.supplier_location"
+msgid "Supplier Location"
+msgstr "Supplier Location"
+
+msgctxt "Languages::cp_verified_supplier.member_since"
+msgid "Member Since"
+msgstr "Member Since"
+
+msgctxt "Languages::cp_verified_supplier.company_profile"
+msgid "Company profile"
+msgstr "Company profile"
+
+msgctxt "Languages::cp_verified_supplier.visit_store"
+msgid "Visit store"
+msgstr "Visit store"

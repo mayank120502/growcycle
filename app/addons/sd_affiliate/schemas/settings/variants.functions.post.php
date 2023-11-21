@@ -1,0 +1,2 @@
+<?php
+ use Tygh\Enum\AffiliateUserTypes; use Tygh\Enum\ObjectStatuses; use Tygh\Registry; function fn_settings_variants_addons_sd_affiliate_affiliates_usergroup() { if (Registry::get('addons.sd_affiliate.status') == 'D') { Tygh::$app['class_loader']->add('', Registry::get('config.dir.addons') . 'sd_affiliate'); } $variants = [ '0' => __('none') ]; $usergroups = fn_get_usergroups([ 'type' => AffiliateUserTypes::PARTNER, 'include_default' => false ], DESCR_SL); foreach ($usergroups as $group_id => $data) { $variants[$group_id] = $data['usergroup']; } return $variants; }

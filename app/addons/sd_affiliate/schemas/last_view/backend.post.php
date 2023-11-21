@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); $schema['partners'] = [ 'func' => 'fn_get_users', 'auth' => true, 'additional_data' => ['user_type' => 'P'], 'item_id' => 'user_id' ]; $schema['payouts'] = [ 'func' => 'fn_get_payouts', 'item_id' => 'payout_id' ]; return $schema; 

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>cp_custom_price</id>
+    <version>1.0</version>
+    <priority>2022</priority>
+    <default_language>en</default_language>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <authors>
+        <author>
+            <name>Cart-Power</name>
+            <email>sales@cart-power.com</email>
+            <url>https://cart-power.com</url>
+        </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>cp_new_buying_types,master_products</dependencies>
+    </compatibility>
+    <queries>
+        <item for="install">ALTER TABLE ?:products ADD cp_custom_price char(1) NOT NULL DEFAULT 'N'</item>
+        <item for="install">ALTER TABLE ?:products ADD cp_price_to decimal(12,2) UNSIGNED NOT NULL DEFAULT '0.00'</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP cp_custom_price</item>
+        <item for="uninstall">ALTER TABLE ?:products DROP cp_price_to</item>
+    </queries>
+</addon>

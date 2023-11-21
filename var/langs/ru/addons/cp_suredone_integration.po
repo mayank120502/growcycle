@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+
+msgctxt "Addons::name::cp_suredone_integration"
+msgid "Cart-Power: Suredone integration"
+msgstr "Cart-Power: Интеграция с сервисом Suredone"
+
+msgctxt "Addons::description::cp_suredone_integration"
+msgid "Synchronizes stock balances with Suredone. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "Синхронизирует остатки товара на складе с сервисом Suredone. Разработано <a target=\"_blank\" href=\"https://cart-power.ru/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_suredone_integration.cp_use_for_upload_products_suredone"
+msgid "Use to upload new products from Suredone service"
+msgstr "Использовать для выгрузки новых товаров из севиса Suredone"
+
+msgctxt "Languages::cp_suredone_integration.cp_ebay_associated_category"
+msgid "Associated eBay category"
+msgstr "Связанная категория eBay"
+
+msgctxt "Languages::cp_suredone_integration.cp_update_amount_all_products"
+msgid "Update quantity for selected items"
+msgstr "Обновить количество у выбранных товаров"
+
+msgctxt "Languages::cp_suredone_integration.cp_update_amount"
+msgid "Update inventory"
+msgstr "Обновить остатки товара"
+
+msgctxt "Languages::cp_suredone_integration.cp_keyword_to_search_ebay_categories"
+msgid "Keyword to search eBay categories"
+msgstr "Ключевое слово для категорий eBay"
+
+msgctxt "Languages::cp_suredone_integration.text_products_have_been_updated"
+msgid "The rest of the product or products were successfully updated"
+msgstr "Остатки товара или товаров были успешно обновлены"
+
+msgctxt "Languages::cp_suredone_integration.cron_added_orders_checker"
+msgid "Use this script to place an order on Suredone"
+msgstr "Используйте этот скрипт для размещения заказа в сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.cron_updated_orders_checker"
+msgid "Use this script to update order status in Suredone service"
+msgstr "Используйте этот скрипт для обновления статуса заказа в сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.cron_added_new_products_checker"
+msgid "Use this script to add new products from Suredone service"
+msgstr "Используйте этот скрипт для добавления новых товаров из сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.cron_updated_amount_products_checker"
+msgid "Use this script to update product balances from Suredone service"
+msgstr "Используйте этот скрипт для обновления остатков товара из сервисе Suredone"
+
+msgctxt "SettingsSections::cp_suredone_integration::login_suredone"
+msgid "Login to Suredone"
+msgstr "Авторизация в сервисе Suredone"
+
+msgctxt "SettingsSections::cp_suredone_integration::cron"
+msgid "CRON"
+msgstr "CRON"
+
+msgctxt "Languages::cp_product_analogues_cron_url"
+msgid "Cron script is available here: <a href='[http_location]'>[http_location]</a>"
+msgstr "Cron-скрипт доступен по ссылке: <a href='[http_location]'>[http_location]</a>"
+
+msgctxt "Languages::cp_suredone_integration.added_order_checker"
+msgid "Checking the placement of an order in the Suredone service"
+msgstr "Проверка размещения заказа в сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.updated_order_checker"
+msgid "Checking order Update in Suredone Service"
+msgstr "Проверка обновления заказа в сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.added_new_products_checker"
+msgid "Checking the addition of new products from the Suredone service"
+msgstr "Проверка добавления новых товаров из сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.updated_amount_products_checker"
+msgid "Checking for updates of product balances from the Suredone service"
+msgstr "Проверка обновления остатков товаров из сервисе Suredone"
+
+msgctxt "Languages::cp_suredone_integration.try_manually"
+msgid "Start manually"
+msgstr "Запустить вручную"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cron_password"
+msgid "Cron password"
+msgstr "Пароль для cron-скрипта"
+
+msgctxt "SettingsOptions::cp_suredone_integration::api_key_suredone"
+msgid "API key Suredone"
+msgstr "API ключи сервиса Suredone"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cp_suredone_username"
+msgid "Username into Suredone"
+msgstr "Имя пользователя в Suredone"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cp_suredone_token"
+msgid "Token into Suredone"
+msgstr "Токен пользователя в Suredone"
+
+msgctxt "SettingsSections::cp_suredone_integration::cp_settings"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "SettingsOptions::cp_suredone_integration::cp_company_id"
+msgid "Select a store to download new products from the Suredone service"
+msgstr "Выберите магазин для выгрузки новых товаров из сервиса Suredone "

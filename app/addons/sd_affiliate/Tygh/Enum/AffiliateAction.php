@@ -1,0 +1,2 @@
+<?php
+ namespace Tygh\Enum; class AffiliateAction { const SHOW = 'show'; const CLICK = 'click'; const CLICK_REF = 'click_ref'; const SALE = 'sale'; const NEW_CUSTOMER = 'new_customer'; const NEW_PARTNER = 'new_partner'; const USE_COUPON = 'use_coupon'; const INIT_BALANCE = 'init_balance'; } 

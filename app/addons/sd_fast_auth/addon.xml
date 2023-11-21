@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_fast_auth</id>
+    <version>4.9.6</version>
+    <priority>1000</priority>
+    <position>1</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Simtech Development</supplier>
+    <supplier_link>http://www.simtechdev.com</supplier_link>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="display_mode">
+                        <type>selectbox</type>
+                        <default_value>top_form</default_value>
+                        <variants>
+                            <item id="top_form"/>
+                            <item id="bottom_form"/>
+                            <item id="btn"/>
+                            <item id="link"/>
+                        </variants>
+                    </item>
+                    <item id="display_mode_reg">
+                        <type>selectbox</type>
+                        <default_value>top_form_reg</default_value>
+                        <variants>
+                            <item id="top_form_reg"/>
+                            <item id="bottom_form_reg"/>
+                            <item id="btn_reg"/>
+                            <item id="link_reg"/>
+                        </variants>
+                    </item>
+                    <item id="redirect_after_registration">
+                        <type>selectbox</type>
+                        <default_value>profiles_update</default_value>
+                        <variants>
+                            <item id="profiles_update"/>
+                            <item id="successfully_registered"/>
+                        </variants>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <compatibility>
+        <core_version>
+            <min>4.5.0</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <dependencies>hybrid_auth</dependencies>
+    </compatibility>
+<marketplace_product_id>1775</marketplace_product_id><marketplace_license_number>SOCIALLOGIN-9493-62KD-Y5VN-MDXB</marketplace_license_number></addon>

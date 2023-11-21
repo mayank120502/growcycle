@@ -1,0 +1,18 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_mega_menu_featured_products"
+msgid "ET - Featured Mega Menu Products"
+msgstr "ET - Featured Mega Menu Products"
+
+msgctxt "Addons::description::et_mega_menu_featured_products"
+msgid "Add featured products/product sliders inside the ET Advanced Mega Menu. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Add featured products/product sliders inside the ET Advanced Mega Menu. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "Languages::et_mega_menu"
+msgid "ET - Advanced Mega Menu"
+msgstr "ET - Advanced Mega Menu"

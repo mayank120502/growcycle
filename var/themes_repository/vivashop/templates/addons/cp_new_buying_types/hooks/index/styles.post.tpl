@@ -1,0 +1,1 @@
+{style src="addons/cp_new_buying_types/styles.less"}

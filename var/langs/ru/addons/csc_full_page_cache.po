@@ -1,0 +1,330 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::csc_full_page_cache"
+msgid "[cs-commerce.com] - Full page CACHE"
+msgstr "Полностраничное кеширование сайта"
+
+msgctxt "Addons::description::csc_full_page_cache"
+msgid "Full page CACHE add-on. Developed by <b><a href=\"http://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+msgstr "Ускоряет загрузку сайта за счет кеширования целых страниц. Разработчик  <b><a href=\"http://www.cs-commerce.com\" target=\"_blank\">www.cs-commerce.com</a></b>"
+
+
+
+msgctxt "Languages::cfpc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::cfpc.csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+msgctxt "Languages::csc_addons"
+msgid "CS-Commerce Addons"
+msgstr "Модули CS-Commerce"
+
+
+
+msgctxt "Languages::csc_full_page_cache"
+msgid "Full page cache"
+msgstr "Полностраничное кеширование"
+
+msgctxt "Languages::cfpc.rate_us"
+msgid "Like this addon? Rate it!"
+msgstr "Поставить оценку модулю"
+
+msgctxt "Languages::cfpc.other_addons"
+msgid "Other our addons"
+msgstr "Другие наши модули →"
+
+msgctxt "Languages::cfpc.feedback"
+msgid "Have questions? Mail us!"
+msgstr "Есть вопросы? Пишите нам!"
+
+msgctxt "Languages::cfpc.feedback_info"
+msgid "Have questions about Admin Full page cache addon by cs-commerce.com<br>or you have any ideas for improving the functionality? Mail us!"
+msgstr "Есть вопросы по работе модуля Полностраничного кеширования от cs-commerce.com<br>или есть идеи по улучшению функционала? Пишите нам!"
+
+
+
+
+
+
+msgctxt "Languages::cfpc.tab_general"
+msgid "General"
+msgstr "Основные"
+
+msgctxt "Languages::cfpc.title_general_info"
+msgid "General"
+msgstr "Основные настройки кеша"
+
+msgctxt "Languages::cfpc.tab_expiry"
+msgid "Cache expiry settings"
+msgstr "Время действия кеша"
+
+msgctxt "Languages::cfpc.title_expiry_info"
+msgid "Cache expiry settings"
+msgstr "Настройки времени действия кеша"
+
+msgctxt "Languages::cfpc.tab_skip"
+msgid "Skip caching settings"
+msgstr "Пропускать кеш"
+
+msgctxt "Languages::cfpc.title_skip_info"
+msgid "Skip caching settings"
+msgstr "Настройки исключений для кеша"
+
+msgctxt "Languages::cfpc.tab_users"
+msgid "Users and caching"
+msgstr "Кеш и пользователи"
+
+msgctxt "Languages::cfpc.title_users_info"
+msgid "Users and caching"
+msgstr "Настройки поведения кеша в зависимости от пользователей"
+
+msgctxt "Languages::cfpc.tab_storage"
+msgid "storage"
+msgstr "Хранение кеша" 
+
+msgctxt "Languages::cfpc.title_storage_info"
+msgid "storage"
+msgstr "Настройки хранения"  
+
+msgctxt "Languages::cfpc.tab_info"
+msgid "Information"
+msgstr "Информация"
+
+msgctxt "Languages::cfpc.title_info_info"
+msgid "Information"
+msgstr "Информация"
+
+msgctxt "Languages::cfpc.controllers"
+msgid "Select controllers where to use cache"
+msgstr "Выберите разделы сайта для кеширования"
+
+msgctxt "Languages::cfpc.turbo"
+msgid "Turbo mode"
+msgstr "Режим турбо"
+
+msgctxt "Languages::cfpc.turbo_tooltip"
+msgid "This mode can inrease additional 25% for speed. If cache was created by unlogged user with empty cart, empty wishlist and comparison list, Then if this page will be opened by the similar user  - we will jump directly to cache file without additional platform initialization"
+msgstr "Этот режим позволяет увеличить скорость дополнительно на 25%. Если кэш был создан незарегистрированным пользователем с пустой корзиной, пустым списком пожеланий и списком сравнения, и если эта страница будет открыта аналогичным пользователем - мы сразу перейдем к файлу кэша без дополнительной инициализации платформы"
+
+msgctxt "Languages::cfpc.compress_cache"
+msgid "Save cache on gzipped files"
+msgstr "Сохранять файлы кеша в сжатом виде (gz)"
+
+msgctxt "Languages::cfpc.compress_cache_tooltip"
+msgid "Takes up to 5 times less space on your server"
+msgstr "Занимает в 5 раз меньше места на вашем сервере"
+
+msgctxt "Languages::cfpc.minify_html"
+msgid "Minify html"
+msgstr "Минимизировать HTML"
+
+msgctxt "Languages::cfpc.minify_html_tooltip"
+msgid "Minification is the process of minimizing code in your web pages files and make your page lighter"
+msgstr "Минимизация HTML - это процесс минимизации кода и оптимизации вашей страницы. При некорректной  структуре HTML могут быть ошибки."
+
+msgctxt "Languages::cfpc.minify_js"
+msgid "Minify inline js"
+msgstr "Минимизировать инлайновые js-скрипты"
+
+msgctxt "Languages::cfpc.mobile_devices"
+msgid "Create custom cache for mobile devices"
+msgstr "Генерировать отдельный кеш для мобильных устройств"
+
+msgctxt "Languages::cfpc.mobile_devices_tooltip"
+msgid "Use this feature if  you are using 3rd party addons for custom appearance on mobile devices"
+msgstr "Включите данную функцию если вы используете сторонние модули для кастомизации внешнего вида сайта для мобильных устройств"
+
+msgctxt "Languages::cfpc.cache_lifetime"
+msgid "Cache expiry time (hours)"
+msgstr "Время истечения кеша (часов)"
+
+msgctxt "Languages::cfpc.cache_lifetime_tooltip"
+msgid "Enter 0 to make it unlimited."
+msgstr "Введите 0 что бы отключить время истечения кеша."
+
+msgctxt "Languages::cfpc.rebuild_product_cache"
+msgid "On update product, rebuild Cache where this product was shown"
+msgstr "При обновлении товара актуализировать кеш страниц, где данный товар отображается"
+
+msgctxt "Languages::cfpc.rebuild_create_product_cache"
+msgid "On create or delete product, rebuild all categories cache"
+msgstr "При создании или удаления товара актуализировать кеш всех категорий"
+
+msgctxt "Languages::cfpc.rebuild_pages_cache"
+msgid "On update page clear pages cache"
+msgstr "При обновлении страницы очищать кеш страниц"
+
+msgctxt "Languages::cfpc.rebuild_categories_cache"
+msgid "On update category clear categories cache"
+msgstr "При обновлении категории очищать кеш категорий"
+
+msgctxt "Languages::cfpc.skip_ajax"
+msgid "Don't save to cache ajax requests"
+msgstr "Отключать кеш во время AJAX запросов"
+
+msgctxt "Languages::cfpc.no_cache_filters"
+msgid "Skip filters generated category pages"
+msgstr "Не кешировать сгенерированные фильтрами страницы"
+
+msgctxt "Languages::cfpc.no_cache_filters_tooltip"
+msgid "Is not effective to save filters generated pages because there are a lot of possible combinations for every category"
+msgstr "Часто не эффективно кешировать сгенерированные страницы фильтрами т.к кол-во их комбинаций может быть очень большим для каждой категории"
+
+msgctxt "Languages::cfpc.skip_import_process"
+msgid "Don't rebuild cache when import is running"
+msgstr "Не перестраивать кеш во время импорта"
+
+msgctxt "Languages::cfpc.skip_import_process_tooltip"
+msgid "Import process can trigger update product action, this can cause lower speed on import process. Is recommended to keep this checkbox checked"
+msgstr "Процесс импорта может вызывать триггеры очистке кеша. Это может замедлять процесс импорта товаров. Особенно актуально при работе с большим кол-вом товаров"
+
+msgctxt "Languages::cfpc.no_generate_from_auth"
+msgid "Dont's save cache from logged users"
+msgstr "Не сохранять страницы в кеш от залогиненных пользователей"
+
+msgctxt "Languages::cfpc.disable_for_auth"
+msgid "Disable cache for logged users"
+msgstr "Отключить кеш для залогиненных пользователей"
+
+msgctxt "Languages::cfpc.cache_of_usergroup"
+msgid "Generate cache depending of usergroup"
+msgstr "Генерировать кеш с учетом групп пользователей"
+
+msgctxt "Languages::cfpc.storage_type"
+msgid "Storage type"
+msgstr "Хранение кеша"
+
+msgctxt "Languages::cfpc.redis_server"
+msgid "Redis server"
+msgstr "Redis сервер"
+
+msgctxt "Languages::cfpc.redis_port"
+msgid "Redis port"
+msgstr "Redis порт"
+
+msgctxt "Languages::cfpc.cron_key"
+msgid "Cron key"
+msgstr "Ключ Cron"
+
+msgctxt "Languages::cfpc.cron_key"
+msgid "It will be needed if you will using cron to clear cache"
+msgstr "Используется в ссылке для очистке кеша по расписанию или для вызова из внешних источников"
+
+msgctxt "Languages::_no_page"
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+msgctxt "Languages::csc.cron_setup"
+msgid "Clear cache by Cron"
+msgstr "Очистка кеша по CRON"
+
+msgctxt "Languages::csc.general_info_about_full_page_cache"
+msgid "csc.general_info_about_full_page_cache"
+msgstr "Полностраничное кеширование сайта позволяет существенно снизить нагрузку на сервер и ускорить время ответа сервера. При включенном модуле \"Полностраничное кеширование сайта\" серверу не нужно каждый раз обращаться к базе данных и к различным блокам сайта для генерации страницы, он это делает один раз, после чего следующим посетителям отдает кешированную страницу. Модуль \"Полностраничное кеширование сайта\" имеет интеллектуальную систему очистке кеша при обновлении товара. Так же вы можете задать время актуальности сгенерированного кеша. Когда вы очищаете стандартный кеш - полностраничный кеш также будет полностью очищен.<br/>Не забывайте, что полное кеширование страниц сайта требует дополнительного объема памяти на жестком диске!</b><br>Для точечной очистки кеша на определенный страницах или для просмотра страницы без кеша добавьте в url страницы параметра no_cache (http://site.com/?no_cache)"
+
+msgctxt "Languages::csc.general_info_cron_setup"
+msgid "For full or partial clearing of the \"Full page cache\" use the link with the parameters. If you only need to partially clear the cache, remove the corresponding controller names from the link. Parameter expired you can use to delete expired cache files."
+msgstr "Для полной или частичной очистки \"Полностраничного кеша\" используйте ссылку с параметрами. Если нужна только частичная очистка кеша, удалите из ссылки соответствующие названия контроллеров. Параметр expired используется для очистки неактуальных файлов кеша."
+
+msgctxt "Languages::cfpc_clear__no_page"
+msgid "Clear NOT FOUND cache"
+msgstr "Очистить Кеш Страницы 404"
+
+msgctxt "Languages::cfpc_clear_index"
+msgid "Clear HOMEPAGE cache"
+msgstr "Очистить Кеш Домашней страницы"
+
+msgctxt "Languages::cfpc_clear_companies"
+msgid "Clear COMPANIES cache"
+msgstr "Очистить Кеш страниц Продавцов"
+
+msgctxt "Languages::cfpc_clear_products"
+msgid "Clear PRODUCTS cache"
+msgstr "Очистить Кеш страниц Товаров"
+
+msgctxt "Languages::cfpc_clear_categories"
+msgid "Clear CATEGORIES cache"
+msgstr "Очистить Кеш Категорий"
+
+msgctxt "Languages::cfpc_clear_pages"
+msgid "Clear PAGES cache"
+msgstr "Очистить Кеш Текстовых страниц"
+
+msgctxt "Languages::cfpc_clear_all"
+msgid "Clear ALL Cache"
+msgstr "Удалить весь кеш"
+
+msgctxt "Languages::fpc_exclude_cache"
+msgid "Exclude block from Full page cache"
+msgstr "Исключить блок из полностраничного кеширования"
+
+msgctxt "Languages::cfpc_clear_expired"
+msgid "Clear EXPIRIED cache"
+msgstr "Удалить Истекшие Файлы кеша"
+
+msgctxt "Languages::cfpc_clear_tags"
+msgid "Clear Tags cache"
+msgstr "Очистить Кеш Тегов"
+
+msgctxt "Languages::fpc_deleted_expired_files"
+msgid "We have cleared [count] expired cache files!"
+msgstr "Очищено [count] истекших файлов кеша!"
+
+msgctxt "Languages::fpc_storage"
+msgid "Full page cache"
+msgstr "Полностраничное кеширование"
+
+msgctxt "Languages::privileges.clear_fpc"
+msgid "clear_fpc"
+msgstr "Очистка кеша модуля FPC"
+
+
+
+
+msgctxt "Languages::cfpc.redis"
+msgid "Redis"
+msgstr "Redis"
+
+msgctxt "Languages::cfpc.products"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "Languages::cfpc.categories"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "Languages::cfpc.pages"
+msgid "Pages & Blog"
+msgstr "Страницы и блог"
+
+msgctxt "Languages::cfpc.index"
+msgid "Home page"
+msgstr "Домашняя страница"
+
+msgctxt "Languages::cfpc._no_page"
+msgid "404 page"
+msgstr "Страница 404"
+
+msgctxt "Languages::cfpc.tags"
+msgid "Tags"
+msgstr "Теги"
+
+msgctxt "Languages::cfpc.companies"
+msgid "Companies stores"
+msgstr "Магазины продавцов"
+
+msgctxt "Languages::cfpc.cleare_cache"
+msgid "Don't forget to clear full page cache after layouts changes."
+msgstr "Не забудьте очистить полностраничный кеш после внесения изменений в макетах."
+
+
+msgctxt "Languages::cfpc.cache_of_applied_promotion"
+msgid "Differ cache on applied promotions"
+msgstr "Генерировать кеш с учетом примененных промоакций"

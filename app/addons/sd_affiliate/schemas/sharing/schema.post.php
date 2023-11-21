@@ -1,0 +1,2 @@
+<?php
+ defined('BOOTSTRAP') or die('Access denied'); $schema['affiliate_plans'] = [ 'controller' => 'affiliate_plans', 'mode' => 'update', 'type' => 'tpl_tabs', 'params' => [ 'object_id' => '@plan_id', 'object' => 'affiliate_plans' ], 'table' => [ 'name' => 'affiliate_plans', 'key_field' => 'plan_id', ], 'request_object' => 'affiliate_plan', 'have_owner' => true, ]; return $schema; 

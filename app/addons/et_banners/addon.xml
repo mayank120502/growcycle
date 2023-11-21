@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+  <id>et_banners</id>
+  <version>1.11.4151</version>
+  <priority>4294967294</priority>
+  <position>0</position>
+  <status>active</status>
+  <has_icon>Y</has_icon>
+  <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+  <default_language>en</default_language>
+  <compatibility>
+      <core_version>
+          <min>4.15.1.*</min>
+          <max>4.15.1</max>
+      </core_version>
+      <conflicts>rus_theme_style</conflicts>
+    <dependencies>banners</dependencies>
+    <dependencies>product_reviews</dependencies>
+  </compatibility>
+  <supplier>EnergoThemes</supplier>
+  <supplier_link>https://www.energothemes.com</supplier_link>
+  <authors>
+    <author>
+      <name>EnergoThemes</name>
+      <email>office@energothemes.com</email>
+      <url>https://www.energothemes.com</url>
+    </author>
+  </authors>
+   <functions>
+      <item for="install">fn_et_extended_banners_pro_install</item>
+      <item for="uninstall">fn_et_extended_banners_pro_uninstall</item>
+  </functions> 
+</addon>

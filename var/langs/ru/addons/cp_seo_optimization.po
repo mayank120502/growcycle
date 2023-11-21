@@ -1,0 +1,310 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::cp_seo_optimization"
+msgid "Cart-Power: SEO optimization"
+msgstr "Cart-Power: SEO оптимизация"
+
+msgctxt "Addons::description::cp_seo_optimization"
+msgid "Optimizing your store for the latest SEO requirements. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "Оптимизация вашего магазина согласно актуальным требованиям SEO. Разработано <a target=\"_blank\" href=\"https://cart-power.ru/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_seo_indexing_management"
+msgid "Value for the robots meta tag"
+msgstr "Значение для мета-тега robots"
+
+msgctxt "Languages::privileges.view_cp_seo_opt"
+msgid "View SEO names"
+msgstr "Посмотреть SEO имена"
+
+msgctxt "Languages::privileges.manage_cp_seo_opt"
+msgid "Manage SEO names"
+msgstr "Управлять SEO именами"
+
+msgctxt "Languages::privilege_groups.cp_seo_optimization"
+msgid "CP: SEO optimization"
+msgstr "CP: SEO оптимизация"
+
+msgctxt "Languages::cp_seo_index_filters_result"
+msgid "Index filter results"
+msgstr "Индексировать результаты фильтрации"
+
+msgctxt "Languages::cp_seo_add_rule"
+msgid "Add rule"
+msgstr "Добавить правило"
+
+msgctxt "Languages::cp_seo_index_rules"
+msgid "Indexation rules"
+msgstr "Правила индексации"
+
+msgctxt "Languages::cp_seo_apply_addon"
+msgid "Automatic Indexing Management"
+msgstr "Автоматическое управление индексированием"
+
+msgctxt "Languages::cp_seo_apply_addon_descr"
+msgid "If enabled, indexing restriction will be set according to the add-on settings, the value of the robots meta tag will be used from the object settings"
+msgstr "Если включено, запрет индексации будет устанавливаться согласно настройкам модуля, значение мета-тега robots будет использовано из настроек объекта"
+
+msgctxt "Languages::cp_seo_indexing_management_descr"
+msgid "Set \"Default\" for taking this value from the add-on settings"
+msgstr "Установите \"По умолчанию\", чтобы взять это значение из настроек модуля"
+
+msgctxt "Languages::cp_seo_indexing_management_d"
+msgid "default"
+msgstr "по умолчанию"
+
+msgctxt "Languages::cp_seo_indexing_management_n"
+msgid "not restricted"
+msgstr "нет ограничений"
+
+msgctxt "Languages::cp_seo_indexing_management_f"
+msgid "noindex,follow"
+msgstr "noindex,follow"
+
+msgctxt "Languages::cp_seo_indexing_management_y"
+msgid "noindex,nofollow"
+msgstr "noindex,nofollow"
+
+msgctxt "Languages::cp_seo_indexing_management_i"
+msgid "index,nofollow"
+msgstr "index,nofollow"
+
+msgctxt "SettingsSections::cp_seo_optimization::general"
+msgid "General"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::cp_seo_optimization::licensekey"
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+msgctxt "SettingsTooltips::cp_seo_optimization::licensekey"
+msgid "You can find it on your order details page"
+msgstr "Смотрите на детальной странице заказа"
+
+msgctxt "SettingsOptions::cp_seo_optimization::hide_description"
+msgid "Hide descriptions of pagination pages"
+msgstr "Скрывать описание страниц пагинации"
+
+msgctxt "SettingsSections::cp_seo_optimization::links"
+msgid "URL building"
+msgstr "Построение URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::links_products"
+msgid "Products"
+msgstr "Товары"
+
+msgctxt "SettingsOptions::cp_seo_optimization::links_categories"
+msgid "Categories"
+msgstr "Категории"
+
+msgctxt "SettingsOptions::cp_seo_optimization::use_product_prefix"
+msgid "Use prefix for product URL"
+msgstr "Использовать префикс для URL товаров"
+
+msgctxt "SettingsOptions::cp_seo_optimization::product_prefix"
+msgid "Prefix for product URL"
+msgstr "Префикс для URL товаров"
+
+msgctxt "SettingsOptions::cp_seo_optimization::product_prefix_301"
+msgid "Create 301 redirects on URL change"
+msgstr "Создать 301-редиректы при изменении URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::only_main_category"
+msgid "Only the main category in the URL of products"
+msgstr "Только основная категория в URL товаров"
+
+msgctxt "SettingsOptions::cp_seo_optimization::use_category_prefix"
+msgid "Use prefix for category URL"
+msgstr "Использовать префикс для URL категорий"
+
+msgctxt "SettingsOptions::cp_seo_optimization::category_prefix"
+msgid "Prefix for category URL"
+msgstr "Префикс для URL категорий"
+
+msgctxt "SettingsOptions::cp_seo_optimization::category_prefix_301"
+msgid "Create 301 redirects on prefix change"
+msgstr "Создать 301-редиректы при изменении префикса"
+
+msgctxt "SettingsOptions::cp_seo_optimization::url_slash"
+msgid "Slash at the end of URL"
+msgstr "Слэш в конце URL"
+
+msgctxt "SettingsVariants::cp_seo_optimization::url_slash::none"
+msgid "None"
+msgstr "Не выбрано"
+
+msgctxt "SettingsVariants::cp_seo_optimization::url_slash::add"
+msgid "Add /"
+msgstr "Добавлять /"
+
+msgctxt "SettingsVariants::cp_seo_optimization::url_slash::remove"
+msgid "Remove /"
+msgstr "Убирать /"
+
+msgctxt "SettingsSections::cp_seo_optimization::ext_links"
+msgid "External links"
+msgstr "Внешние ссылки"
+
+msgctxt "SettingsOptions::cp_seo_optimization::ext_links_nofollow"
+msgid "Add nofollow attribute for external links"
+msgstr "Добавлять nofollow атрибут для внешних ссылок"
+
+msgctxt "SettingsOptions::cp_seo_optimization::ext_links_new_window"
+msgid "Open external links in a new window"
+msgstr "Открывать внешние ссылки в новом окне"
+
+msgctxt "SettingsSections::cp_seo_optimization::indexing"
+msgid "Indexing"
+msgstr "Индексация"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_header"
+msgid "Exclusion from indexing"
+msgstr "Исключение из индексации"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_robots"
+msgid "The value in the robots meta tag for excluded pages"
+msgstr "Значение в мета-теге robots для исключенных страниц"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_params"
+msgid "Exclude params from indexing"
+msgstr "Параметры, с которыми страницы будут исключены из индексации"
+
+msgctxt "SettingsTooltips::cp_seo_optimization::noindex_params"
+msgid "Add the page parameter value, separated by commas. For example: sort_by,items_per_page"
+msgstr "Добавьте значение параметров страницы через запятую. Например: sort_by,items_per_page"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_hidden"
+msgid "Exclude from indexing hidden"
+msgstr "Исключить из индексации скрытые"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_product"
+msgid "Exclude products from indexing"
+msgstr "Исключить из индексации товары"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_without_products"
+msgid "Exclude from indexing entities without products"
+msgstr "Исключить из индексации сущности без товаров"
+
+msgctxt "SettingsOptions::cp_seo_optimization::html_minify"
+msgid "Minify HTML"
+msgstr "Минификация HTML"
+
+msgctxt "SettingsSections::cp_seo_optimization::last_modified"
+msgid "Last-Modified"
+msgstr "Last-Modified"
+
+msgctxt "SettingsOptions::cp_seo_optimization::use_lastmod"
+msgid "Use Last-Modified HTTP header for"
+msgstr "Использовать HTTP-заголовок Last-Modified для"
+
+msgctxt "SettingsOptions::cp_seo_optimization::lastmod_for"
+msgid "Give the Last-Modified HTTP header"
+msgstr "Отдавать HTTP-заголовок Last-Modified"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_for::all"
+msgid "All"
+msgstr "Всем"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_for::robots"
+msgid "Robots"
+msgstr "Роботам"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_for::users"
+msgid "Users"
+msgstr "Пользователям"
+
+msgctxt "SettingsOptions::cp_seo_optimization::lastmod_time"
+msgid "Time to be given"
+msgstr "Время, которое нужно отдавать"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_time::start_day"
+msgid "Start of the day"
+msgstr "Начало дня"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_time::update"
+msgid "Object update"
+msgstr "Время изменение объекта"
+
+msgctxt "SettingsOptions::cp_seo_optimization::redirect_404"
+msgid "Redirect from a 404 error page"
+msgstr "Перенаправление со страницы с 404 ошибкой"
+
+msgctxt "SettingsOptions::cp_seo_optimization::exclude_m_slashes"
+msgid "Excluding unnecessary slashes in the URL"
+msgstr "Исключение лишних слэшей в URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::first_page_canonical"
+msgid "Use canonical on the first page of pagination"
+msgstr "Использовать каноникал на первую страницу при постраничном отображении"
+
+msgctxt "Languages::cp_seo_optimization"
+msgid "SEO optimization"
+msgstr "SEO оптимизация"
+
+msgctxt "Languages::cp_seo_optimization_menu_description"
+msgid "Manage store SEO optimization"
+msgstr "Управление SEO оптимизацией магазина"
+
+msgctxt "Languages::cp_seo_names"
+msgid "SEO names"
+msgstr "SEO имена"
+
+msgctxt "Languages::cp_seo_names_editor"
+msgid "SEO name editor"
+msgstr "Редактор SEO имен"
+
+msgctxt "Languages::cp_so_parent_path"
+msgid "Parent path"
+msgstr "Родительский путь"
+
+msgctxt "Languages::cp_so_lang_code"
+msgid "Lang code"
+msgstr "Код языка"
+
+msgctxt "Languages::cp_seo_name_exists_text"
+msgid "This SEO name already exists ([name])."
+msgstr "Такое SEO-имя уже существует ([name])."
+
+msgctxt "Languages::cp_so_brands"
+msgid "Brands"
+msgstr "Бренды"
+
+msgctxt "Languages::cp_so_without_price"
+msgid "Without prices"
+msgstr "Без цен"
+
+msgctxt "Languages::cp_so_without_stock"
+msgid "Without availability"
+msgstr "Без наличия"
+
+msgctxt "Languages::cp_seo_redirects"
+msgid "301 redirects"
+msgstr "301-редиректы"
+
+msgctxt "Languages::cp_seo_optimization_title"
+msgid "CP: SEO optimization"
+msgstr "CP: SEO оптимизация"
+
+msgctxt "Languages::cp_seo_noindex"
+msgid "Do not index"
+msgstr "Не индексировать"
+
+msgctxt "Languages::cp_seo_canonical_type"
+msgid "Canonical type"
+msgstr "Тип canonical"
+
+msgctxt "Languages::cp_seo_canonical_object"
+msgid "Canonical object"
+msgstr "Объект canonical"
+
+msgctxt "Languages::cp_seo_optimization_use"
+msgid "Use SEO optimization settings"
+msgstr "Использовать настройки SEO-оптимизации"
+
+msgctxt "Languages::cp_so_canonical_other_text"
+msgid "Add a dispatch parameter or link to the entire page"
+msgstr "Добавьте параметр dispatch или ссылку на страницу целиком"
+

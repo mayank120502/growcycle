@@ -1,0 +1,1 @@
+{style src="addons/et_quick_info/styles.less"}

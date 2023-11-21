@@ -1,0 +1,310 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_seo_optimization"
+msgid "Cart-Power: SEO optimization"
+msgstr "Cart-Power: SEO optimization"
+
+msgctxt "Addons::description::cp_seo_optimization"
+msgid "Optimizing your store for the latest SEO requirements. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "Optimizing your store for the latest SEO requirements. Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_seo_indexing_management"
+msgid "Value for the robots meta tag"
+msgstr "Value for the robots meta tag"
+
+msgctxt "Languages::privileges.view_cp_seo_opt"
+msgid "View SEO names"
+msgstr "View SEO names"
+
+msgctxt "Languages::privileges.manage_cp_seo_opt"
+msgid "Manage SEO names"
+msgstr "Manage SEO names"
+
+msgctxt "Languages::privilege_groups.cp_seo_optimization"
+msgid "CP: SEO optimization"
+msgstr "CP: SEO optimization"
+
+msgctxt "Languages::cp_seo_index_filters_result"
+msgid "Index filter results"
+msgstr "Index filter results"
+
+msgctxt "Languages::cp_seo_add_rule"
+msgid "Add rule"
+msgstr "Add rule"
+
+msgctxt "Languages::cp_seo_index_rules"
+msgid "Indexation rules"
+msgstr "Indexation rules"
+
+msgctxt "Languages::cp_seo_apply_addon"
+msgid "Automatic Indexing Management"
+msgstr "Automatic Indexing Management"
+
+msgctxt "Languages::cp_seo_apply_addon_descr"
+msgid "If enabled, indexing restriction will be set according to the add-on settings, the value of the robots meta tag will be used from the object settings"
+msgstr "If enabled, indexing restriction will be set according to the add-on settings, the value of the robots meta tag will be used from the object settings"
+
+msgctxt "Languages::cp_seo_indexing_management_descr"
+msgid "Set \"Default\" for taking this value from the add-on settings"
+msgstr "Set \"Default\" for taking this value from the add-on settings"
+
+msgctxt "Languages::cp_seo_indexing_management_d"
+msgid "default"
+msgstr "default"
+
+msgctxt "Languages::cp_seo_indexing_management_n"
+msgid "not restricted"
+msgstr "not restricted"
+
+msgctxt "Languages::cp_seo_indexing_management_f"
+msgid "noindex,follow"
+msgstr "noindex,follow"
+
+msgctxt "Languages::cp_seo_indexing_management_y"
+msgid "noindex,nofollow"
+msgstr "noindex,nofollow"
+
+msgctxt "Languages::cp_seo_indexing_management_i"
+msgid "index,nofollow"
+msgstr "index,nofollow"
+
+msgctxt "SettingsSections::cp_seo_optimization::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_seo_optimization::licensekey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsTooltips::cp_seo_optimization::licensekey"
+msgid "You can find it on your order details page"
+msgstr "You can find it on your order details page"
+
+msgctxt "SettingsOptions::cp_seo_optimization::hide_description"
+msgid "Hide descriptions of pagination pages"
+msgstr "Hide descriptions of pagination pages"
+
+msgctxt "SettingsSections::cp_seo_optimization::links"
+msgid "URL building"
+msgstr "URL building"
+
+msgctxt "SettingsOptions::cp_seo_optimization::links_products"
+msgid "Products"
+msgstr "Products"
+
+msgctxt "SettingsOptions::cp_seo_optimization::links_categories"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "SettingsOptions::cp_seo_optimization::use_product_prefix"
+msgid "Use prefix for product URL"
+msgstr "Use prefix for product URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::product_prefix"
+msgid "Prefix for product URL"
+msgstr "Prefix for product URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::product_prefix_301"
+msgid "Create 301 redirects on URL change"
+msgstr "Create 301 redirects on URL change"
+
+msgctxt "SettingsOptions::cp_seo_optimization::only_main_category"
+msgid "Only the main category in the URL of products"
+msgstr "Only the main category in the URL of products"
+
+msgctxt "SettingsOptions::cp_seo_optimization::use_category_prefix"
+msgid "Use prefix for category URL"
+msgstr "Use prefix for category URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::category_prefix"
+msgid "Prefix for category URL"
+msgstr "Prefix for category URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::category_prefix_301"
+msgid "Create 301 redirects on prefix change"
+msgstr "Create 301 redirects on prefix change"
+
+msgctxt "SettingsOptions::cp_seo_optimization::url_slash"
+msgid "Slash at the end of URL"
+msgstr "Slash at the end of URL"
+
+msgctxt "SettingsVariants::cp_seo_optimization::url_slash::none"
+msgid "None"
+msgstr "None"
+
+msgctxt "SettingsVariants::cp_seo_optimization::url_slash::add"
+msgid "Add /"
+msgstr "Add /"
+
+msgctxt "SettingsVariants::cp_seo_optimization::url_slash::remove"
+msgid "Remove /"
+msgstr "Remove /"
+
+msgctxt "SettingsSections::cp_seo_optimization::ext_links"
+msgid "External links"
+msgstr "External links"
+
+msgctxt "SettingsOptions::cp_seo_optimization::ext_links_nofollow"
+msgid "Add nofollow attribute for external links"
+msgstr "Add nofollow attribute for external links"
+
+msgctxt "SettingsOptions::cp_seo_optimization::ext_links_new_window"
+msgid "Open external links in a new window"
+msgstr "Open external links in a new window"
+
+msgctxt "SettingsSections::cp_seo_optimization::indexing"
+msgid "Indexing"
+msgstr "Indexing"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_header"
+msgid "Exclusion from indexing"
+msgstr "Exclusion from indexing"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_robots"
+msgid "The value in the robots meta tag for excluded pages"
+msgstr "The value in the robots meta tag for excluded pages"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_params"
+msgid "Exclude params from indexing"
+msgstr "Exclude params from indexing"
+
+msgctxt "SettingsTooltips::cp_seo_optimization::noindex_params"
+msgid "Add the page parameter value, separated by commas. For example: sort_by,items_per_page"
+msgstr "Add the page parameter value, separated by commas. For example: sort_by,items_per_page"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_hidden"
+msgid "Exclude from indexing hidden"
+msgstr "Exclude from indexing hidden"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_product"
+msgid "Exclude products from indexing"
+msgstr "Exclude products from indexing"
+
+msgctxt "SettingsOptions::cp_seo_optimization::noindex_without_products"
+msgid "Exclude from indexing entities without products"
+msgstr "Exclude from indexing entities without products"
+
+msgctxt "SettingsOptions::cp_seo_optimization::html_minify"
+msgid "Minify HTML"
+msgstr "Minify HTML"
+
+msgctxt "SettingsSections::cp_seo_optimization::last_modified"
+msgid "Last-Modified"
+msgstr "Last-Modified"
+
+msgctxt "SettingsOptions::cp_seo_optimization::use_lastmod"
+msgid "Use Last-Modified HTTP header for"
+msgstr "Use Last-Modified HTTP header for"
+
+msgctxt "SettingsOptions::cp_seo_optimization::lastmod_for"
+msgid "Give the Last-Modified HTTP header"
+msgstr "Give the Last-Modified HTTP header"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_for::all"
+msgid "All"
+msgstr "All"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_for::robots"
+msgid "Robots"
+msgstr "Robots"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_for::users"
+msgid "Users"
+msgstr "Users"
+
+msgctxt "SettingsOptions::cp_seo_optimization::lastmod_time"
+msgid "Time to be given"
+msgstr "Time to be given"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_time::start_day"
+msgid "Start of the day"
+msgstr "Start of the day"
+
+msgctxt "SettingsVariants::cp_seo_optimization::lastmod_time::update"
+msgid "Object update"
+msgstr "Object update"
+
+msgctxt "SettingsOptions::cp_seo_optimization::redirect_404"
+msgid "Redirect from a 404 error page"
+msgstr "Redirect from a 404 error page"
+
+msgctxt "SettingsOptions::cp_seo_optimization::exclude_m_slashes"
+msgid "Excluding unnecessary slashes in the URL"
+msgstr "Excluding unnecessary slashes in the URL"
+
+msgctxt "SettingsOptions::cp_seo_optimization::first_page_canonical"
+msgid "Use canonical on the first page of pagination"
+msgstr "Use canonical on the first page of pagination"
+
+msgctxt "Languages::cp_seo_optimization"
+msgid "SEO optimization"
+msgstr "SEO optimization"
+
+msgctxt "Languages::cp_seo_optimization_menu_description"
+msgid "Manage store SEO optimization"
+msgstr "Manage store SEO optimization"
+
+msgctxt "Languages::cp_seo_names"
+msgid "SEO names"
+msgstr "SEO names"
+
+msgctxt "Languages::cp_seo_names_editor"
+msgid "SEO name editor"
+msgstr "SEO name editor"
+
+msgctxt "Languages::cp_so_parent_path"
+msgid "Parent path"
+msgstr "Parent path"
+
+msgctxt "Languages::cp_so_lang_code"
+msgid "Lang code"
+msgstr "Lang code"
+
+msgctxt "Languages::cp_seo_name_exists_text"
+msgid "This SEO name already exists ([name])."
+msgstr "This SEO name already exists ([name])."
+
+msgctxt "Languages::cp_so_brands"
+msgid "Brands"
+msgstr "Brands"
+
+msgctxt "Languages::cp_so_without_price"
+msgid "Without prices"
+msgstr "Without prices"
+
+msgctxt "Languages::cp_so_without_stock"
+msgid "Without availability"
+msgstr "Without availability"
+
+msgctxt "Languages::cp_seo_redirects"
+msgid "301 redirects"
+msgstr "301 redirects"
+
+msgctxt "Languages::cp_seo_optimization_title"
+msgid "CP: SEO optimization"
+msgstr "CP: SEO optimization"
+
+msgctxt "Languages::cp_seo_noindex"
+msgid "Do not index"
+msgstr "Do not index"
+
+msgctxt "Languages::cp_seo_canonical_type"
+msgid "Canonical type"
+msgstr "Canonical type"
+
+msgctxt "Languages::cp_seo_canonical_object"
+msgid "Canonical object"
+msgstr "Canonical object"
+
+msgctxt "Languages::cp_seo_optimization_use"
+msgid "Use SEO optimization settings"
+msgstr "Use SEO optimization settings"
+
+msgctxt "Languages::cp_so_canonical_other_text"
+msgid "Add a dispatch parameter or link to the entire page"
+msgstr "Add a dispatch parameter or link to the entire page"
+

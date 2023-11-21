@@ -1,0 +1,1 @@
+{* This file is empty because the theme is not activated. Please install and activate the EnergoThemes - License addon found in the installation files according to the installation guide*}

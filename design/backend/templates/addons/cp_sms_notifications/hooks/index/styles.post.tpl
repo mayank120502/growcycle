@@ -1,0 +1,1 @@
+{style src="addons/cp_sms_notifications/styles.less"}

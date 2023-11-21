@@ -1,0 +1,1 @@
+{style src="addons/cp_validity_correction/styles.less"}

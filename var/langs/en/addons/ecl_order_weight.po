@@ -1,0 +1,37 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ecl_order_weight"
+msgid "[eCom Labs] Order Weight"
+msgstr "[eCom Labs] Order Weight"
+
+msgctxt "Addons::description::ecl_order_weight"
+msgid "Allows to show product and order weight"
+msgstr "Allows to show product and order weight"
+
+msgctxt "SettingsSections::ecl_order_weight::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::ecl_order_weight::display_on_checkout"
+msgid "Display weight on checkout pages"
+msgstr "Display weight on checkout pages"
+
+msgctxt "SettingsOptions::ecl_order_weight::display_on_order"
+msgid "Display weight on order details page"
+msgstr "Display weight on order details page"
+
+msgctxt "SettingsOptions::ecl_order_weight::display_on_invoices"
+msgid "Display weight in invoices"
+msgstr "Display weight in invoices"
+
+msgctxt "SettingsOptions::ecl_order_weight::display_on_shipments"
+msgid "Display weight on shipments"
+msgstr "Display weight on shipments"
+
+msgctxt "SettingsOptions::ecl_order_weight::display_product_weight"
+msgid "Display weight on product details page"
+msgstr "Display weight on product details page"

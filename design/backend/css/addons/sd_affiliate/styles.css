@@ -1,0 +1,68 @@
+#content_decline_selected {
+    height: 250px!important;
+}
+
+div[id^="content_decline_"] {
+    height: 250px !important;
+}
+
+.content_affiliate_information {
+    display: inline-table;
+}
+
+.partners-tree-table-width {
+    width: 100%;
+}
+
+.partners-tree-table-profile {
+    padding-left: 14px;
+}
+
+.general-stats-right-columns,
+.approve_commissions-columns,
+.plan-update-valid-coupon {
+    width: 15%;
+}
+
+.general-stats-action-column {
+    width: 40%;
+}
+
+.plan-update-category,
+.plan-update-coupon-name {
+    width: 50%;
+}
+
+.approve_commissions-check-items,
+.plan-update-check-items {
+    width: 1%;
+}
+
+.plan-update-tools {
+    width: 10%;
+}
+
+.plan-update-category-commission,
+.plan-update-use-coupon-commissions-picker,
+.plan-update-valid-coupon-picker,
+.plan-update-product-commissions {
+    width: 20%;
+}
+
+.plan-update-coupon-name-picker {
+    width: 55%;
+}
+
+.plan-update-coupon-name-td,
+.plan-update-product-name {
+    width: 60%;
+}
+
+.affiliate-banner {
+    margin-left: 180px;
+}
+
+.sd-affiliates-payout-table {
+    table-layout: fixed;
+    word-break: break-word;
+}

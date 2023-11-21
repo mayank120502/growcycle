@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_affiliate</id>
+    <version>4.9.29</version>
+    <priority>700</priority>
+    <position>0</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier>Simtech Development</supplier>
+    <supplier_link>http://www.simtechdev.com</supplier_link>
+    <authors>
+        <author>
+            <name>Simtech Development</name>
+            <email>sales@simtechdev.com</email>
+            <url>http://www.simtechdev.com</url>
+        </author>
+    </authors>
+    <compatibility>
+        <core_version>
+            <min>4.5.0</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+        <php_version>
+            <min>7.1</min>
+        </php_version>
+    </compatibility>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="general_settings_header">
+                        <type>header</type>
+                    </item>
+                    <item id="payment_period">
+                        <type>selectbox</type>
+                        <default_value>1w</default_value>
+                        <variants>
+                            <item id="1w">
+                            </item>
+                            <item id="2w">
+                            </item>
+                            <item id="1m">
+                            </item>
+                        </variants>
+                    </item>
+                    <item id="affiliates_usergroup">
+                        <type>selectbox</type>
+                    </item>
+                    <item id="auto_assign_affiliates_usergroup">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="number_last_periods">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                    </item>
+                    <item id="time_uniq_banner">
+                        <type>input</type>
+                        <default_value>10</default_value>
+                    </item>
+                    <item id="allow_all_customers_be_affiliates">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="no_rewards_registered_users">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="show_only_non_zero_cost_actions">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="automatic_approval_commissions">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="automatic_approval_affiliates">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="plan_auto_set">
+                       <type>checkbox</type>
+                       <default_value>N</default_value>
+                   </item>
+                    <item id="successful_order_statuses">
+                        <type>multiple checkboxes</type>
+                        <default_value>C=Y</default_value>
+                    </item>
+                    <item id="custom_affiliate_parameter">
+                        <type>input</type>
+                    </item>
+                    <item id="notify_admin_about_new_affiliate">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_vendor_to_affiliate" edition_type="MVE:ROOT">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="show_only_approved_comissions">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="show_attracted_users_ip">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="aff_banner_multilang">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                </items>
+            </section>
+            <section id="text_banner">
+                <items>
+                    <item id="elm_text_banner">
+                        <type>header</type>
+                        <handler/>
+                        <variants/>
+                    </item>
+                    <item id="out_line_color">
+                        <type>input</type>
+                        <default_value>#DEDEDE</default_value>
+                        <variants/>
+                    </item>
+                    <item id="title_text_color">
+                        <type>input</type>
+                        <default_value>#0088CC</default_value>
+                        <variants/>
+                    </item>
+                    <item id="text_color">
+                        <type>input</type>
+                        <default_value>#333333</default_value>
+                        <variants/>
+                    </item>
+                    <item id="text_background_color">
+                        <type>input</type>
+                        <default_value>#FFFFFF</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+            <section id="discount_coupons">
+                <items>
+                    <item id="elm_discount_coupons">
+                        <type>header</type>
+                    </item>
+                    <item id="use_multiple_promotions">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="use_affiliate_id" parent_id="use_multiple_promotions">
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="coupon_prefix_delim" parent_id="use_multiple_promotions">
+                        <type>input</type>
+                        <default_value>-</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:affiliate_payouts;</item>
+        <item>DROP TABLE IF EXISTS ?:affiliate_plans;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_action_links;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_banners;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_banner_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_banner_images;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_group_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_groups;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_partner_actions;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_partner_profiles;</item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:affiliate_payouts (
+                payout_id mediumint(8) unsigned NOT NULL auto_increment,
+                partner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                amount decimal(12,2) NOT NULL DEFAULT '0.00',
+                date int(11) unsigned NOT NULL DEFAULT '0',
+                status char(1) NOT NULL DEFAULT 'O',
+                company_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (payout_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:affiliate_plans (
+                plan_id mediumint(8) unsigned NOT NULL auto_increment,
+                payout_types text NOT NULL,
+                commissions varchar(255) NOT NULL DEFAULT '',
+                min_payment decimal(12,2) NOT NULL DEFAULT '0.00',
+                product_ids text NOT NULL,
+                company_ids text NOT NULL,
+                category_ids text NOT NULL,
+                promotion_ids text NOT NULL,
+                cookie_expiration int(11) unsigned NOT NULL DEFAULT '0',
+                method_based_selling_price char(1) NOT NULL DEFAULT 'N',
+                use_coupon_commission char(1) NOT NULL DEFAULT 'N',
+                status char(1) NOT NULL DEFAULT 'A',
+                company_id int(11) unsigned NOT NULL DEFAULT '0',
+                plan_type char(1) NOT NULL DEFAULT 'P',
+                is_default char(1) NOT NULL DEFAULT 'N',
+                PRIMARY KEY (plan_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_action_links (
+                action_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                object_data varchar(255) NOT NULL DEFAULT '',
+                object_type char(1) NOT NULL DEFAULT '',
+                PRIMARY KEY  (action_id,object_type)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_affiliate', 'Y', 'affiliate');</item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_banners (
+                banner_id mediumint(8) unsigned NOT NULL auto_increment,
+                width int(4) unsigned NOT NULL DEFAULT '0',
+                height int(4) unsigned NOT NULL DEFAULT '0',
+                type char(1) NOT NULL DEFAULT 'T',
+                link_to char(1) NOT NULL DEFAULT 'U',
+                data varchar(255) NOT NULL DEFAULT '',
+                show_title char(1) NOT NULL DEFAULT 'Y',
+                text_location char(1) NOT NULL DEFAULT 'B',
+                new_window char(1) NOT NULL DEFAULT 'N',
+                to_cart char(1) NOT NULL DEFAULT 'N',
+                to_price char(1) NOT NULL DEFAULT 'N',
+                show_url char(1) NOT NULL DEFAULT 'N',
+                status char(1) NOT NULL DEFAULT 'A',
+                company_id int(11) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (banner_id),
+                KEY type_linkto (type,link_to)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_banner_descriptions (
+                banner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                title varchar(64) NOT NULL DEFAULT '',
+                content varchar(255) NOT NULL DEFAULT '',
+                alt varchar(64) NOT NULL DEFAULT '',
+                lang_code char(2) NOT NULL DEFAULT '',
+                PRIMARY KEY (banner_id,lang_code)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_banner_images (
+            banner_image_id mediumint(8) unsigned NOT NULL auto_increment,
+            banner_id mediumint(8) unsigned NOT NULL default 0,
+            lang_code char(2) NOT NULL default '',
+            PRIMARY KEY  (banner_image_id),
+            UNIQUE KEY  banner (banner_id,lang_code)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_group_descriptions (
+                group_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                name char(64) NOT NULL DEFAULT '',
+                lang_code char(2) NOT NULL DEFAULT '',
+                PRIMARY KEY (group_id,lang_code)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_groups (
+                group_id mediumint(8) unsigned NOT NULL auto_increment,
+                link_to char(1) NOT NULL DEFAULT 'U',
+                data char(255) NOT NULL DEFAULT '',
+                status char(1) NOT NULL DEFAULT 'A',
+                company_id int(11) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (group_id),
+                KEY link_to (link_to)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_partner_actions (
+                action_id mediumint(8) unsigned NOT NULL auto_increment,
+                banner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                partner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                plan_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                customer_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                date int(11) unsigned NOT NULL DEFAULT '0',
+                ip varchar(255) NOT NULL DEFAULT '',
+                action varchar(32) NOT NULL DEFAULT '',
+                amount decimal(12,2) NOT NULL DEFAULT '0.00',
+                approved char(1) NOT NULL DEFAULT 'N',
+                payout_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                company_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (action_id),
+                KEY parnerid_approved_date_payoutid (partner_id,approved,date,payout_id,amount),
+                KEY action_date_amount_approved_payoutid (action,date,amount,approved,payout_id),
+                KEY data_approved_payoutid (approved,payout_id),
+                KEY amount (amount),
+                KEY partnerid_date (partner_id,date),
+                KEY payout_id (payout_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_partner_profiles (
+                user_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                approved char(1) NOT NULL DEFAULT 'N',
+                plan_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                balance decimal(12,2) NOT NULL DEFAULT '0.00',
+                referrer_partner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                custom_aff_parameter varchar(255) NOT NULL DEFAULT '',
+                coupon_code varchar(255) NOT NULL DEFAULT '',
+                PRIMARY KEY (user_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_customer_actions (
+                action_id mediumint(8) unsigned NOT NULL auto_increment,
+                banner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                partner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                plan_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                customer_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                date int(11) unsigned NOT NULL DEFAULT '0',
+                ip varchar(255) NOT NULL DEFAULT '',
+                action varchar(32) NOT NULL DEFAULT '',
+                amount decimal(12,2) NOT NULL DEFAULT '0.00',
+                approved char(1) NOT NULL DEFAULT 'N',
+                payout_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                company_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (action_id),
+                KEY parnerid_approved_date_payoutid (partner_id,approved,date,payout_id,amount),
+                KEY action_date_amount_approved_payoutid (action,date,amount,approved,payout_id),
+                KEY data_approved_payoutid (approved,payout_id),
+                KEY amount (amount),
+                KEY partnerid_date (partner_id,date),
+                KEY payout_id (payout_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_customer_payouts (
+                payout_id mediumint(8) unsigned NOT NULL auto_increment,
+                partner_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                amount decimal(12,2) NOT NULL DEFAULT '0.00',
+                date int(11) unsigned NOT NULL DEFAULT '0',
+                status char(1) NOT NULL DEFAULT 'O',
+                company_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                PRIMARY KEY (payout_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE IF NOT EXISTS ?:aff_customer_action_links (
+                action_id mediumint(8) unsigned NOT NULL DEFAULT '0',
+                object_data varchar(255) NOT NULL DEFAULT '',
+                object_type char(1) NOT NULL DEFAULT '',
+                PRIMARY KEY (action_id,object_type)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="install">
+            ALTER TABLE ?:users
+                ADD partner_id mediumint(8) unsigned NOT NULL DEFAULT '0';
+        </item>
+        <item for="install">
+            ALTER TABLE ?:bm_layouts ADD show_to_affiliate CHAR(1) NOT NULL DEFAULT 'N';
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:users
+                DROP partner_id;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:bm_layouts DROP show_to_affiliate;
+        </item>
+        <item editions="MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_affiliate', 'Y', 'addons');</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:affiliate_payouts;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:affiliate_plans;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_action_links;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_banners;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_banner_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_banner_images;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_group_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_groups;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_partner_actions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_partner_profiles;</item>
+        <item for="uninstall">DELETE FROM ?:common_descriptions WHERE object_holder = 'affiliate_plans';</item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_affiliate'</item>
+    </queries>
+    <email_templates type="file">resources/email_templates.xml</email_templates>
+    <functions>
+        <item for="install">fn_transfer_old_affiliates_install</item>
+        <item for="install">fn_update_partner_profile_fields_install</item>
+        <item for="install">fn_sd_affiliate_create_default_plan_for_customers</item>
+        <item for="uninstall">fn_sd_affiliate_remove_template</item>
+    </functions>
+<marketplace_product_id>416</marketplace_product_id><marketplace_license_number>AFF-JC61-3Q28-8515-GC51</marketplace_license_number></addon>

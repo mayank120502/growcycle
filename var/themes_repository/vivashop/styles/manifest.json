@@ -1,0 +1,25 @@
+{
+	"default_style": "Style01",
+	"default": {
+		"Style01": true,
+		"Style02": true,
+		"Style03": true,
+		"Style04": true,
+		"Style05": true,
+		"Style06": true,
+		"Style07": true,
+		"Style08": true,
+		"Style09": true,
+		"Style10": true,
+		"Style11": true,
+		"Style12": true,
+		"Style13": true,
+		"Style14": true,
+		"Style15": true,
+		"Style16": true,
+		"Style17": true,
+		"Style18": true,
+		"Style19": true,
+		"Style20": true
+	}
+}

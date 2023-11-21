@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>lw_age_verification</id>
+    <version>1.4</version>
+    <priority>19000</priority>
+    <position>2200</position>
+	<status>disabled</status>
+	<default_language>en</default_language>
+	<supplier>LinkedWeb</supplier>
+	<supplier_link>https://www.linkedweb.gr</supplier_link>	
+    <settings edition_type="ROOT,ULT:VENDOR">
+		<sections>
+			<section id="general">
+				<items>
+					<item id="marketplace_license_number">
+                        <type>input</type>
+                    </item>
+				</items>
+			</section>
+		</sections>
+	</settings>	
+<marketplace_product_id>3283</marketplace_product_id><marketplace_license_number>LW-AVP-22V5-U986-143T-5K15</marketplace_license_number></addon>

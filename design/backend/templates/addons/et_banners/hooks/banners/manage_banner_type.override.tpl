@@ -1,0 +1,1 @@
+{if $banner.type == "G"}{__("graphic_banner")}{elseif $banner.type == "E"}{__("et_banner")}{else}{__("text_banner")}{/if}

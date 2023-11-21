@@ -1,0 +1,225 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_new_buying_types"
+msgid "Cart-Power: New product buying types"
+msgstr "Cart-Power: New product buying types"
+
+msgctxt "Addons::description::cp_new_buying_types"
+msgid "Adds new product buying types: \"Contact Supplier / Send Inquiry\", \"Start Order\". Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds new product buying types: \"Contact Supplier / Send Inquiry\", \"Start Order\". Developed by <a target=\"_blank\" href=\"https://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_new_buying_types::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_new_buying_types::buying_types_for_all"
+msgid "Default buying types"
+msgstr "Default buying types"
+
+msgctxt "SettingsOptions::cp_new_buying_types::header_O"
+msgid "Start Order"
+msgstr "Start Order"
+
+msgctxt "SettingsOptions::cp_new_buying_types::order_status_for_O"
+msgid "Order status"
+msgstr "Order status"
+
+msgctxt "SettingsOptions::cp_new_buying_types::payment_for_O"
+msgid "Payment method"
+msgstr "Payment method"
+
+msgctxt "SettingsOptions::cp_new_buying_types::header_C"
+msgid "Contact Supplier / Send Inquiry"
+msgstr "Contact Supplier / Send Inquiry"
+
+msgctxt "SettingsOptions::cp_new_buying_types::order_status_for_C"
+msgid "Order status"
+msgstr "Order status"
+
+msgctxt "SettingsOptions::cp_new_buying_types::payment_for_C"
+msgid "Payment method"
+msgstr "Payment method"
+
+msgctxt "SettingsOptions::cp_new_buying_types::shipping_for_C"
+msgid "Shipping method"
+msgstr "Shipping method"
+
+msgctxt "SettingsOptions::cp_new_buying_types::attachment_supported_formats"
+msgid "Available file extensions"
+msgstr "Available file extensions"
+
+msgctxt "SettingsOptions::cp_new_buying_types::max_attachments"
+msgid "Maximum quantity of attachments"
+msgstr "Maximum quantity of attachments"
+
+msgctxt "Languages::cp_new_buying_types.buying_types"
+msgid "Buying types"
+msgstr "Buying types"
+
+msgctxt "Languages::cp_new_buying_types.product_buying_types"
+msgid "Product buying types"
+msgstr "Product buying types"
+
+msgctxt "Languages::cp_new_buying_types.use_selected_buying_types"
+msgid "Use selected buying types in vendor settings"
+msgstr "Use selected buying types in vendor settings"
+
+msgctxt "Languages::cp_new_buying_types.types.O"
+msgid "Start Order"
+msgstr "Start Order"
+
+msgctxt "Languages::cp_new_buying_types.types.O.but_text"
+msgid "Start Order"
+msgstr "Start Order"
+
+msgctxt "Languages::cp_new_buying_types.types.C"
+msgid "Contact Supplier / Send Inquiry"
+msgstr "Contact Supplier / Send Inquiry"
+
+msgctxt "Languages::cp_new_buying_types.types.C.but_text"
+msgid "Contact Supplier"
+msgstr "Contact Supplier"
+
+msgctxt "Languages::cp_new_buying_types.types.B"
+msgid "Buy"
+msgstr "Buy"
+
+msgctxt "Languages::cp_new_buying_types.types.B.but_text"
+msgid "Buy"
+msgstr "Buy"
+
+msgctxt "Languages::cp_new_buying_types.detailed_requirements.title"
+msgid "Detailed requirements"
+msgstr "Detailed requirements"
+
+msgctxt "Languages::cp_new_buying_types.detailed_requirements.tooltip"
+msgid "Up to [max_attachments] attachments; max file size [max_file_size]. Supported formats: [supported_formats];"
+msgstr "Up to [max_attachments] attachments; max file size [max_file_size]. Supported formats: [supported_formats];"
+
+msgctxt "Languages::cp_new_buying_types.detailed_requirements.subtext"
+msgid "Enter product details such as color, size, materials etc. and other specification requirements to receive an accurate quote"
+msgstr "Enter product details such as color, size, materials etc. and other specification requirements to receive an accurate quote"
+
+msgctxt "Languages::cp_new_buying_types.detailed_requirements.placeholder"
+msgid "Please type in"
+msgstr "Please type in"
+
+msgctxt "Languages::cp_new_buying_types.detailed_requirements.error_message"
+msgid "Please enter message"
+msgstr "Please enter message"
+
+msgctxt "Languages::cp_new_buying_types.to_be_negotiated"
+msgid "To be negotiated"
+msgstr "To be negotiated"
+
+msgctxt "Languages::cp_new_buying_types.send_inquiry"
+msgid "Send Inquiry"
+msgstr "Send Inquiry"
+
+msgctxt "Languages::cp_new_buying_types.send_inquiry_btn_text"
+msgid "Send inquiry now"
+msgstr "Send inquiry now"
+
+msgctxt "Languages::cp_new_buying_types.add_attachment"
+msgid "Add attachment"
+msgstr "Add attachment"
+
+msgctxt "Languages::cp_new_buying_types.error.bad_type_C"
+msgid "Unable to contact the seller about this product"
+msgstr "Unable to contact the seller about this product"
+
+msgctxt "Languages::cp_new_buying_types.to"
+msgid "To"
+msgstr "To"
+
+msgctxt "Languages::cp_new_buying_types.successful_send_inquiry"
+msgid "The inquiry was sent successfully. Wait for a response from the seller"
+msgstr "The inquiry was sent successfully. Wait for a response from the seller"
+
+msgctxt "Languages::cp_new_buying_types.attachments"
+msgid "Attachments"
+msgstr "Attachments"
+
+msgctxt "Languages::cp_new_buying_types.registration_title"
+msgid "We couldn’t find an account with your e-mail. Enter your name to register."
+msgstr "We couldn’t find an account with your e-mail. Enter your name to register."
+
+msgctxt "Languages::firstname"
+msgid "First name"
+msgstr "First name"
+
+msgctxt "Languages::lastname"
+msgid "Last name"
+msgstr "Last name"
+
+msgctxt "Languages::cp_new_buying_types.enter_password"
+msgid "Please enter your password"
+msgstr "Please enter your password"
+
+msgctxt "Languages::cp_new_buying_types.get_code"
+msgid "Get the code"
+msgstr "Get the code"
+
+msgctxt "Languages::cp_new_buying_types.cp_otp_enter_code"
+msgid "Please enter the code sent to your number."
+msgstr "Please enter the code sent to your number."
+
+msgctxt "Languages::cp_new_buying_types.sign_in_to_send"
+msgid "Sign in to send this inquiry"
+msgstr "Sign in to send this inquiry"
+
+msgctxt "Languages::cp_new_buying_types.please_enter_phone_number"
+msgid "In order to send an inquiry we need a quick phone verification. Please enter your phone number bellow"
+msgstr "In order to send an inquiry we need a quick phone verification. Please enter your phone number bellow"
+
+msgctxt "Languages::cp_new_buying_types.enter_email"
+msgid "Enter email"
+msgstr "Enter email"
+
+msgctxt "Languages::cp_new_buying_types.contact_administrator"
+msgid "Contact administrator"
+msgstr "Contact administrator"
+
+msgctxt "Languages::cp_new_buying_types.cp_otp_send_fail"
+msgid "Failed to send message"
+msgstr "Failed to send message"
+
+msgctxt "Languages::cp_new_buying_types.user_must_be_logged_in"
+msgid "The customer must be logged in"
+msgstr "The customer must be logged in"
+
+msgctxt "Languages::cp_new_buying_types.cp_correct_phone_format"
+msgid "The phone number must be properly formatted"
+msgstr "The phone number must be properly formatted"
+
+msgctxt "Languages::cp_new_buying_types.errors_while_confirmation"
+msgid "The errors happened while confirmation"
+msgstr "The errors happened while confirmation"
+
+msgctxt "Languages::cp_new_buying_types.cp_provide_valid_code"
+msgid "Provide the valid confirmation code"
+msgstr "Provide the valid confirmation code"
+
+msgctxt "Languages::cp_new_buying_types.cp_new_code_in"
+msgid "Resend the new code in"
+msgstr "Resend the new code in"
+
+msgctxt "Languages::cp_new_buying_types.resend_code"
+msgid "Resend code"
+msgstr "Resend code"
+
+msgctxt "Languages::cp_new_buying_types.sign_in_to_order"
+msgid "Please sign in to order"
+msgstr "Please sign in to order"
+
+msgctxt "Languages::cp_nbt.change_inquiry_status"
+msgid "The status of your inquiry has been changed to [status]."
+msgstr "The status of your inquiry has been changed to [status]."
+
+msgctxt "Languages::cp_nbt.change_inquiry_status_subj"
+msgid "The status of inquiry #[inquiry] has been changed to [status]"
+msgstr "The status of inquiry #[inquiry] has been changed to [status]"

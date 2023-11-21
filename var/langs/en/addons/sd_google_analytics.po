@@ -1,0 +1,229 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_google_analytics"
+msgid "Simtech Development: Google Analytics Enhanced Ecommerce"
+msgstr "Simtech Development: Google Analytics Enhanced Ecommerce"
+
+msgctxt "Addons::description::sd_google_analytics"
+msgid "Integrates the Google Analytics Enhanced Ecommerce service with the store. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "Integrates the Google Analytics Enhanced Ecommerce service with the store. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "SettingsSections::sd_google_analytics::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::sd_google_analytics::lkey"
+msgid "License key"
+msgstr "License key"
+
+msgctxt "SettingsOptions::sd_google_analytics::tracking_code"
+msgid "Google Analytics account number"
+msgstr "Google Analytics account number"
+
+msgctxt "SettingsTooltips::sd_google_analytics::tracking_code"
+msgid "Enter your Tracking ID from the account at analytics.google.com that you can find under Admin->Property->Tracking info->Tracking code (for Universal Analytics) or under Admin->Property->Data streams->{stream} (for GA4)"
+msgstr "Enter your Tracking ID from the account at analytics.google.com that you can find under Admin->Property->Tracking info->Tracking code (for Universal Analytics) or under Admin->Property->Data streams->{stream} (for GA4)"
+
+msgctxt "SettingsOptions::sd_google_analytics::api_secret"
+msgid "Google Analytics API secret"
+msgstr "Google Analytics API secret"
+
+msgctxt "SettingsTooltips::sd_google_analytics::api_secret"
+msgid "GA4: Enter your API secret from the account at analytics.google.com that you can find under Admin->Admin->Property->Data streams->{stream}->Measurement Protocol API secrets"
+msgstr "GA4: Enter your API secret from the account at analytics.google.com that you can find under Admin->Admin->Property->Data streams->{stream}->Measurement Protocol API secrets"
+
+msgctxt "SettingsOptions::sd_google_analytics::use_as_product_identification"
+msgid "Use as product ID"
+msgstr "Use as product ID"
+
+msgctxt "SettingsTooltips::sd_google_analytics::use_as_product_identification"
+msgid "Define the parameter that will be used as the product identifier in Google Analytics: unique product ID from CS-Cart or its code. If you use products with options, the code of the corresponding option combination will be used as the unique identifier. If the code is not defined for the option combination, the code of the main store will be used."
+msgstr "Define the parameter that will be used as the product identifier in Google Analytics: unique product ID from CS-Cart or its code. If you use products with options, the code of the corresponding option combination will be used as the unique identifier. If the code is not defined for the option combination, the code of the main store will be used."
+
+msgctxt "SettingsVariants::sd_google_analytics::use_as_product_identification::product_id"
+msgid "Product ID"
+msgstr "Product ID"
+
+msgctxt "SettingsVariants::sd_google_analytics::use_as_product_identification::product_code"
+msgid "Product code"
+msgstr "Product code"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_user_id_law"
+msgid "Notify visitors about User-ID Google Analytics function use"
+msgstr "Notify visitors about User-ID Google Analytics function use"
+
+msgctxt "Languages::sd_google_analytics.ga_vendors_tracking"
+msgid "Allow vendors to track page views"
+msgstr "Allow vendors to track page views"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_vendors_tracking"
+msgid "Allow vendors to track quantity of page views using their Google Analytics accounts"
+msgstr "Allow vendors to track quantity of page views using their Google Analytics accounts"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_anonymize_ip"
+msgid "IP anonymizer"
+msgstr "IP anonymizer"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_anonymize_ip"
+msgid "If the setting is enabled, the user's IP address will be hidden in Google Analytics. <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\" target=\"_blank\">More</a>"
+msgstr "If the setting is enabled, the user's IP address will be hidden in Google Analytics. <a href=\"https://support.google.com/analytics/answer/2763052?hl=en\" target=\"_blank\">More</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::site_speed_sample_rate"
+msgid "Site speed sample rate"
+msgstr "Site speed sample rate"
+
+msgctxt "SettingsTooltips::sd_google_analytics::site_speed_sample_rate"
+msgid "Enter site speed sample rate"
+msgstr "This setting determines how often site speed tracking beacons will be sent"
+
+msgctxt "SettingsOptions::sd_google_analytics::select_brand"
+msgid "Select Brand feature"
+msgstr "Select Brand feature"
+
+msgctxt "SettingsTooltips::sd_google_analytics::select_brand"
+msgid "Determines which feature will be selected as the brand name of the product"
+msgstr "Determines which feature will be selected as the brand name of the product"
+
+msgctxt "SettingsSections::sd_google_analytics::order_statuses"
+msgid "Order statuses"
+msgstr "Order statuses"
+
+msgctxt "SettingsOptions::sd_google_analytics::select_refund_statuses"
+msgid "Statuses of refunded orders"
+msgstr "Statuses of refunded orders"
+
+msgctxt "SettingsOptions::sd_google_analytics::select_paid_statuses"
+msgid "Statuses of paid orders"
+msgstr "Statuses of paid orders"
+
+msgctxt "SettingsSections::sd_google_analytics::events_affecting_the_bounce_rate"
+msgid "Events affecting the bounce rate"
+msgstr "Events affecting the bounce rate"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_quick_view"
+msgid "Product quick view"
+msgstr "Product quick view"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_quick_view"
+msgid "If enabled, the product quick view event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "If enabled, the product quick view event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_comparison_list"
+msgid "Add to comparison list"
+msgstr "Add to comparison list"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_comparison_list"
+msgid "If enabled, the add to comparison list event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "If enabled, the add to comparison list event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_wishlist"
+msgid "Add to wish list"
+msgstr "Add to wish list"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_wishlist"
+msgid "If enabled, the add to wish list event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "If enabled, the add to wish list event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+
+msgctxt "SettingsOptions::sd_google_analytics::ga_buy_one_click"
+msgid "Buy with one click"
+msgstr "Buy with one click"
+
+msgctxt "SettingsTooltips::sd_google_analytics::ga_buy_one_click"
+msgid "If enabled, the buy with one click event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+msgstr "If enabled, the buy with one click event will affect the bounce rate. <a href=\"https://support.google.com/analytics/answer/1033068?hl=en#NonInteractionEvents\" target=\"_blank\">More info</a>"
+
+msgctxt "SettingsSections::sd_google_analytics::cross_domain_tracking"
+msgid "Cross domain tracking"
+msgstr "Cross domain tracking"
+
+msgctxt "SettingsOptions::sd_google_analytics::enable_cross_domain_tracking"
+msgid "Enable cross domain tracking"
+msgstr "Enable cross domain tracking"
+
+msgctxt "SettingsTooltips::sd_google_analytics::enable_cross_domain_tracking"
+msgid "Cross-domain tracking makes it possible for Analytics to see sessions on two related sites (such as an ecommerce site and a separate shopping cart site) as a single session."
+msgstr "Cross-domain tracking makes it possible for Analytics to see sessions on two related sites (such as an ecommerce site and a separate shopping cart site) as a single session."
+
+msgctxt "SettingsOptions::sd_google_analytics::domain_id"
+msgid "Domain ID"
+msgstr "Domain ID"
+
+msgctxt "SettingsTooltips::sd_google_analytics::domain_id"
+msgid "Enter destination domain"
+msgstr "Enter destination domains separated by commas"
+
+msgctxt "Languages::sd_ga_category_products"
+msgid "\"[category]\" products"
+msgstr "\"[category]\" products"
+
+msgctxt "Languages::sd_ga_brand_products"
+msgid "\"[brand]\" brand products"
+msgstr "\"[brand]\" brand products"
+
+msgctxt "Languages::sd_ga_block_products"
+msgid "\"[block]\" block products"
+msgstr "\"[block]\" block products"
+
+msgctxt "Languages::sd_ga_tracking_code"
+msgid "Google Analytics account number"
+msgstr "Google Analytics account number"
+
+msgctxt "Languages::sd_ga_tracking_code_tooltip"
+msgid "Enter your Tracking ID from the account at analytics.google.com that you can find under Admin->Property->Tracking info->Tracking code"
+msgstr "Enter your Tracking ID from the account at analytics.google.com that you can find under Admin->Property->Tracking info->Tracking code"
+
+msgctxt "Languages::sd_ga_google_analytics_section"
+msgid "Simtech Development: Google Analytics Enhanced Ecommerce"
+msgstr "Simtech Development: Google Analytics Enhanced Ecommerce"
+
+msgctxt "Languages::ga_user_id_law"
+msgid "Google Analytics uses the User-ID function and an encrypted identifier to gather statistics. It does not use the data that allows Google to identify the user's identity (name, social security numbers, email addresses, contact information, etc.). By continuing to use the site, you agree to use this function. <span class=\"button button-wrap-left\"><span class=\"button button-wrap-right\"><a rel=\"nofollow\" href=\"[url]\">OK</a></span></span>"
+msgstr "Google Analytics uses the User-ID function and an encrypted identifier to gather statistics. It does not use the data that allows Google to identify the user's identity (name, social security numbers, email addresses, contact information, etc.). By continuing to use the site, you agree to use this function. <span class=\"button button-wrap-left\"><span class=\"button button-wrap-right\"><a rel=\"nofollow\" href=\"[url]\">OK</a></span></span>"
+
+msgctxt "Languages::sd_ga_viewed_as"
+msgid "viewed as [view]"
+msgstr "viewed as [view]"
+
+msgctxt "Languages::sd_ga_at_dispatch"
+msgid "at [dispatch]"
+msgstr "at [dispatch]"
+
+msgctxt "SettingsTooltips::sd_google_analytics::select_refund_statuses"
+msgid "<p>Specify order statuses set for returned products</p>"
+msgstr "<p>Specify order statuses set for returned products</p>"
+
+msgctxt "SettingsTooltips::sd_google_analytics::select_paid_statuses"
+msgid "<p>Specify the statuses of paid orders, information about them will be sent to Google Analytics. Removal of products from these orders will be considered as a refund</p>"
+msgstr "<p>Specify the statuses of paid orders, information about them will be sent to Google Analytics. Removal of products from these orders will be considered as a refund</p>"
+
+msgctxt "Languages::sd_google_analytics.view_ga_logs"
+msgid "View Google Analytics logs"
+msgstr "View Google Analytics logs"
+
+msgctxt "Languages::sd_google_analytics.view_order_logs"
+msgid "View related logs"
+msgstr "View related logs"
+
+msgctxt "Languages::sd_google_analytics.templates"
+msgid "Simtech Development: Google Analytics notifications"
+msgstr "Simtech Development: Google Analytics notifications"
+
+msgctxt "Languages::sd_google_analytics.event.require_tracking_code.name"
+msgid "The GA account number is required"
+msgstr "The GA account number is required"
+
+msgctxt "Languages::sd_google_analytics.event.require_tracking_code.message"
+msgid "The Google Analytics account number is required, please fill it in <a href=\"[link]\" target=\"_blank\">the add-on settings</a>"
+msgstr "The Google Analytics account number is required, please fill it in <a href=\"[link]\" target=\"_blank\">the add-on settings</a>"
+
+msgctxt "Languages::sd_google_analytics.event.require_logs.name"
+msgid "The GA configuration requires HTTP request logs enabled"
+msgstr "The GA configuration requires HTTP request logs enabled"
+
+msgctxt "Languages::sd_google_analytics.event.require_logs.message"
+msgid "The logging for <b>HTTP/HTTPS requests</b> is not enabled. It is required to track and analyze the correctness of purchase/refund transactions sent to Google Analytics Enhanced Ecommerce so please enable it in <a href=\"[link]\" target=\"_blank\">the global settings</a>"
+msgstr "The logging for <b>HTTP/HTTPS requests</b> is not enabled. It is required to track and analyze the correctness of purchase/refund transactions sent to Google Analytics Enhanced Ecommerce so please enable it in <a href=\"[link]\" target=\"_blank\">the global settings</a>"

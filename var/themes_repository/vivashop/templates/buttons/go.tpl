@@ -1,0 +1,2 @@
+<button title="{$alt}" class="ty-btn-go {if $et_icon}{$et_icon}-btn-go{/if}" type="submit">{if $et_icon}<i class="{$et_icon}"></i>{elseif $but_text}{$but_text}{else}{include_ext file="common/icon.tpl" class="ty-icon-right-dir ty-btn-go__icon"}{/if}</button>
+<input type="hidden" name="dispatch" value="{$but_name}" />

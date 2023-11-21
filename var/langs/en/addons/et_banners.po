@@ -1,0 +1,14 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"LanguageName: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_banners"
+msgid "ET - Extended Banners Pro"
+msgstr "ET - Extended Banners Pro"
+
+msgctxt "Addons::description::et_banners"
+msgid "Design professional responsive banners by adding custom text, colors, buttons and backgrounds, as well as create different banners for desktop and mobile devices. Developed by <a href="https://www.energothemes.com/"target="_blank">EnergoThemes</a>"
+msgstr "Design professional responsive banners by adding custom text, colors, buttons and backgrounds, as well as create different banners for desktop and mobile devices. Developed by <a href="https://www.energothemes.com/"target="_blank">EnergoThemes</a>"

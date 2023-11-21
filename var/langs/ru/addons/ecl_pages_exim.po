@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2014-10-16 03:01-0400\n"
+
+msgctxt "Addons::name::ecl_pages_exim"
+msgid "[eCom Labs] Export/ Import Pages"
+msgstr "[eCom Labs] Экспорт/ Импорт Страниц"
+
+msgctxt "Addons::description::ecl_pages_exim"
+msgid "Allows to export and import CMS pages, blog posts, forms and polls"
+msgstr "Позволяет экспортировать и импортировать страницы, посты блога, формы и опросы"
+
+msgctxt "SettingsSections::ecl_pages_exim::ecl_general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::ecl_pages_exim::ecl_page_code_prefix
+msgid "Page code prefix"
+msgstr "Префикс кода страницы"
+
+msgctxt "SettingsOptions::ecl_pages_exim::ecl_max_page_code_length"
+msgid "Max page code length"
+msgstr "Макс. длинна кода страницы"
+
+msgctxt "Languages::ecl_pages_exim"
+msgid "[eCom Labs] Export/ Import Pages"
+msgstr "[eCom Labs] Экспорт/ Импорт Страниц"
+
+msgctxt "Languages::ecl_page_codes_added_text"
+msgid "Pages codes added"
+msgstr "Коды страниц добавлены"
+
+msgctxt "Languages::ecl_pages_exim.code"
+msgid "Page code"
+msgstr "Код страницы"
+
+msgctxt "Languages::page_delimiter"
+msgid "Page delimiter"
+msgstr "Разделитель страницы"
+
+msgctxt "Languages::text_page_delimiter"
+msgid "Text page delimiter"
+msgstr "Разделитель пути для страницы (например «Страница_1///Страница_2»)"
+
+msgctxt "Languages::page_codes_added_text"
+msgid "Unique codes were added to each page"
+msgstr "Уникальные коды были добавлены к каждой странице"
+
+msgctxt "Languages::export_selected_pages"
+msgid "Export selected pages"
+msgstr "Экспортировать выбранные страницы"
+
+msgctxt "Languages::export_selected_pages_and_subpages"
+msgid "Export selected pages and subpages"
+msgstr "Экспортировать выбранные страницы и подстраницы"

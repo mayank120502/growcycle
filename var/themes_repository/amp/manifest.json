@@ -1,0 +1,9 @@
+{
+    "title":"Theme for AMP pages",
+    "description":"",
+    "parent_theme":"amp",
+    "developer": "Simtech Development",
+    "logo": "media/images/cart.png",
+    "mail": "media/images/invoice_logo.png",
+    "favicon": "media/images/icons/favicon.ico"
+}

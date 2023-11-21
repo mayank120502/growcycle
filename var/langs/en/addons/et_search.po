@@ -1,0 +1,38 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::et_search"
+msgid "ET - Category Search"
+msgstr "ET - Category Search"
+
+msgctxt "Addons::description::et_search"
+msgid "Adds category filter to the main search input. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+msgstr "Adds category filter to the main search input. Developed by <a href="https://www.energothemes.com/" target="_blank">EnergoThemes</a>"
+
+msgctxt "SettingsOptions::et_search::max_levels"
+msgid "Levels to show"
+msgstr "Levels to show"
+
+msgctxt "SettingsTooltips::et_search::max_levels"
+msgid "Number of children categories to show (default: 2)"
+msgstr "Number of children categories to show (default: 2)"
+
+msgctxt "SettingsOptions::et_search::o_spacer"
+msgid "Level separator"
+msgstr "Level separator"
+
+msgctxt "SettingsTooltips::et_search::o_spacer"
+msgid "Insert the text to indent each category level (default: \"¦    \" - empty)"
+msgstr "Insert the text to indent each category level (default: \"¦    \" - empty)"
+
+msgctxt "SettingsOptions::et_search::custom_width"
+msgid "Custom width"
+msgstr "Custom width"
+
+msgctxt "SettingsTooltips::et_search::custom_width"
+msgid "Insert your custom pixel width. Please insert only the number without the "px" at the end. (default: \"204\")"
+msgstr "Insert your custom pixel width. Please insert only the number without the "px" at the end. (default: \"204\")"
+

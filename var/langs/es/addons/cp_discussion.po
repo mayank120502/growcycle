@@ -1,0 +1,37 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: es_ES\n"
+
+msgctxt "Addons::name::cp_discussion"
+msgid "Cart-Power: Random review date"
+msgstr "Cart-Power: Random review date"
+
+msgctxt "Addons::description::cp_discussion"
+msgid "Generates a random date for reviews. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Generates a random date for reviews. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "Languages::cp_discussion.use_rnd_time_for_rev"
+msgid "Use random time for all reviews"
+msgstr "Use random time for all reviews"
+
+msgctxt "Languages::cp_discussion.use_rnd_time"
+msgid "Use random time"
+msgstr "Use random time"
+
+msgctxt "Languages::cp_discussion.am"
+msgid "AM"
+msgstr "AM"
+
+msgctxt "Languages::cp_discussion.pm"
+msgid "PM"
+msgstr "PM"
+
+msgctxt "Languages::cp_discussion.enter_error_time"
+msgid "Field \"Start date\" is entered incorrectly"
+msgstr "Field \"Start date\" is entered incorrectly"
+
+msgctxt "Languages::cp_discussion.run_manually"
+msgid "Run manually"
+msgstr "Run manually"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cp_payflow"
+msgid "Cart-Power: Payflow"
+msgstr "Cart-Power: Payflow"
+
+msgctxt "Addons::description::cp_payflow"
+msgid "Adds the ability to pay via Payflow Pro with the transfer of currency in the request. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Adds the ability to pay via Payflow Pro with the transfer of currency in the request. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+
+msgctxt "SettingsSections::cp_payflow::cp_payflow_settings"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::cp_payflow::order_status"
+msgid "Order status"
+msgstr "Order status"
+
+msgctxt "SettingsTooltips::cp_payflow::order_status"
+msgid "Select the status for the success paid order"
+msgstr "Select the status for the success paid order"

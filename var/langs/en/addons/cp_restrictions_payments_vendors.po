@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::cp_restrictions_payments_vendors"
+msgid "Cart-Power: Restricting payments methods for vendors"
+msgstr "Cart-Power: Restricting payments methods for vendors"
+
+msgctxt "Addons::description::cp_restrictions_payments_vendors"
+msgid "Allows set payment method restrictions for vendors. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Allows set payment method restrictions for vendors. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
